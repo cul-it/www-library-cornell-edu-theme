@@ -1,0 +1,69 @@
+body {
+	font-family: $font-family-sans-serif;
+	// background-color: $medium-gray;
+  color: $dark-gray;
+}
+
+
+// Links
+// -------------------------
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+  color: $link-color-hover;
+  text-decoration: underline;
+}
+a:focus {
+  @include tab-focus();
+}
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-family-sans-serif;
+}
+h2 { 
+  margin-bottom: 1em;
+  color: $cornell-primary;
+  font-weight: 700; }
+
+// Typography
+// -------------------------
+
+.main-text {
+	p, li { 
+		font-size: 16px;
+		line-height: 1.6em; }
+    h2 { margin-top: 0; }
+}
+blockquote {
+  p { font-weight: 400; }
+}
+
+// Forms
+// -------------------------
+.help-block { font-size: 12px; }
+.form-inline {
+  .form-group { 
+    margin-bottom: 5px;
+    padding-right: 5px; }
+}
+
+// Wells
+// -------------------------
+.well {
+  background: $pale-gray;
+}
+
+// Lead
+// -------------------------
+.main-text {
+  p.lead { font-size: 21px; }
+}

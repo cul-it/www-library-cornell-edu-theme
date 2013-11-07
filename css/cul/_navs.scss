@@ -1,0 +1,156 @@
+.nav-tools {
+	margin-bottom: 20px;
+}
+
+.nav-global {
+	@include make-sm-column(6);
+	padding-right: 0;
+	ul { 
+		list-style: none;
+		float: right; }
+	li { 
+		float: left;
+		font-size: 12px;
+		border-left: 1px solid $cornell-primary-hover; }
+	li:first-child { border-left: 0; }
+	a { 
+		margin: 0 8px;
+		display: inline-block;
+		color: white; }
+}
+
+.search-nav {
+	.nav-pills { 
+		float: right;
+		a { 
+			// color: $dark-gray;
+			// background: $tan;
+			padding: 6px 10px; }
+		// a:hover { background: $dark-tan; }
+	}
+}
+
+// Section nav list treatment
+// ----------------------------
+
+.nav-section { 
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	li {
+		font-size: 14px;
+		a {
+			padding: 4px 0 4px 18px;
+			i { 
+				color: $light-gray;
+				margin-top: 5px;
+				margin-left: 20px; }
+		}
+		a:hover {
+			// background: $light-tan; // TODO: make into a global override for nav so it affects subpage subnav
+			background: inherit;
+			text-decoration: underline;
+			i { 
+				text-decoration: none;
+				 }
+		}
+	}
+}
+
+// Sidebar sub-navigation
+// ----------------------------
+
+.sidebar {
+	padding-bottom: 30px;
+	.nav {
+		// background: url("../img/layout/diagonal-border.png") repeat-x bottom;
+		padding-bottom: 15px;
+		margin: 0 0 40px;
+		border-bottom: 5px solid $light-tan;
+	}
+	.nav-section { 
+		li { font-size: 16px; }
+		.nav-header {
+			color: $cornell-primary;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin: 0 0 .5em;
+			font-size: 14px;
+			a {
+				padding-left: 0;
+				color: $cornell-primary;
+			}
+		}
+		.active {
+			a { 
+				color: inherit;
+				i { color: $cornell-primary; }
+			}
+			li {
+				a { color: $link-color; }
+				a:hover { color: $link-color-hover; }
+			}
+		}
+		// 3rd-level navigation
+		ul {
+			list-style: none;
+			padding-left: 30px;
+			padding-bottom: 10px;
+			li {
+				font-size: 14px;
+				a { 
+					display: block;
+					padding: 2px 0; }
+			}
+			.active {
+				a { color: inherit; }
+			}
+		}
+	}
+}
+
+// Floating related links
+// ----------------------------
+
+.related-links {
+	margin-bottom: 40px;
+	background: white;
+	width: 30%;
+	h3 {
+		color: $medium-gray;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin: 0 0 1em;
+		font-size: 12px;
+	}
+	ul { padding-left: 18px; }
+	li { 
+		margin-bottom: .5em;
+		font-size: 14px; }
+}
+
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+
+}

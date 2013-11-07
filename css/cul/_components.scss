@@ -1,0 +1,215 @@
+// Breadcrumbs
+// -------------------------
+.breadcrumb {
+	background: inherit;
+	padding: 15px;
+	margin-bottom: 0;
+	li { font-size: .75em; }
+	a { color: $medium-gray; }
+}
+
+// Buttons
+// -------------------------
+.btn-rss {
+	// background: $dark-tan;
+	background: #f06925;
+	padding: 0 4px;
+}
+.btn-rss:hover { background: #d85f22; }
+
+
+// Feature boxes
+// -------------------------
+.feature {
+	margin: 0 10px 15px 10px;
+	h2 {
+		font-size: 26px;
+		font-family: $font-family-sans-serif;
+		font-weight: 700;
+		border-bottom: 5px solid $light-tan;
+		padding-bottom: 10px;
+		margin: 0 0 .5em;
+		i { 
+			color: $cornell-primary;
+			font-size: 20px; }
+	}
+}
+.secondary-feature {
+	margin-bottom: 30px;
+	height: 200px;
+	h3 {
+		font-size: 24px;
+		border-bottom: 5px solid $tan;
+		padding-bottom: 10px;
+		margin: 0 0 .5em;
+		color: $cornell-primary;
+	}
+	i { 
+		color: $dark-tan;
+		margin-right: 8px; }
+	.btn-rss { 
+		margin: 4px 0 0 10px;
+		i {
+			color: white;
+			margin-right: 0; }
+	}
+	.title {
+		display: block;
+		font-size: 18px;
+		margin-bottom: .5em; }
+	.libescope-type {
+		font-size: 12px;
+		display: block;
+		clear: left;
+		color: #666;
+		text-transform: uppercase; }
+	.teaser { 
+		color: #666;
+		line-height: 1.5em;}
+	.more-link {
+		display: block;
+		font-size: 12px;
+		margin-top: .5em;
+		text-align: right;
+	}
+	img { margin: 0 0 5px 10px; }
+}
+.secondary-feature.news {
+	border-left: 0;
+}
+
+// Communications boxes in the sidebar on sub-pages
+.sidebar {
+	.secondary-feature {
+		padding: 20px;
+		margin-bottom: 20px;
+		height: auto;
+		h3 { 
+			// color: $dark-gray;
+			border-bottom: 2px solid $tan;
+			i { display: none; }
+		}
+		// .btn-rss { 
+		// 	// background: $light-gray;
+		// 	margin-top: 0; }
+		.secondary-feature-item {
+			 margin-bottom: 1em;
+			 padding-bottom: 1em;
+			 border-bottom: 2px solid white;
+		}
+		.secondary-feature-item:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+		.more-link { font-size: 11px; }
+		.callout-label { color: $dark-gray; }
+	}
+}
+
+// Sub-sections
+// -------------------------
+.sub-sections {
+	padding: 20px 0;
+	clear: both;
+	.section {
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+		h3 { 
+			margin-top: 0;
+			font-size: 20px;
+			font-weight: 700; }
+		.col-sm-3 {
+			padding-right: 0;
+		}
+	}
+}
+
+
+// Call-outs
+// -------------------------
+
+.callout {
+	background: $pale-tan;
+	padding: 15px;
+	margin-bottom: 20px;
+	// text-align: center;
+	h3 {
+		font-weight: 400;
+		margin: 0 0 .5em;
+		font-size: 18px;
+		text-align: left; }
+	img { margin-bottom: .5em; }
+	.callout-label {
+		color: $cornell-primary;
+		text-transform: uppercase;
+		font-size: 12px;
+		margin-bottom: .25em;
+		font-weight: 700;
+	}
+}
+
+// Floated images with captions
+// ------------------------------------
+.img-float {
+	width: 150px;
+	img { max-width: 150px; }
+	.img-caption {
+		font-size: 12px;
+		line-height: 1.4em;
+		margin-top: 1em;
+		color: $medium-gray;
+	}
+}
+.img-left { 
+	margin: 0 15px 15px 0;
+	float: left; }
+.img-right { 
+	margin: 0 0 15px 15px;
+	float: right; }
+.img-center { text-align: center; }
+
+// Courses form
+// -------------------------
+
+// courses form on home page
+.feature {
+	.courses-form {
+		margin-bottom: 10px;
+		padding: 5px 0;
+		border-bottom: 1px dotted $tan;
+		form { margin-bottom: 0; }
+		.btn { vertical-align: top; }
+	}
+}
+
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) { 
+	.secondary-feature {
+		margin-bottom: 0;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+	.secondary-feature {
+		padding: 0 20px;
+	}
+}

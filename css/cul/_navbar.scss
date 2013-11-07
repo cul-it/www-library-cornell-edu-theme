@@ -1,0 +1,144 @@
+.navbar {
+	border-radius: 0;
+	position: inherit;
+	min-height: 0;
+	height: 45px;
+	margin-bottom: 0;
+	@include gradient-vertical($start-color: $cornell-primary, $end-color: $cornell-primary-hover);
+	padding-left: 0;
+	padding-right: 0;
+	border: 0;
+	.container {
+		// border: 1px solid $cornell-primary;
+    	// border-bottom: none;
+    	// border-top: none;
+    	background: $cornell-primary;
+    	padding: 0;
+    	text-align: center;
+	}
+	.navbar-brand { 
+		color: white;
+		float: none;
+		margin: 12px 0 0;
+		font-size: 16px;
+		padding: 0; }
+	li {
+		margin: 0;
+		a { 
+			color: $light-gray;
+			// border-bottom: 5px solid inherit;
+			padding: 8px 10px;
+			text-align: left;
+			border-bottom: 1px solid #333; }
+			// padding: 5px 10px; }
+		a:hover {
+			color: white;
+			background: inherit;
+		}
+	}
+	li:first-child { border-left: 0; }
+	li.active {
+		a { 
+			color: white;
+			background: black; }
+		:hover { 
+			background: black;
+			color: white;
+		}
+
+	}
+	.global-link {
+		float: left;
+		a { 
+			display: inline-block;
+			border-right: 1px solid #333;
+			padding: 8px 50px; }
+	}
+	.global-link:last-child {
+		a { border-right: 0; }
+	}
+	.navbar-header { 
+		margin-left: 0;
+		margin-right: 0; }
+	.navbar-collapse { 
+		position: relative;
+		z-index: 100;
+		background: #222;
+		padding-left: 0;
+		margin-left: 10px; }
+	.navbar-nav { margin: 0; }
+	.nav-secondary {
+		float: right;
+		ul { padding-top: 10px; }
+		li { border-left: 1px solid #333; }
+		li:first-child { border-left: 0; }
+		a { 
+			padding: 6px 8px;
+			display: inline; }
+	}
+}
+.mobile-insignia { 
+	padding-top: 3px;
+	float: left; }
+
+.navbar-toggle {
+	// background: $cornell-primary-hover;
+	// border: 1px solid $cornell-primary-hover;
+	border-radius: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	height: 45px;
+	.icon-bar { 
+		background: white;
+		width: 18px; }
+}
+.navbar-toggle:hover {
+	background: $cornell-primary-hover;
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.navbar {
+		padding-left: 15px; 
+		padding-right: 15px;
+		height: auto;
+		.brand { font-size: 18px; }
+		li {
+			a { padding: 15px 12px; }
+		}
+		.navbar-collapse { 
+			margin-left: 0;
+			@include border-top-radius($border-radius-small);
+			li.active:first-child { border-top-left-radius: 3px; }
+		}
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+	.navbar {
+		li {
+			a { padding: 15px 20px; }
+		}
+	}
+	
+}
+
+

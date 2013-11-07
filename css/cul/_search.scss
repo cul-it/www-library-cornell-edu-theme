@@ -1,0 +1,212 @@
+.jumbotron {
+	margin-bottom: 0;
+	background: inherit;
+	border-radius: 0;
+	padding: 0 0 10px;
+	line-height: 1; //override bootstrap to remove extra padding
+}
+
+.search-form {
+	@include make-sm-column(8);
+	@include make-md-column(8);
+	@include make-lg-column(6);
+	padding: 20px 10px 10px 10px;
+	background: #555; //ie8
+	background: rgba(0, 0, 0, 0.75);
+	h3 { 
+		color: white;
+		margin-top: 0; }
+	.nav-tabs {
+		border-bottom: 0;
+		li { margin-bottom: 0; }
+		a { 
+			padding: 6px;
+			font-size: 11px; 
+			color: $light-gray;
+			border: 0; }
+		a:hover { 
+			background: inherit;
+			border: 0;
+			color: white; }
+		.active {
+			a { 
+				background: #e1e1e1;
+				font-weight: 400;
+				color: $cornell-primary; }
+		}
+	}
+	.tab-content { 
+		border-radius: $border-radius-base;
+		border-top-left-radius: 0;
+		// background: white; }
+	}
+	form {
+		width: 100%;
+		margin: 0;
+	}
+	// .tab-pane { min-height: 100px; }
+	.form-group { margin-bottom: 0; }
+	// input { width: 100%; }
+	.text-right { text-align: left; }
+	// button { margin-left: 15px; }
+	.search-box {
+		@include make-sm-column(10);
+		padding-left: 0;
+		padding-right: 5px;
+		float: left;
+		width: 77%;
+	}
+	.search-button {
+		@include make-sm-column(2);
+		padding-left: 0;
+		padding-right: 0;
+		float: left;
+	}
+}
+.btn-search { 
+	color: white;
+	background: $teal; }
+.btn-search:hover { 
+	background: $dark-teal;
+	color: white; }
+
+// tabs only
+.search-form-tabs {
+	input { border-top-left-radius: 0; }
+}
+
+//TODO: clean up search-form class depending on whether or not we have single search or tabbed search
+// .search-form-single {
+// 	.help-links { padding-right: 30px; }
+// }
+
+.form-control.col-9 { width: inherit; }
+
+.hero-caption {
+	padding: 30px 15px 40px;
+	width: auto;
+	.caption-label {
+		color: $teal;
+		text-transform: uppercase;
+		font-size: 12px;
+		margin-bottom: .25em;
+	}
+	.caption-link { 
+		// color: white;
+		font-size: 12px;
+		margin-bottom: 0;
+		text-align: right;
+	}
+	.caption-title {
+		font-size: 18px;
+		font-weight: 700;
+		// color: white;
+		margin: 0 0 .75em;
+	}
+	a, a:hover { 
+		text-decoration: underline; }
+		// color: white; }
+}
+
+.help-links {
+	padding: 0 10px;
+	font-size: 11px;
+	margin-top: 30px;
+	text-align: right;
+	a { color: #dedede; } // TODO: add variable for this color
+	.dropdown-menu { 
+		background: rgba(0, 0, 0, 1); 
+		text-align: left;
+		font-size:11px;
+		a { color: #dedede; }
+		li > a:hover  { background-color: $dark-teal; }
+	} 
+}
+
+
+
+// Search box on sub-pages
+// -------------------------
+.header-search {
+	clear: both;
+	margin-top: 10px;
+	float: right;
+	.btn-search-icon { 
+		background: #580606;
+		vertical-align: top; }
+	// select { 
+	// 	background: #901515;
+	// 	border: 0;
+	// 	-webkit-appearance: none; }
+	.search-selector {
+		float: left;
+	}
+}
+
+
+
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.jumobtron { padding: 10px 0; }
+	.hero-caption { 
+		background: rgba(0, 0, 0, 0.75);
+		padding: 20px 15px;
+		float: right; 
+		max-width: 30%;
+		.caption-link,
+		.caption-title,
+		a, a:hover { color: white; }
+	}
+	.search-form {
+		padding: 10px 10px 10px 20px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		background: rgba(0, 0, 0, 0.5);
+		border-bottom: 0;
+		h3 {
+			// color: white;
+			text-shadow: 2px 2px $dark-gray;
+			font-size: 24px;
+		}
+		.nav-tabs {
+			a { 
+				font-size: 14px;
+				padding: 6px 10px; }
+		}
+		form {
+			width: 98%;
+			.col-sm-2 { padding-left: 0; }
+		}
+		.text-right { text-align: right; }
+		button { margin-left: 0; }
+	}
+	.help-links {
+		margin-top: 10px;
+		.dropdown-menu { background: rgba(0, 0, 0, .75); }
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+	.jumbotron { padding: 30px 0 0; }
+	.jumbotron-single { padding: 30px 0 0; }
+	.search-form {
+		form { width: 100%; }
+	}
+}

@@ -1,0 +1,124 @@
+.hero { background: $light-tan; }
+
+.hero-dig {
+	background: url("../img/hero/S0206.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	// height: 400px;
+}
+
+.main-content {
+	background: white;
+	padding: 0 0 30px 0;
+}
+.home {
+	.main-content { padding-top: 30px; }
+}
+
+.secondary-content {
+	background: $light-tan;
+	padding: 30px 0;
+}
+
+.primary-wrapper { 
+	background: white;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.main-text {
+	@include make-sm-column(8);
+	@include make-sm-column-push(4);
+	padding-bottom: 30px;
+	margin-top: 15px;
+}
+
+.sidebar {
+	@include make-sm-column(3);
+	@include make-sm-column-pull(8);
+	margin-top: 20px;
+	padding-left: 15px;
+	h4 {
+		a { color: $dark-gray; }
+	}
+}
+
+.home {
+	.main-text {
+		padding-bottom: 30px;
+		@include make-sm-column(8);
+		@include make-sm-column-push(0);
+		.feature { @include make-lg-column(6); }
+	}
+	.sidebar {
+		@include make-sm-column(4);
+		@include make-sm-column-pull(0);
+		.feature {
+			padding: 15px 0; }
+	}
+}
+
+.feature-wrapper {
+	@include make-sm-column(3);
+	@include make-lg-column(3);
+}
+.secondary-wrapper {
+	@include make-sm-column(4);
+	@include make-lg-column(4);
+	border-left: 1px solid $tan;
+}
+.secondary-wrapper:first-child { border-left: 0; }
+
+footer { 
+	color: #999;
+	padding: 40px 0;
+	background: #222;
+	border-top: 10px solid $dark-teal;
+	.menu {
+		list-style: none;
+		padding: 0 0 1em;
+		li { 
+			float: left;
+			padding: 0 10px;
+			border-left: 1px solid $dark-tan;
+		 }
+		 li:first-child { 
+		 	border-left: 0;
+		 	padding-left: 0; }
+	}
+	p { 
+		clear: both; }
+	a { color: $light-gray;}
+	a:hover { 
+		color: white;
+		text-decoration: none; }
+}
+
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) { 
+	.hero {
+		background: url("../img/hero/crane.jpg") no-repeat 50% 50%;
+		background-size: cover; }
+	.sidebar {
+		padding-left: 0;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+}

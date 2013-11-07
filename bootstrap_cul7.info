@@ -1,0 +1,19 @@
+name = CUL Drupal 7 theme
+description = A Bootstrap Sub-theme.
+core = 7.x
+base theme = bootstrap
+
+; Regions
+regions[navigation]     = 'Navigation'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar]  		= 'Sidebar'
+regions[footer]         = 'Footer'
+regions[hero] 			= 'Hero image'
+
+; Stylesheets
+stylesheets[all][] = css/style.css
+
+; Scripts
+; scripts[] = js/respond.min.js
