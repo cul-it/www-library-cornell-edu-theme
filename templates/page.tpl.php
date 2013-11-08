@@ -1,130 +1,84 @@
 <?php
 /**
  * @file
- * Zen theme's implementation to display a single Drupal page.
+ * Returns the HTML for a single Drupal page.
  *
- * Available variables:
- *
- * General utility variables:
- * - $base_path: The base URL path of the Drupal installation. At the very
- *   least, this will always default to /.
- * - $directory: The directory the template is located in, e.g. modules/system
- *   or themes/bartik.
- * - $is_front: TRUE if the current page is the front page.
- * - $logged_in: TRUE if the user is registered and signed in.
- * - $is_admin: TRUE if the user has permission to access administration pages.
- *
- * Site identity:
- * - $front_page: The URL of the front page. Use this instead of $base_path,
- *   when linking to the front page. This includes the language domain or
- *   prefix.
- * - $logo: The path to the logo image, as defined in theme configuration.
- * - $site_name: The name of the site, empty when display has been disabled
- *   in theme settings.
- * - $site_slogan: The slogan of the site, empty when display has been disabled
- *   in theme settings.
- *
- * Navigation:
- * - $main_menu (array): An array containing the Main menu links for the
- *   site, if they have been configured.
- * - $secondary_menu (array): An array containing the Secondary menu links for
- *   the site, if they have been configured.
- * - $secondary_menu_heading: The title of the menu used by the secondary links.
- * - $breadcrumb: The breadcrumb trail for the current page.
- *
- * Page content (in order of occurrence in the default page.tpl.php):
- * - $title_prefix (array): An array containing additional output populated by
- *   modules, intended to be displayed in front of the main title tag that
- *   appears in the template.
- * - $title: The page title, for use in the actual HTML content.
- * - $title_suffix (array): An array containing additional output populated by
- *   modules, intended to be displayed after the main title tag that appears in
- *   the template.
- * - $messages: HTML for status and error messages. Should be displayed
- *   prominently.
- * - $tabs (array): Tabs linking to any sub-pages beneath the current page
- *   (e.g., the view and edit tabs when displaying a node).
- * - $action_links (array): Actions local to the page, such as 'Add menu' on the
- *   menu administration interface.
- * - $feed_icons: A string of all feed icons for the current page.
- * - $node: The node object, if there is an automatically-loaded node
- *   associated with the page, and the node ID is the second argument
- *   in the page's path (e.g. node/12345 and node/12345/revisions, but not
- *   comment/reply/12345).
- *
- * Regions:
- * - $page['header']: Items for the header region.
- * - $page['navigation']: Items for the navigation region, below the main menu (if any).
- * - $page['help']: Dynamic help text, mostly for admin pages.
- * - $page['highlighted']: Items for the highlighted content region.
- * - $page['content']: The main content of the current page.
- * - $page['sidebar_first']: Items for the first sidebar.
- * - $page['sidebar_second']: Items for the second sidebar.
- * - $page['footer']: Items for the footer region.
- * - $page['bottom']: Items to appear at the bottom of the page below the footer.
- *
- * @see template_preprocess()
- * @see template_preprocess_page()
- * @see zen_preprocess_page()
- * @see template_process()
+ * Complete documentation for this file is available online.
+ * @see https://drupal.org/node/1728148
  */
 ?>
 
-<section class="cornell-identity">
+<div class="cornell-brand hidden-xs">
   <div class="container">
     <div class="row">
-      <div class="span5">
+      <div class="cornell-logo">
         <div class="cu-logo">
-          <img src="/sites/all/themes/bootstrap_johnreps/images/cul-logo-gray.gif">
+          <img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
           <div class="unit-signature-links">
             <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
-            <a id="unit-link" href="http://www.library.cornell.edu/">Cornell University Library</a>
+            <a id="unit-link" href="index.html">Cornell University Library</a>
           </div>
         </div>
       </div>
-      <div class="span6 search-links hidden-phone">
+      <div class="nav-global">
         <ul>
-          <li><a href="http://www.library.cornell.edu/accessiblesearch/">Search Library</a></li>
-          <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
+          <li><a href="#">My account</a></li>
+          <li><a href="#">Help</a></li>
         </ul>
-      </div>
-    </div> <!-- /row -->
-  </div> <!-- /container -->
-</section>
-
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="span5 site-title">
-        <h1><a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></h1>
-      </div>
-      <div class="span6 offset1 site-subtitle">
-        <h2><?php print $site_slogan; ?></h2>
       </div>
     </div>
   </div>
-</header>
+</div>
 
-<section class="main-content">
+<div class="navbar">
   <div class="container">
-    <div class="row">
-      <div class="span5">
-        <div class="navbar">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <div class="nav-collapse collapse">
-            <div class="nav">
-              <?php print render($page['navigation']); ?>
-            </div>
-          </div>
-        </div>
-        <?php print render($page['sidebar']); ?>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="mobile-insignia visible-xs">
+        <a href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/insignia.png" alt=""></a>
       </div>
-      <div class="span6 offset1 main-text">
+      <a class="navbar-brand visible-xs" href="#">Cornell University Library</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <div class="nav navbar-nav">
+        <?php print render($page['navigation']); ?>
+      </div>
+      <!-- <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html#">About us</a></li>
+        <li><a href="#">Libraries</a></li>
+        <li><a href="#">Hours and Maps</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Ask a Librarian</a></li>
+        <li class="visible-xs global-link"><a href="#">My Account</a></li>
+        <li class="visible-xs global-link"><a href="#">Help</a></li>
+      </ul> -->
+    </div><!--/.navbar-collapse -->
+  </div>
+</div>
+
+
+<div class="main-content">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <?php print render($breadcrumb); ?>
+          <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="row primary-wrapper">
+      <div class="main-text">
         <?php print render($page['highlighted']); ?>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
@@ -132,29 +86,39 @@
         <?php if ($action_links): ?>
           <ul class="action-links"><?php print render($action_links); ?></ul>
         <?php endif; ?>
-        <?php if(drupal_is_front_page()) {
-          unset($page['content']['system_main']['default_message']);
-        }?>
         <?php if ($title): ?>
-            <h2><?php print $title; ?></h2>
+          <h2><?php print $title; ?></h2>
         <?php endif; ?>
         <?php print render($page['content']); ?>
-      </div>
-    </div>
-  </div>
-</section>
+      </div><!--/main-text-->
 
-<section class="hero">
-  <?php print render($page['hero']); ?>
-  <?php  if (!empty($section_title)): ?>
-      <img src="/sites/all/themes/bootstrap_johnreps/images/banner/banner-<?php print $section_title; ?>.jpg" alt="">
-  <?php endif; ?>
-</section>
+      <div class="sidebar">
+        <?php print render($page['sidebar']); ?>
+      </div><!--/sidebar-->
+
+    </div>
+  </div> <!-- /container -->
+</div><!-- /main-content -->
 
 <footer>
   <div class="container">
-    <div class="span12">
-      <?php print render($page['footer']); ?>
+    <div class="row">
+      <div class="col-sm-9">
+        <?php print render($page['footer-primary']); ?>
+        <!-- <ul class="menu">
+          <li><a href="#">Send feedback</a></li>
+          <li><a href="#">CU Info</a></li>
+          <li><a href="#">CU home</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Text-only search box</a></li>
+          <li><a href="#">Staff login</a></li>
+        </ul>
+        <p><a href="#">&copy; 2013</a> | Cornell University Library, Ithaca, NY 14853 | (607)255-4144</p> -->
+      </div>
+      <div class="col-sm-3 text-right">
+        <?php print render($page['footer-secondary']); ?>
+        <!-- social links -->
+      </div>
     </div>
   </div>
 </footer>

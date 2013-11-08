@@ -4,16 +4,17 @@ core = 7.x
 base theme = bootstrap
 
 ; Regions
-regions[navigation]     = 'Navigation'
+regions[main-navigation] = 'Navigation'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[sidebar]  		= 'Sidebar'
-regions[footer]         = 'Footer'
-regions[hero] 			= 'Hero image'
+regions[footer-primary] = 'Footer primary'
+regions[footer-secondary] = 'Footer secondary'
+; regions[hero] 			= 'Hero image'
 
 ; Stylesheets
 stylesheets[all][] = css/style.css
 
 ; Scripts
-; scripts[] = js/respond.min.js
+scripts[] = js/bootstrap.min.js
