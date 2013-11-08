@@ -1,7 +1,6 @@
 name = CUL Drupal 7 theme
 description = A Bootstrap Sub-theme.
 core = 7.x
-base theme = bootstrap
 
 ; Regions
 regions[main-navigation] = 'Navigation'

@@ -1,4 +1,4 @@
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
