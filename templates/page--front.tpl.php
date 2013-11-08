@@ -1,13 +1,3 @@
-<?php
-/**
- * @file
- * Returns the HTML for Drupal front page.
- *
- * Complete documentation for this file is available online.
- * @see https://drupal.org/node/1728148
- */
-?>
-
 <div class="cornell-brand hidden-xs">
   <div class="container">
     <div class="row">
@@ -119,7 +109,7 @@
     }?>
 
     <div class="row">
-      <div class="col-lg-3 col-sm-3"><!-- TODO: SEMANTIC -->
+      <div class="feature-wrapper"><!-- TODO: SEMANTIC -->
         <div class="feature">
           <h2>Courses</h2>
           <div class="courses-form">
@@ -142,7 +132,7 @@
             </ul>
         </div>
       </div>
-      <div class="col-lg-3 col-sm-3">
+      <div class="feature-wrapper">
         <div class="feature">
           <h2>Research</h2>
           <ul class="nav icons-ul nav-section">
@@ -155,7 +145,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-3 col-sm-3">
+      <div class="feature-wrapper">
         <div class="feature">
           <h2>Services</h2>
           <ul class="nav icons-ul nav-section">
@@ -173,7 +163,7 @@
 
         </div>
       </div>
-      <div class="col-lg-3 col-sm-3">
+      <div class="feature-wrapper">
         <div class="feature">
           <h2>Help for</h2>
           <ul class="nav icons-ul nav-section">
@@ -194,7 +184,7 @@
 <div class="secondary-content">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-sm-4">
+      <div class="secondary-wrapper">
         <div class="secondary-feature news">
           <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
           <h3><i class="fa fa-list-alt"></i>News</h3>
@@ -205,7 +195,7 @@
           <span class="more-link"><a href="#">More news &raquo;</a></span>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-4">
+      <div class="secondary-wrapper">
         <div class="secondary-feature libescope clearfix">
           <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
           <h3><i class="fa fa-bullhorn"></i>LibeScope</h3>
@@ -218,7 +208,7 @@
           <span class="more-link"><a href="#">More profiles &raquo;</a></span>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-4">
+      <div class="secondary-wrapper">
         <div class="secondary-feature events">
           <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
           <h3><i class="fa fa-calendar"></i>Events</h3>
@@ -236,7 +226,7 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-9">
+      <div class="col-sm-9"><!--TODO: SEMANTIC-->
         <?php print render($page['footer-primary']); ?>
         <!-- <ul class="menu">
           <li><a href="#">Send feedback</a></li>
@@ -248,7 +238,7 @@
         </ul>
         <p><a href="#">&copy; 2013</a> | Cornell University Library, Ithaca, NY 14853 | (607)255-4144</p> -->
       </div>
-      <div class="col-sm-3 text-right">
+      <div class="col-sm-3 text-right"><!--TODO: SEMANTIC-->
         <?php print render($page['footer-secondary']); ?>
         <!-- social links -->
       </div>

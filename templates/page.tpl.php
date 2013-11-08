@@ -1,13 +1,3 @@
-<?php
-/**
- * @file
- * Returns the HTML for a single Drupal page.
- *
- * Complete documentation for this file is available online.
- * @see https://drupal.org/node/1728148
- */
-?>
-
 <div class="cornell-brand hidden-xs">
   <div class="container">
     <div class="row">
@@ -69,11 +59,11 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-12">
+      <div class="col-12"><!--TO DO: SEMANTIC-->
         <?php print render($breadcrumb); ?>
-          <ul class="breadcrumb">
+<!--           <ul class="breadcrumb">
             <li><a href="#">Home</a></li>
-          </ul>
+          </ul> -->
       </div>
     </div>
 
@@ -103,7 +93,7 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-9">
+      <div class="col-sm-9"><!--TODO: SEMANTIC-->
         <?php print render($page['footer-primary']); ?>
         <!-- <ul class="menu">
           <li><a href="#">Send feedback</a></li>
@@ -115,7 +105,7 @@
         </ul>
         <p><a href="#">&copy; 2013</a> | Cornell University Library, Ithaca, NY 14853 | (607)255-4144</p> -->
       </div>
-      <div class="col-sm-3 text-right">
+      <div class="col-sm-3 text-right"><!--TODO: SEMANTIC-->
         <?php print render($page['footer-secondary']); ?>
         <!-- social links -->
       </div>
