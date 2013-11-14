@@ -38,18 +38,6 @@
       <div class="nav navbar-nav">
         <?php print render($page['navigation']); ?>
       </div>
-      <!-- <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html#">About us</a></li>
-        <li><a href="#">Libraries</a></li>
-        <li><a href="#">Hours and Maps</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">Research</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Ask a Librarian</a></li>
-        <li class="visible-xs global-link"><a href="#">My Account</a></li>
-        <li class="visible-xs global-link"><a href="#">Help</a></li>
-      </ul> -->
     </div><!--/.navbar-collapse -->
   </div>
 </div>
@@ -228,19 +216,9 @@
     <div class="row">
       <div class="col-sm-9"><!--TODO: SEMANTIC-->
         <?php print render($page['footer-primary']); ?>
-        <!-- <ul class="menu">
-          <li><a href="#">Send feedback</a></li>
-          <li><a href="#">CU Info</a></li>
-          <li><a href="#">CU home</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Text-only search box</a></li>
-          <li><a href="#">Staff login</a></li>
-        </ul>
-        <p><a href="#">&copy; 2013</a> | Cornell University Library, Ithaca, NY 14853 | (607)255-4144</p> -->
       </div>
       <div class="col-sm-3 text-right"><!--TODO: SEMANTIC-->
         <?php print render($page['footer-secondary']); ?>
-        <!-- social links -->
       </div>
     </div>
   </div>
