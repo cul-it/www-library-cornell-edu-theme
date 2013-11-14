@@ -7084,3 +7084,5 @@ footer {
 @media (min-width: 992px) {
   .secondary-feature {
     padding: 0 20px; } }
+body.admin-menu {
+  padding-top: 0 !important; }
