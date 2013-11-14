@@ -1,16 +1,17 @@
-name = CUL Drupal 7 theme
+name = CUL7
 description = A Bootstrap Sub-theme.
 core = 7.x
+base theme = bootstrap
 
 ; Regions
-regions[main-navigation] = 'Navigation'
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
-regions[sidebar]  		= 'Sidebar'
-regions[footer-primary] = 'Footer primary'
-regions[footer-secondary] = 'Footer secondary'
-; regions[hero] 			= 'Hero image'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
 
 ; Stylesheets
 stylesheets[all][] = css/style.css
