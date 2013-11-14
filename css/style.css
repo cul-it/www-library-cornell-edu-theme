@@ -6369,7 +6369,8 @@ blockquote p {
     font-size: 16px;
     padding: 0; }
   .navbar li {
-    margin: 0; }
+    margin: 0;
+    float: left; }
     .navbar li a {
       color: #cccccc;
       padding: 8px 10px;
