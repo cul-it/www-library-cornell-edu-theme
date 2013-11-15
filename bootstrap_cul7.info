@@ -5,12 +5,11 @@ base theme = bootstrap
 
 ; Regions
 regions[navigation]     = 'Navigation'
-regions[header]         = 'Top Bar'
+regions[header]         = 'Tool bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
-regions[sidebar_first]  = 'Primary'
-regions[sidebar_second] = 'Secondary'
+regions[sidebar]  		= 'Sidebar'
 regions[footer]         = 'Footer'
 
 ; Stylesheets

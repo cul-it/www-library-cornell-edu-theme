@@ -12,10 +12,11 @@
         </div>
       </div>
       <div class="nav-global">
-        <ul>
+        <?php print render($page['header']); ?>
+        <!-- <ul>
           <li><a href="#">My account</a></li>
           <li><a href="#">Help</a></li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </div>
