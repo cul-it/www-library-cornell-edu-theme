@@ -68,6 +68,13 @@
 }
 .secondary-wrapper:first-child { border-left: 0; }
 
+// BREADCRUMBS
+//-------------//
+
+.breadcrumb-wrapper {
+	@include make-sm-column(12);
+}
+
 // FOOTER
 //-------------//
 

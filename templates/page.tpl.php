@@ -45,7 +45,11 @@
 
 <div class="main-content">
   <div class="container">
-    <?php print render($breadcrumb); ?>
+    <div class="row">
+      <div class="breadcrumb-wrapper"><!--TO DO: SEMANTIC-->
+        <?php print render($breadcrumb); ?>
+      </div>
+    </div>
 
     <div class="row primary-wrapper">
       <div class="main-text">

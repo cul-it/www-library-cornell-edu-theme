@@ -6693,6 +6693,16 @@ blockquote p {
 .secondary-wrapper:first-child {
   border-left: 0; }
 
+.breadcrumb-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .breadcrumb-wrapper {
+      float: left;
+      width: 100%; } }
+
 footer {
   color: #999;
   padding: 40px 0;
