@@ -6702,6 +6702,8 @@ blockquote p {
     .breadcrumb-wrapper {
       float: left;
       width: 100%; } }
+  .breadcrumb-wrapper .breadcrumb {
+    padding-left: 0; }
 
 footer {
   color: #999;
