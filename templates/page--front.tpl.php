@@ -214,10 +214,10 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-9"><!--TODO: SEMANTIC-->
+      <div class="footer-primary"><!--TODO: SEMANTIC-->
         <?php print render($page['footer-primary']); ?>
       </div>
-      <div class="col-sm-3 text-right"><!--TODO: SEMANTIC-->
+      <div class="footer-secondary"><!--TODO: SEMANTIC-->
         <?php print render($page['footer-secondary']); ?>
       </div>
     </div>

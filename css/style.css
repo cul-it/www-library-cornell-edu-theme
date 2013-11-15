@@ -6716,6 +6716,27 @@ footer {
     color: white;
     text-decoration: none; }
 
+.footer-primary {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .footer-primary {
+      float: left;
+      width: 75%; } }
+
+.footer-secondary {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: right; }
+  @media (min-width: 768px) {
+    .footer-secondary {
+      float: left;
+      width: 25%; } }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {

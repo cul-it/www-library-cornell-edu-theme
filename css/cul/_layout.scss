@@ -68,6 +68,9 @@
 }
 .secondary-wrapper:first-child { border-left: 0; }
 
+// FOOTER
+//-------------//
+
 footer { 
 	color: #999;
 	padding: 40px 0;
@@ -91,6 +94,13 @@ footer {
 	a:hover { 
 		color: white;
 		text-decoration: none; }
+}
+.footer-primary {
+	@include make-sm-column(9);
+}
+.footer-secondary {
+	@include make-sm-column(3);
+	text-align: right;
 }
 
 
