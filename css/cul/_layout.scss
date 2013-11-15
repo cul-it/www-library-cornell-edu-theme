@@ -73,6 +73,7 @@
 
 .breadcrumb-wrapper {
 	@include make-sm-column(12);
+	.breadcrumb { padding-left: 0; }
 }
 
 // FOOTER
