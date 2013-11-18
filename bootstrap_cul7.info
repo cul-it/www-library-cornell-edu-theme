@@ -1,4 +1,4 @@
-name = middle_east
+name = CUL7
 description = A Bootstrap Sub-theme.
 core = 7.x
 base theme = bootstrap
@@ -9,7 +9,7 @@ regions[header]         = 'Tool bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
-regions[sidebar]  		= 'Sidebar'
+regions[sidebar]                = 'Sidebar'
 regions[footer]         = 'Footer'
 
 ; Stylesheets
