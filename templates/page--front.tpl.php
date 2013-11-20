@@ -215,11 +215,12 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="footer-primary"><!--TODO: SEMANTIC-->
+      <div class="footer-primary">
         <?php print render($page['footer-primary']); ?>
       </div>
-      <div class="footer-secondary"><!--TODO: SEMANTIC-->
+      <div class="footer-secondary">
         <?php print render($page['footer-secondary']); ?>
+        <p><?php if ( user_is_logged_in() ) { print '<a href="/user/logout" title="Logout">Logout</a>'; } else { print '<a id="login" href="/user" title="Login here">Login</a>'; } ?></p>
       </div>
     </div>
   </div>
