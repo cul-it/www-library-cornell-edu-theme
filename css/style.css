@@ -6481,6 +6481,7 @@ blockquote p {
       display: inline-block;
       color: white; }
     .nav-global .nav a:hover {
+      text-decoration: underline;
       background: inherit; }
 
 .search-nav .nav-pills {

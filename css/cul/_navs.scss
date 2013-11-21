@@ -14,7 +14,9 @@
 			padding: 0;
 			display: inline-block;
 			color: white; }
-		a:hover { background: inherit; }
+		a:hover { 
+			text-decoration: underline;
+			background: inherit; }
 	}	
 }
 
