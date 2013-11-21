@@ -6477,6 +6477,7 @@ blockquote p {
       border-left: 0; }
     .nav-global .nav a {
       margin: 0 8px;
+      padding: 0;
       display: inline-block;
       color: white; }
 
