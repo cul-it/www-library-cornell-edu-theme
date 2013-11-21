@@ -3,7 +3,7 @@ description = A Bootstrap Sub-theme.
 core = 7.x
 base theme = bootstrap
 
-; Regions
+; Global regions
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Tool bar'
 regions[highlighted]    = 'Highlighted'
@@ -12,6 +12,12 @@ regions[content]        = 'Content'
 regions[sidebar]        = 'Sidebar'
 regions[footer-primary] = 'Footer primary'
 regions[footer-secondary] = 'Footer secondary'
+
+; Home page regions
+regions[home-feature1] = 'Home feature 1'
+regions[home-feature2] = 'Home feature 2'
+regions[home-feature3] = 'Home feature 3'
+regions[home-feature4] = 'Home feature 4'
 
 ; Stylesheets
 stylesheets[all][] = css/style.css

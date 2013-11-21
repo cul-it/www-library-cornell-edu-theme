@@ -48,7 +48,7 @@
     <div class="jumbotron jumbotron-single">
 
       <div class="row">
-        <div class="search-form search-form-single"><!-- TODO: consolidate into one class after selecting search box style-->
+        <div class="search-form search-form-single"><!-- TODO: consolidate into one class after selecting search box style; remove search-form-single class-->
           <h3>Search</h3>
           <form class="form-inline clearfix" role="form" action="http://nac26-dev.library.cornell.edu:3000" method="get">
             <div class="form-group search-box">
@@ -98,9 +98,10 @@
     }?>
 
     <div class="row">
-      <div class="feature-wrapper"><!-- TODO: SEMANTIC -->
+      <div class="feature-wrapper">
         <div class="feature">
-          <h2>Courses</h2>
+          <?php print render($page['home-feature1']); ?>
+          <!-- <h2>Courses</h2>
           <div class="courses-form">
             <form class="form-inline clearfix" role="form" action="http://nac26-dev.library.cornell.edu:3000" method="get">
               <div class="form-group">
@@ -118,12 +119,13 @@
           <ul class="nav icons-ul nav-section">
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Blackboard</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Library Guides</a></li>
-            </ul>
+          </ul> -->
         </div>
       </div>
       <div class="feature-wrapper">
         <div class="feature">
-          <h2>Research</h2>
+          <?php print render($page['home-feature2']); ?>
+          <!-- <h2>Research</h2>
           <ul class="nav icons-ul nav-section">
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Ask a Librarian</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Citation Management</a></li>
@@ -131,37 +133,37 @@
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Current Awareness</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Introduction to Research</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Research Consultation</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
       <div class="feature-wrapper">
         <div class="feature">
-          <h2>Services</h2>
+          <?php print render($page['home-feature3']); ?>
+          <!-- <h2>Services</h2>
           <ul class="nav icons-ul nav-section">
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Borrowing and Delivery</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Computing and Equipment</a></li>
-
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Digitization, Publishing, and Copyright</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Disability Services</a></li>
-
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Library Spaces</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Research Data Management Services</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Passkey and other tools</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Recommend a Purchase</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Workshops and Instruction</a></li>
-
+          </ul> -->
         </div>
       </div>
       <div class="feature-wrapper">
         <div class="feature">
-          <h2>Help for</h2>
+          <?php print render($page['home-feature4']); ?>
+          <!-- <h2>Help for</h2>
           <ul class="nav icons-ul nav-section">
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Alumni</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Faculty and Instructors</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Graduate Students</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Undergraduate Students</a></li>
             <li><a href="#"><i class="fa fa-li fa-chevron-right"></i>Visitors</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
 
