@@ -6480,6 +6480,8 @@ blockquote p {
       padding: 0;
       display: inline-block;
       color: white; }
+    .nav-global .nav a:hover {
+      background: inherit; }
 
 .search-nav .nav-pills {
   float: right; }
