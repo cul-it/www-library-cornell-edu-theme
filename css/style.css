@@ -6469,19 +6469,19 @@ blockquote p {
     .nav-global {
       float: left;
       width: 50%; } }
-  .nav-global ul {
+  .nav-global .nav {
     list-style: none;
     float: right; }
-  .nav-global li {
-    float: left;
-    font-size: 12px;
-    border-left: 1px solid #990f26; }
-  .nav-global li:first-child {
-    border-left: 0; }
-  .nav-global a {
-    margin: 0 8px;
-    display: inline-block;
-    color: white; }
+    .nav-global .nav li {
+      float: left;
+      font-size: 12px;
+      border-left: 1px solid #990f26; }
+    .nav-global .nav li:first-child {
+      border-left: 0; }
+    .nav-global .nav a {
+      margin: 0 8px;
+      display: inline-block;
+      color: white; }
 
 .search-nav .nav-pills {
   float: right; }
