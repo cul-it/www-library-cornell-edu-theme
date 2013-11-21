@@ -6456,9 +6456,6 @@ blockquote p {
 @media (min-width: 992px) {
   .navbar li a {
     padding: 15px 20px; } }
-.nav-tools {
-  margin-bottom: 20px; }
-
 .nav-global {
   position: relative;
   min-height: 1px;

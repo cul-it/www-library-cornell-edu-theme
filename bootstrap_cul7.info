@@ -5,7 +5,7 @@ base theme = bootstrap
 
 ; Global regions
 regions[navigation]     = 'Navigation'
-regions[header]         = 'Tool bar'
+regions[header]         = 'Header'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
