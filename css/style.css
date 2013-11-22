@@ -6558,7 +6558,11 @@ blockquote p {
         font-size: 14px; }
         .sidebar .nav .dropdown-menu li a {
           display: block;
+          color: #0068ac;
           padding: 2px 0; }
+        .sidebar .nav .dropdown-menu li a:hover {
+          color: black;
+          background: inherit; }
       .sidebar .nav .dropdown-menu .active a {
         color: inherit; }
 

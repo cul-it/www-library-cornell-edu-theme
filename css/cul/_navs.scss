@@ -150,7 +150,12 @@
 				font-size: 14px;
 				a { 
 					display: block;
+					color: $link-color;
 					padding: 2px 0; }
+				a:hover {
+					color: $link-color-hover;
+					background: inherit;
+				}
 			}
 			.active {
 				a { color: inherit; }
