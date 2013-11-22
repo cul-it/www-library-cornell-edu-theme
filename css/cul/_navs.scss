@@ -172,6 +172,15 @@
 		font-size: 14px; }
 }
 
+// Override Bootstrap's unclickable parent link
+// ------------------------------------------------
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+ul.nav li.dropdown ul.dropdown-menu {
+  margin-top: 0;
+}
+
 
 // MEDIA QUERIES
 // -------------------------
