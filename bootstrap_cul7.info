@@ -18,6 +18,9 @@ regions[home-feature1] = 'Home feature 1'
 regions[home-feature2] = 'Home feature 2'
 regions[home-feature3] = 'Home feature 3'
 regions[home-feature4] = 'Home feature 4'
+regions[home-secondary1] = 'Home secondary feature 1'
+regions[home-secondary2] = 'Home secondary feature 2'
+regions[home-secondary3] = 'Home secondary feature 3'
 
 ; Stylesheets
 stylesheets[all][] = css/style.css

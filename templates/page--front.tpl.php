@@ -173,18 +173,20 @@
     <div class="row">
       <div class="secondary-wrapper">
         <div class="secondary-feature news">
-          <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
+          <?php print render($page['home-secondary1']); ?>
+          <!-- <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
           <h3><i class="fa fa-list-alt"></i>News</h3>
           <span class="title"><a href="#">No more double-spending</a></span>
           <span class="teaser">
             How can libraries stop paying twice for licensing digital content? In Inside Higher Ed, the Library's copyright expert and... <a href="#">more</a>
           </span>
-          <span class="more-link"><a href="#">More news &raquo;</a></span>
+          <span class="more-link"><a href="#">More news &raquo;</a></span> -->
         </div>
       </div>
       <div class="secondary-wrapper">
         <div class="secondary-feature libescope clearfix">
-          <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
+          <?php print render($page['home-secondary1']); ?>
+          <!-- <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
           <h3><i class="fa fa-bullhorn"></i>LibeScope</h3>
           <img src="img/thumb_CherylLibeScope.jpg" class="img-thumbnail pull-right">
           <span class="libescope-type">Staff profile</span>
@@ -192,18 +194,19 @@
           <span class="teaser">
             How do you find your dream job at the Kheel Center? Who she is: Cheryl Beredo, director of the... <a href="#">more</a>
           </span>
-          <span class="more-link"><a href="#">More profiles &raquo;</a></span>
+          <span class="more-link"><a href="#">More profiles &raquo;</a></span> -->
         </div>
       </div>
       <div class="secondary-wrapper">
         <div class="secondary-feature events">
-          <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
+          <?php print render($page['home-secondary1']); ?>
+          <!-- <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
           <h3><i class="fa fa-calendar"></i>Events</h3>
           <span class="title"><a href="#">Pioneers: Early Women Scientists at Cornell</a></span>
           <span class="teaser">
             This display explores the lives and work of some of the brilliant and fascinating women engaged in scientific research... <a href="#">more</a>
           </span>
-          <span class="more-link"><a href="#">More events &raquo;</a></span>
+          <span class="more-link"><a href="#">More events &raquo;</a></span> -->
         </div>
       </div>
     </div>
