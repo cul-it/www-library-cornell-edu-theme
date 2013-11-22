@@ -185,7 +185,7 @@
       </div>
       <div class="secondary-wrapper">
         <div class="secondary-feature libescope clearfix">
-          <?php print render($page['home-secondary1']); ?>
+          <?php print render($page['home-secondary2']); ?>
           <!-- <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
           <h3><i class="fa fa-bullhorn"></i>LibeScope</h3>
           <img src="img/thumb_CherylLibeScope.jpg" class="img-thumbnail pull-right">
@@ -199,7 +199,7 @@
       </div>
       <div class="secondary-wrapper">
         <div class="secondary-feature events">
-          <?php print render($page['home-secondary1']); ?>
+          <?php print render($page['home-secondary3']); ?>
           <!-- <a href="#" class="btn btn-rss pull-right"><i class="fa fa-rss"></i></a>
           <h3><i class="fa fa-calendar"></i>Events</h3>
           <span class="title"><a href="#">Pioneers: Early Women Scientists at Cornell</a></span>
