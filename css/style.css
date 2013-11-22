@@ -6594,12 +6594,6 @@ ul {
     margin-bottom: .5em;
     font-size: 14px; }
 
-ul.nav li.dropdown:hover ul.dropdown-menu {
-  display: block; }
-
-ul.nav li.dropdown ul.dropdown-menu {
-  margin-top: 0; }
-
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 .hero {

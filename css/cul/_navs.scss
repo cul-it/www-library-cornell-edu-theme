@@ -173,13 +173,14 @@
 }
 
 // Override Bootstrap's unclickable parent link
+// https://drupal.org/comment/7228804#comment-7228804
 // ------------------------------------------------
-ul.nav li.dropdown:hover ul.dropdown-menu {
-  display: block;
-}
-ul.nav li.dropdown ul.dropdown-menu {
-  margin-top: 0;
-}
+// ul.nav li.dropdown:hover ul.dropdown-menu {
+//   display: block;
+// }
+// ul.nav li.dropdown ul.dropdown-menu {
+//   margin-top: 0;
+// }
 
 
 // MEDIA QUERIES
