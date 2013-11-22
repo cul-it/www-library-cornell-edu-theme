@@ -6534,21 +6534,21 @@ ul {
 
 .sidebar {
   padding-bottom: 30px; }
+  .sidebar .block-title {
+    color: #b31b1b;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 .5em;
+    font-size: 14px; }
+    .sidebar .block-title a {
+      padding-left: 0;
+      color: #b31b1b; }
   .sidebar .nav {
     padding-bottom: 15px;
     margin: 0 0 40px;
     border-bottom: 5px solid #edebe7; }
     .sidebar .nav li {
       font-size: 16px; }
-    .sidebar .nav .block-title {
-      color: #b31b1b;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin: 0 0 .5em;
-      font-size: 14px; }
-      .sidebar .nav .block-title a {
-        padding-left: 0;
-        color: #b31b1b; }
     .sidebar .nav .active a {
       color: inherit; }
       .sidebar .nav .active a i {
