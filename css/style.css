@@ -6507,42 +6507,75 @@ blockquote p {
       .nav-section li a:hover i {
         text-decoration: none; }
 
+.sidebar .dropdown-menu {
+  position: relative;
+  top: 0;
+  display: block;
+  float: none;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+ul {
+  list-style: none;
+  padding-left: 30px;
+  padding-bottom: 10px; }
+  ul li {
+    font-size: 14px; }
+    ul li a {
+      display: block;
+      padding: 2px 0; }
+  ul .active a {
+    color: inherit; }
+
 .sidebar {
   padding-bottom: 30px; }
   .sidebar .nav {
     padding-bottom: 15px;
     margin: 0 0 40px;
     border-bottom: 5px solid #edebe7; }
-  .sidebar .nav-section li {
-    font-size: 16px; }
-  .sidebar .nav-section .nav-header {
-    color: #b31b1b;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0 0 .5em;
-    font-size: 14px; }
-    .sidebar .nav-section .nav-header a {
-      padding-left: 0;
-      color: #b31b1b; }
-  .sidebar .nav-section .active a {
-    color: inherit; }
-    .sidebar .nav-section .active a i {
-      color: #b31b1b; }
-  .sidebar .nav-section .active li a {
-    color: #0068ac; }
-  .sidebar .nav-section .active li a:hover {
-    color: black; }
-  .sidebar .nav-section ul {
-    list-style: none;
-    padding-left: 30px;
-    padding-bottom: 10px; }
-    .sidebar .nav-section ul li {
+    .sidebar .nav li {
+      font-size: 16px; }
+    .sidebar .nav .nav-header {
+      color: #b31b1b;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0 0 .5em;
       font-size: 14px; }
-      .sidebar .nav-section ul li a {
-        display: block;
-        padding: 2px 0; }
-    .sidebar .nav-section ul .active a {
+      .sidebar .nav .nav-header a {
+        padding-left: 0;
+        color: #b31b1b; }
+    .sidebar .nav .active a {
       color: inherit; }
+      .sidebar .nav .active a i {
+        color: #b31b1b; }
+    .sidebar .nav .active li a {
+      color: #0068ac; }
+    .sidebar .nav .active li a:hover {
+      color: black; }
+    .sidebar .nav .dropdown-menu {
+      position: relative;
+      top: 0;
+      display: block;
+      float: none;
+      width: auto;
+      padding: 0 0 10px 30px;
+      margin: 0;
+      border: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+      .sidebar .nav .dropdown-menu li {
+        font-size: 14px; }
+        .sidebar .nav .dropdown-menu li a {
+          display: block;
+          padding: 2px 0; }
+      .sidebar .nav .dropdown-menu .active a {
+        color: inherit; }
 
 .related-links {
   margin-bottom: 40px;
