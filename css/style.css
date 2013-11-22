@@ -6564,7 +6564,8 @@ blockquote p {
           color: black;
           background: inherit; }
       .sidebar .nav .dropdown-menu .active a {
-        color: inherit; }
+        color: inherit;
+        background: inherit; }
 
 .related-links {
   margin-bottom: 40px;

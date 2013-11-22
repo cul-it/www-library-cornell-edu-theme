@@ -158,7 +158,9 @@
 				}
 			}
 			.active {
-				a { color: inherit; }
+				a { 
+					color: inherit;
+					background: inherit; }
 			}
 		}
 	}
