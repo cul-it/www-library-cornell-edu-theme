@@ -115,10 +115,11 @@
 		border-bottom: 5px solid $light-tan;
 		li {
 			content: "\f054"; 
-			font-size: 16px; }
+			font-size: 16px;
+			a { padding: 4px 0 4px 18px; }
+		}
 		.active {
 			a { 
-				padding: 4px 0 4px 18px;
 				color: inherit;
 				i { color: $cornell-primary; }
 			}
