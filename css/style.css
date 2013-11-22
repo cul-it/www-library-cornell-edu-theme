@@ -6470,8 +6470,7 @@ blockquote p {
       float: left;
       width: 50%; } }
   .nav-global .nav {
-    list-style: none;
-    float: right; }
+    list-style: none; }
     .nav-global .nav li {
       float: left;
       font-size: 12px;
@@ -6998,6 +6997,9 @@ footer {
 
 .btn-rss:hover {
   background: #d85f22; }
+
+.well {
+  background: #edebe7; }
 
 .feature {
   margin: 0 10px 15px 10px; }
