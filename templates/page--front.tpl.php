@@ -45,7 +45,9 @@
 
       <div class="row">
         <div class="search-form search-form-single"><!-- TODO: consolidate into one class after selecting search box style; remove search-form-single class-->
-          <h3>Search</h3>
+          <?php print render($page['home-single-search']); ?>
+
+          <!-- <h3>Search</h3>
           <form class="form-inline clearfix" role="form" action="http://nac26-dev.library.cornell.edu:3000" method="get">
             <div class="form-group search-box">
               <label class="sr-only" for="exampleInputEmail2">Search everything</label>
@@ -56,7 +58,6 @@
             </div>
           </form>
           <div class="help-links dropdown">
-            <!-- Link or button to toggle dropdown -->
             <a id="dropdownMenu1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Other search options</a>
             <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
               <li role="presentation"><a role="menuitem" tabindex="-1" href="http://culsearchdev.library.cornell.edu">Catalog</a></li>
@@ -65,7 +66,7 @@
               <li role="presentation"><a role="menuitem" tabindex="-1" href="http://erms.library.cornell.edu/">E-Journal Titles</a></li>
 
             </ul>
-            | <a href="#">Search help</a>
+            | <a href="#">Search help</a> -->
           </div>
         </div><!-- /search-form -->
       </div><!-- /row -->

@@ -14,6 +14,7 @@ regions[footer-primary] = 'Footer primary'
 regions[footer-secondary] = 'Footer secondary'
 
 ; Home page regions
+regions[home-single-search] = 'Home single search box'
 regions[home-feature1] = 'Home feature 1'
 regions[home-feature2] = 'Home feature 2'
 regions[home-feature3] = 'Home feature 3'
