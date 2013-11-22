@@ -7140,6 +7140,9 @@ footer {
   .feature .courses-form .btn {
     vertical-align: top; }
 
+.pdf-icon {
+  margin-bottom: 5px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
