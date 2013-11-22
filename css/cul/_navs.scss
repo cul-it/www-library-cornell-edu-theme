@@ -124,7 +124,8 @@
 				i { text-decoration: none; }
 			}
 		}
-		.active, .active-trail {
+		.active,
+		.active-trail {
 			a { 
 				color: inherit;
 				i { color: $cornell-primary; }
