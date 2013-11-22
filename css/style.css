@@ -6369,6 +6369,8 @@ blockquote p {
     margin: 12px 0 0;
     font-size: 16px;
     padding: 0; }
+  .navbar .nav {
+    padding-bottom: 0; }
   .navbar li {
     margin: 0;
     float: left; }
