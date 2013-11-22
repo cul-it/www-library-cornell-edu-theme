@@ -117,6 +117,11 @@
 			content: "\f054"; 
 			font-size: 16px;
 			a { padding: 4px 0 4px 18px; }
+			a:hover {
+				background: inherit;
+				text-decoration: underline;
+				i { text-decoration: none; }
+			}
 		}
 		.active {
 			a { 
