@@ -58,39 +58,39 @@
 	}
 }
 // override bootstrap dropdown-menu class
-.sidebar {
-	.dropdown-menu {
-		position: relative;
-		top: 0; 
-		display: block;
-		float: none;
-		width: auto;
-		padding: 0;
-		margin: 0;
-		border: 0;
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-		box-shadow: none;
-		a {
+// .sidebar {
+// 	.dropdown-menu {
+// 		position: relative;
+// 		top: 0; 
+// 		display: block;
+// 		float: none;
+// 		width: auto;
+// 		padding: 0;
+// 		margin: 0;
+// 		border: 0;
+// 		-webkit-box-shadow: none;
+// 		-moz-box-shadow: none;
+// 		box-shadow: none;
+// 		a {
 
-		}
-	}
-}
-// 3rd-level navigation
-		ul {
-			list-style: none;
-			padding-left: 30px;
-			padding-bottom: 10px;
-			li {
-				font-size: 14px;
-				a { 
-					display: block;
-					padding: 2px 0; }
-			}
-			.active {
-				a { color: inherit; }
-			}
-		}
+// 		}
+// 	}
+// }
+// // 3rd-level navigation
+// 		ul {
+// 			list-style: none;
+// 			padding-left: 30px;
+// 			padding-bottom: 10px;
+// 			li {
+// 				font-size: 14px;
+// 				a { 
+// 					display: block;
+// 					padding: 2px 0; }
+// 			}
+// 			.active {
+// 				a { color: inherit; }
+// 			}
+// 		}
 
 
 // Sidebar sub-navigation
@@ -118,6 +118,7 @@
 			font-size: 16px; }
 		.active {
 			a { 
+				padding: 4px 0 4px 18px;
 				color: inherit;
 				i { color: $cornell-primary; }
 			}
