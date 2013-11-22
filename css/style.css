@@ -6463,7 +6463,8 @@ blockquote p {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-right: 0; }
+  padding-right: 0;
+  text-align: right; }
   @media (min-width: 768px) {
     .nav-global {
       float: left;
