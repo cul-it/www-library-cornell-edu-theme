@@ -6540,13 +6540,13 @@ ul {
     border-bottom: 5px solid #edebe7; }
     .sidebar .nav li {
       font-size: 16px; }
-    .sidebar .nav .nav-header {
+    .sidebar .nav .block-title {
       color: #b31b1b;
       font-weight: 700;
       text-transform: uppercase;
       margin: 0 0 .5em;
       font-size: 14px; }
-      .sidebar .nav .nav-header a {
+      .sidebar .nav .block-title a {
         padding-left: 0;
         color: #b31b1b; }
     .sidebar .nav .active a {
