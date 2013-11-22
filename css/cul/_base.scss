@@ -30,11 +30,11 @@ h1, h2, h3, h4, h5, h6,
   font-family: $font-family-sans-serif;
 }
 h2 { 
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   color: $cornell-primary;
   font-weight: 700; }
 
-h3, h4, h5 { margin-bottom: .75em; }
+h3, h4, h5 { margin-bottom: .5em; }
 
 // Typography
 // -------------------------
@@ -43,7 +43,7 @@ h3, h4, h5 { margin-bottom: .75em; }
 	p, li { 
 		font-size: 16px;
 		line-height: 1.6em; }
-  p { margin-bottom: 1.5em; }
+  // p { margin-bottom: 1.5em; }
     h2 { margin-top: 0; }
 }
 blockquote {
