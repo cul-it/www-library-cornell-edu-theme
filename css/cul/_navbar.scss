@@ -41,7 +41,7 @@
 		}
 	}
 	li:first-child { border-left: 0; }
-	li.active {
+	.active, .active-trail {
 		a { 
 			color: white;
 			background: black; }

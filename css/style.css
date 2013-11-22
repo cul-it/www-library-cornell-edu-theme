@@ -6384,10 +6384,10 @@ blockquote p {
       background: inherit; }
   .navbar li:first-child {
     border-left: 0; }
-  .navbar li.active a {
+  .navbar .active a, .navbar .active-trail a {
     color: white;
     background: black; }
-  .navbar li.active :hover {
+  .navbar .active :hover, .navbar .active-trail :hover {
     background: black;
     color: white; }
   .navbar .global-link {
