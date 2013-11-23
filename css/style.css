@@ -6252,17 +6252,17 @@ h1, h2, h3, h4, h5, h6,
 
 h2 {
   margin-bottom: 1em;
+  margin-top: 0;
   color: #b31b1b;
   font-weight: 700; }
 
 h3, h4, h5 {
+  margin-top: 0;
   margin-bottom: .5em; }
 
 .main-text p, .main-text li {
   font-size: 16px;
   line-height: 1.6em; }
-.main-text h2 {
-  margin-top: 0; }
 
 blockquote p {
   font-weight: 400; }
