@@ -39,6 +39,7 @@ h3, h4, h5 {
   margin-bottom: .5em; }
 
 h3 { font-size: 22px; }
+h3:first-child { margin-top: 0; }
 
 // Typography
 // -------------------------
