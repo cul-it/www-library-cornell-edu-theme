@@ -7093,6 +7093,10 @@ footer {
   .sidebar .secondary-feature .callout-label {
     color: #222222; }
 
+.bridge .bridge-section {
+  clear: both;
+  width: 80%;
+  margin-bottom: 20px; }
 .bridge .row .bridge-section {
   position: relative;
   min-height: 1px;
@@ -7103,9 +7107,6 @@ footer {
     .bridge .row .bridge-section {
       float: left;
       width: 50%; } }
-.bridge .bridge-section {
-  clear: both;
-  margin-bottom: 20px; }
 .bridge .bridge-content {
   float: left; }
 .bridge h3 {

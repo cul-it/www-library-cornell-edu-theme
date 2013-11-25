@@ -132,15 +132,16 @@
 // -------------------------
 
 .bridge {
+	.bridge-section { 
+		clear: both;
+		width: 80%;
+		margin-bottom: 20px; }
 	// two-column bridge
 	.row {
 		.bridge-section { 
 			@include make-sm-column(6);
 			margin-bottom: 0; }
 	}
-	.bridge-section { 
-		clear: both;
-		margin-bottom: 20px; }
 	.bridge-content {
 		float: left;
 	}
