@@ -7183,8 +7183,10 @@ footer {
   .contact-box p {
     font-size: 14px; }
 
-.pull-right img {
-  max-width: 150px; }
+.img-right {
+  margin: 0 0 15px 15px; }
+  .img-right img {
+    max-width: 150px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
