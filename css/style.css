@@ -7183,6 +7183,9 @@ footer {
   .contact-box p {
     font-size: 14px; }
 
+.pull-right img {
+  max-width: 150px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {

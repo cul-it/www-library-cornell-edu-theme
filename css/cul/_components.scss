@@ -235,6 +235,11 @@
 	p { font-size: 14px; }
 }
 
+// Floated images
+// -------------------------
+.pull-right {
+	img { max-width: 150px; }
+}
 
 // MEDIA QUERIES
 // -------------------------
