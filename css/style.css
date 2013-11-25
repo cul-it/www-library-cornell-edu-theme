@@ -7171,7 +7171,8 @@ footer {
   margin-bottom: 5px; }
 
 .contact-box {
-  width: 40%; }
+  width: 40%;
+  margin-left: 15px; }
   .contact-box h4 {
     color: #666666;
     font-weight: 700;
