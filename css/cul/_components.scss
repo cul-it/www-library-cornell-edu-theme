@@ -171,6 +171,8 @@
 
 // one-column bridge with photos
 .bridge-one-column {
+	.bridge-section { overflow: hidden; }
+	.bridge-section:first-child { margin-top: 1em; }
 	.bridge-content {
 		@include make-sm-column(10);
 	}

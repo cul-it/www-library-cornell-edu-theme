@@ -7124,6 +7124,10 @@ footer {
 .bridge .bridge-highlight h3 {
   color: #b31b1b; }
 
+.bridge-one-column .bridge-section {
+  overflow: hidden; }
+.bridge-one-column .bridge-section:first-child {
+  margin-top: 1em; }
 .bridge-one-column .bridge-content {
   position: relative;
   min-height: 1px;
