@@ -7095,7 +7095,6 @@ footer {
 
 .bridge .bridge-section {
   clear: both;
-  width: 80%;
   margin-bottom: 20px; }
 .bridge .row .bridge-section {
   position: relative;
@@ -7124,6 +7123,16 @@ footer {
   max-width: 75px; }
 .bridge .bridge-highlight h3 {
   color: #b31b1b; }
+
+.bridge-one-column .bridge-content {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .bridge-one-column .bridge-content {
+      float: left;
+      width: 83.33333%; } }
 
 .callout {
   background: #f4f3f0;
