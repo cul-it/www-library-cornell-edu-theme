@@ -6485,7 +6485,8 @@ td {
       float: left;
       width: 50%; } }
   .nav-global .nav {
-    list-style: none; }
+    list-style: none;
+    float: right; }
     .nav-global .nav li {
       float: left;
       font-size: 12px;
