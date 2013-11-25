@@ -140,6 +140,9 @@
 	.nav-section { 
 		margin-left: 15px;
 		float: left;
+		li {
+			a { padding-left: 13px; }
+		}
 	}
 	img { width: 100px; }
 }
