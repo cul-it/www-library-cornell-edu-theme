@@ -141,7 +141,6 @@
 		margin: 0 0 .5em;
 	}
 	.nav-section { 
-		margin-left: 15px;
 		float: left;
 		li {
 			a { 
@@ -150,7 +149,12 @@
 			}
 		}
 	}
-	img { width: 100px; }
+	p {
+		font-size: 12px;
+	}
+	img { 
+		margin-right: 15px;
+		max-width: 75px; }
 }
 
 // Call-outs
