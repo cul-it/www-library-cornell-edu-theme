@@ -47,7 +47,12 @@
         <?php print render($breadcrumb); ?>
       </div>
     </div>
-
+    <?php
+      // Render the sidebars to see if there's anything in them.
+      $sidebar  = render($page['sidebar']);
+    ?>
+    <?php // if there is a sidebar, then create two column layout ?>
+    <?php if ($sidebar): ?>
     <div class="row primary-wrapper">
       <div class="main-text">
         <?php print render($page['highlighted']); ?>
@@ -68,6 +73,25 @@
       </div><!--/sidebar-->
 
     </div>
+
+    <?php else: ?>
+      <div class="row primary-wrapper">
+        <?php print render($page['highlighted']); ?>
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
+        <?php print render($page['help']); ?>
+        <?php if ($action_links): ?>
+          <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
+        <?php if ($title): ?>
+          <h2><?php print $title; ?></h2>
+        <?php endif; ?>
+        <?php print render($page['content']); ?>
+
+    </div>
+
+  <?php endif; ?>
+
   </div> <!-- /container -->
 </div><!-- /main-content -->
 
