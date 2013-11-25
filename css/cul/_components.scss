@@ -141,7 +141,10 @@
 		margin-left: 15px;
 		float: left;
 		li {
-			a { padding-left: 13px; }
+			a { 
+				padding-left: 13px;
+				i { margin-top: 6px; }
+			}
 		}
 	}
 	img { width: 100px; }

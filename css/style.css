@@ -7100,6 +7100,8 @@ footer {
   float: left; }
   .bridge .nav-section li a {
     padding-left: 13px; }
+    .bridge .nav-section li a i {
+      margin-top: 6px; }
 .bridge img {
   width: 100px; }
 
