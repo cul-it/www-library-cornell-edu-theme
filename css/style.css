@@ -6287,6 +6287,9 @@ blockquote p {
 .main-text p.lead {
   font-size: 21px; }
 
+td {
+  vertical-align: top; }
+
 .cornell-brand {
   background: #b31b1b;
   height: 85px;
