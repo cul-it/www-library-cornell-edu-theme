@@ -7170,6 +7170,9 @@ footer {
 .pdf-icon {
   margin-bottom: 5px; }
 
+.contact-box {
+  width: 30%; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
