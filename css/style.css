@@ -7115,6 +7115,8 @@ footer {
 .bridge img {
   margin-right: 15px;
   max-width: 75px; }
+.bridge .bridge-highlight h3 {
+  color: #b31b1b; }
 
 .callout {
   background: #f4f3f0;
