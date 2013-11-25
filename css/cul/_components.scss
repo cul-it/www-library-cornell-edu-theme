@@ -139,6 +139,9 @@
 			margin-bottom: 0; }
 	}
 	.bridge-section { margin-bottom: 20px; }
+	.bridge-content {
+		float: left;
+	}
 	
 	h3 {
 		border-bottom: 5px solid $light-tan;
@@ -146,7 +149,7 @@
 		margin: 0 0 .5em;
 	}
 	.nav-section { 
-		float: left;
+		// float: left;
 		li {
 			a { 
 				padding-left: 13px;
