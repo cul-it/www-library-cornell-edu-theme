@@ -7093,13 +7093,13 @@ footer {
   .sidebar .secondary-feature .callout-label {
     color: #222222; }
 
-.bridge .bridge-section {
+.bridge .row .bridge-section {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 768px) {
-    .bridge .bridge-section {
+    .bridge .row .bridge-section {
       float: left;
       width: 50%; } }
 .bridge h3 {
