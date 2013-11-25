@@ -112,22 +112,32 @@
 
 // Sub-sections
 // -------------------------
-.sub-sections {
-	padding: 20px 0;
-	clear: both;
-	.section {
-		margin-bottom: 15px;
-		padding-bottom: 15px;
-		h3 { 
-			margin-top: 0;
-			font-size: 20px;
-			font-weight: 700; }
-		.col-sm-3 {
-			padding-right: 0;
-		}
+// .sub-sections {
+// 	padding: 20px 0;
+// 	clear: both;
+// 	.section {
+// 		margin-bottom: 15px;
+// 		padding-bottom: 15px;
+// 		h3 { 
+// 			margin-top: 0;
+// 			font-size: 20px;
+// 			font-weight: 700; }
+// 		.col-sm-3 {
+// 			padding-right: 0;
+// 		}
+// 	}
+// }
+
+// Bridge page
+// -------------------------
+
+.bridge {
+	h3 {
+		border-bottom: 5px solid $light-tan;
+		padding-bottom: 10px;
+		margin: 0 0 .5em;
 	}
 }
-
 
 // Call-outs
 // -------------------------
