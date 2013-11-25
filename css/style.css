@@ -6513,7 +6513,7 @@ td {
   .nav-section li {
     font-size: 14px; }
     .nav-section li a {
-      padding: 4px 0 4px 18px; }
+      padding: 4px 0 4px 15px; }
       .nav-section li a i {
         color: #cccccc;
         margin-top: 5px;
@@ -7098,8 +7098,6 @@ footer {
 .bridge .nav-section {
   margin-left: 15px;
   float: left; }
-  .bridge .nav-section li a {
-    padding-left: 14px; }
 .bridge img {
   width: 100px; }
 
