@@ -7171,7 +7171,15 @@ footer {
   margin-bottom: 5px; }
 
 .contact-box {
-  width: 30%; }
+  width: 40%; }
+  .contact-box h4 {
+    color: #666666;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 1em;
+    font-size: 12px; }
+  .contact-box p {
+    font-size: 14px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

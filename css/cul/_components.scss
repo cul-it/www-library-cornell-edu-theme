@@ -224,7 +224,14 @@
 // Contact box
 // -------------------------
 .contact-box {
-	width: 30%;
+	width: 40%;
+	h4 { 
+		color: $medium-gray;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin: 0 0 1em;
+		font-size: 12px; }
+	p { font-size: 14px; }
 }
 
 
