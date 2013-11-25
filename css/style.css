@@ -7097,11 +7097,14 @@ footer {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  margin-bottom: 0; }
   @media (min-width: 768px) {
     .bridge .row .bridge-section {
       float: left;
       width: 50%; } }
+.bridge .bridge-section {
+  margin-bottom: 20px; }
 .bridge h3 {
   border-bottom: 5px solid #edebe7;
   padding-bottom: 10px;

@@ -132,9 +132,13 @@
 // -------------------------
 
 .bridge {
+	// two-column bridge
 	.row {
-		.bridge-section { @include make-sm-column(6); }
+		.bridge-section { 
+			@include make-sm-column(6);
+			margin-bottom: 0; }
 	}
+	.bridge-section { margin-bottom: 20px; }
 	
 	h3 {
 		border-bottom: 5px solid $light-tan;
