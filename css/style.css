@@ -7098,6 +7098,8 @@ footer {
 .bridge .nav-section {
   margin-left: 15px;
   float: left; }
+  .bridge .nav-section li a {
+    padding-left: 14px; }
 .bridge img {
   width: 100px; }
 

@@ -139,7 +139,11 @@
 	}
 	.nav-section { 
 		margin-left: 15px;
-		float: left; }
+		float: left;
+		li {
+			a { padding-left: 14px; }
+		}
+	}
 	img { width: 100px; }
 }
 
