@@ -7192,6 +7192,11 @@ footer {
   .img-right img {
     max-width: 200px; }
 
+.footnotes {
+  border-top: 1px solid #d8d2c9; }
+  .footnotes p {
+    font-size: 12px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
