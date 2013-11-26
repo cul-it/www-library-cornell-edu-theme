@@ -7128,7 +7128,8 @@ footer {
   color: #b31b1b; }
 
 .bridge-one-column .bridge-section {
-  overflow: hidden; }
+  overflow: hidden;
+  border-bottom: 1px solid #d8d2c9; }
 .bridge-one-column .bridge-section:first-child {
   margin-top: 1em; }
 .bridge-one-column .bridge-content {
