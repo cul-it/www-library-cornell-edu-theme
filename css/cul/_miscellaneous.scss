@@ -58,6 +58,17 @@
 	img { max-width: 200px; }
 }
 
+// Forms in the main text area
+// -----------------------------
+
+.main-text {
+	.webform-client-form {
+		margin: 20px 0;
+		.form-item { margin: 0 0 1em; }
+	}
+}
+
+
 // Floated images with captions
 // ------------------------------------
 // .img-float {

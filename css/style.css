@@ -7215,6 +7215,11 @@ footer {
   .img-right img {
     max-width: 200px; }
 
+.main-text .webform-client-form {
+  margin: 20px 0; }
+  .main-text .webform-client-form .form-item {
+    margin: 0 0 1em; }
+
 .pdf-icon {
   margin-bottom: 5px; }
 
