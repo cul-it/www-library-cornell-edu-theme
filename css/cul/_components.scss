@@ -249,7 +249,7 @@
 
 // Highlight box
 // -- contains things like related links and contact info
-// -----------------------------------------------------------------------------
+// --------------------------------------------------------
 .highlight-box {
 	h3 {
 		color: $medium-gray;
@@ -288,6 +288,18 @@
 	border-top: 1px solid $tan;
 	padding-top: 20px;
 	p { font-size: 14px; }
+}
+
+// Citation style blockquotes
+// ------------------------------
+
+.page-node-41 {
+	.main-text {
+		blockquote {
+			padding: 0 20px;
+			p { font-size: 14px; }
+		}
+	}
 }
 
 // MEDIA QUERIES

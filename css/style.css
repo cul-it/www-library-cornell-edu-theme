@@ -7217,6 +7217,11 @@ footer {
   .footnotes p {
     font-size: 14px; }
 
+.page-node-41 .main-text blockquote {
+  padding: 0 20px; }
+  .page-node-41 .main-text blockquote p {
+    font-size: 14px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
