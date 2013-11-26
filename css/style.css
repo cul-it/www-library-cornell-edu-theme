@@ -7137,11 +7137,14 @@ footer {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  padding-left: 0; }
   @media (min-width: 768px) {
     .bridge-one-column .bridge-content {
       float: left;
       width: 83.33333%; } }
+.bridge-one-column img {
+  max-width: 100px; }
 
 .callout {
   background: #f4f3f0;

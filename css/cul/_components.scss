@@ -179,7 +179,9 @@
 	.bridge-section:first-child { margin-top: 1em; }
 	.bridge-content {
 		@include make-sm-column(10);
+		padding-left: 0;
 	}
+	img { max-width: 100px; }
 }
 
 // Call-outs
