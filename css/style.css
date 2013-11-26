@@ -6985,25 +6985,6 @@ footer {
 
   .search-form form {
     width: 100%; } }
-.breadcrumb {
-  background: inherit;
-  padding: 15px;
-  margin-bottom: 0; }
-  .breadcrumb li {
-    font-size: .75em; }
-  .breadcrumb a {
-    color: #666666; }
-
-.btn-rss {
-  background: #f06925;
-  padding: 0 4px; }
-
-.btn-rss:hover {
-  background: #d85f22; }
-
-.well {
-  background: #f4f3f0; }
-
 .feature {
   margin: 0 10px 15px 10px; }
   .feature h2 {
@@ -7150,27 +7131,6 @@ footer {
     margin-bottom: .25em;
     font-weight: 700; }
 
-.img-float {
-  width: 150px; }
-  .img-float img {
-    max-width: 150px; }
-  .img-float .img-caption {
-    font-size: 12px;
-    line-height: 1.4em;
-    margin-top: 1em;
-    color: #666666; }
-
-.img-left {
-  margin: 0 15px 15px 0;
-  float: left; }
-
-.img-right {
-  margin: 0 0 15px 15px;
-  float: right; }
-
-.img-center {
-  text-align: center; }
-
 .feature .courses-form {
   margin-bottom: 10px;
   padding: 5px 0;
@@ -7179,9 +7139,6 @@ footer {
     margin-bottom: 0; }
   .feature .courses-form .btn {
     vertical-align: top; }
-
-.pdf-icon {
-  margin-bottom: 5px; }
 
 .highlight-box h3 {
   color: #666666;
@@ -7206,10 +7163,32 @@ footer {
   margin-left: 15px;
   width: 40%; }
 
-.img-right {
-  margin: 0 0 15px 15px; }
-  .img-right img {
-    max-width: 200px; }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .secondary-feature {
+    margin-bottom: 0; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .secondary-feature {
+    padding: 0 20px; } }
+.breadcrumb {
+  background: inherit;
+  padding: 15px;
+  margin-bottom: 0; }
+  .breadcrumb li {
+    font-size: .75em; }
+  .breadcrumb a {
+    color: #666666; }
+
+.btn-rss {
+  background: #f06925;
+  padding: 0 4px; }
+
+.btn-rss:hover {
+  background: #d85f22; }
+
+.well {
+  background: #f4f3f0; }
 
 .footnotes {
   border-top: 1px solid #d8d2c9;
@@ -7223,13 +7202,13 @@ footer {
   .page-node-41 .main-text blockquote p {
     font-size: 14px; }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .secondary-feature {
-    margin-bottom: 0; } }
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .secondary-feature {
-    padding: 0 20px; } }
+.img-right {
+  margin: 0 0 15px 15px; }
+  .img-right img {
+    max-width: 200px; }
+
+.pdf-icon {
+  margin-bottom: 5px; }
+
 body.admin-menu {
   padding-top: 0 !important; }

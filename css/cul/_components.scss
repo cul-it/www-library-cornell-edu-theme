@@ -1,26 +1,3 @@
-// Breadcrumbs
-// -------------------------
-.breadcrumb {
-	background: inherit;
-	padding: 15px;
-	margin-bottom: 0;
-	li { font-size: .75em; }
-	a { color: $medium-gray; }
-}
-
-// Buttons
-// -------------------------
-.btn-rss {
-	// background: $dark-tan;
-	background: #f06925;
-	padding: 0 4px;
-}
-.btn-rss:hover { background: #d85f22; }
-
-// Well
-// -------------------------
-.well { background: $pale-tan; }
-
 // Feature boxes
 // -------------------------
 .feature {
@@ -110,24 +87,6 @@
 	}
 }
 
-// Sub-sections
-// -------------------------
-// .sub-sections {
-// 	padding: 20px 0;
-// 	clear: both;
-// 	.section {
-// 		margin-bottom: 15px;
-// 		padding-bottom: 15px;
-// 		h3 { 
-// 			margin-top: 0;
-// 			font-size: 20px;
-// 			font-weight: 700; }
-// 		.col-sm-3 {
-// 			padding-right: 0;
-// 		}
-// 	}
-// }
-
 // Bridge page
 // -------------------------
 
@@ -208,26 +167,6 @@
 	}
 }
 
-// Floated images with captions
-// ------------------------------------
-.img-float {
-	width: 150px;
-	img { max-width: 150px; }
-	.img-caption {
-		font-size: 12px;
-		line-height: 1.4em;
-		margin-top: 1em;
-		color: $medium-gray;
-	}
-}
-.img-left { 
-	margin: 0 15px 15px 0;
-	float: left; }
-.img-right { 
-	margin: 0 0 15px 15px;
-	float: right; }
-.img-center { text-align: center; }
-
 // Courses form
 // -------------------------
 
@@ -241,10 +180,6 @@
 		.btn { vertical-align: top; }
 	}
 }
-
-// PDF icon
-// -------------------------
-.pdf-icon { margin-bottom: 5px; }
 
 
 // Highlight box
@@ -275,33 +210,7 @@
 	width: 40%; }
 
 
-// Floated images
-// -------------------------
-.img-right {
-	margin: 0 0 15px 15px;
-	img { max-width: 200px; }
-}
 
-// Footnotes
-// -------------------------
-.footnotes {
-	border-top: 1px solid $tan;
-	padding-top: 20px;
-	p { font-size: 14px; }
-}
-
-// Citation style blockquotes
-// ------------------------------
-
-.page-node-41 {
-	.main-text {
-		blockquote {
-			padding: 0 30px;
-			border-left: 0;
-			p { font-size: 14px; }
-		}
-	}
-}
 
 // MEDIA QUERIES
 // -------------------------

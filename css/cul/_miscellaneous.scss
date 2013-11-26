@@ -1,0 +1,76 @@
+// Breadcrumbs
+// -------------------------
+.breadcrumb {
+	background: inherit;
+	padding: 15px;
+	margin-bottom: 0;
+	li { font-size: .75em; }
+	a { color: $medium-gray; }
+}
+
+// Buttons
+// -------------------------
+.btn-rss {
+	// background: $dark-tan;
+	background: #f06925;
+	padding: 0 4px;
+}
+.btn-rss:hover { background: #d85f22; }
+
+// Well
+// -------------------------
+.well { background: $pale-tan; }
+
+
+// Footnotes
+// -------------------------
+.footnotes {
+	border-top: 1px solid $tan;
+	padding-top: 20px;
+	p { font-size: 14px; }
+}
+
+// Citation styles
+// ------------------------------
+
+.page-node-41 {
+	.main-text {
+		blockquote {
+			padding: 0 30px;
+			border-left: 0;
+			p { font-size: 14px; }
+		}
+	}
+}
+
+// Floated images
+// -------------------------
+.img-right {
+	margin: 0 0 15px 15px;
+	img { max-width: 200px; }
+}
+
+// Floated images with captions
+// ------------------------------------
+// .img-float {
+// 	width: 150px;
+// 	img { max-width: 150px; }
+// 	.img-caption {
+// 		font-size: 12px;
+// 		line-height: 1.4em;
+// 		margin-top: 1em;
+// 		color: $medium-gray;
+// 	}
+// }
+// .img-left { 
+// 	margin: 0 15px 15px 0;
+// 	float: left; }
+// .img-right { 
+// 	margin: 0 0 15px 15px;
+// 	float: right; }
+// .img-center { text-align: center; }
+
+
+// PDF icon
+// -------------------------
+.pdf-icon { margin-bottom: 5px; }
