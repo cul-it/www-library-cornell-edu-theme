@@ -245,18 +245,27 @@
 // -------------------------
 .pdf-icon { margin-bottom: 5px; }
 
-// Contact box
-// -------------------------
-.contact-box {
-	h4 { 
+
+// Highlight box
+// -- contains things like related links and contact info
+// -----------------------------------------------------------------------------
+.highlight-box {
+	h3 {
 		color: $medium-gray;
 		font-weight: 700;
 		text-transform: uppercase;
 		margin: 0 0 1em;
+		font-size: 12px;
+	}
+	h4 { 
+		color: $medium-gray;
+		font-weight: 700;
+		margin: 0 0 1em;
 		font-size: 12px; }
 	p, li { font-size: 14px; }
 }
-.pull-right.contact-box { 
+// set a width on a highlight box that
+.pull-right.highlight-box { 
 	margin-left: 15px;
 	width: 40%; }
 

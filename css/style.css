@@ -6584,22 +6584,11 @@ td {
         color: inherit;
         background: inherit; }
 
-.related-links {
-  margin-bottom: 40px;
-  background: white;
-  width: 40%;
-  margin-left: 15px; }
-  .related-links h3 {
-    color: #666666;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0 0 1em;
-    font-size: 12px; }
-  .related-links ul {
-    padding-left: 18px; }
-  .related-links li {
-    margin-bottom: .5em;
-    font-size: 14px; }
+.related-links ul {
+  padding-left: 18px; }
+.related-links li {
+  margin-bottom: .5em;
+  font-size: 14px; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -7197,16 +7186,21 @@ footer {
 .pdf-icon {
   margin-bottom: 5px; }
 
-.contact-box h4 {
+.highlight-box h3 {
   color: #666666;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0 0 1em;
   font-size: 12px; }
-.contact-box p, .contact-box li {
+.highlight-box h4 {
+  color: #666666;
+  font-weight: 700;
+  margin: 0 0 1em;
+  font-size: 12px; }
+.highlight-box p, .highlight-box li {
   font-size: 14px; }
 
-.pull-right.contact-box {
+.pull-right.highlight-box {
   margin-left: 15px;
   width: 40%; }
 
