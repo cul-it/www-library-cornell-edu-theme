@@ -7220,13 +7220,13 @@ footer {
   .main-text .webform-client-form .form-item {
     margin: 0 0 1em; }
 
-.multicol {
-  width: 100%;
-  margin-bottom: 20px;
-  overflow: hidden; }
-
-.multicol-2 li {
-  width: 50%; }
+.multicolumn {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px; }
 
 .pdf-icon {
   margin-bottom: 5px; }
