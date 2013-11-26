@@ -139,6 +139,7 @@
 	.row {
 		.bridge-section { 
 			@include make-sm-column(6);
+			clear: none;
 			margin-bottom: 0; }
 	}
 	.bridge-content {

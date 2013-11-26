@@ -7085,6 +7085,7 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  clear: none;
   margin-bottom: 0; }
   @media (min-width: 768px) {
     .bridge .row .bridge-section {
