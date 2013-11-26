@@ -7220,16 +7220,18 @@ footer {
   .main-text .webform-client-form .form-item {
     margin: 0 0 1em; }
 
-.multicolumn {
-  -moz-column-count: 2;
-  -moz-column-gap: 20px;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 20px;
-  column-count: 2;
-  column-gap: 20px; }
-
 .pdf-icon {
   margin-bottom: 5px; }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .multicolumn {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px; } }
+/* Medium devices (desktops, 992px and up) */
 body.admin-menu {
   padding-top: 0 !important; }

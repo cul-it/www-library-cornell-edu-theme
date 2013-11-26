@@ -68,22 +68,6 @@
 	}
 }
 
-// Columned lists
-// -----------------------------
-
-.multicolumn {
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-}
-
-// #double li  { width:50%;} <span class="code-comment">/* 2 col */</span>
-// #triple li  { width:33.333%; } <span class="code-comment">/* 3 col */</span>
-// #quad li    { width:25%; } <span class="code-comment">/* 4 col */</span>
-// #six li     { width:16.666%; } <span class="code-comment">/* 6 col */</span></code>
 
 
 // Floated images with captions
@@ -110,3 +94,39 @@
 // PDF icon
 // -------------------------
 .pdf-icon { margin-bottom: 5px; }
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) { 
+
+	// Columned lists
+	// -----------------------------
+	.multicolumn {
+	    -moz-column-count: 2;
+	    -moz-column-gap: 20px;
+	    -webkit-column-count: 2;
+	    -webkit-column-gap: 20px;
+	    column-count: 2;
+	    column-gap: 20px;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+}
