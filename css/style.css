@@ -6266,6 +6266,9 @@ h3 {
 h3:first-child {
   margin-top: 0; }
 
+h4 {
+  font-weight: 700; }
+
 .main-text p, .main-text li, .main-text td {
   font-size: 16px;
   line-height: 1.6em; }
