@@ -6271,8 +6271,10 @@ h3:first-child {
   line-height: 1.6em; }
 .main-text td p, .main-text td li {
   font-size: 1em; }
-.main-text ul {
+.main-text ul, .main-text ol {
   margin-bottom: 1em; }
+  .main-text ul ul, .main-text ul ol, .main-text ol ul, .main-text ol ol {
+    margin-bottom: 0; }
 
 blockquote p {
   font-weight: 400; }
