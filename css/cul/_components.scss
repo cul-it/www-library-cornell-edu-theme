@@ -174,7 +174,8 @@
 .bridge-one-column {
 	.bridge-section { 
 		overflow: hidden;
-		border-bottom: 1px solid $tan; }
+		padding-bottom: 10px;
+		border-bottom: 1px solid $light-tan; }
 	.bridge-section:first-child { margin-top: 1em; }
 	.bridge-content {
 		@include make-sm-column(10);
