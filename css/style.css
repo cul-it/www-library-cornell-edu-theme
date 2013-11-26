@@ -7196,11 +7196,14 @@ footer {
   .footnotes p {
     font-size: 14px; }
 
-.page-node-41 .main-text blockquote {
-  padding: 0 30px;
-  border-left: 0; }
-  .page-node-41 .main-text blockquote p {
-    font-size: 14px; }
+.citation {
+  text-indent: -2em;
+  margin: 1em 2em;
+  line-height: 1.5em;
+  font-size: 14px;
+  font-family: courier, monospace; }
+  .citation p {
+    font-size: 1em; }
 
 .img-right {
   margin: 0 0 15px 15px; }
