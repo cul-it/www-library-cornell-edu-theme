@@ -7220,6 +7220,14 @@ footer {
   .main-text .webform-client-form .form-item {
     margin: 0 0 1em; }
 
+.multicol {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden; }
+
+.multicol-2 li {
+  width: 50%; }
+
 .pdf-icon {
   margin-bottom: 5px; }
 
