@@ -6295,6 +6295,11 @@ blockquote p {
 td {
   vertical-align: top; }
 
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .form-control {
+    width: 40%; } }
 .cornell-brand {
   background: #b31b1b;
   height: 85px;
