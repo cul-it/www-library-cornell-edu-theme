@@ -99,5 +99,7 @@ td { vertical-align: top; }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-  .form-control { width: 40%; }
+  .main-text {
+    .form-control { width: 40%; }
+  }
 }
