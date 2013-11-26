@@ -262,7 +262,11 @@
 		font-weight: 700;
 		margin: 0 0 1em;
 		font-size: 12px; }
-	p, li { font-size: 14px; }
+	p { font-size: 14px; }
+	ul { padding-left: 18px; }
+	li { 
+		margin-bottom: .5em;
+		font-size: 14px; }
 }
 // set a width on a highlight box that
 .pull-right.highlight-box { 

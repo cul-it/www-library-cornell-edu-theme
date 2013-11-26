@@ -6584,12 +6584,6 @@ td {
         color: inherit;
         background: inherit; }
 
-.related-links ul {
-  padding-left: 18px; }
-.related-links li {
-  margin-bottom: .5em;
-  font-size: 14px; }
-
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 .hero {
@@ -7197,7 +7191,12 @@ footer {
   font-weight: 700;
   margin: 0 0 1em;
   font-size: 12px; }
-.highlight-box p, .highlight-box li {
+.highlight-box p {
+  font-size: 14px; }
+.highlight-box ul {
+  padding-left: 18px; }
+.highlight-box li {
+  margin-bottom: .5em;
   font-size: 14px; }
 
 .pull-right.highlight-box {
