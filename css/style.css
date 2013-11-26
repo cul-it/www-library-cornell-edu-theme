@@ -6301,7 +6301,8 @@ td {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .main-text .form-control {
+  .main-text input.form-control,
+  .main-text select.form-control {
     width: 40%; } }
 .cornell-brand {
   background: #b31b1b;
