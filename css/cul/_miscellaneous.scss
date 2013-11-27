@@ -78,10 +78,11 @@
 		background: white;
 		border-radius: 3px;
 		margin-left: 5px;
-		color: $dark-gray;
+		color: $link-color;
 		font-size: 12px;
 		i { font-size: 2.5em; }
 	}
+	a:hover { color: inherit; }
 	.twitter-button {
 		i { 
 			color: #00c3f8; }
