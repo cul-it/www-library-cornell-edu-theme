@@ -103,7 +103,6 @@
       </div>
       <div class="footer-secondary">
         <?php print render($page['footer-secondary']); ?>
-        <p><?php if ( user_is_logged_in() ) { print '<a href="/user/logout" title="Logout">Logout</a>'; } else { print '<a id="login" href="/user" title="Login here">Login</a>'; } ?></p>
       </div>
     </div>
   </div>
