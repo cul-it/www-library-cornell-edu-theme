@@ -7236,11 +7236,10 @@ footer {
 
 .social-links a {
   padding: 5px;
-  background: #cccccc;
+  display: inline-block;
+  background: white;
   border-radius: 3px; }
-.social-links a:hover {
-  background: white; }
-.social-links .twitter-button {
+.social-links .twitter-button i {
   color: #00c3f8; }
 
 .pdf-icon {
