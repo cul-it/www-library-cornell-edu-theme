@@ -7240,6 +7240,8 @@ footer {
   border-radius: 3px; }
 .social-links a:hover {
   background: white; }
+.social-links .twitter-button a {
+  color: #00c3f8; }
 
 .pdf-icon {
   margin-bottom: 5px; }
