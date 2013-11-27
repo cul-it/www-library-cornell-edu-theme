@@ -6269,14 +6269,14 @@ h3:first-child {
 h4 {
   font-weight: 700; }
 
-.main-text p, .main-text li, .main-text td {
+.main-content p, .main-content li, .main-content td {
   font-size: 16px;
   line-height: 1.6em; }
-.main-text td p, .main-text td li {
+.main-content td p, .main-content td li {
   font-size: 1em; }
-.main-text ul, .main-text ol {
+.main-content ul, .main-content ol {
   margin-bottom: 1em; }
-  .main-text ul ul, .main-text ul ol, .main-text ol ul, .main-text ol ol {
+  .main-content ul ul, .main-content ul ol, .main-content ol ul, .main-content ol ol {
     margin-bottom: 0; }
 
 blockquote p {
