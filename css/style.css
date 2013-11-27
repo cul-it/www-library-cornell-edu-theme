@@ -6300,6 +6300,9 @@ blockquote p {
 td {
   vertical-align: top; }
 
+.even td {
+  background: #f9f9f9; }
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
