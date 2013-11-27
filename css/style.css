@@ -6785,12 +6785,12 @@ footer {
       float: left;
       width: 25%; } }
 
-.facebook-icon {
+.facebook-button {
   padding: 5px;
   background: #cccccc;
   border-radius: 3px; }
 
-.facebook-icon:hover {
+.facebook-button:hover {
   background: white; }
 
 /* Small devices (tablets, 768px and up) */
