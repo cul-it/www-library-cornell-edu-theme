@@ -7234,11 +7234,11 @@ footer {
   .main-text .webform-client-form .form-item {
     margin: 0 0 1em; }
 
-.social-icons a {
+.social-links a {
   padding: 5px;
   background: #cccccc;
   border-radius: 3px; }
-.social-icons a:hover {
+.social-links a:hover {
   background: white; }
 
 .pdf-icon {
