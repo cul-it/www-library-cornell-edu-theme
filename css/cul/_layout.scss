@@ -110,14 +110,7 @@ footer {
 	@include make-sm-column(3);
 	text-align: right;
 }
-.facebook-button {
-	padding: 5px;
-	background: $light-gray;
-	border-radius: 3px;
-}
-.facebook-button:hover {
-	background: white;
-}
+
 
 
 // MEDIA QUERIES

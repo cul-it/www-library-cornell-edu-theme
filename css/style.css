@@ -6785,14 +6785,6 @@ footer {
       float: left;
       width: 25%; } }
 
-.facebook-button {
-  padding: 5px;
-  background: #cccccc;
-  border-radius: 3px; }
-
-.facebook-button:hover {
-  background: white; }
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
@@ -7241,6 +7233,13 @@ footer {
   margin: 20px 0; }
   .main-text .webform-client-form .form-item {
     margin: 0 0 1em; }
+
+.social-icons a {
+  padding: 5px;
+  background: #cccccc;
+  border-radius: 3px; }
+.social-icons a:hover {
+  background: white; }
 
 .pdf-icon {
   margin-bottom: 5px; }

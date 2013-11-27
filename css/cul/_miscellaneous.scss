@@ -68,6 +68,18 @@
 	}
 }
 
+// Social icons
+// -----------------------------
+
+.social-icons {
+	a {
+		padding: 5px;
+		background: $light-gray;
+		border-radius: 3px;
+	}
+	a:hover { background: white; }
+}
+
 
 
 // Floated images with captions
