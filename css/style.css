@@ -6756,12 +6756,15 @@ footer {
     footer .nav li:first-child {
       border-left: 0;
       padding-left: 0; }
+    footer .nav a {
+      padding: 0; }
   footer p {
     clear: both; }
   footer a {
     color: #cccccc; }
   footer a:hover {
     color: white;
+    background: inherit;
     text-decoration: none; }
 
 .footer-primary {
