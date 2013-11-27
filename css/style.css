@@ -7235,17 +7235,18 @@ footer {
     margin: 0 0 1em; }
 
 .social-links a {
-  padding: 5px;
+  padding: 4px 8px 2px 5px;
   display: inline-block;
   background: white;
   border-radius: 3px;
   margin-left: 5px;
   color: #0068ac;
-  font-size: 12px; }
+  font-size: 12px;
+  font-weight: 700; }
   .social-links a i {
     font-size: 2.5em; }
 .social-links a:hover {
-  color: inherit; }
+  color: #0068ac; }
 .social-links .twitter-button i {
   color: #00c3f8; }
 .social-links .facebook-button i {

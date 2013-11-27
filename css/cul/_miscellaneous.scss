@@ -73,16 +73,17 @@
 
 .social-links {
 	a {
-		padding: 5px;
+		padding: 4px 8px 2px 5px;
 		display: inline-block;
 		background: white;
 		border-radius: 3px;
 		margin-left: 5px;
 		color: $link-color;
 		font-size: 12px;
+		font-weight: 700;
 		i { font-size: 2.5em; }
 	}
-	a:hover { color: inherit; }
+	a:hover { color: $link-color; }
 	.twitter-button {
 		i { 
 			color: #00c3f8; }
