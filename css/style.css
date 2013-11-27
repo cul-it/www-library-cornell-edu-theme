@@ -7261,7 +7261,8 @@ footer {
     .social-links a i {
       font-size: 2.5em; }
   .social-links a:hover {
-    color: #0068ac; }
+    color: #0068ac;
+    background: white; }
   .social-links .twitter-button i {
     color: #00c3f8; }
   .social-links .facebook-button i {
