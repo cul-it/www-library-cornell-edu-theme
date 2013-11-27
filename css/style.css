@@ -6764,7 +6764,7 @@ footer {
     color: #cccccc; }
   footer a:hover {
     color: white;
-    background: inherit;
+    background: #222222;
     text-decoration: none; }
 
 .footer-primary {
