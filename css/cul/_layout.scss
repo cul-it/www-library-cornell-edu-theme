@@ -111,10 +111,10 @@ footer {
 		text-decoration: none; }
 }
 .footer-primary {
-	@include make-sm-column(9);
+	@include make-sm-column(8);
 }
 .footer-secondary {
-	@include make-sm-column(3);
+	@include make-sm-column(4);
 	text-align: right;
 }
 
