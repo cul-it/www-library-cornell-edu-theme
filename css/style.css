@@ -7238,9 +7238,12 @@ footer {
   padding: 5px;
   display: inline-block;
   background: white;
-  border-radius: 3px; }
-.social-links i {
-  font-size: 2.5em; }
+  border-radius: 3px;
+  margin-left: 5px;
+  color: #222222;
+  font-size: 12px; }
+  .social-links a i {
+    font-size: 2.5em; }
 .social-links .twitter-button i {
   color: #00c3f8; }
 

@@ -77,8 +77,11 @@
 		display: inline-block;
 		background: white;
 		border-radius: 3px;
+		margin-left: 5px;
+		color: $dark-gray;
+		font-size: 12px;
+		i { font-size: 2.5em; }
 	}
-	i { font-size: 2.5em; }
 	.twitter-button {
 		i { 
 			color: #00c3f8; }
