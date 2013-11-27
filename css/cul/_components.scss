@@ -123,10 +123,11 @@
 		font-size: 14px;
 	}
 	img { 
-		margin-right: 15px;
-		max-width: 75px; }
+		margin-left: 10px;
+		max-width: 100px; }
 	.bridge-highlight {
 		h3 { color: $cornell-primary; }
+		img { max-width: 75px; }
 	}
 }
 
@@ -141,7 +142,7 @@
 		@include make-sm-column(10);
 		padding-left: 0;
 	}
-	img { max-width: 85px; }
+	img { max-width: 100px; }
 }
 
 // Call-outs
