@@ -96,6 +96,10 @@ footer {
 		 	border-left: 0;
 		 	padding-left: 0; }
 		 a { padding: 0; }
+		 a:hover { 
+			color: white;
+			background: $dark-gray;
+			text-decoration: none; }
 	}
 	p { 
 		clear: both; }
