@@ -110,6 +110,14 @@ footer {
 	@include make-sm-column(3);
 	text-align: right;
 }
+.facebook-icon {
+	padding: 5px;
+	background: $light-gray;
+	border-radius: 3px;
+}
+.facebook-icon:hover {
+	background: white;
+}
 
 
 // MEDIA QUERIES

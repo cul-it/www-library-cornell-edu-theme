@@ -6785,6 +6785,14 @@ footer {
       float: left;
       width: 25%; } }
 
+.facebook-icon {
+  padding: 5px;
+  background: #cccccc;
+  border-radius: 3px; }
+
+.facebook-icon:hover {
+  background: white; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
