@@ -6,7 +6,6 @@
 
 /* jgr25 - add this function for menu icons */
 
-<?php
 /**
  * @file
  * menu-link.func.php
