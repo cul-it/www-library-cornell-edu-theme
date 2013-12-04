@@ -55,12 +55,9 @@ function bootstrap_cul7_menu_link(array $variables) {
     $element['#attributes']['class'][] = 'active';
   }
   /**
-   * jgr25 - original code
-   */
-  //$output = l($element['#title'], $element['#href'], $element['#localized_options']);
-  /**
-   * jgr25 - replacement code - https://drupal.org/node/1940604#comment-7241152
-   * @var string
+   * jgr25 - see - https://drupal.org/node/1940604#comment-7241152
+   * look for a class called cul-icon-xxx
+   * if found, add a tag like <i class="fa fa-xxx"></i> as a prefix to menu title
    */
   $item_icon = '';
   if (!empty($element['#localized_options']['attributes']['class'])) {
@@ -74,8 +71,5 @@ function bootstrap_cul7_menu_link(array $variables) {
     }
   }
   $output = l($item_icon . $element['#title'], $element['#href'], $element['#localized_options']);
-  /**
-   * jgr25 - end replacement code
-   */
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
