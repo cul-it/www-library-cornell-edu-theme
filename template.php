@@ -63,12 +63,14 @@ function bootstrap_cul7_menu_link(array $variables) {
    * @var string
    */
   $item_icon = '';
-  $prefix = 'cul-icon';
-  foreach ($element['#localized_options']['attributes']['class'] as $classname) {
-    if (strncmp($classname, $prefix, strlen($prefix)) == 0) {
-      $icon_id = substr($classname, strlen($prefix));
-      $item_icon = '<i class="fa fa' . $icon_id . '"></i>';
-      $element['#localized_options']['html'] = 'TRUE';
+  if (!empty($element['#localized_options']['attributes']['class'])) {
+    $prefix = 'cul-icon';
+    foreach ($element['#localized_options']['attributes']['class'] as $classname) {
+      if (strncmp($classname, $prefix, strlen($prefix)) == 0) {
+        $icon_id = substr($classname, strlen($prefix));
+        $item_icon = '<i class="fa fa' . $icon_id . '"></i>';
+        $element['#localized_options']['html'] = 'TRUE';
+      }
     }
   }
   $output = l($item_icon . $element['#title'], $element['#href'], $element['#localized_options']);
