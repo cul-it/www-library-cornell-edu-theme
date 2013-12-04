@@ -65,7 +65,7 @@ function bootstrap_cul7_menu_link(array $variables) {
   if (isset($element['#localized_options']['attributes']['id'])) {
     //$item_icon = '<i class="icon-' . $element['#localized_options']['attributes']['id'] . '"></i>';
     $id = $element['#localized_options']['attributes']['id'];
-    $item_icon = '<span class="glyphicon glyphicon-' . $id . '"></span>';
+    $item_icon = '<i class="fa fa-' . $id . '"></i>';
     $element['#localized_options']['html'] = 'TRUE';
   }
   $output = l($item_icon . $element['#title'], $element['#href'], $element['#localized_options']);
