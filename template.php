@@ -19,10 +19,6 @@ function bootstrap_cul7_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
 
-  if ($element['#original_link']['menu_name'] == 'main-menu') {
-    dsm($variables);
-  }
-
   if ($element['#below']) {
     // Prevent dropdown functions from being added to management menu so it
     // does not affect the navbar module.
