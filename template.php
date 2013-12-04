@@ -64,8 +64,7 @@ function bootstrap_cul7_menu_link(array $variables) {
    */
   $item_icon = '';
   $prefix = 'cul-icon';
-  dsm($element);
-  foreach ($element['#attributes']['class'] as $classname) {
+  foreach ($element['#localized_options']['attributes']['class'] as $classname) {
     if (strncmp($classname, $prefix, strlen($prefix)) == 0) {
       $icon_id = substr($classname, strlen($prefix));
       $item_icon = '<i class="fa fa' . $icon_id . '"></i>';
