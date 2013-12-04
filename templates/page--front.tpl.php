@@ -84,7 +84,14 @@
     <?php print render($page['highlighted']); ?>
     <?php print $messages; ?>
     <?php print render($tabs); ?>
-    <?php print render($page['help']); ?>
+
+    <?php
+      // Render Help to see if there's anything in it.
+      $help  = render($page['help']);
+    ?>
+    <?php if ($help): ?>
+      <?php print render($page['help']); ?>
+    <?php endif; ?>
     <?php if ($action_links): ?>
       <ul class="action-links"><?php print render($action_links); ?></ul>
     <?php endif; ?>
