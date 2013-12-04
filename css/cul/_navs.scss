@@ -117,7 +117,13 @@
 		li {
 			content: "\f054"; 
 			font-size: 16px;
-			a { padding: 4px 0 4px 18px; }
+			a { 
+				padding: 4px 0 4px 18px;
+				i { 
+					color: $light-gray;
+					margin-top: 7px;
+					margin-left: 22px; }
+			}
 			a:hover {
 				background: inherit;
 				text-decoration: underline;

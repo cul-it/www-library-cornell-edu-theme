@@ -6562,6 +6562,10 @@ td {
       font-size: 16px; }
       .sidebar .nav li a {
         padding: 4px 0 4px 18px; }
+        .sidebar .nav li a i {
+          color: #cccccc;
+          margin-top: 7px;
+          margin-left: 22px; }
       .sidebar .nav li a:hover {
         background: inherit;
         text-decoration: underline; }
