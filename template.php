@@ -15,7 +15,6 @@
  * Overrides theme_menu_link().
  */
 function bootstrap_cul7_menu_link(array $variables) {
-  dsm('bootstrap_cul7_menu_link');
   $element = $variables['element'];
   $sub_menu = '';
 
