@@ -16,15 +16,12 @@
  */
 function bootstrap_cul7_menu_link(array $variables) {
 
-  // jgr25 debugging code
-  static bootstrap_cul7_menu_link_first = TRUE;
-  if (bootstrap_cul7_menu_link_first && $element['#original_link']['menu_name'] == 'main-menu') {
-    bootstrap_cul7_menu_link_first = FALSE;
-    dsm($variables);
-  }
-
   $element = $variables['element'];
   $sub_menu = '';
+
+  if ($element['#original_link']['menu_name'] == 'main-menu') {
+    dsm($variables);
+  }
 
   if ($element['#below']) {
     // Prevent dropdown functions from being added to management menu so it
