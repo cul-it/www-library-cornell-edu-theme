@@ -65,7 +65,7 @@ function bootstrap_cul7_menu_link(array $variables) {
     foreach ($element['#localized_options']['attributes']['class'] as $classname) {
       if (strncmp($classname, $prefix, strlen($prefix)) == 0) {
         $icon_id = substr($classname, strlen($prefix));
-        $item_icon = '<i class="fa fa' . $icon_id . '"></i>';
+        $item_icon = '<i class="fa fa-li fa' . $icon_id . '"></i>';
         $element['#localized_options']['html'] = 'TRUE';
       }
     }
