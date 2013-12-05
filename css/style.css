@@ -6382,17 +6382,11 @@ td {
   min-height: 0;
   height: 45px;
   margin-bottom: 0;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#b31b1b), to(#990f26));
-  background-image: -webkit-linear-gradient(top, #b31b1b, 0%, #990f26, 100%);
-  background-image: -moz-linear-gradient(top, #b31b1b 0%, #990f26 100%);
-  background-image: linear-gradient(to bottom, #b31b1b 0%, #990f26 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB31B1B', endColorstr='#FF990F26', GradientType=0);
+  background: #222222;
   padding-left: 0;
   padding-right: 0;
   border: 0; }
   .navbar .container {
-    background: #b31b1b;
     padding: 0;
     text-align: center; }
   .navbar .navbar-brand {
@@ -6436,7 +6430,6 @@ td {
   .navbar .navbar-collapse {
     position: relative;
     z-index: 100;
-    background: #222;
     padding-left: 0;
     margin-left: 10px; }
   .navbar .navbar-nav {

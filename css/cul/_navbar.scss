@@ -4,7 +4,8 @@
 	min-height: 0;
 	height: 45px;
 	margin-bottom: 0;
-	@include gradient-vertical($start-color: $cornell-primary, $end-color: $cornell-primary-hover);
+	// @include gradient-vertical($start-color: $cornell-primary, $end-color: $cornell-primary-hover);
+	background: $dark-gray;
 	padding-left: 0;
 	padding-right: 0;
 	border: 0;
@@ -12,7 +13,7 @@
 		// border: 1px solid $cornell-primary;
     	// border-bottom: none;
     	// border-top: none;
-    	background: $cornell-primary;
+    	// background: $cornell-primary;
     	padding: 0;
     	text-align: center;
 	}
@@ -67,7 +68,7 @@
 	.navbar-collapse { 
 		position: relative;
 		z-index: 100;
-		background: #222;
+		// background: #222;
 		padding-left: 0;
 		margin-left: 10px; }
 	.navbar-nav { margin: 0; }
