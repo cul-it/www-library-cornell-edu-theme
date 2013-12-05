@@ -4,8 +4,7 @@
 	min-height: 0;
 	height: 45px;
 	margin-bottom: 0;
-	// @include gradient-vertical($start-color: $cornell-primary, $end-color: $cornell-primary-hover);
-	background: $dark-gray;
+	@include gradient-vertical($start-color: $cornell-primary, $end-color: $cornell-primary-hover);
 	padding-left: 0;
 	padding-right: 0;
 	border: 0;
@@ -68,7 +67,7 @@
 	.navbar-collapse { 
 		position: relative;
 		z-index: 100;
-		background: $dark-gray;
+		background: #222;
 		padding-left: 0;
 		margin-left: 10px; }
 	.navbar-nav { margin: 0; }
