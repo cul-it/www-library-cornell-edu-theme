@@ -6534,8 +6534,8 @@ td {
       padding: 4px 0 4px 15px; }
       .nav-section li a i {
         color: #cccccc;
-        margin-top: 5px;
-        margin-left: 20px; }
+        margin-top: 7px;
+        margin-left: 24px; }
     .nav-section li a:hover {
       background: inherit;
       text-decoration: underline; }
@@ -6565,7 +6565,7 @@ td {
         .sidebar .nav li a i {
           color: #cccccc;
           margin-top: 7px;
-          margin-left: 22px; }
+          margin-left: 24px; }
       .sidebar .nav li a:hover {
         background: inherit;
         text-decoration: underline; }
