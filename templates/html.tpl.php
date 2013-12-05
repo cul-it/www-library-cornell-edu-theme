@@ -11,8 +11,8 @@
   <?php print $styles; ?>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-    <script src="http://main1.test.library.cornell.edu/sites/all/themes/bootstrap_cul7/js/html5shiv.js"></script>
-    <script src="http://main1.test.library.cornell.edu/sites/all/themes/bootstrap_cul7/js/respond.min.js"></script>
+    <script src="/sites/all/themes/bootstrap_cul7/js/html5shiv.js"></script>
+    <script src="/sites/all/themes/bootstrap_cul7/js/respond.min.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
   
