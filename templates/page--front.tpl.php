@@ -39,6 +39,13 @@
   </div>
 </div>
 
+<?php if ($announcement): ?>
+  <div class="announcement">
+    <?php print render($announcement); ?>
+    <!-- <p>Uris Library will reopen at 10:00 AM today, 1/29/13. Until then, course reserves are available at the Olin Circulation Desk.</p> -->
+  </div>
+<?php endif; ?>
+
 <div class="hero">
   <div class="container">
     <div class="jumbotron jumbotron-single">
