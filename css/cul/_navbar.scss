@@ -13,7 +13,7 @@
 		// border: 1px solid $cornell-primary;
     	// border-bottom: none;
     	// border-top: none;
-    	// background: $cornell-primary;
+    	background: $cornell-primary;
     	padding: 0;
     	text-align: center;
 	}
@@ -68,7 +68,7 @@
 	.navbar-collapse { 
 		position: relative;
 		z-index: 100;
-		// background: #222;
+		background: $dark-gray;
 		padding-left: 0;
 		margin-left: 10px; }
 	.navbar-nav { margin: 0; }

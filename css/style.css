@@ -6387,6 +6387,7 @@ td {
   padding-right: 0;
   border: 0; }
   .navbar .container {
+    background: #b31b1b;
     padding: 0;
     text-align: center; }
   .navbar .navbar-brand {
@@ -6430,6 +6431,7 @@ td {
   .navbar .navbar-collapse {
     position: relative;
     z-index: 100;
+    background: #222222;
     padding-left: 0;
     margin-left: 10px; }
   .navbar .navbar-nav {
