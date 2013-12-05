@@ -39,6 +39,10 @@
   </div>
 </div>
 
+<?php
+  $announcement  = render($page['announcement']);
+?>
+
 <?php if ($announcement): ?>
   <div class="announcement">
     <?php print render($announcement); ?>
