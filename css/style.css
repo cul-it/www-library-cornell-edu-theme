@@ -7107,11 +7107,11 @@ footer {
       width: 50%; } }
 .bridge .bridge-content {
   float: left; }
-.bridge h3 {
+.bridge h2 {
   border-bottom: 5px solid #edebe7;
   padding-bottom: 5px;
   margin: 0 0 .25em; }
-.bridge h4 {
+.bridge h3 {
   margin: 0 0 .25em; }
 .bridge .nav-section li a {
   padding-left: 18px; }
