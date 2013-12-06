@@ -24,7 +24,7 @@ regions[home-secondary2] = 'Home secondary feature 2'
 regions[home-secondary3] = 'Home secondary feature 3'
 
 ; Stylesheets
-stylesheets[all][] = css/style.css
+; stylesheets[all][] = css/style.css
 
 ; Scripts
 scripts[] = js/bootstrap.min.js
