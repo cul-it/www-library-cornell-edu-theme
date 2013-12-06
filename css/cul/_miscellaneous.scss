@@ -97,35 +97,14 @@
 	}
 }
 
-
-
-// Floated images with captions
-// ------------------------------------
-// .img-float {
-// 	width: 150px;
-// 	img { max-width: 150px; }
-// 	.img-caption {
-// 		font-size: 12px;
-// 		line-height: 1.4em;
-// 		margin-top: 1em;
-// 		color: $medium-gray;
-// 	}
-// }
-// .img-left { 
-// 	margin: 0 15px 15px 0;
-// 	float: left; }
-// .img-right { 
-// 	margin: 0 0 15px 15px;
-// 	float: right; }
-// .img-center { text-align: center; }
-
-
 // PDF icon
 // -------------------------
 .pdf-icon { margin-bottom: 5px; }
 
+
 // Skip to content link
-// -------------------------
+// http://webaim.org/techniques/skipnav/
+// ---------------------------------------
 #skiptocontent a {
 	padding:6px;
 	position: absolute;
