@@ -1,3 +1,5 @@
+<div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
+
 <div class="cornell-brand hidden-xs">
   <div class="container">
     <div class="row">
@@ -51,7 +53,7 @@
   </div>
 <?php endif; ?>
 
-<div class="hero">
+<div class="hero" id="maincontent">
   <div class="container">
     <div class="jumbotron jumbotron-single">
 

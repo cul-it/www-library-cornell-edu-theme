@@ -1,3 +1,5 @@
+<div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
+
 <div class="cornell-brand hidden-xs">
   <div class="container">
     <div class="row">
@@ -40,7 +42,7 @@
 </div>
 
 
-<div class="main-content">
+<div class="main-content" id="maincontent">
   <div class="container">
     <div class="row">
       <div class="breadcrumb-wrapper"><!--TO DO: SEMANTIC-->
