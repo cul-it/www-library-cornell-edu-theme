@@ -10,7 +10,7 @@
 
   <?php print $styles; ?>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if IE 8]>
+  <!--[if lt IE 9]>
     <script src="/sites/all/themes/bootstrap_cul7/js/html5shiv.js"></script>
     <script src="/sites/all/themes/bootstrap_cul7/js/respond.min.js"></script>
   <![endif]-->
