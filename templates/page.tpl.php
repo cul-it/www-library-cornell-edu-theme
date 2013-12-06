@@ -3,7 +3,7 @@
     <div class="row">
       <div class="cornell-logo">
         <div class="cu-logo">
-          <img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif">
+          <h1><img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif"></h1>
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
           <div class="unit-signature-links">
             <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
@@ -29,7 +29,7 @@
       <div class="mobile-insignia visible-xs">
         <a href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/insignia.png" alt=""></a>
       </div>
-      <a class="navbar-brand visible-xs" href="#">Cornell University Library</a>
+      <h1><a class="navbar-brand visible-xs" href="#">Cornell University Library</a></h1>
     </div>
     <div class="navbar-collapse collapse">
       <div class="nav navbar-nav">

@@ -6314,6 +6314,9 @@ td {
   height: 85px;
   padding: 5px 0;
   font-family: verdana, sans-serif; }
+  .cornell-brand h1 {
+    display: inline;
+    margin: 0; }
 
 .cornell-logo {
   position: relative;

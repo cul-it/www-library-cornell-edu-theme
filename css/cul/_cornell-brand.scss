@@ -3,6 +3,9 @@
 	height: 85px;
 	padding: 5px 0;
 	font-family: $cornell-font;
+	h1 { 
+		display: inline; 
+		margin: 0; }
 }
 .cornell-logo {
 	@include make-sm-column(6);
