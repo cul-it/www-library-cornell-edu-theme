@@ -3,7 +3,7 @@
     <div class="row">
       <div class="cornell-logo">
         <div class="cu-logo">
-          <h1><img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif" alt="Cornell University Library"></h1>
+          <img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
           <div class="unit-signature-links">
             <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
@@ -29,7 +29,7 @@
       <div class="mobile-insignia visible-xs">
         <a href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/insignia.png" alt=""></a>
       </div>
-      <h1><a class="navbar-brand visible-xs" href="#">Cornell University Library</a></h1>
+      <a class="navbar-brand visible-xs" href="#">Cornell University Library</a>
     </div>
     <div class="navbar-collapse collapse">
       <div class="nav navbar-nav">
@@ -63,7 +63,7 @@
           <ul class="action-links"><?php print render($action_links); ?></ul>
         <?php endif; ?>
         <?php if ($title): ?>
-          <h2><?php print $title; ?></h2>
+          <h1><?php print $title; ?></h1>
         <?php endif; ?>
         <?php print render($page['content']); ?>
       </div><!--/main-text-->
