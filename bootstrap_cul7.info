@@ -27,5 +27,5 @@ regions[home-secondary3] = 'Home secondary feature 3'
 stylesheets[all][] = css/style.css
 
 ; Scripts
-; scripts[] = js/bootstrap.min.js
+scripts[] = js/bootstrap.min.js
 scripts[] = js/cul_menu_fix.js
