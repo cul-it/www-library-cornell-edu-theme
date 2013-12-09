@@ -6261,13 +6261,15 @@ h2, h3, h4 {
   line-height: 1.25em; }
 
 h2 {
-  font-size: 22px; }
+  font-size: 22px;
+  font-weight: 700; }
 
 h2:first-child {
   margin-top: 0; }
 
 h3 {
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 18px; }
 
 .main-content p, .main-content li {
   font-size: 16px;
