@@ -6268,7 +6268,8 @@ h2:first-child {
   margin-top: 0; }
 
 h3 {
-  font-size: 20px; }
+  font-weight: 700;
+  font-size: 18px; }
 
 .main-content p, .main-content li {
   font-size: 16px;
