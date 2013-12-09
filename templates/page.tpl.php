@@ -86,7 +86,7 @@
           <ul class="action-links"><?php print render($action_links); ?></ul>
         <?php endif; ?>
         <?php if ($title): ?>
-          <h2><?php print $title; ?></h2>
+          <h1><?php print $title; ?></h1>
         <?php endif; ?>
         <?php print render($page['content']); ?>
 
