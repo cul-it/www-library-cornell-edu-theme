@@ -6856,7 +6856,8 @@ footer {
   .search-form h1 {
     color: white;
     margin-top: 0;
-    font-size: 26px; }
+    margin-bottom: .5em;
+    font-weight: normal; }
   .search-form .nav-tabs {
     border-bottom: 0; }
     .search-form .nav-tabs li {
