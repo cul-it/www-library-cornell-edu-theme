@@ -9,7 +9,7 @@
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
           <div class="unit-signature-links">
             <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
-            <a id="unit-link" href="index.html">Cornell University Library</a>
+            <a id="unit-link" href="/">Cornell University Library</a>
           </div>
         </div>
       </div>
