@@ -6251,9 +6251,10 @@ h1, h2, h3, h4, h5, h6,
   font-family: Oxygen; }
 
 h1 {
-  margin-bottom: 1em;
+  margin-bottom: .75em;
   margin-top: 0;
   color: #b31b1b;
+  font-size: 30px;
   font-weight: 700; }
 
 h2, h3, h4 {
