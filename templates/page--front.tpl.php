@@ -79,7 +79,7 @@
                 <li><a href="http://erms.library.cornell.edu/">E-Journal Titles</a></li>
               </ul>
             </div>
-            <a href="#">Search help</a>
+            <a href="#" class="search-help">Search help</a>
           </div>
         </div><!-- /search-form -->
       </div><!-- /row -->
