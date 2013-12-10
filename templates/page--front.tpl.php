@@ -73,10 +73,10 @@
             <div class="search-options">
               <!-- <h2>Other search options</h4> -->
               <ul>
-                <li><a href="http://culsearchdev.library.cornell.edu">Catalog</a></li>
-                <li><a href="http://cornell.summon.serialssolutions.com/search?s.cmd=addFacetValueFilters(ContentType,Journal%20Article)">Articles</a></li>
-                <li><a href="http://erms.library.cornell.edu/search~S4">Database Names</a></li>
-                <li><a href="http://erms.library.cornell.edu/">E-Journal Titles</a></li>
+                <li><a href="http://culsearchdev.library.cornell.edu"><i class="fa fa-li fa-external-link"></i> Catalog</a></li>
+                <li><a href="http://cornell.summon.serialssolutions.com/search?s.cmd=addFacetValueFilters(ContentType,Journal%20Article)"><i class="fa fa-li fa-external-link"></i> Articles</a></li>
+                <li><a href="http://erms.library.cornell.edu/search~S4"><i class="fa fa-li fa-external-link"></i> Database Names</a></li>
+                <li><a href="http://erms.library.cornell.edu/"><i class="fa fa-li fa-external-link"></i> E-Journal Titles</a></li>
               </ul>
             </div>
             <a href="#" class="search-help">Search help</a>
