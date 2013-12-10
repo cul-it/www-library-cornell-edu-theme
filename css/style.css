@@ -6962,6 +6962,9 @@ footer {
 .search-options h2 {
   margin: 0;
   font-size: 12px; }
+.search-options ul {
+  margin: 0;
+  padding: 0; }
 .search-options li {
   float: left; }
 

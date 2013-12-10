@@ -70,8 +70,8 @@
             </div>
           </form>
           <div class="help-links">
-            <div class="search-options" style="float: left;">
-              <h2>Other search options</h4>
+            <div class="search-options">
+              <!-- <h2>Other search options</h4> -->
               <ul>
                 <li><a href="http://culsearchdev.library.cornell.edu">Catalog</a></li>
                 <li><a href="http://cornell.summon.serialssolutions.com/search?s.cmd=addFacetValueFilters(ContentType,Journal%20Article)">Articles</a></li>
@@ -79,7 +79,7 @@
                 <li><a href="http://erms.library.cornell.edu/">E-Journal Titles</a></li>
               </ul>
             </div>
-            <a href="#" style="pull-right;">Search help</a>
+            <a href="#">Search help</a>
           </div>
         </div><!-- /search-form -->
       </div><!-- /row -->
