@@ -6968,7 +6968,7 @@ footer {
   list-style: none; }
 .search-options li {
   float: left;
-  margin: 0 10px 0 0;
+  margin: 0 15px 0 0;
   padding: 0; }
 
 .search-help {
@@ -7022,7 +7022,7 @@ footer {
       margin-left: 0; }
 
   .help-links {
-    margin-top: 10px; }
+    margin-top: 20px; }
     .help-links .dropdown-menu {
       background: rgba(0, 0, 0, 0.75); } }
 /* Medium devices (desktops, 992px and up) */
