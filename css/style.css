@@ -7116,7 +7116,8 @@ footer {
   border-bottom: 5px solid #edebe7;
   padding-bottom: 5px;
   color: #b31b1b;
-  margin: 0 0 .25em; }
+  margin: 0 0 .25em;
+  font-weight: normal; }
 .bridge h3 {
   margin: 0 0 .25em; }
 .bridge .nav-section li a {
