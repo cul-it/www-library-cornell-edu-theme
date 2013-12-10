@@ -124,7 +124,15 @@
 		li > a:hover  { background-color: $dark-teal; }
 	} 
 }
-
+.search-options {
+	h2 {
+		margin: 0;
+		font-size: 12px;
+	}
+	li {
+		float: left; 
+	}
+}
 
 
 // Search box on sub-pages
