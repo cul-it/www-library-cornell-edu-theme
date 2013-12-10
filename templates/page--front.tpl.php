@@ -69,9 +69,8 @@
               <button type="submit" class="btn btn-search">Search</button>
             </div>
           </form>
-          <div class="help-links dropdown">
-            <a id="dropdownMenu1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" >Other search options</a>
-            <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+          <div class="help-links">
+            <ul>
               <li role="presentation"><a role="menuitem" tabindex="-1" href="http://culsearchdev.library.cornell.edu">Catalog</a></li>
               <li role="presentation"><a role="menuitem" tabindex="-1" href="http://cornell.summon.serialssolutions.com/search?s.cmd=addFacetValueFilters(ContentType,Journal%20Article)">Articles</a></li>
               <li role="presentation"><a role="menuitem" tabindex="-1" href="http://erms.library.cornell.edu/search~S4">Database Names</a></li>
