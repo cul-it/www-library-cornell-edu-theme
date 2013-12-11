@@ -6992,7 +6992,7 @@ footer {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .jumobtron {
+  .jumbotron {
     padding: 10px 0; }
 
   .hero-caption {
