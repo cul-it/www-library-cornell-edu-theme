@@ -7042,9 +7042,6 @@ footer {
       text-align: right;
       display: block; }
 
-  .search-help {
-    margin-top: 10px; }
-
   .search-options li {
     margin-bottom: 0; } }
 /* Medium devices (desktops, 992px and up) */
@@ -7056,10 +7053,7 @@ footer {
     padding: 30px 0 0; }
 
   .search-form form {
-    width: 100%; }
-
-  .search-help {
-    margin-top: 0; } }
+    width: 100%; } }
 .feature {
   margin: 0 10px 15px 10px; }
   .feature h2 {
