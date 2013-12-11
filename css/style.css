@@ -7043,7 +7043,10 @@ footer {
       display: block; }
 
   .search-help {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .search-options li {
+    margin-bottom: 0; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .jumbotron {
