@@ -6927,7 +6927,8 @@ footer {
 
 .hero-caption {
   padding: 30px 15px 40px;
-  width: auto; }
+  width: auto;
+  margin-top: -30px; }
   .hero-caption .caption-label {
     color: #2aa198;
     text-transform: uppercase;
