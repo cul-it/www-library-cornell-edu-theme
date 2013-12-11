@@ -189,7 +189,7 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.container {
-		.jumbotron { padding-left: 0; }
+		.jumbotron { padding-left: 10px; }
 	}
 	.hero-caption { 
 		background: rgba(0, 0, 0, 0.75);
