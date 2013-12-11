@@ -6947,7 +6947,8 @@ footer {
   padding: 10px;
   font-size: 11px;
   margin-top: 30px;
-  border-top: 1px solid #444; }
+  border-top: 1px solid #444;
+  overflow: hidden; }
   .help-links a {
     color: #dedede; }
   .help-links .dropdown-menu {

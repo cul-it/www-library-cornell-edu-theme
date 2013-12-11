@@ -115,7 +115,7 @@
 	font-size: 11px;
 	margin-top: 30px;
 	border-top: 1px solid #444;
-	// text-align: right;
+	overflow: hidden;
 	a { color: #dedede; } // TODO: add variable for this color
 	.dropdown-menu { 
 		background: rgba(0, 0, 0, 1); 
