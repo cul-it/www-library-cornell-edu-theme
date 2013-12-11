@@ -7039,7 +7039,10 @@ footer {
       font-style: italic;
       color: #999;
       text-align: right;
-      display: block; } }
+      display: block; }
+
+  .search-help {
+    margin-top: 10px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .jumbotron {
