@@ -6927,8 +6927,7 @@ footer {
 
 .hero-caption {
   padding: 30px 15px 40px;
-  width: auto;
-  margin-top: -30px; }
+  width: auto; }
   .hero-caption .caption-label {
     color: #2aa198;
     text-transform: uppercase;
@@ -6999,7 +6998,8 @@ footer {
     background: rgba(0, 0, 0, 0.75);
     padding: 20px 15px 5px 15px;
     float: right;
-    max-width: 30%; }
+    max-width: 30%;
+    margin-top: -60px; }
     .hero-caption .caption-link,
     .hero-caption .caption-title,
     .hero-caption a, .hero-caption a:hover {
@@ -7054,7 +7054,9 @@ footer {
     padding: 30px 0 0; }
 
   .search-form form {
-    width: 100%; } }
+    width: 100%; }
+
+  margin-top: -30px; }
 .feature {
   margin: 0 10px 15px 10px; }
   .feature h2 {

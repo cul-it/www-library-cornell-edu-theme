@@ -87,7 +87,6 @@
 .hero-caption {
 	padding: 30px 15px 40px;
 	width: auto;
-	margin-top: -30px;
 	.caption-label {
 		color: $teal;
 		text-transform: uppercase;
@@ -197,6 +196,7 @@
 		padding: 20px 15px 5px 15px;
 		float: right; 
 		max-width: 30%;
+		margin-top: -60px;
 		.caption-link,
 		.caption-title,
 		a, a:hover { color: white; }
@@ -255,4 +255,5 @@
 	.search-form {
 		form { width: 100%; }
 	}
+	margin-top: -30px;
 }
