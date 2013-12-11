@@ -190,7 +190,7 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.container {
-		.jumbotron { padding: 10px 0; }
+		.jumbotron { padding-left: 0; }
 	}
 	.hero-caption { 
 		background: rgba(0, 0, 0, 0.75);
@@ -241,7 +241,6 @@
 			display: block;
 		}
 	}
-	// .search-help { margin-top: 10px; }
 	.search-options {
 		li { margin-bottom: 0; }
 	}
@@ -249,10 +248,11 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-	.jumbotron { padding: 30px 0 0; }
+	.container {
+		.jumbotron { padding: 30px 60px 0 60px; }
+	}
 	.jumbotron-single { padding: 30px 0 0; }
 	.search-form {
 		form { width: 100%; }
 	}
-	// .search-help { margin-top: 0; }
 }
