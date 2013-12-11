@@ -6935,8 +6935,7 @@ footer {
     margin-bottom: .25em; }
   .hero-caption .caption-link {
     font-size: 12px;
-    margin-bottom: 0;
-    text-align: right; }
+    margin-bottom: 0; }
   .hero-caption .caption-title {
     font-size: 18px;
     font-weight: 700;
@@ -6996,7 +6995,7 @@ footer {
 
   .hero-caption {
     background: rgba(0, 0, 0, 0.75);
-    padding: 20px 15px;
+    padding: 20px 15px 5px 15px;
     float: right;
     max-width: 30%; }
     .hero-caption .caption-link,
@@ -7028,7 +7027,19 @@ footer {
   .help-links {
     margin-top: 20px; }
     .help-links .dropdown-menu {
-      background: rgba(0, 0, 0, 0.75); } }
+      background: rgba(0, 0, 0, 0.75); }
+
+  .image-link {
+    margin-top: 5px;
+    border-top: #333;
+    padding-top: 5px; }
+    .image-link a {
+      text-decoration: none;
+      font-size: 12px;
+      font-style: italic;
+      color: #999;
+      text-align: right;
+      display: block; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .jumbotron {
