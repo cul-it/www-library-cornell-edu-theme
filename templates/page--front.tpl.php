@@ -90,7 +90,7 @@
       <h4 class="caption-title">New student reading project</h4>
       <div class="caption-link"><a href="http://blogs.cornell.edu/reading2013/">Learn more &raquo;</a></div>
     </div>
-
+    <div class="image-link"><a href="#">About this image</a></div>
   </div><!-- /container -->
 </div><!-- /hero -->
 
