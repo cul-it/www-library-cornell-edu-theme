@@ -196,25 +196,17 @@
 		.jumbotron { padding-left: 10px; }
 	}
 	.spotlight-caption {
-		background: rgba(0, 0, 0, 0.75);
-		padding: 20px 15px 5px 15px;
 		float: right; 
 		max-width: 30%;
 		margin-top: -80px;
+	}
+	.spotlight { 
+		background: rgba(0, 0, 0, 0.75);
+		padding: 20px 15px 5px 15px;
 		.spotlight-link,
 		.spotlight-title,
-			a, a:hover { color: white; }
+		a, a:hover { color: white; }
 	}
-	// .hero-caption { 
-	// 	background: rgba(0, 0, 0, 0.75);
-	// 	padding: 20px 15px 5px 15px;
-	// 	float: right; 
-	// 	max-width: 30%;
-	// 	margin-top: -80px;
-	// 	.caption-link,
-	// 	.caption-title,
-	// 	a, a:hover { color: white; }
-	// }
 	.search-form {
 		padding: 10px 10px 10px 20px;
 		margin-top: 30px;

@@ -6995,14 +6995,16 @@ footer {
     padding-left: 10px; }
 
   .spotlight-caption {
-    background: rgba(0, 0, 0, 0.75);
-    padding: 20px 15px 5px 15px;
     float: right;
     max-width: 30%;
     margin-top: -80px; }
-    .spotlight-caption .spotlight-link,
-    .spotlight-caption .spotlight-title,
-    .spotlight-caption a, .spotlight-caption a:hover {
+
+  .spotlight {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px 15px 5px 15px; }
+    .spotlight .spotlight-link,
+    .spotlight .spotlight-title,
+    .spotlight a, .spotlight a:hover {
       color: white; }
 
   .search-form {
