@@ -6817,11 +6817,11 @@ footer {
     background-size: cover; }
 
   .sidebar {
-    padding-left: 0; }
-
+    padding-left: 0; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   footer .nav li {
     margin-bottom: 0; } }
-/* Medium devices (desktops, 992px and up) */
 .jumbotron {
   margin-bottom: 0;
   background: inherit;

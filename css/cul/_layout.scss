@@ -145,13 +145,13 @@ footer {
 	.sidebar {
 		padding-left: 0;
 	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
 	footer {
 		.nav {
 			li { margin-bottom: 0; }
 		}
 	}
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: $screen-md) {
 }
