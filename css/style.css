@@ -6731,7 +6731,8 @@ td {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  background: url("../img/layout/secondary-divider.png") no-repeat left top; }
   @media (min-width: 768px) {
     .secondary-wrapper {
       float: left;
@@ -7110,7 +7111,7 @@ footer {
     margin: 0 0 5px 10px; }
 
 .secondary-feature.news {
-  border-left: 0; }
+  background-image: none; }
 
 .sidebar .secondary-feature {
   padding: 20px;
