@@ -64,7 +64,7 @@
 .secondary-wrapper {
 	@include make-sm-column(4);
 	@include make-lg-column(4);
-	border-left: 1px solid $tan;
+	// border-left: 1px solid $tan;
 }
 .secondary-wrapper:first-child { border-left: 0; }
 

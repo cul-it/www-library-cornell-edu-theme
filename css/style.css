@@ -6731,8 +6731,7 @@ td {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px;
-  border-left: 1px solid #d8d2c9; }
+  padding-right: 15px; }
   @media (min-width: 768px) {
     .secondary-wrapper {
       float: left;
