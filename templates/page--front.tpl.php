@@ -139,7 +139,7 @@
 <div class="secondary-content">
   <div class="container">
     <div class="row">
-      <div class="secondary-wrapper news">
+      <div class="secondary-wrapper">
         <div class="secondary-feature news">
           <?php print render($page['home-secondary1']); ?>
         </div>
