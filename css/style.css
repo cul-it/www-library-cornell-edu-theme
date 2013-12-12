@@ -6943,9 +6943,16 @@ footer {
   .spotlight a, .spotlight a:hover {
     text-decoration: underline; }
 
-.caption-link a {
-  background: rgba(255, 255, 255, 0.75);
-  display: inline-block; }
+.caption-link {
+  margin: 5px 0; }
+  .caption-link a {
+    background: rgba(255, 255, 255, 0.75);
+    display: inline-block;
+    padding: 2px 4px;
+    color: #222222;
+    font-size: 11px; }
+  .caption-link a:hover {
+    background: white; }
 
 .help-links {
   padding-top: 10px;
@@ -7005,7 +7012,7 @@ footer {
 
   .spotlight {
     background: rgba(0, 0, 0, 0.75);
-    padding: 20px 15px 5px 15px; }
+    padding: 20px 15px; }
     .spotlight .spotlight-link,
     .spotlight .spotlight-title,
     .spotlight a, .spotlight a:hover {
