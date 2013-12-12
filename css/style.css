@@ -7104,8 +7104,9 @@ footer {
     display: block;
     font-size: 12px;
     margin-top: .5em;
-    text-align: right;
-    color: white; }
+    text-align: right; }
+    .secondary-feature .more-link a {
+      color: white; }
   .secondary-feature img {
     margin: 0 0 5px 10px; }
 
