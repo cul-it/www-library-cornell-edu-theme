@@ -114,7 +114,10 @@
 		// color: white; }
 }
 .caption-link {
-	background: rgba(255, 255, 255, 0.75);
+	a {
+		background: rgba(255, 255, 255, 0.75);
+		display: inline-block;
+	}
 }
 
 .help-links {
