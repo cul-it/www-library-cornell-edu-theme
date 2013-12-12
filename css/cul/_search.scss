@@ -84,22 +84,26 @@
 
 .form-control.col-9 { width: inherit; }
 
-.hero-caption {
+
+// Spotlight and image caption
+//-----------------------------------//
+
+.spotlight {
 	padding: 30px 15px 40px;
 	width: auto;
-	.caption-label {
+	.spotlight-label {
 		color: $teal;
 		text-transform: uppercase;
 		font-size: 12px;
 		margin-bottom: .25em;
 	}
-	.caption-link { 
+	.spotlight-link { 
 		// color: white;
 		font-size: 12px;
 		margin-bottom: 5px;
 		// text-align: right;
 	}
-	.caption-title {
+	.spotlight-title {
 		font-size: 18px;
 		font-weight: 700;
 		// color: white;
@@ -191,16 +195,26 @@
 	.container {
 		.jumbotron { padding-left: 10px; }
 	}
-	.hero-caption { 
+	.spotlight-caption {
 		background: rgba(0, 0, 0, 0.75);
 		padding: 20px 15px 5px 15px;
 		float: right; 
 		max-width: 30%;
 		margin-top: -80px;
-		.caption-link,
-		.caption-title,
-		a, a:hover { color: white; }
+		.spotlight-link,
+		.spotlight-title,
+			a, a:hover { color: white; }
 	}
+	// .hero-caption { 
+	// 	background: rgba(0, 0, 0, 0.75);
+	// 	padding: 20px 15px 5px 15px;
+	// 	float: right; 
+	// 	max-width: 30%;
+	// 	margin-top: -80px;
+	// 	.caption-link,
+	// 	.caption-title,
+	// 	a, a:hover { color: white; }
+	// }
 	.search-form {
 		padding: 10px 10px 10px 20px;
 		margin-top: 30px;
@@ -226,21 +240,21 @@
 	}
 	.help-links {
 		margin-top: 20px;
-		.dropdown-menu { background: rgba(0, 0, 0, .75); }
+		// .dropdown-menu { background: rgba(0, 0, 0, .75); }
 	}
-	.image-link {
-		margin-top: 10px;
-		border-top: 1px solid #333;
-		padding-top: 5px;
-		a {
-			text-decoration: none;
-			font-size: 12px;
-			font-style: italic;
-			color: #999;
-			text-align: right;
-			display: block;
-		}
-	}
+	// .image-link {
+	// 	margin-top: 10px;
+	// 	border-top: 1px solid #333;
+	// 	padding-top: 5px;
+	// 	a {
+	// 		text-decoration: none;
+	// 		font-size: 12px;
+	// 		font-style: italic;
+	// 		color: #999;
+	// 		text-align: right;
+	// 		display: block;
+	// 	}
+	// }
 	.search-options {
 		li { margin-bottom: 0; }
 	}

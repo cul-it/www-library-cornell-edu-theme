@@ -85,11 +85,13 @@
       </div><!-- /row -->
 
     </div><!-- /jumbotron -->
-    <div class="hero-caption">
-      <div class="caption-label">Spotlight</div>
-      <h4 class="caption-title">New student reading project</h4>
-      <div class="caption-link"><a href="http://blogs.cornell.edu/reading2013/">Learn more &raquo;</a></div>
-      <div class="image-link hidden-xs"><a href="#">About this image</a></div>
+    <div class="spotlight-caption">
+      <div class="spotlight">
+        <div class="spotlight-label">Spotlight</div>
+        <h4 class="spotlight-title">New student reading project</h4>
+        <div class="spotlight-link"><a href="http://blogs.cornell.edu/reading2013/">Learn more &raquo;</a></div>
+      </div>
+      <div class="caption-link hidden-xs"><a href="#">About this image</a></div>
     </div>
   </div><!-- /container -->
 </div><!-- /hero -->

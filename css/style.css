@@ -6925,22 +6925,22 @@ footer {
 .form-control.col-9 {
   width: inherit; }
 
-.hero-caption {
+.spotlight {
   padding: 30px 15px 40px;
   width: auto; }
-  .hero-caption .caption-label {
+  .spotlight .spotlight-label {
     color: #2aa198;
     text-transform: uppercase;
     font-size: 12px;
     margin-bottom: .25em; }
-  .hero-caption .caption-link {
+  .spotlight .spotlight-link {
     font-size: 12px;
     margin-bottom: 5px; }
-  .hero-caption .caption-title {
+  .spotlight .spotlight-title {
     font-size: 18px;
     font-weight: 700;
     margin: 0 0 .75em; }
-  .hero-caption a, .hero-caption a:hover {
+  .spotlight a, .spotlight a:hover {
     text-decoration: underline; }
 
 .help-links {
@@ -6994,15 +6994,15 @@ footer {
   .container .jumbotron {
     padding-left: 10px; }
 
-  .hero-caption {
+  .spotlight-caption {
     background: rgba(0, 0, 0, 0.75);
     padding: 20px 15px 5px 15px;
     float: right;
     max-width: 30%;
     margin-top: -80px; }
-    .hero-caption .caption-link,
-    .hero-caption .caption-title,
-    .hero-caption a, .hero-caption a:hover {
+    .spotlight-caption .spotlight-link,
+    .spotlight-caption .spotlight-title,
+    .spotlight-caption a, .spotlight-caption a:hover {
       color: white; }
 
   .search-form {
@@ -7028,20 +7028,6 @@ footer {
 
   .help-links {
     margin-top: 20px; }
-    .help-links .dropdown-menu {
-      background: rgba(0, 0, 0, 0.75); }
-
-  .image-link {
-    margin-top: 10px;
-    border-top: 1px solid #333;
-    padding-top: 5px; }
-    .image-link a {
-      text-decoration: none;
-      font-size: 12px;
-      font-style: italic;
-      color: #999;
-      text-align: right;
-      display: block; }
 
   .search-options li {
     margin-bottom: 0; } }
