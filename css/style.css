@@ -6943,6 +6943,9 @@ footer {
   .spotlight a, .spotlight a:hover {
     text-decoration: underline; }
 
+.caption-link {
+  background: rgba(255, 255, 255, 0.75); }
+
 .help-links {
   padding-top: 10px;
   font-size: 11px;
