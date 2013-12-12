@@ -17,7 +17,6 @@
 }
 .secondary-feature {
 	margin-bottom: 30px;
-	background: url("../img/layout/secondary-divider.png") no-repeat left top;
 	// height: 250px;
 	h3 {
 		font-size: 26px;
@@ -60,10 +59,10 @@
 	}
 	img { margin: 0 0 5px 10px; }
 }
-.secondary-feature.news {
-	// border-left: 0;
-	background-image: none;
-}
+// .secondary-feature.news {
+// 	// border-left: 0;
+// 	background-image: none;
+// }
 
 // Communications boxes in the sidebar on sub-pages
 .sidebar {

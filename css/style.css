@@ -6731,7 +6731,8 @@ td {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  background: url("../img/layout/secondary-divider.png") no-repeat left top; }
   @media (min-width: 768px) {
     .secondary-wrapper {
       float: left;
@@ -6742,7 +6743,7 @@ td {
       width: 33.33333%; } }
 
 .secondary-wrapper:first-child {
-  border-left: 0; }
+  background-image: none; }
 
 .breadcrumb-wrapper {
   position: relative;
@@ -7068,8 +7069,7 @@ footer {
       font-size: 20px; }
 
 .secondary-feature {
-  margin-bottom: 30px;
-  background: url("../img/layout/secondary-divider.png") no-repeat left top; }
+  margin-bottom: 30px; }
   .secondary-feature h3 {
     font-size: 26px;
     font-weight: normal;
@@ -7109,9 +7109,6 @@ footer {
       color: white; }
   .secondary-feature img {
     margin: 0 0 5px 10px; }
-
-.secondary-feature.news {
-  background-image: none; }
 
 .sidebar .secondary-feature {
   padding: 20px;

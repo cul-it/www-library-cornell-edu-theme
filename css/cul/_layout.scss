@@ -65,8 +65,9 @@
 	@include make-sm-column(4);
 	@include make-lg-column(4);
 	// border-left: 1px solid $tan;
+	background: url("../img/layout/secondary-divider.png") no-repeat left top;
 }
-.secondary-wrapper:first-child { border-left: 0; }
+.secondary-wrapper:first-child { background-image: none; }
 
 // BREADCRUMBS
 //-------------//
