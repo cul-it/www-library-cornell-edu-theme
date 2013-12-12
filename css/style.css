@@ -6768,6 +6768,7 @@ footer {
     footer .nav li {
       float: left;
       padding: 0 10px;
+      margin-bottom: 10px;
       border-left: 1px solid #444; }
     footer .nav li:first-child {
       border-left: 0;
@@ -6816,7 +6817,10 @@ footer {
     background-size: cover; }
 
   .sidebar {
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  footer .nav li {
+    margin-bottom: 0; } }
 /* Medium devices (desktops, 992px and up) */
 .jumbotron {
   margin-bottom: 0;

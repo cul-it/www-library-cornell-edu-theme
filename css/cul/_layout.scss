@@ -91,6 +91,7 @@ footer {
 		li { 
 			float: left;
 			padding: 0 10px;
+			margin-bottom: 10px;
 			border-left: 1px solid #444;
 		 }
 		 li:first-child { 
@@ -143,6 +144,11 @@ footer {
 		background-size: cover; }
 	.sidebar {
 		padding-left: 0;
+	}
+	footer {
+		.nav {
+			li { margin-bottom: 0; }
+		}
 	}
 }
 
