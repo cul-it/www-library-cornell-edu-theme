@@ -92,17 +92,18 @@
 
   <?php if ($display_submitted): ?>
     <div class="submitted">
-      <?php print $submitted; ?>
-    </div>
-  <?php endif; ?>
+      <?php print $submitted;
+  <?php endif; ?>      
 
-  <div class="content"<?php print $content_attributes; ?>>
-    <h2>Test template</h2>
+<!--   print render($content); -->
+  render($content['body'])
+
+  <div class="content"<?php print $co ?>
+    </div>ntent_attributes; ?>>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
-      print render($content);
     ?>
   </div>
 
