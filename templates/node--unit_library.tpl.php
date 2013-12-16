@@ -105,17 +105,10 @@
 
     <div class="row">
       <div class="col-sm-8">
-        <!-- <?php print render($content['body']); ?> -->
-        <?php print render($content); ?>
-        <?php print hide($content['group_contact']['field_ref_email']) ?>
-
-        <!-- <strong><?php print render($content['group_administrator']['field_admin_title']); ?></strong> -->
-        <!-- <div class="unit-info">
-          <?php print render($content['group_administrator']['field_administrator']); ?>
-        </div> -->
-        <!-- <div class="well unit-map">
+        <?php print render($content['body']); ?>
+        <div class="well unit-map">
           <?php print render($content['field_map']); ?>
-        </div> -->
+        </div>
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
