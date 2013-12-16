@@ -108,7 +108,12 @@
         <?php print render($content['body']); ?>
       </div>
       <div class="col-sm-4">
-        <?php print render($content['group_contact']); ?>
+        <h3>Contact</h3>
+        <div class="unit-reference">
+          <h4>Reference</h4>
+          <?php print render($content['field_ref_email']); ?>
+          <?php print render($content['field_ref_phone']); ?>
+        </div>
       </div>
   </div>
 
