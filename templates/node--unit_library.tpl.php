@@ -109,6 +109,7 @@
         <strong><?php print render($content['group_administrator']['field_admin_title']); ?></strong>
         <?php print render($content['group_administrator']['field_administrator']); ?>
         <?php print render($content['field_map']); ?>
+        <?php print render($content['field_map_thumb']); ?>
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
