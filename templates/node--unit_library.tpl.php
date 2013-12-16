@@ -101,8 +101,15 @@
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
-      print render($content['body']);
     ?>
+
+    <div class="row">
+      <div class="col-sm-8">
+        <?php print render($content['body']); ?>
+      </div>
+      <div class="col-sm-4">
+        <?php print render($content['group_contact']); ?>
+      </div>
   </div>
 
   <?php print render($content['links']); ?>
