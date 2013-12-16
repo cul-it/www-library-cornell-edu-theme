@@ -114,6 +114,11 @@
             <h4>Reference</h4>
             <?php print render($content['group_contact']['field_ref_email']); ?>
             <?php print render($content['group_contact']['field_ref_phone']); ?>
+            <h4>Circulation</h4>
+            <?php print render($content['group_contact']['field_circ_email']); ?>
+            <?php print render($content['group_contact']['field_circ_phone']); ?>
+            <h4>Website</h4>
+            <?php print render($content['group_contact']['field_website']); ?>
           </div>
         </div>
       </div>
