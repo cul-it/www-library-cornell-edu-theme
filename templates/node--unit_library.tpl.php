@@ -106,13 +106,12 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
-        <?php print render($content['field_ref_email']); ?>
       </div>
       <div class="col-sm-4">
         <h3>Contact</h3>
         <div class="unit-reference">
           <h4>Reference</h4>
-          <?php print render($content['field_ref_email']); ?>
+          <?php print render($content['group_contact']['field_ref_email']); ?>
           <?php print render($content['field_ref_phone']); ?>
         </div>
       </div>
