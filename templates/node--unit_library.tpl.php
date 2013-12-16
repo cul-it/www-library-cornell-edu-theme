@@ -112,7 +112,7 @@
         <div class="unit-reference">
           <h4>Reference</h4>
           <?php print render($content['group_contact']['field_ref_email']); ?>
-          <?php print render($content['field_ref_phone']); ?>
+          <?php print render($content['group_contact']['field_ref_phone']); ?>
         </div>
       </div>
   </div>
