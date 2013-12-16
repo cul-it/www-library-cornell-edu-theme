@@ -107,24 +107,24 @@
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
         <strong><?php print render($content['group_administrator']['field_admin_title']); ?></strong>
-        <?php print render($content['group_administrator']['field_administrator']); ?>
-        <div class="well">
+        <div class="unit-info">
+          <?php print render($content['group_administrator']['field_administrator']); ?>
+        </div>
+        <div class="well unit-map">
           <?php print render($content['field_map']); ?>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
           <h3>Contact</h3>
-          <div class="unit-reference">
-            <h4>Reference</h4>
-            <?php print render($content['group_contact']['field_ref_email']); ?>
-            <?php print render($content['group_contact']['field_ref_phone']); ?>
-            <h4>Circulation</h4>
-            <?php print render($content['group_contact']['field_circ_email']); ?>
-            <?php print render($content['group_contact']['field_circ_phone']); ?>
-            <h4>Website <i class="fa fa-external-link"></i></h4>
-            <?php print render($content['group_contact']['field_website']); ?>
-          </div>
+          <h4>Reference</h4>
+          <?php print render($content['group_contact']['field_ref_email']); ?>
+          <?php print render($content['group_contact']['field_ref_phone']); ?>
+          <h4>Circulation</h4>
+          <?php print render($content['group_contact']['field_circ_email']); ?>
+          <?php print render($content['group_contact']['field_circ_phone']); ?>
+          <h4>Website <i class="fa fa-external-link"></i></h4>
+          <?php print render($content['group_contact']['field_website']); ?>
         </div>
       </div>
   </div>
