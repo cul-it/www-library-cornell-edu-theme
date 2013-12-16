@@ -7361,3 +7361,6 @@ footer {
 /* Medium devices (desktops, 992px and up) */
 body.admin-menu {
   padding-top: 0 !important; }
+
+.unit-map {
+  margin: 20px 0; }
