@@ -106,10 +106,8 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
-        <p>
-          <strong><?php print render($content['group_administrator']['field_admin_title']); ?></strong><br>
-          <?php print render($content['group_administrator']['field_administrator']); ?>
-        </p>
+        <strong><?php print render($content['group_administrator']['field_admin_title']); ?></strong>
+        <?php print render($content['group_administrator']['field_administrator']); ?>
         <?php print render($content['field_map']); ?>
       </div>
       <div class="col-sm-4">
