@@ -117,7 +117,7 @@
             <h4>Circulation</h4>
             <?php print render($content['group_contact']['field_circ_email']); ?>
             <?php print render($content['group_contact']['field_circ_phone']); ?>
-            <h4>Website</h4>
+            <h4>Website <i class="fa fa-external-link"></i></h4>
             <?php print render($content['group_contact']['field_website']); ?>
           </div>
         </div>
