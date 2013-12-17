@@ -103,6 +103,8 @@
       hide($content['links']);
     ?>
 
+    <?php print render($content); ?>
+
     <?php print render($content['body']); ?>
     <!-- <div class="unit-administrator">
       <strong><?php print render($content['group_administrator']['field_admin_title']); ?></strong>
