@@ -107,9 +107,7 @@
 
     <div class="row">
       <div class="col-sm-8">
-        <div class="well unit-map">
-          <?php print render($content['field_map']); ?>
-        </div>
+        <?php print render($content['field_map']); ?>
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
