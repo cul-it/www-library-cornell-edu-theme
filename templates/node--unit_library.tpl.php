@@ -105,7 +105,7 @@
 
     <?php print render($content['body']); ?>
     <div class="unit-administrator">
-      <?php print render($content['group_administrator']['field_admin_title']); ?>
+      <strong><?php print render($content['group_administrator']['field_admin_title']); ?></strong>
       <?php print render($content['group_administrator']['field_administrator']); ?>
     </div>
 
