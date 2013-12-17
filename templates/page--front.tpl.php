@@ -53,7 +53,7 @@
   </div>
 <?php endif; ?>
 
-<div class="hero" id="maincontent">
+<div class="hero" id="hero">
   <div class="container">
     <div class="jumbotron jumbotron-single">
 
