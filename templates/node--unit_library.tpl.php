@@ -103,7 +103,27 @@
       hide($content['links']);
     ?>
 
-    <div class="row">
+    <?php print render($content['body']); ?>
+
+    <div class="well highlight-box">
+      <h3>Contact</h3>
+      <h4>Reference</h4>
+      <?php print render($content['group_contact']['field_ref_email']); ?>
+      <?php print render($content['group_contact']['field_ref_phone']); ?>
+      <h4>Circulation</h4>
+      <?php print render($content['group_contact']['field_circ_email']); ?>
+      <?php print render($content['group_contact']['field_circ_phone']); ?>
+      <h4>Website <i class="fa fa-external-link"></i></h4>
+      <?php print render($content['group_contact']['field_website']); ?>
+      <p><a href="/hours">Library hours</a></p>
+    </div>
+
+    <div class="well unit-map">
+      <?php print render($content['field_map']); ?>
+    </div>
+
+
+    <!-- <div class="row">
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
         <div class="well unit-map">
@@ -123,7 +143,7 @@
           <?php print render($content['group_contact']['field_website']); ?>
           <p><a href="/hours">Library hours</a></p>
         </div>
-      </div>
+      </div> -->
   </div>
 
   <?php print render($content['links']); ?>
