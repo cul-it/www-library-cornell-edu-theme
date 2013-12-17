@@ -103,8 +103,6 @@
       hide($content['links']);
     ?>
 
-    <?php print render($content); ?>
-
     <?php print render($content['body']); ?>
     <!-- <div class="unit-administrator">
       <strong><?php print render($content['group_administrator']['field_admin_title']); ?></strong>
@@ -114,7 +112,7 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['field_map']); ?>
-        <?php print render($content['group_location']); ?>
+        <?php print render($content['location']['name']); ?>
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
