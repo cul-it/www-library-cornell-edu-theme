@@ -112,7 +112,7 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['field_map']); ?>
-        <?php print render($content['location']); ?>
+        <?php print render($content['group_location']); ?>
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
