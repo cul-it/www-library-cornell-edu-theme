@@ -104,10 +104,10 @@
     ?>
 
     <?php print render($content['body']); ?>
-    <div class="unit-administrator">
+    <!-- <div class="unit-administrator">
       <strong><?php print render($content['group_administrator']['field_admin_title']); ?></strong>
       <?php print render($content['group_administrator']['field_administrator']); ?>
-    </div>
+    </div> -->
 
     <div class="row">
       <div class="col-sm-8">
