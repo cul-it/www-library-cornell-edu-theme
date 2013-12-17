@@ -104,8 +104,10 @@
     ?>
 
     <?php print render($content['body']); ?>
-    <?php print render($content['group_administrator']['field_admin_title']); ?>
-    <?php print render($content['group_administrator']['field_administrator']); ?>
+    <div class="unit-administrator">
+      <?php print render($content['group_administrator']['field_admin_title']); ?>
+      <?php print render($content['group_administrator']['field_administrator']); ?>
+    </div>
 
     <div class="row">
       <div class="col-sm-8">
