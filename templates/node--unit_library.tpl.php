@@ -106,7 +106,7 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
-        <div class="well unit-map">
+        <div class="unit-map">
           <?php print render($content['field_map']); ?>
           <div class="unit-location">
             <?php if ($location['name']) : ?>
