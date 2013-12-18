@@ -87,10 +87,8 @@
     </div><!-- /jumbotron -->
     <div class="spotlight-caption">
       <div class="spotlight">
-        <div class="spotlight-label">Spotlight</div>
-        <h4 class="spotlight-title">New student reading project</h4>
-        <div class="spotlight-link"><a href="http://blogs.cornell.edu/reading2013/">Learn more &raquo;</a></div>
-      </div>
+        <?php print render($page['home-spotlight']); ?>
+      </div> 
       <div class="caption-link hidden-xs"> <?php print render($page['home-aboutimage']); ?>
 </div>
     </div>
