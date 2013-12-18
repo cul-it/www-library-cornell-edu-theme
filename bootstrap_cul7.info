@@ -23,7 +23,7 @@ regions[home-secondary1] = 'Home secondary feature 1'
 regions[home-secondary2] = 'Home secondary feature 2'
 regions[home-secondary3] = 'Home secondary feature 3'
 regions[home-aboutimage] = 'About this image'
-regions[home-Spotlight] = 'Spotlight'
+regions[home-spotlight] = 'Spotlight'
 
 
 ; Stylesheets
