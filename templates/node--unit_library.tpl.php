@@ -118,10 +118,10 @@
             <?php print $location['additional'] ?><br>
           <?php endif; ?>
           <?php if ($location['city']) : ?>
-            <?php print $location['city'] ?><br>
+            <?php print $location['city'] ?>, 
           <?php endif; ?>
           <?php if ($location['province']) : ?>
-            <?php print $location['province'] ?><br>
+            <?php print $location['province'] ?> 
           <?php endif; ?>
           <?php if ($location['postal_code']) : ?>
             <?php print $location['postal_code'] ?>
