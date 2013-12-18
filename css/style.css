@@ -7362,7 +7362,8 @@ body.admin-menu {
   padding-top: 0 !important; }
 
 .unit-map {
-  margin: 20px 0; }
+  margin: 20px 0;
+  font-size: 16px; }
 
 .unit-administrator {
   font-size: 16px;
