@@ -120,7 +120,7 @@
           <?php print render($content['group_contact']['field_circ_phone']); ?>
           <h4>Website <i class="fa fa-external-link"></i></h4>
           <?php print render($content['group_contact']['field_website']); ?>
-          <p><a href="/hours">Library hours</a></p>
+          <?php print render($content['group_contact']['field_ref_email']); ?>
         </div>
       </div>
     </div>
