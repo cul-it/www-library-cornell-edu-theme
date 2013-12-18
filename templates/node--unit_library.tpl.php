@@ -122,26 +122,24 @@
           <h4>Website <i class="fa fa-external-link"></i></h4>
           <?php print render($content['group_contact']['field_website']); ?>
           <h4>Address</h4>
-          <div class="unit-location">
-            <?php if ($location['name']) : ?>
-              <?php print $location['name'] ?><br>
-            <?php endif; ?>
-            <?php if ($location['street']) : ?>
-              <?php print $location['street'] ?><br>
-            <?php endif; ?>
-            <?php if ($location['additional']) : ?>
-              <?php print $location['additional'] ?><br>
-            <?php endif; ?>
-            <?php if ($location['city']) : ?>
-              <?php print $location['city'] ?>, 
-            <?php endif; ?>
-            <?php if ($location['province']) : ?>
-              <?php print $location['province'] ?> 
-            <?php endif; ?>
-            <?php if ($location['postal_code']) : ?>
-              <?php print $location['postal_code'] ?>
-            <?php endif; ?>
-          </div>
+          <?php if ($location['name']) : ?>
+            <?php print $location['name'] ?><br>
+          <?php endif; ?>
+          <?php if ($location['street']) : ?>
+            <?php print $location['street'] ?><br>
+          <?php endif; ?>
+          <?php if ($location['additional']) : ?>
+            <?php print $location['additional'] ?><br>
+          <?php endif; ?>
+          <?php if ($location['city']) : ?>
+            <?php print $location['city'] ?>, 
+          <?php endif; ?>
+          <?php if ($location['province']) : ?>
+            <?php print $location['province'] ?> 
+          <?php endif; ?>
+          <?php if ($location['postal_code']) : ?>
+            <?php print $location['postal_code'] ?>
+          <?php endif; ?>
           <h4>Hours</h4>
           <?php print render($content['field_hours']); ?>
         </div>
