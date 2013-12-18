@@ -91,7 +91,8 @@
         <h4 class="spotlight-title">New student reading project</h4>
         <div class="spotlight-link"><a href="http://blogs.cornell.edu/reading2013/">Learn more &raquo;</a></div>
       </div>
-      <div class="caption-link hidden-xs"><a href="#">About this image</a></div>
+      <div class="caption-link hidden-xs"> <?php print render($page['home-aboutimage']); ?>
+</div>
     </div>
   </div><!-- /container -->
 </div><!-- /hero -->

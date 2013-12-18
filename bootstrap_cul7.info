@@ -22,6 +22,8 @@ regions[home-feature4] = 'Home feature 4'
 regions[home-secondary1] = 'Home secondary feature 1'
 regions[home-secondary2] = 'Home secondary feature 2'
 regions[home-secondary3] = 'Home secondary feature 3'
+regions[home-aboutimage] = 'About this image'
+
 
 ; Stylesheets
 ; style.css is referenced in html.tpl.php because when it's loaded via @import statement in Drupal, respond.js doesn't work so IE8 users only see the mobile layout
