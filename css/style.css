@@ -6614,7 +6614,7 @@ td {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 .hero {
-  background: #edebe7; }
+  background: white; }
 
 .hero-dig {
   background: url("../img/hero/S0206.jpg") no-repeat 50% 50%;
@@ -6994,14 +6994,10 @@ footer {
   float: right; }
 
 #block-block-9 {
-  clear: both;
-  margin-top: 10px;
-  float: right; }
+  margin-top: 15px; }
   #block-block-9 .btn-search-icon {
     background: #580606;
     vertical-align: top; }
-  #block-block-9 .search-selector {
-    float: left; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
