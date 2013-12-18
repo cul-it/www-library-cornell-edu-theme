@@ -6814,7 +6814,7 @@ footer {
 @media (min-width: 768px) {
   .hero {
     background: url("../img/hero/crane.jpg") no-repeat 50% 50%;
-    background-size: cover; }
+    background-size: cover !important; }
 
   .sidebar {
     padding-left: 0; } }
