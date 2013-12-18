@@ -110,7 +110,9 @@
         <div class="unit-location">
           <?php print $location['name'] ?><br>
           <?php print $location['street'] ?><br>
-          <?php print $location['additional'] ?><br>
+          <?php if ($location['additional']) : ?>
+            <?php print $location['additional'] ?><br>
+          <?php endif; ?>
           <?php print $location['city'] ?><br>
           <?php print $location['province'] ?><br>
           <?php print $location['postal_code'] ?>
