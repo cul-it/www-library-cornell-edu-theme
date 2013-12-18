@@ -7370,3 +7370,6 @@ body.admin-menu {
 .unit-administrator {
   font-size: 16px;
   margin-bottom: 1em; }
+
+.gmap {
+  border: 5px solid #cccccc; }
