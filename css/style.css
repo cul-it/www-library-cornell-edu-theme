@@ -6993,14 +6993,14 @@ footer {
   display: inline-block;
   float: right; }
 
-.header-search {
+#block-block-9 {
   clear: both;
   margin-top: 10px;
   float: right; }
-  .header-search .btn-search-icon {
+  #block-block-9 .btn-search-icon {
     background: #580606;
     vertical-align: top; }
-  .header-search .search-selector {
+  #block-block-9 .search-selector {
     float: left; }
 
 /* Small devices (tablets, 768px and up) */
