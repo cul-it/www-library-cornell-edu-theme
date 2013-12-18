@@ -107,7 +107,16 @@
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
         <?php print render($content['field_map']); ?>
-        <?php print $location['name'] ?>
+        <div class="unit-location">
+          <?php print $location['name'] ?>
+          <?php print $location['street'] ?>
+          <?php print $location['additional'] ?>
+          <?php print $location['name'] ?>
+          <?php print $location['city'] ?>
+          <?php print $location['province'] ?>
+          <?php print $location['postal_code'] ?>
+        </div>
+        
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
