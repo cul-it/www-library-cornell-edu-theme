@@ -108,14 +108,24 @@
         <?php print render($content['body']); ?>
         <?php print render($content['field_map']); ?>
         <div class="unit-location">
-          <?php print $location['name'] ?><br>
-          <?php print $location['street'] ?><br>
+          <?php if ($location['name']) : ?>
+            <?php print $location['name'] ?><br>
+          <?php endif; ?>
+          <?php if ($location['street']) : ?>
+            <?php print $location['street'] ?><br>
+          <?php endif; ?>
           <?php if ($location['additional']) : ?>
             <?php print $location['additional'] ?><br>
           <?php endif; ?>
-          <?php print $location['city'] ?><br>
-          <?php print $location['province'] ?><br>
-          <?php print $location['postal_code'] ?>
+          <?php if ($location['city']) : ?>
+            <?php print $location['city'] ?><br>
+          <?php endif; ?>
+          <?php if ($location['province']) : ?>
+            <?php print $location['province'] ?><br>
+          <?php endif; ?>
+          <?php if ($location['postal_code']) : ?>
+            <?php print $location['postal_code'] ?>
+          <?php endif; ?>
         </div>
         
       </div>
