@@ -203,7 +203,8 @@
 		margin-top: -80px;
 	}
 	.spotlight { 
-		background: rgba(0, 0, 0, 0.75);
+		background: #555; //ie8
+		background: rgba(0, 0, 0, 0.75);		
 		padding: 20px 15px;
 		.spotlight-link,
 		.spotlight-title,

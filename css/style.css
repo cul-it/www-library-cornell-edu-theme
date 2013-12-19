@@ -7010,6 +7010,7 @@ footer {
     margin-top: -80px; }
 
   .spotlight {
+    background: #555;
     background: rgba(0, 0, 0, 0.75);
     padding: 20px 15px; }
     .spotlight .spotlight-link,
