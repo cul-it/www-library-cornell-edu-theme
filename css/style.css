@@ -7367,3 +7367,9 @@ body.admin-menu {
 
 .gmap {
   border: 5px solid #cccccc; }
+
+.auxiliary-title {
+  font-size: 90%;
+  margin-top: .25em;
+  color: #666666;
+  font-style: italic; }
