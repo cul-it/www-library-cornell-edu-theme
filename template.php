@@ -118,3 +118,4 @@ function _bootstrap_colorize_button($text) {
       t('Remove'),
     ),
   );
+}
