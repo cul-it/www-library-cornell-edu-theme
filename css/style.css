@@ -6415,8 +6415,7 @@ td {
     .navbar li a {
       color: #cccccc;
       padding: 8px 10px;
-      text-align: left;
-      border-bottom: 1px solid #333; }
+      text-align: left; }
     .navbar li a:hover {
       color: white;
       background: inherit; }
