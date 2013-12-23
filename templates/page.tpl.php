@@ -42,6 +42,18 @@
 </div>
 
 
+<?php
+  $announcement  = render($page['announcement']);
+?>
+
+<?php if ($announcement): ?>
+  <div class="announcement">
+    <div class="container">
+      <?php print render($announcement); ?>
+    </div>
+  </div>
+<?php endif; ?>
+
 <div class="main-content" id="maincontent">
   <div class="container">
     <div class="row">
