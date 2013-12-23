@@ -7372,4 +7372,7 @@ body.admin-menu {
   font-size: 90%;
   margin-top: .25em;
   color: #666666;
-  font-style: italic; }
+  font-weight: normal; }
+
+.space {
+  font-weight: 700; }
