@@ -244,6 +244,11 @@
 	text-align: center;
 	color: $cornell-primary;
 }
+.not-front {
+	.announcement {
+		background: $light-gray;
+	}
+}
 
 // MEDIA QUERIES
 // -------------------------

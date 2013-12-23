@@ -7251,6 +7251,9 @@ footer {
   text-align: center;
   color: #b31b1b; }
 
+.not-front .announcement {
+  background: #cccccc; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
