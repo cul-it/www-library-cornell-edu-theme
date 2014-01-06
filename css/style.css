@@ -7264,7 +7264,7 @@ footer {
 .libescope-four td {
   width: 50%; }
 .libescope-four img {
-  padding-right: 5px; }
+  margin-right: 5px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
