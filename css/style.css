@@ -6310,7 +6310,8 @@ td {
   margin-left: 0;
   padding-left: 0; }
 .main-content td ul {
-  margin-left: 10px; }
+  margin-left: 10px;
+  padding-left: 0; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
