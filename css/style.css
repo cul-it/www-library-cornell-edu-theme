@@ -6302,11 +6302,15 @@ blockquote p {
 
 td {
   vertical-align: top; }
-  td li {
-    padding-left: 20px; }
 
 .even td {
   background: #f9f9f9; }
+
+.main-content td li {
+  margin-left: 0;
+  padding-left: 0; }
+.main-content td ul {
+  margin-left: 10px; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
