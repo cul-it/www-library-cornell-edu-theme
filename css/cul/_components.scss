@@ -253,8 +253,14 @@
 
 // LibeScope
 // -------------------------
-.libescope-four td {
-	width:50%;
+.libescope-four {
+	td {
+		width:50%;
+	}
+	img {padding-right: 5px; 
+	}
+
+
 }
 
 // MEDIA QUERIES
