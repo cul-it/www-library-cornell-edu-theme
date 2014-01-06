@@ -259,8 +259,11 @@
 	}
 	img {margin-right: 5px; 
 	}
+}
 
-
+.libescope-image img {
+	width:100%;
+	height:auto;
 }
 
 // MEDIA QUERIES

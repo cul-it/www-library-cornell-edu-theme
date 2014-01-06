@@ -7266,6 +7266,10 @@ footer {
 .libescope-four img {
   margin-right: 5px; }
 
+.libescope-image img {
+  width: 100%;
+  height: auto; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
