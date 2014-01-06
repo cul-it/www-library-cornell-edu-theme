@@ -7261,6 +7261,9 @@ footer {
 .not-front .announcement {
   background: #f3f3f3; }
 
+.libescope-four td {
+  width: 50%; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
