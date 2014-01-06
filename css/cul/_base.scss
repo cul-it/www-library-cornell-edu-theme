@@ -93,12 +93,17 @@ blockquote {
 // Tables
 // -------------------------
 
-td { vertical-align: top; }
+td { 
+  vertical-align: top;
+  // adjust left-padding for list items when in a table cell
+  li { padding-left: 20px; }
+}
 
 // copy bootstrap table-striping for Drupal odd/even rows
 .even {
   td { background: #f9f9f9; }
 }
+
 
 
 // MEDIA QUERIES
