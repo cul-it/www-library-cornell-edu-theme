@@ -6616,6 +6616,9 @@ td {
       .sidebar .nav .dropdown-menu .active a, .sidebar .nav .dropdown-menu .active-trail a {
         color: inherit;
         background: inherit; }
+      .sidebar .nav .dropdown-menu .dropdown-menu {
+        padding-left: 15px;
+        margin-top: 5px; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
