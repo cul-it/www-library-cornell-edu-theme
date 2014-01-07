@@ -7283,7 +7283,8 @@ footer {
 .panel-heading {
   background-color: white;
   border: none;
-  border-radius: 0; }
+  border-radius: 0;
+  padding: 0; }
 
 .panel-default > .panel-heading {
   background-color: white; }
@@ -7292,7 +7293,8 @@ legend {
   border-bottom: 0; }
 
 .panel-title {
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 700; }
 
 .panel-body {
   padding: 0; }
