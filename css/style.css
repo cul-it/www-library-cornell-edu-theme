@@ -6619,6 +6619,8 @@ td {
       .sidebar .nav .dropdown-menu .dropdown-menu {
         padding-left: 15px;
         margin-top: 5px; }
+        .sidebar .nav .dropdown-menu .dropdown-menu li {
+          font-size: 12px; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
