@@ -267,6 +267,30 @@
 	height:auto;
 }
 
+// Forms with fieldsets - override wonky Bootstrap formatting
+// -------------------------------------------------------------
+.panel {
+	 border: none;
+	 -webkit-box-shadow: 0;
+	 box-shadow: 0;
+	 border-bottom: 1px solid $light-gray;
+	 padding-bottom: 10px;
+}
+.panel-heading {
+	background-color: white;
+	border: none;
+	border-radius: 0;
+}
+legend {
+	border-bottom: 0;
+}
+.panel-title {
+	font-size: 18px;
+}
+.panel-body {
+	padding: 0;
+}
+
 // MEDIA QUERIES
 // -------------------------
 

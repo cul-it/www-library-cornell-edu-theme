@@ -7272,6 +7272,27 @@ footer {
   width: 100%;
   height: auto; }
 
+.panel {
+  border: none;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px; }
+
+.panel-heading {
+  background-color: white;
+  border: none;
+  border-radius: 0; }
+
+legend {
+  border-bottom: 0; }
+
+.panel-title {
+  font-size: 18px; }
+
+.panel-body {
+  padding: 0; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
