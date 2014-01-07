@@ -7291,7 +7291,7 @@ footer {
 
 legend {
   border-bottom: 0;
-  margin-bottom: 0; }
+  margin-bottom: 10px; }
 
 .panel-title {
   font-size: 18px;
