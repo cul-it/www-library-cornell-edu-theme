@@ -7274,10 +7274,11 @@ footer {
 
 .panel {
   border: none;
-  -webkit-box-shadow: 0;
-  box-shadow: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
   border-bottom: 1px solid #f3f3f3;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  border-radius: 0; }
 
 .panel-heading {
   background-color: white;
