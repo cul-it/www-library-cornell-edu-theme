@@ -7280,7 +7280,8 @@ footer {
 table.delivery-options h3 {
   font-size: 0.9em; }
 table.delivery-options tr > td:first-child {
-  color: #b31b1b; }
+  color: #b31b1b;
+  text-align: center; }
 table.delivery-options :first-child > td:first-child {
   color: #2aa198; }
 
