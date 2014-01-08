@@ -6303,7 +6303,7 @@ blockquote p {
 td {
   vertical-align: top; }
 
-.even td {
+.odd td {
   background: #f9f9f9; }
 
 .main-content td li {
