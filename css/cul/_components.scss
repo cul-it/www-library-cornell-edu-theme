@@ -278,6 +278,11 @@ table.delivery-options {
 	tr > td:first-child {
 		color:$cornell-primary;
 	}
+
+	:first-child > td:first-child {
+		color: $teal;
+	}
+
 }
 // Forms with fieldsets - override wonky Bootstrap formatting
 // -------------------------------------------------------------
