@@ -267,6 +267,18 @@
 	height:auto;
 }
 
+// Delivery options table
+// -------------------------
+
+table.delivery-options {
+	h3 {
+		font-size: .9em
+	}
+
+	tr > td:first-child {
+		color:$cornell-primary;
+	}
+}
 // Forms with fieldsets - override wonky Bootstrap formatting
 // -------------------------------------------------------------
 .panel {
