@@ -88,7 +88,11 @@
 			 padding-bottom: 1em;
 			 border-bottom: 2px solid white;
 		}
-
+		.secondary-feature-item .secondary-feature-item-events {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: none;
+		}
 		.more-link { font-size: 11px; }
 		.callout-label { color: $dark-gray; }
 
