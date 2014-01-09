@@ -7141,6 +7141,10 @@ footer {
     font-size: 11px; }
   .sidebar .secondary-feature .callout-label {
     color: #222222; }
+  .sidebar .secondary-feature .title {
+    display: block;
+    font-size: 18px;
+    margin-bottom: .5em; }
 
 .bridge .bridge-section {
   clear: both;
