@@ -11,6 +11,7 @@ regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[sidebar]        = 'Sidebar'
+regions[news-sidebar]   = 'News Sidebar'
 regions[footer-primary] = 'Footer primary'
 regions[footer-secondary] = 'Footer secondary'
 
