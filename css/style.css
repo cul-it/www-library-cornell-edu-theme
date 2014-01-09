@@ -7123,6 +7123,8 @@ footer {
   padding: 20px;
   margin-bottom: 20px;
   height: auto; }
+  .sidebar .secondary-feature a {
+    color: #6eb4cd; }
   .sidebar .secondary-feature h3 {
     border-bottom: 2px solid #d8d2c9; }
     .sidebar .secondary-feature h3 i {
