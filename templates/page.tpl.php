@@ -84,6 +84,9 @@
 
       <div class="sidebar">
         <?php print render($page['sidebar']); ?>
+        <div class="callout secondary-feature">
+          <?php print render($page['news-sidebar']); ?>
+        </div>
       </div><!--/sidebar-->
 
     </div>
