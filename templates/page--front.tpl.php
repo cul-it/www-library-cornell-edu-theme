@@ -60,7 +60,7 @@
       <div class="row">
         <div class="search-form search-form-single"><!-- TODO: consolidate into one class after selecting search box style; remove search-form-single class-->
           <h1>Search</h1>
-          <form class="form-inline clearfix" role="form" action="http://jrc88-dev.library.cornell.edu:3000" method="get">
+          <form class="form-inline clearfix" role="form" action="http://sf-lib-web-003.serverfarm.cornell.edu/" method="get">
             <div class="form-group search-box">
               <label class="sr-only" for="exampleInputEmail2">Search everything</label>
               <input type="text" class="form-control" id="q" name="q" placeholder="Books, articles, databases, websites and more">
