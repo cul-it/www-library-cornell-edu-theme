@@ -7017,7 +7017,8 @@ footer {
 
   .spotlight-caption {
     float: right;
-    max-width: 30%; }
+    max-width: 30%;
+    margin-top: -20px; }
 
   .spotlight {
     background: rgba(0, 0, 0, 0.5);
@@ -7030,7 +7031,6 @@ footer {
   .search-form {
     padding: 10px 10px 10px 20px;
     margin-top: 30px;
-    margin-bottom: 30px;
     background: rgba(0, 0, 0, 0.5);
     border-bottom: 0; }
     .search-form h1 {
