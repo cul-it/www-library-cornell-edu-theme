@@ -7449,11 +7449,15 @@ body.admin-menu {
   width: 33%; }
 
 .liaison-title {
+  font-size: 1.1em;
   margin: .5em 0 .25em; }
 
 .liaison-info {
-  font-size: .9em;
+  font-size: .875em;
   margin-bottom: .5em; }
   .liaison-info .divider {
     color: #666666;
     padding: 0 5px; }
+
+.liaison-to {
+  margin-top: .5em; }
