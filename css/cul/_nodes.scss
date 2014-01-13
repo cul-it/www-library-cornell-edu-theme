@@ -36,9 +36,12 @@
 
 // Liaison listing
 
+.liaison-title { margin: .5em 0 .25em; }
 .liaison-info {
+	font-size: .9em;
+	margin-bottom: .5em;
 	.divider { 
-		color: $light-gray;
+		color: $medium-gray;
 		padding: 0 5px;
 	}
 }
