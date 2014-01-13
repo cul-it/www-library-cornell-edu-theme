@@ -7447,3 +7447,7 @@ body.admin-menu {
 
 .page-node-90 td {
   width: 33%; }
+
+.liaison-info .divider {
+  color: #cccccc;
+  padding: 0 5px; }
