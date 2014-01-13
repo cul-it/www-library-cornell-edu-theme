@@ -7462,5 +7462,7 @@ body.admin-menu {
 .liaison-to {
   margin-top: .5em; }
 
+.page-services-liaisons .main-content ul {
+  padding-left: 15px; }
 .page-services-liaisons .main-content li {
   font-size: 14px; }
