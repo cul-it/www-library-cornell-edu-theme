@@ -69,9 +69,10 @@
 			}
 			a {
 				padding: 3px 10px;
+				word-wrap: break-word;
 			}
 			.dropdown {
-				width: 200%;
+				width: auto;
 			}
 		}
 	}

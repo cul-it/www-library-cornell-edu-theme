@@ -7473,6 +7473,7 @@ body.admin-menu {
 .front .main-content .courses-form li {
   font-size: 12px; }
 .front .main-content .courses-form a {
-  padding: 3px 10px; }
+  padding: 3px 10px;
+  word-wrap: break-word; }
 .front .main-content .courses-form .dropdown {
-  width: 200%; }
+  width: auto; }
