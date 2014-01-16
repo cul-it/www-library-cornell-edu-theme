@@ -7483,6 +7483,11 @@ body.admin-menu {
 .front .main-content .courses-form a {
   padding: 3px 10px; }
 
+.course-section {
+  margin: 0 0 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #cccccc; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
