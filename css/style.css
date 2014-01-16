@@ -6568,7 +6568,8 @@ td {
     font-size: 14px; }
     .sidebar .block-title a {
       padding-left: 0;
-      color: #b31b1b; }
+      color: #b31b1b;
+      display: inline-block; }
   .sidebar .nav {
     padding-bottom: 15px;
     margin: 0 0 40px;
