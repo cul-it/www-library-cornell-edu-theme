@@ -7489,6 +7489,8 @@ body.admin-menu {
   border-bottom: 1px solid #edebe7; }
   .course-section li {
     font-size: 14px; }
+  .course-section p {
+    margin-bottom: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
