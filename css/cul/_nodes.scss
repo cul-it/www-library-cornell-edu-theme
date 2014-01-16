@@ -69,12 +69,25 @@
 			}
 			a {
 				padding: 3px 10px;
-				word-wrap: break-all !important;
 			}
-			// .dropdown {
-			// 	width: auto;
-			// }
 		}
 	}
 }
 
+// MEDIA QUERIES
+// -------------------------
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) { 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+  .front {
+  	.main-content {
+  		.courses-form {
+  			.dropdown { width: 250%; }
+  		}
+  	}
+  }
+}
