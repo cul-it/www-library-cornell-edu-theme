@@ -7478,5 +7478,8 @@ body.admin-menu {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
-    width: 250%; } }
+    width: 350%; } }
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .front .main-content .courses-form .dropdown {
+    width: 250%; } }

@@ -82,7 +82,7 @@
 	.front {
 	  	.main-content {
 	  		.courses-form {
-	  			.dropdown { width: 250%;}
+	  			.dropdown { width: 350%;}
 	  		}
 	  	}
 	}
@@ -90,5 +90,11 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-
+	.front {
+	  	.main-content {
+	  		.courses-form {
+	  			.dropdown { width: 250%;}
+	  		}
+	  	}
+	}
 }
