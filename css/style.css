@@ -6318,7 +6318,10 @@ td {
 @media (min-width: 992px) {
   .main-content input.form-control,
   .main-content select.form-control {
-    width: 40%; } }
+    width: 40%; }
+
+  .main-content .courses-form .input-form-control {
+    width: 100%; } }
 .cornell-brand {
   background: #b31b1b;
   height: 85px;
@@ -7466,6 +7469,3 @@ body.admin-menu {
   padding-left: 18px; }
   .main-content .liaison-dept li {
     font-size: 14px; }
-
-.main-content .courses-form .input-form-control {
-  width: 100%; }
