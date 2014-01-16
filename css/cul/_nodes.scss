@@ -69,11 +69,11 @@
 			}
 			a {
 				padding: 3px 10px;
-				word-wrap: break-word;
+				display: inline-block;
 			}
-			.dropdown {
-				width: auto;
-			}
+			// .dropdown {
+			// 	width: auto;
+			// }
 		}
 	}
 }
