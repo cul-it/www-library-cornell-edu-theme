@@ -7470,8 +7470,9 @@ body.admin-menu {
   .main-content .liaison-dept li {
     font-size: 14px; }
 
-.front .main-content .courses-form li {
+.main-content .courses-form li {
   font-size: 12px; }
+
 .front .main-content .courses-form a {
   padding: 3px 10px; }
 

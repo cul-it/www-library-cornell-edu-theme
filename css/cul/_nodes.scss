@@ -61,12 +61,16 @@
 
 // Courses
 //------------------//
+.main-content {
+	.courses-form {
+		li { 
+			font-size: 12px;
+		}
+	}
+}
 .front {
 	.main-content {
 		.courses-form {
-			li { 
-				font-size: 12px;
-			}
 			a {
 				padding: 3px 10px;
 			}
