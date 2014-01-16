@@ -6546,7 +6546,8 @@ td {
   .nav-section li {
     font-size: 14px; }
     .nav-section li a {
-      padding: 4px 0 4px 15px; }
+      padding: 4px 0 4px 15px;
+      display: inline-block; }
       .nav-section li a i {
         color: #cccccc;
         margin-top: 6px;
