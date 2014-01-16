@@ -7471,6 +7471,6 @@ body.admin-menu {
     font-size: 14px; }
 
 .front .main-content .courses-form li {
-  font-size: 12px;
-  margin: 0;
-  padding: 0; }
+  font-size: 12px; }
+.front .main-content .courses-form a {
+  padding: 3px 10px; }
