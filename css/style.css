@@ -7466,3 +7466,6 @@ body.admin-menu {
   padding-left: 18px; }
   .main-content .liaison-dept li {
     font-size: 14px; }
+
+.main-content .courses-form .input-form-control {
+  width: 100%; }
