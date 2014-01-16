@@ -130,9 +130,8 @@ td { vertical-align: top; }
   }
   .main-content {
     .courses-form {
-      .input-form-control {
-        width: 100%;
-      }
+      input.form-control,
+      select.form-control { width: 100%; }
     }
   }
 }
