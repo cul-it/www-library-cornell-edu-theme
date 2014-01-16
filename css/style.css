@@ -6320,8 +6320,8 @@ td {
   .main-content select.form-control {
     width: 40%; }
 
-  .page-front .main-content .courses-form input.form-control,
-  .page-front .main-content .courses-form select.form-control {
+  .main-content .courses-form input.form-control,
+  .main-content .courses-form select.form-control {
     width: 100%; } }
 .cornell-brand {
   background: #b31b1b;
