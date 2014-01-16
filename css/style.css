@@ -7474,4 +7474,4 @@ body.admin-menu {
   font-size: 12px; }
 .front .main-content .courses-form a {
   padding: 3px 10px;
-  display: inline-block; }
+  word-wrap: break-all !important; }
