@@ -7476,7 +7476,7 @@ body.admin-menu {
   padding: 3px 10px; }
 
 /* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
     width: 250%; } }
+/* Medium devices (desktops, 992px and up) */

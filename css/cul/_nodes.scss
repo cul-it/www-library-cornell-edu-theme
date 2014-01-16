@@ -79,15 +79,16 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) { 
+	.front {
+	  	.main-content {
+	  		.courses-form {
+	  			.dropdown { width: 250%;}
+	  		}
+	  	}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-  .front {
-  	.main-content {
-  		.courses-form {
-  			.dropdown { width: 250%; }
-  		}
-  	}
-  }
+
 }
