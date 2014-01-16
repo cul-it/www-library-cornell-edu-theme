@@ -7474,3 +7474,5 @@ body.admin-menu {
   font-size: 12px; }
 .front .main-content .courses-form a {
   padding: 3px 10px; }
+.front .main-content .courses-form .dropdown {
+  width: 200%; }
