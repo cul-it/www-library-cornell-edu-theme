@@ -6423,9 +6423,9 @@ td {
     margin: 0; }
     .navbar li a {
       color: #cccccc;
+      padding: 8px 10px;
       text-align: left;
-      border-bottom: 1px solid #333;
-      padding: 5px 10px; }
+      border-bottom: 1px solid #333; }
     .navbar li a:hover {
       color: white;
       background: inherit; }
