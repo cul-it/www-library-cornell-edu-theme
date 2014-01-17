@@ -6420,8 +6420,7 @@ td {
   .navbar .nav {
     padding-bottom: 0; }
   .navbar li {
-    margin: 0;
-    float: left; }
+    margin: 0; }
     .navbar li a {
       color: #cccccc;
       padding: 8px 10px;
@@ -6499,8 +6498,10 @@ td {
     height: auto; }
     .navbar .brand {
       font-size: 18px; }
-    .navbar li a {
-      padding: 15px 12px; }
+    .navbar li {
+      float: left; }
+      .navbar li a {
+        padding: 15px 12px; }
     .navbar .navbar-collapse {
       margin-left: 0;
       border-top-right-radius: 3px;

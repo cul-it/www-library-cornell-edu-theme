@@ -27,7 +27,6 @@
 	}
 	li {
 		margin: 0;
-		float: left;
 		a { 
 			color: $light-gray;
 			// border-bottom: 5px solid inherit;
@@ -133,6 +132,7 @@
 		height: auto;
 		.brand { font-size: 18px; }
 		li {
+			float: left;
 			a { padding: 15px 12px; }
 		}
 		.navbar-collapse { 
