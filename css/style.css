@@ -6429,15 +6429,15 @@ td {
     .navbar li a:hover {
       color: white;
       background: inherit; }
-    .navbar li .global-link {
+    .navbar li a.global-link {
       float: left;
       display: inline-block;
       border-right: 1px solid #333;
       padding: 8px 50px; }
-    .navbar li .global-link:last-child {
-      border-right: 0; }
   .navbar li:first-child {
     border-left: 0; }
+  .navbar li:last-child .global-link {
+    border-right: 0; }
   .navbar .active a, .navbar .active-trail a {
     color: white;
     background: black; }

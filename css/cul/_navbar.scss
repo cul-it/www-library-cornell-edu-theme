@@ -38,17 +38,17 @@
 			color: white;
 			background: inherit;
 		}
-		.global-link {
+		a.global-link {
 			float: left;
 			display: inline-block;
 			border-right: 1px solid #333;
 			padding: 8px 50px;
 		}
-		.global-link:last-child {
-			border-right: 0;
-		}
 	}
 	li:first-child { border-left: 0; }
+	li:last-child {
+		.global-link { border-right: 0; }
+	}
 	.active, .active-trail {
 		a { 
 			color: white;
