@@ -178,7 +178,11 @@
 	z-index: 1000 !important;
 }
 .ui-widget { font-family: $font-family-sans-serif; }
-
+.not-front {
+	.ui-menu {
+		li { font-size: 12px; }
+	}
+}
 
 
 // MEDIA QUERIES

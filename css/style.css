@@ -7028,6 +7028,9 @@ footer {
 .ui-widget {
   font-family: Oxygen; }
 
+.not-front .ui-menu li {
+  font-size: 12px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container .jumbotron {
