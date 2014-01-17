@@ -6429,6 +6429,13 @@ td {
     .navbar li a:hover {
       color: white;
       background: inherit; }
+    .navbar li .global-link {
+      float: left;
+      display: inline-block;
+      border-right: 1px solid #333;
+      padding: 8px 50px; }
+    .navbar li .global-link:last-child {
+      border-right: 0; }
   .navbar li:first-child {
     border-left: 0; }
   .navbar .active a, .navbar .active-trail a {
@@ -6443,13 +6450,6 @@ td {
   .navbar .active:hover {
     background: black;
     color: white; }
-  .navbar .global-link {
-    float: left;
-    display: inline-block;
-    border-right: 1px solid #333;
-    padding: 8px 50px; }
-  .navbar .global-link:last-child {
-    border-right: 0; }
   .navbar .navbar-header {
     margin-left: 0;
     margin-right: 0; }
