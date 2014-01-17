@@ -7490,7 +7490,7 @@ body.admin-menu {
   .course-section li {
     font-size: 14px; }
   .course-section p {
-    margin-bottom: 0; }
+    margin-bottom: .25em; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
