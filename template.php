@@ -73,3 +73,5 @@ function bootstrap_cul7_menu_link(array $variables) {
   $output = l($item_icon . $element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
+
+drupal_add_library('system', 'ui.autocomplete');

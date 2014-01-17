@@ -35,3 +35,4 @@ regions[home-spotlight] = 'Spotlight'
 ; Scripts
 scripts[] = js/bootstrap.min.js
 scripts[] = js/cul_menu_fix.js
+scripts[] = js/bb_autocomplete.js
