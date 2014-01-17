@@ -7487,6 +7487,8 @@ body.admin-menu {
   margin: 0 0 1em;
   padding-bottom: 1em;
   border-bottom: 1px solid #edebe7; }
+  .course-section ul {
+    margin: 5px 0 0; }
   .course-section li {
     font-size: 14px; }
   .course-section p {
