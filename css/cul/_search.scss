@@ -173,7 +173,11 @@
 		background: #580606;
 		vertical-align: top; }
 }
-
+// make sure dropdown menu displays on top of navbar
+.ui-menu {
+	z-index: 1000 !important;
+}
+.ui-widget { font-family: $font-family-sans-serif; }
 
 
 

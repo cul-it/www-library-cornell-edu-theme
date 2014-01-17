@@ -7022,6 +7022,12 @@ footer {
     background: #580606;
     vertical-align: top; }
 
+.ui-menu {
+  z-index: 1000 !important; }
+
+.ui-widget {
+  font-family: Oxygen; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container .jumbotron {
