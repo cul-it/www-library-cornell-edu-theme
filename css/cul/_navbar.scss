@@ -60,13 +60,12 @@
 	}
 	.global-link {
 		float: left;
-		a { 
-			display: inline-block;
-			border-right: 1px solid #333;
-			padding: 8px 50px; }
+		display: inline-block;
+		border-right: 1px solid #333;
+		padding: 8px 50px;
 	}
 	.global-link:last-child {
-		a { border-right: 0; }
+		border-right: 0;
 	}
 	.navbar-header { 
 		margin-left: 0;
