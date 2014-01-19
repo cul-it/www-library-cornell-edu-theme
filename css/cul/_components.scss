@@ -328,11 +328,18 @@ legend {
 
 // Large resource links, like visual resources
 // ------------------------------------------------
+.resource-wrapper {
+	@include make-sm-column(4);
+	border-left: 1px solid $light-tan;
+}
+.resource-wrapper:first-child {
+	border-left: none;
+}
 .resource {
 	text-align: center;
 	h3 {
 		margin-top: 0;
-		font-size: 24px;
+		text-transform: uppercase;
 		color: $cornell-primary;
 	}
 }

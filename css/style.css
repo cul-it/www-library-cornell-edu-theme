@@ -7340,11 +7340,25 @@ legend {
 .panel-body {
   padding: 0; }
 
+.resource-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 1px solid #edebe7; }
+  @media (min-width: 768px) {
+    .resource-wrapper {
+      float: left;
+      width: 33.33333%; } }
+
+.resource-wrapper:first-child {
+  border-left: none; }
+
 .resource {
   text-align: center; }
   .resource h3 {
     margin-top: 0;
-    font-size: 24px;
+    text-transform: uppercase;
     color: #b31b1b; }
 
 /* Small devices (tablets, 768px and up) */
