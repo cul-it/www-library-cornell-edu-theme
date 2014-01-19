@@ -326,6 +326,17 @@ legend {
 	padding: 0;
 }
 
+// Large resource links, like visual resources
+// ------------------------------------------------
+.resource {
+	text-align: center;
+	h3 {
+		margin-top: 0;
+		font-size: 24px;
+		color: $cornell-primary;
+	}
+}
+
 // MEDIA QUERIES
 // -------------------------
 

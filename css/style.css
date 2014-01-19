@@ -7340,6 +7340,13 @@ legend {
 .panel-body {
   padding: 0; }
 
+.resource {
+  text-align: center; }
+  .resource h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #b31b1b; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
