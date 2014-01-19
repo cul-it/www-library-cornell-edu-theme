@@ -7153,12 +7153,11 @@ footer {
   .sidebar .secondary-feature .secondary-feature-item {
     margin-bottom: 1em;
     padding-bottom: 1em;
-    border-top: 2px solid white; }
-  .sidebar .secondary-feature .secondary-feature-item:first-child {
-    border-top: none; }
+    border-bottom: 2px solid white; }
   .sidebar .secondary-feature .secondary-feature-events {
     margin-bottom: 0;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    border-bottom: none; }
   .sidebar .secondary-feature .more-link {
     font-size: 11px; }
   .sidebar .secondary-feature .callout-label {
