@@ -370,9 +370,23 @@ h2.patroninfo-title { margin-top: 0; }
 		a { 
 			background: white;
 		}
+		a:link, a:visited {
+			color: $dark-gray;
+		}
 	}
 }
-
+.ui-tabs-nav {
+	li { margin-left: 0; }
+}
+#renewform {
+	#frag-0,
+	#frag-1,
+	#frag-2,
+	#frag-3,
+	#frag-4 {
+		border: 1px solid $light-gray;
+	}
+}
 
 // MEDIA QUERIES
 // -------------------------

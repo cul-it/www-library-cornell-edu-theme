@@ -7384,6 +7384,18 @@ h2.patroninfo-title {
       margin-left: 0; }
     #pi-tabs ul.ui-tabs-nav a {
       background: white; }
+    #pi-tabs ul.ui-tabs-nav a:link, #pi-tabs ul.ui-tabs-nav a:visited {
+      color: #222222; }
+
+.ui-tabs-nav li {
+  margin-left: 0; }
+
+#renewform #frag-0,
+#renewform #frag-1,
+#renewform #frag-2,
+#renewform #frag-3,
+#renewform #frag-4 {
+  border: 1px solid #cccccc; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
