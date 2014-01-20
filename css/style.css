@@ -7372,6 +7372,9 @@ legend {
   margin-top: 10px;
   color: #d8d2c9; }
 
+h2.patroninfo-title {
+  margin-top: 0; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
