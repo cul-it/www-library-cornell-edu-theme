@@ -7389,22 +7389,22 @@ h2.patroninfo-title {
       background: white; }
     #pi-tabs ul.ui-tabs-nav a:link, #pi-tabs ul.ui-tabs-nav a:visited {
       color: #666666; }
-    #pi-tabs ul.ui-tabs-nav .ui-tabs-selected a {
-      background: white; }
-
-#pi-tabs ul.ui-tabs-nav a:hover,
-#pi-tabs ul.ui-tabs-nav a span:hover {
-  background: white;
-  color: #222222; }
+    #pi-tabs ul.ui-tabs-nav a:hover,
+    #pi-tabs ul.ui-tabs-nav a span:hover {
+      background: white;
+      color: #222222; }
 
 #pi-tabs ul.ui-tabs-nav li.ui-tabs-selected a span {
   background: white;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+  border-bottom: none;
+  line-height: 1em; }
 
 .ui-tabs-nav a, .ui-tabs-nav a span {
-  background-image: none; }
+  background-image: none;
+  padding: 10px 15px; }
 
 #renewform #frag-0,
 #renewform #frag-1,
