@@ -7377,11 +7377,12 @@ h2.patroninfo-title {
 
 #pi-tabs {
   margin-bottom: 20px; }
-  #pi-tabs .ui-tabs-nav {
+  #pi-tabs ul.ui-tabs-nav {
     font-family: Oxygen; }
-    #pi-tabs .ui-tabs-nav li {
-      padding-left: 0; }
-    #pi-tabs .ui-tabs-nav a {
+    #pi-tabs ul.ui-tabs-nav li {
+      padding-left: 0;
+      margin-left: 0; }
+    #pi-tabs ul.ui-tabs-nav a {
       background: white; }
 
 /* Small devices (tablets, 768px and up) */
