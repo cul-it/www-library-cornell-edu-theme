@@ -331,7 +331,7 @@ legend {
 .resource-wrapper {
 	@include make-sm-column(4);
 	border-left: 1px solid $light-tan;
-	height: 250px;
+	height: 200px;
 }
 .resource-wrapper:first-child {
 	border-left: none;
@@ -339,26 +339,29 @@ legend {
 .resource {
 	text-align: center;
 	h3 {
-		margin-top: 0;
+		margin-top: 5px;
 		text-transform: uppercase;
+		font-size: 16px;
 		// color: $cornell-primary;
 	}
+	p { font-size: 14px; }
 }
 .resource-icon {
 	i {
 		font-size: 5em;
 		margin-right: -20px;
+		color: $cornell-blue
 	}
 }
-.resource-icon-artstor {
-	i { color: $teal; }
-}
-.resource-icon-luna {
-	i { color: $cornell-blue; }
-}
-.resource-icon-other {
-	i { color: $cornell-khaki; }
-}
+// .resource-icon-artstor {
+// 	i { color: $teal; }
+// }
+// .resource-icon-luna {
+// 	i { color: $cornell-blue; }
+// }
+// .resource-icon-other {
+// 	i { color: $cornell-khaki; }
+// }
 
 // MEDIA QUERIES
 // -------------------------
