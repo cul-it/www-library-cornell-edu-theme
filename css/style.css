@@ -7358,7 +7358,8 @@ legend {
 .resource {
   text-align: center; }
   .resource h3 {
-    margin-top: 5px; }
+    margin-top: 5px;
+    color: #b31b1b; }
   .resource p {
     font-size: 14px; }
 
@@ -7366,7 +7367,7 @@ legend {
   font-size: 5em;
   margin-right: -20px;
   margin-top: 10px;
-  color: #6eb4cd; }
+  color: #d8d2c9; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

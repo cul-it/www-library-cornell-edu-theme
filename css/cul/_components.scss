@@ -340,6 +340,7 @@ legend {
 	text-align: center;
 	h3 {
 		margin-top: 5px;
+		color: $cornell-primary;
 	}
 	p { font-size: 14px; }
 }
@@ -348,7 +349,8 @@ legend {
 		font-size: 5em;
 		margin-right: -20px;
 		margin-top: 10px;
-		color: $cornell-blue
+		// color: $cornell-blue;
+		color: $tan;
 	}
 }
 // .resource-icon-artstor {
