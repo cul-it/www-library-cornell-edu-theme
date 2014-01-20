@@ -7399,7 +7399,8 @@ h2.patroninfo-title {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   border: 1px solid #cccccc;
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid white;
+  height: 32px; }
 
 .ui-tabs-nav a, .ui-tabs-nav a span {
   background-image: none; }
