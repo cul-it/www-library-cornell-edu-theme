@@ -7381,6 +7381,8 @@ h2.patroninfo-title {
     font-family: Oxygen; }
     #pi-tabs .ui-tabs-nav li {
       padding-left: 0; }
+    #pi-tabs .ui-tabs-nav a {
+      background: white; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
