@@ -7031,6 +7031,9 @@ footer {
 .not-front .ui-menu li {
   font-size: 12px; }
 
+.form-image-search input, .form-image-search select {
+  width: 100%; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container .jumbotron {
@@ -7358,8 +7361,7 @@ legend {
 .resource {
   text-align: center; }
   .resource h3 {
-    margin-top: 5px;
-    color: #b31b1b; }
+    margin-top: 5px; }
   .resource p {
     font-size: 14px; }
 
