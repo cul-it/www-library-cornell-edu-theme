@@ -372,10 +372,9 @@ h2.patroninfo-title { margin-top: 0; }
 		}
 		a { 
 			background: white;
-			color: $medium-gray;
 		}
 		a:link, a:visited {
-			color: $dark-gray;
+			color: $medium-gray;
 		}
 		.ui-tabs-selected {
 			a { 
@@ -387,10 +386,13 @@ h2.patroninfo-title { margin-top: 0; }
 }
 
 #pi-tabs ul.ui-tabs-nav a:hover,
-#pi-tabs ul.ui-tabs-nav a span:hover { background: white; }
+#pi-tabs ul.ui-tabs-nav a span:hover { 
+	background: white;
+	color: $dark-gray;
+}
 .ui-tabs-nav a, .ui-tabs-nav a span {
     background-image: none;
-    color: $dark-gray;
+    // color: $dark-gray;
 }
 #renewform {
 	#frag-0,
