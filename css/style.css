@@ -7400,7 +7400,8 @@ h2.patroninfo-title {
 #pi-tabs ul.ui-tabs-nav li.ui-tabs-selected a span {
   background: white;
   border-top-right-radius: 3px;
-  border-top-left-radius: 3px; }
+  border-top-left-radius: 3px;
+  border: 1px solid #cccccc; }
 
 .ui-tabs-nav a, .ui-tabs-nav a span {
   background-image: none; }
