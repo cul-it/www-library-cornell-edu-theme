@@ -7375,6 +7375,13 @@ legend {
 h2.patroninfo-title {
   margin-top: 0; }
 
+#pi-tabs {
+  margin-bottom: 20px; }
+  #pi-tabs .ui-tabs-nav {
+    font-family: Oxygen; }
+    #pi-tabs .ui-tabs-nav li {
+      padding-left: 0; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
