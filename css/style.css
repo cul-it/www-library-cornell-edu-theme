@@ -7376,12 +7376,14 @@ h2.patroninfo-title {
   margin-top: 0; }
 
 #pi-tabs {
-  margin-bottom: 20px; }
+  margin: 20px 0; }
   #pi-tabs ul.ui-tabs-nav {
     font-family: Oxygen; }
     #pi-tabs ul.ui-tabs-nav li {
       padding-left: 0;
-      margin-left: 0; }
+      margin-left: 0;
+      font-size: 12px;
+      font-weight: normal; }
     #pi-tabs ul.ui-tabs-nav a {
       background: white; }
     #pi-tabs ul.ui-tabs-nav a:link, #pi-tabs ul.ui-tabs-nav a:visited {
