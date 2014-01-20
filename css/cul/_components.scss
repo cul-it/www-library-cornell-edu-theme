@@ -372,7 +372,6 @@ h2.patroninfo-title { margin-top: 0; }
 		}
 		a { 
 			background: white;
-			background-image: none;
 		}
 		a:link, a:visited {
 			color: $dark-gray;
@@ -385,11 +384,12 @@ h2.patroninfo-title { margin-top: 0; }
 		}
 	}
 }
-// .ui-tabs-nav a, .ui-tabs-nav a span {
-//     float: left; fixes dir=ltr problem and other quirks IE
-//     padding: 0 12px;
-//     background: url(patroninfo-tabs.png) no-repeat;
-// }
+
+#pi-tabs ul.ui-tabs-nav a:hover,
+#pi-tabs ul.ui-tabs-nav a span:hover { background: white; }
+.ui-tabs-nav a, .ui-tabs-nav a span {
+    background-image: none;
+}
 #renewform {
 	#frag-0,
 	#frag-1,
