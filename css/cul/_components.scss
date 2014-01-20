@@ -343,6 +343,15 @@ legend {
 		color: $cornell-primary;
 	}
 }
+.resource-icon {
+	i {
+		font-size: 5em;
+		margin-right: -20px;
+	}
+}
+.resource-icon-artstor {
+	i { color: $dark-teal; }
+}
 
 // MEDIA QUERIES
 // -------------------------
