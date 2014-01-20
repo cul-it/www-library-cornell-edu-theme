@@ -7390,7 +7390,9 @@ h2.patroninfo-title {
     #pi-tabs ul.ui-tabs-nav a:link, #pi-tabs ul.ui-tabs-nav a:visited {
       color: #222222; }
     #pi-tabs ul.ui-tabs-nav .ui-tabs-selected a {
-      background: white; }
+      background: white;
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px; }
 
 .ui-tabs-nav li {
   margin-left: 0; }

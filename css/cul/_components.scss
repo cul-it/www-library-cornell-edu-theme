@@ -377,7 +377,10 @@ h2.patroninfo-title { margin-top: 0; }
 			color: $dark-gray;
 		}
 		.ui-tabs-selected {
-			a { background: white; }
+			a { 
+				background: white;
+				@include border-top-radius($border-radius-small);
+			}
 		}
 	}
 }
