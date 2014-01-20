@@ -363,6 +363,7 @@ h2.patroninfo-title { margin-top: 0; }
 	margin: 20px 0;
 	ul.ui-tabs-nav {
 		font-family: $font-family-sans-serif;
+		padding-left: 0;
 		li {
 			padding-left: 0;
 			margin-left: 0;
@@ -374,6 +375,9 @@ h2.patroninfo-title { margin-top: 0; }
 		}
 		a:link, a:visited {
 			color: $dark-gray;
+		}
+		.ui-tabs-selected {
+			a { background: white; }
 		}
 	}
 }

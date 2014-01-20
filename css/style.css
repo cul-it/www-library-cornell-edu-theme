@@ -7378,7 +7378,8 @@ h2.patroninfo-title {
 #pi-tabs {
   margin: 20px 0; }
   #pi-tabs ul.ui-tabs-nav {
-    font-family: Oxygen; }
+    font-family: Oxygen;
+    padding-left: 0; }
     #pi-tabs ul.ui-tabs-nav li {
       padding-left: 0;
       margin-left: 0;
@@ -7388,6 +7389,8 @@ h2.patroninfo-title {
       background: white; }
     #pi-tabs ul.ui-tabs-nav a:link, #pi-tabs ul.ui-tabs-nav a:visited {
       color: #222222; }
+    #pi-tabs ul.ui-tabs-nav .ui-tabs-selected a {
+      background: white; }
 
 .ui-tabs-nav li {
   margin-left: 0; }
