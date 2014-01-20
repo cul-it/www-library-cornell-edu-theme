@@ -7367,6 +7367,7 @@ legend {
 .resource-icon i {
   font-size: 5em;
   margin-right: -20px;
+  margin-top: 10px;
   color: #6eb4cd; }
 
 /* Small devices (tablets, 768px and up) */
