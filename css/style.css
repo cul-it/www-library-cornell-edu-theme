@@ -7345,7 +7345,8 @@ legend {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  border-left: 1px solid #edebe7; }
+  border-left: 1px solid #edebe7;
+  height: 250px; }
   @media (min-width: 768px) {
     .resource-wrapper {
       float: left;
@@ -7358,15 +7359,20 @@ legend {
   text-align: center; }
   .resource h3 {
     margin-top: 0;
-    text-transform: uppercase;
-    color: #b31b1b; }
+    text-transform: uppercase; }
 
 .resource-icon i {
   font-size: 5em;
   margin-right: -20px; }
 
 .resource-icon-artstor i {
-  color: #16524d; }
+  color: #2aa198; }
+
+.resource-icon-luna i {
+  color: #6eb4cd; }
+
+.resource-icon-other i {
+  color: #998c7c; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

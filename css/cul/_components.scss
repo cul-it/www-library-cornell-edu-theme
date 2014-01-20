@@ -331,6 +331,7 @@ legend {
 .resource-wrapper {
 	@include make-sm-column(4);
 	border-left: 1px solid $light-tan;
+	height: 250px;
 }
 .resource-wrapper:first-child {
 	border-left: none;
@@ -340,7 +341,7 @@ legend {
 	h3 {
 		margin-top: 0;
 		text-transform: uppercase;
-		color: $cornell-primary;
+		// color: $cornell-primary;
 	}
 }
 .resource-icon {
@@ -350,7 +351,13 @@ legend {
 	}
 }
 .resource-icon-artstor {
-	i { color: $dark-teal; }
+	i { color: $teal; }
+}
+.resource-icon-luna {
+	i { color: $cornell-blue; }
+}
+.resource-icon-other {
+	i { color: $cornell-khaki; }
 }
 
 // MEDIA QUERIES
