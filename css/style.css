@@ -7399,12 +7399,10 @@ h2.patroninfo-title {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   border: 1px solid #cccccc;
-  border-bottom: none;
-  line-height: 1em; }
+  border-bottom: 1px solid white; }
 
 .ui-tabs-nav a, .ui-tabs-nav a span {
-  background-image: none;
-  padding: 10px 15px; }
+  background-image: none; }
 
 #renewform #frag-0,
 #renewform #frag-1,
