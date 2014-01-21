@@ -84,7 +84,7 @@
 		// 	// background: $light-gray;
 		// 	margin-top: 0; }
 		.secondary-feature-item {
-			 margin-bottom: 1em;
+			 // margin-bottom: 1em;
 			 // padding-bottom: 1em;
 			 // border-bottom: 2px solid white;
 		}
@@ -104,11 +104,13 @@
 		.block {
 			border-top: 2px solid white;
 			padding-top: 1em;
+			margin-bottom: 1em;
 		}
 		.block:first-child {
 			border-top: 0;
 			padding-top: 0;
 		}
+		.block:last-child { margin-bottom: 0; }
 	}
 }
 
