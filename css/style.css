@@ -7394,6 +7394,10 @@ h2.patroninfo-title {
       background: white;
       color: #222222; }
 
+.ui-tabs-nav,
+.ui-tabs-panel {
+  font-family: Oxygen; }
+
 #pi-tabs ul.ui-tabs-nav li.ui-tabs-selected a span {
   background: white;
   border-top-right-radius: 3px;

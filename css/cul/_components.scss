@@ -383,7 +383,10 @@ h2.patroninfo-title { margin-top: 0; }
 		}
 	}
 }
-
+.ui-tabs-nav,
+.ui-tabs-panel {
+	font-family: $font-family-sans-serif;
+}
 #pi-tabs ul.ui-tabs-nav li.ui-tabs-selected a span {
 	background: white;
 	@include border-top-radius($border-radius-small);
@@ -422,7 +425,6 @@ h2.patroninfo-title { margin-top: 0; }
 
 // copy bootstrap table styles
 // Baseline styles
-
 .sticky-table {
   width: 100%;
   margin-bottom: $line-height-computed;
