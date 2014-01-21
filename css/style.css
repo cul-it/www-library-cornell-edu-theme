@@ -6585,7 +6585,8 @@ td {
       content: "\f054";
       font-size: 16px; }
       .sidebar .nav li a {
-        padding: 4px 0 4px 18px; }
+        padding: 4px 0 4px 18px;
+        display: inline-block; }
         .sidebar .nav li a i {
           color: #cccccc;
           margin-top: 7px;
