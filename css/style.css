@@ -7416,7 +7416,8 @@ h2.patroninfo-title {
 #renewform #frag-2,
 #renewform #frag-3,
 #renewform #frag-4 {
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+  width: 100%; }
 #renewform button {
   margin-bottom: 5px;
   font-size: 12px; }
