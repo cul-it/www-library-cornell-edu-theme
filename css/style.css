@@ -7031,6 +7031,9 @@ footer {
 .not-front .ui-menu li {
   font-size: 12px; }
 
+.nav-global .form-group {
+  width: 40%; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container .jumbotron {
