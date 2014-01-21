@@ -7420,6 +7420,8 @@ h2.patroninfo-title {
   font-size: inherit;
   font-weight: normal;
   color: #222222; }
+#renewform caption {
+  text-indent: -9999px; }
 
 .patroninfo-export {
   margin-left: 10px; }
