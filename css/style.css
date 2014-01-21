@@ -7424,6 +7424,33 @@ h2.patroninfo-title {
 .patroninfo-export {
   margin-left: 10px; }
 
+.sticky-table {
+  width: 100%;
+  margin-bottom: 20px; }
+  .sticky-table thead > tr > th,
+  .sticky-table thead > tr > td,
+  .sticky-table tbody > tr > th,
+  .sticky-table tbody > tr > td,
+  .sticky-table tfoot > tr > th,
+  .sticky-table tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+    border-top: 1px solid #dddddd; }
+  .sticky-table thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dddddd; }
+  .sticky-table caption + thead tr:first-child th, .sticky-table caption + thead tr:first-child td,
+  .sticky-table colgroup + thead tr:first-child th,
+  .sticky-table colgroup + thead tr:first-child td,
+  .sticky-table thead:first-child tr:first-child th,
+  .sticky-table thead:first-child tr:first-child td {
+    border-top: 0; }
+  .sticky-table tbody + tbody {
+    border-top: 2px solid #dddddd; }
+  .sticky-table .table {
+    background-color: white; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
