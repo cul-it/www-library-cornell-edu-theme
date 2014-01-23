@@ -7374,15 +7374,14 @@ legend {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  border-left: 1px solid #edebe7;
-  height: 200px; }
+  border-top: 1px solid #edebe7; }
   @media (min-width: 768px) {
     .resource-wrapper {
       float: left;
       width: 33.33333%; } }
 
 .resource-wrapper:first-child {
-  border-left: none; }
+  border-top: none; }
 
 .resource {
   text-align: center; }
@@ -7501,7 +7500,15 @@ h2.patroninfo-title {
   .pull-right.highlight-box {
     margin-left: 15px;
     width: 40%;
-    float: right !important; } }
+    float: right !important; }
+
+  .resource-wrapper {
+    border-left: 1px solid #edebe7;
+    border-top: none;
+    height: 200px; }
+
+  .resource-wrapper:first-child {
+    border-left: none; } }
   @media (min-width: 768px) and (min-width: 768px) {
     .bridge .row .bridge-section {
       float: left;

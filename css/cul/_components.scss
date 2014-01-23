@@ -343,11 +343,10 @@ legend {
 // ------------------------------------------------
 .resource-wrapper {
 	@include make-sm-column(4);
-	border-left: 1px solid $light-tan;
-	height: 200px;
+	border-top: 1px solid $light-tan;
 }
 .resource-wrapper:first-child {
-	border-left: none;
+	border-top: none;
 }
 .resource {
 	text-align: center;
@@ -519,6 +518,14 @@ h2.patroninfo-title { margin-top: 0; }
 		margin-left: 15px;
 		width: 40%;
 		float: right !important;
+	}
+	.resource-wrapper {
+		border-left: 1px solid $light-tan;
+		border-top: none;
+		height: 200px;
+	}
+	.resource-wrapper:first-child {
+		border-left: none;
 	}
 }
 
