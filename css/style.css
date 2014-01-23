@@ -7035,6 +7035,12 @@ footer {
 .nav-global .form-group {
   width: 40%; }
 
+.form-image-search input.form-control {
+  width: auto; }
+.form-image-search select.form-control {
+  width: auto;
+  margin-bottom: 5px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container .jumbotron {
@@ -7078,13 +7084,6 @@ footer {
 
   .search-options li {
     margin-bottom: 0; } }
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .form-image-search input.form-control {
-    width: auto; }
-  .form-image-search select.form-control {
-    width: auto;
-    margin-bottom: 5px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container .jumbotron {

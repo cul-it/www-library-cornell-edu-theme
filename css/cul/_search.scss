@@ -187,6 +187,17 @@
 	.form-group { width: 40%; }
 }
 
+// Visual resources image search
+// -----------------------------------
+
+.form-image-search {
+	input.form-control { width: auto; }
+	select.form-control { 
+		width: auto;
+		margin-bottom: 5px;
+	}
+}
+
 // MEDIA QUERIES
 // -------------------------
 
@@ -244,52 +255,9 @@
 	}
 	.help-links {
 		margin-top: 20px;
-		// .dropdown-menu { background: rgba(0, 0, 0, .75); }
 	}
-	// .image-link {
-	// 	margin-top: 10px;
-	// 	border-top: 1px solid #333;
-	// 	padding-top: 5px;
-	// 	a {
-	// 		text-decoration: none;
-	// 		font-size: 12px;
-	// 		font-style: italic;
-	// 		color: #999;
-	// 		text-align: right;
-	// 		display: block;
-	// 	}
-	// }
 	.search-options {
 		li { margin-bottom: 0; }
-	}
-}
-
-// MEDIA QUERIES
-// -------------------------
-
-	// /* Extra small devices (phones, up to 480px) */
-	// /* No media query since this is the default in Bootstrap */
-
-	// /* Small devices (tablets, 768px and up) */
-	// @media (min-width: @screen-sm) { ... }
-
-	// /* Medium devices (desktops, 992px and up) */
-	// @media (min-width: @screen-md) { ... }
-
-	// /* Large devices (large desktops, 1200px and up) */
-	// @media (min-width: @screen-lg) { ... }
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm) { 
-	// Visual Resources search box
-	//-----------------------------------//
-	.form-image-search {
-		input.form-control { width: auto; }
-		select.form-control { 
-			width: auto;
-			margin-bottom: 5px;
-		}
 	}
 }
 
