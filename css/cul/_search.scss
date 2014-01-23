@@ -285,8 +285,11 @@
 	// Visual Resources search box
 	//-----------------------------------//
 	.form-image-search {
-		input.form-control, 
-		select.form-control { width: auto; }
+		input.form-control { width: auto; }
+		select.form-control { 
+			width: auto;
+			margin-bottom: 5px;
+		}
 	}
 }
 
