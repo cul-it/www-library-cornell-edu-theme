@@ -6679,7 +6679,9 @@ td {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 20px;
-  padding-left: 15px; }
+  padding-left: 15px;
+  padding-top: 20px;
+  border-top: 5px solid #2aa198; }
   @media (min-width: 768px) {
     .sidebar {
       float: left;
@@ -6840,7 +6842,9 @@ footer {
     background-size: cover !important; }
 
   .sidebar {
-    padding-left: 0; }
+    padding-left: 0;
+    padding-top: 0;
+    border-top: 0; }
 
   .footer-secondary {
     text-align: right;
