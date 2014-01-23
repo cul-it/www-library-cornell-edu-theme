@@ -7091,7 +7091,7 @@ footer {
 
   .form-image-search input.form-control,
   .form-image-search select.form-control {
-    width: 100%; } }
+    width: auto; } }
 .feature {
   margin: 0 10px 15px 10px; }
   .feature h2 {
