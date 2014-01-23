@@ -7304,8 +7304,7 @@ footer {
     font-size: 14px; }
 
 .pull-right.highlight-box {
-  margin-left: 15px;
-  width: 40%; }
+  float: none !important; }
 
 .feature-story h3 {
   font-size: 26px;
@@ -7497,7 +7496,11 @@ h2.patroninfo-title {
     clear: none;
     margin-bottom: 0; }
   .bridge img {
-    display: block; } }
+    display: block; }
+
+  .pull-right.highlight-box {
+    margin-left: 15px;
+    width: 40%; } }
   @media (min-width: 768px) and (min-width: 768px) {
     .bridge .row .bridge-section {
       float: left;

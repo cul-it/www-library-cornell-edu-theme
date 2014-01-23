@@ -239,8 +239,9 @@
 }
 // set a width on a highlight box that
 .pull-right.highlight-box { 
-	margin-left: 15px;
-	width: 40%; }
+	float: none !important;
+
+}
 
 
 // News page
@@ -513,6 +514,10 @@ h2.patroninfo-title { margin-top: 0; }
 			}
 		}
 		img { display: block; }
+	}
+	.pull-right.highlight-box {
+		margin-left: 15px;
+		width: 40%;
 	}
 }
 
