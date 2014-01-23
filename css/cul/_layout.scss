@@ -1,10 +1,11 @@
-.hero { background: white; }
+.hero { background: white !important; } // add !important to override js pano image at smaller sizes
 
-.hero-dig {
-	background: url("../img/hero/S0206.jpg") no-repeat 50% 50%;
-	background-size: cover;
-	// height: 400px;
-}
+// old style for when we were testing different images in flat mockups -- can probably delete
+// .hero-dig {
+// 	background: url("../img/hero/S0206.jpg") no-repeat 50% 50%;
+// 	background-size: cover;
+// 	// height: 400px;
+// }
 
 .main-content {
 	background: white;
@@ -140,6 +141,7 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) { 
 	.hero {
+		background-color: none !important; // unset background color so image will display at larger sizes
 		background-size: cover !important; }
 	.sidebar {
 		padding-left: 0;

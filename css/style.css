@@ -6638,11 +6638,7 @@ td {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 .hero {
-  background: white; }
-
-.hero-dig {
-  background: url("../img/hero/S0206.jpg") no-repeat 50% 50%;
-  background-size: cover; }
+  background: white !important; }
 
 .main-content {
   background: white;
@@ -6837,6 +6833,7 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
+    background-color: none !important;
     background-size: cover !important; }
 
   .sidebar {
