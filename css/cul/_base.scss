@@ -93,6 +93,9 @@ blockquote {
 // Tables
 // -------------------------
 
+table {
+  background: white; // add this so that tables have a white background when viewed responsively (otherwise they pick up black background color)
+}
 td { vertical-align: top; }
 
 // copy bootstrap table-striping for Drupal odd/even rows

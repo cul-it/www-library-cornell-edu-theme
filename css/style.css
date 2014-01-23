@@ -6299,6 +6299,9 @@ blockquote p {
 .main-text p.lead {
   font-size: 21px; }
 
+table {
+  background: white; }
+
 td {
   vertical-align: top; }
 
