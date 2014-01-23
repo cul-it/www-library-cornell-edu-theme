@@ -6638,7 +6638,7 @@ td {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 .hero {
-  background: white !important; }
+  background: white; }
 
 .main-content {
   background: white;
@@ -6833,7 +6833,6 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
-    background-color: none !important;
     background-size: cover !important; }
 
   .sidebar {
