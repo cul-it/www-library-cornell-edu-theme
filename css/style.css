@@ -6949,7 +6949,8 @@ footer {
   width: inherit; }
 
 .spotlight {
-  padding: 30px 15px 40px;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 20px 15px;
   width: auto; }
   .spotlight .spotlight-label {
     color: #2aa198;
@@ -7047,13 +7048,10 @@ footer {
     max-width: 30%;
     margin-top: -20px; }
 
-  .spotlight {
-    background: rgba(0, 0, 0, 0.65);
-    padding: 20px 15px; }
-    .spotlight .spotlight-link,
-    .spotlight .spotlight-title,
-    .spotlight a, .spotlight a:hover {
-      color: white; }
+  .spotlight .spotlight-link,
+  .spotlight .spotlight-title,
+  .spotlight a, .spotlight a:hover {
+    color: white; }
 
   .search-form {
     padding: 10px 10px 10px 20px;

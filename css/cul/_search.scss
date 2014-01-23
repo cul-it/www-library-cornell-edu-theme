@@ -89,7 +89,9 @@
 //-----------------------------------//
 
 .spotlight {
-	padding: 30px 15px 40px;
+	// padding: 30px 15px 40px;
+	background: rgba(0, 0, 0, 0.65);
+	padding: 20px 15px;
 	width: auto;
 	.spotlight-label {
 		color: $teal;
@@ -224,8 +226,8 @@
 		margin-top: -20px;
 	}
 	.spotlight { 
-		background: rgba(0, 0, 0, 0.65);
-		padding: 20px 15px;
+		// background: rgba(0, 0, 0, 0.65);
+		// padding: 20px 15px;
 		.spotlight-link,
 		.spotlight-title,
 		a, a:hover { color: white; }
