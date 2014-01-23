@@ -106,7 +106,9 @@ footer {
 			text-decoration: none; }
 	}
 	p { 
-		clear: both; }
+		clear: both;
+		line-height: 1.75em;
+	}
 	a { color: $light-gray;}
 	a:hover { 
 		color: white;
@@ -118,7 +120,8 @@ footer {
 }
 .footer-secondary {
 	@include make-sm-column(4);
-	text-align: right;
+	text-align: center;
+	margin-top: 20px;
 }
 
 
@@ -144,6 +147,10 @@ footer {
 		background-size: cover !important; }
 	.sidebar {
 		padding-left: 0;
+	}
+	.footer-secondary {
+		text-align: right;
+		margin-top: 0;
 	}
 }
 

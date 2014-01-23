@@ -6803,7 +6803,8 @@ footer {
       background: #222222;
       text-decoration: none; }
   footer p {
-    clear: both; }
+    clear: both;
+    line-height: 1.75em; }
   footer a {
     color: #cccccc; }
   footer a:hover {
@@ -6826,7 +6827,8 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: right; }
+  text-align: center;
+  margin-top: 20px; }
   @media (min-width: 768px) {
     .footer-secondary {
       float: left;
@@ -6838,7 +6840,11 @@ footer {
     background-size: cover !important; }
 
   .sidebar {
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  .footer-secondary {
+    text-align: right;
+    margin-top: 0; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   footer .nav li {
