@@ -135,7 +135,10 @@
 	margin-top: 30px;
 	border-top: 1px solid #444;
 	overflow: hidden;
-	a { color: #dedede; } // TODO: add variable for this color
+	a { 
+		line-height: 1.2em;
+		color: #dedede; // TODO: add variable for this color
+	} 
 	.dropdown-menu { 
 		background: rgba(0, 0, 0, 1); 
 		text-align: left;

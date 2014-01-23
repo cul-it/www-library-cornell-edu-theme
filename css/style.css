@@ -6992,6 +6992,7 @@ footer {
   border-top: 1px solid #444;
   overflow: hidden; }
   .help-links a {
+    line-height: 1.2em;
     color: #dedede; }
   .help-links .dropdown-menu {
     background: black;
