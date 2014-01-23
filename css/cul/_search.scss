@@ -191,9 +191,9 @@
 // -----------------------------------
 
 .form-image-search {
-	input.form-control { width: auto; }
+	input.form-control { width: 100%; }
 	select.form-control { 
-		width: auto;
+		width: 100%;
 		margin-bottom: 5px;
 	}
 }
@@ -258,6 +258,12 @@
 	}
 	.search-options {
 		li { margin-bottom: 0; }
+	}
+	// Visual resources image search
+	// -----------------------------------
+	.form-image-search {
+		input.form-control,
+		select.form-control { width: auto; }
 	}
 }
 

@@ -7036,9 +7036,9 @@ footer {
   width: 40%; }
 
 .form-image-search input.form-control {
-  width: auto; }
+  width: 100%; }
 .form-image-search select.form-control {
-  width: auto;
+  width: 100%;
   margin-bottom: 5px; }
 
 /* Small devices (tablets, 768px and up) */
@@ -7083,7 +7083,11 @@ footer {
     margin-top: 20px; }
 
   .search-options li {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  .form-image-search input.form-control,
+  .form-image-search select.form-control {
+    width: auto; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container .jumbotron {
