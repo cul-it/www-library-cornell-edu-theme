@@ -153,7 +153,9 @@
 	}
 	img { 
 		margin-right: 10px;
-		max-width: 100px; }
+		max-width: 100px;
+		display: none;
+	}
 	.bridge-highlight {
 		h3 { color: $cornell-primary; }
 		img { max-width: 75px; }
@@ -510,6 +512,7 @@ h2.patroninfo-title { margin-top: 0; }
 				margin-bottom: 0;
 			}
 		}
+		img { display: block; }
 	}
 }
 

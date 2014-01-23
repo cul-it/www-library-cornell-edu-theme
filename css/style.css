@@ -7224,7 +7224,8 @@ footer {
   font-size: 14px; }
 .bridge img {
   margin-right: 10px;
-  max-width: 100px; }
+  max-width: 100px;
+  display: none; }
 .bridge .bridge-highlight h3 {
   color: #b31b1b; }
 .bridge .bridge-highlight img {
@@ -7490,12 +7491,13 @@ h2.patroninfo-title {
     padding-left: 15px;
     padding-right: 15px;
     clear: none;
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .bridge img {
+    display: block; } }
   @media (min-width: 768px) and (min-width: 768px) {
     .bridge .row .bridge-section {
       float: left;
       width: 50%; } }
-
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .secondary-feature {
