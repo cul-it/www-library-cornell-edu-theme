@@ -120,7 +120,7 @@ footer {
 }
 .footer-secondary {
 	@include make-sm-column(4);
-	text-align: center;
+	text-align: left;
 	margin-top: 20px;
 }
 

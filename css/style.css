@@ -6827,7 +6827,7 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
+  text-align: left;
   margin-top: 20px; }
   @media (min-width: 768px) {
     .footer-secondary {
