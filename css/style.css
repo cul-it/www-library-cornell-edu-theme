@@ -7501,7 +7501,7 @@ h2.patroninfo-title {
   .pull-right.highlight-box {
     margin-left: 15px;
     width: 40%;
-    float: right; } }
+    float: right !important; } }
   @media (min-width: 768px) and (min-width: 768px) {
     .bridge .row .bridge-section {
       float: left;
