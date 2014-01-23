@@ -6958,14 +6958,17 @@ footer {
     font-size: 12px;
     margin-bottom: .25em; }
   .spotlight .spotlight-link {
+    color: white;
     font-size: 12px;
     margin-bottom: 5px; }
   .spotlight .spotlight-title {
     font-size: 18px;
     font-weight: 700;
+    color: white;
     margin: 0 0 .75em; }
   .spotlight a, .spotlight a:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: white; }
 
 .caption-link {
   margin: 5px 0; }
@@ -7047,11 +7050,6 @@ footer {
     float: right;
     max-width: 30%;
     margin-top: -20px; }
-
-  .spotlight .spotlight-link,
-  .spotlight .spotlight-title,
-  .spotlight a, .spotlight a:hover {
-    color: white; }
 
   .search-form {
     padding: 10px 10px 10px 20px;
