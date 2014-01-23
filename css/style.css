@@ -7200,7 +7200,7 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  clear: none;
+  clear: both;
   margin-bottom: 0; }
   @media (min-width: 768px) {
     .bridge .row .bridge-section {
@@ -7482,7 +7482,20 @@ h2.patroninfo-title {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .secondary-feature {
+    margin-bottom: 0; }
+
+  .bridge .row .bridge-section {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    clear: none;
     margin-bottom: 0; } }
+  @media (min-width: 768px) and (min-width: 768px) {
+    .bridge .row .bridge-section {
+      float: left;
+      width: 50%; } }
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .secondary-feature {

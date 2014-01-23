@@ -125,7 +125,7 @@
 	.row {
 		.bridge-section { 
 			@include make-sm-column(6);
-			clear: none;
+			clear: both;
 			margin-bottom: 0; }
 	}
 	.bridge-content {
@@ -500,6 +500,16 @@ h2.patroninfo-title { margin-top: 0; }
 @media (min-width: $screen-sm) { 
 	.secondary-feature {
 		margin-bottom: 0;
+	}
+	.bridge {
+		// two-column bridge
+		.row {
+			.bridge-section { 
+				@include make-sm-column(6);
+				clear: none;
+				margin-bottom: 0;
+			}
+		}
 	}
 }
 
