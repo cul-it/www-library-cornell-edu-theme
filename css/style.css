@@ -6637,6 +6637,9 @@ td {
         .sidebar .nav .dropdown-menu .dropdown-menu li {
           font-size: 12px; }
 
+.dropdown-menu > li > a {
+  white-space: wrap; }
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 .hero {

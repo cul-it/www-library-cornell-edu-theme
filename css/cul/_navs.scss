@@ -147,6 +147,9 @@
 	}
 }
 
+// override bootstrap dropdown link wrapping
+.dropdown-menu > li > a { white-space: wrap; }
+
 
 // Override Bootstrap's unclickable parent link
 // https://drupal.org/comment/7228804#comment-7228804
