@@ -6319,7 +6319,8 @@ td {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .main-content input.form-control,
-  .main-content select.form-control {
+  .main-content select.form-control,
+  .main-content form.email {
     width: 40%; }
 
   .main-content .courses-form input.form-control,

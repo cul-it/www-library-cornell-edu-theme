@@ -129,7 +129,8 @@ td { vertical-align: top; }
 @media (min-width: $screen-md) {
   .main-content {
     input.form-control,
-    select.form-control { width: 40%; }
+    select.form-control,
+    form.email { width: 40%; }
   }
   .main-content {
     .courses-form {
