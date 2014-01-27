@@ -60,7 +60,7 @@
       <div class="row">
         <div class="search-form search-form-single"><!-- TODO: consolidate into one class after selecting search box style; remove search-form-single class-->
           <h1>Search</h1>
-          <form class="form-inline clearfix" role="form" action="http://culsearchdev.library.cornell.edu/" method="get">
+          <form class="form-inline clearfix" role="form" action="http://search.library.cornell.edu/" method="get">
             <div class="form-group search-box">
               <label class="sr-only" for="exampleInputEmail2">Search everything</label>
               <input type="text" class="form-control" id="q" name="q" placeholder="Books, articles, databases, websites and more">
@@ -73,7 +73,7 @@
             <div class="search-options">
               <!-- <h2>Other search options</h4> -->
               <ul>
-                <li><a href="http://culsearchdev.library.cornell.edu"><i class="fa fa-external-link"></i> Catalog</a></li>
+                <li><a href="http://search.library.cornell.edu"><i class="fa fa-external-link"></i> Catalog</a></li>
                 <li><a href="http://cornell.summon.serialssolutions.com/search?s.cmd=addFacetValueFilters(ContentType,Journal%20Article)"><i class="fa fa-external-link"></i> Articles</a></li>
                 <li><a href="http://erms.library.cornell.edu/search~S4"><i class="fa fa-external-link"></i> Database Names</a></li>
                 <li><a href="http://erms.library.cornell.edu/"><i class="fa fa-external-link"></i> E-Journal Titles</a></li>
