@@ -6638,7 +6638,7 @@ td {
           font-size: 12px; }
 
 .dropdown-menu > li > a {
-  white-space: wrap; }
+  white-space: normal; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */

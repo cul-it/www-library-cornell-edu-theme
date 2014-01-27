@@ -148,7 +148,7 @@
 }
 
 // override bootstrap dropdown link wrapping
-.dropdown-menu > li > a { white-space: wrap; }
+.dropdown-menu > li > a { white-space: normal; }
 
 
 // Override Bootstrap's unclickable parent link
