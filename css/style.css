@@ -7603,6 +7603,9 @@ h2.patroninfo-title {
 .selector-phone {
   width: 15%; }
 
+.selector-name {
+  width: 30%; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .multicolumn {
