@@ -7600,6 +7600,9 @@ h2.patroninfo-title {
   transition: top 1s ease-out, background 1s linear;
   z-index: 100; }
 
+.selector-phone {
+  width: 15%; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .multicolumn {
