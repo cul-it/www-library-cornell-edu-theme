@@ -143,6 +143,10 @@
 			li.active:first-child { border-top-left-radius: 3px; }
 		}
 	}
+	// force home link to have a rounded corner when active
+	.first.leaf.active.menu-mlid-224.active {
+		a { border-top-left-radius: 3px;}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
