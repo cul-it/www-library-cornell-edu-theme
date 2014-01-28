@@ -7645,7 +7645,9 @@ h2.patroninfo-title {
     -webkit-column-count: 2;
     -webkit-column-gap: 20px;
     column-count: 2;
-    column-gap: 20px; } }
+    column-gap: 20px; }
+    .multicolumn li {
+      font-size: 14px; } }
 /* Medium devices (desktops, 992px and up) */
 body.admin-menu {
   padding-top: 0 !important; }
