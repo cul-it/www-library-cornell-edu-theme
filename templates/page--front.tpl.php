@@ -66,7 +66,7 @@
               <input type="text" class="form-control" id="q" name="q" placeholder="Books, articles, databases, websites and more">
             </div>
             <div class="search-button">
-              <button type="submit" class="btn btn-search">Search</button>
+              <button type="submit" class="btn btn-cul">Search</button>
             </div>
           </form>
           <div class="help-links">

@@ -6984,14 +6984,6 @@ footer {
         float: left;
         width: 16.66667%; } }
 
-.btn-search {
-  color: white;
-  background: #2aa198; }
-
-.btn-search:hover {
-  background: #16524d;
-  color: white; }
-
 .search-form-tabs input {
   border-top-left-radius: 0; }
 
