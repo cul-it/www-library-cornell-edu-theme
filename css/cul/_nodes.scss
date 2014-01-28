@@ -105,7 +105,7 @@
 @media (max-width: $screen-xs-max) {
 	.view-id-unit_lib_list {
 		.view-content {
-		  .table-responsive {
+		  .table {
 		    width: 100%;
 		    margin-bottom: ($line-height-computed * 0.75);
 		    overflow-y: hidden;
