@@ -308,33 +308,35 @@ table.delivery-options {
 }
 // Forms with fieldsets - override wonky Bootstrap formatting
 // -------------------------------------------------------------
-.panel {
-	 border: none;
-	 -webkit-box-shadow: none;
-	 box-shadow: none;
-	 border-bottom: 1px solid $light-tan;
-	 padding-bottom: 10px;
-	 border-radius: 0;
-}
-.panel-heading {
-	background-color: white;
-	border: none;
-	border-radius: 0;
-	padding: 0;
-}
-.panel-default > .panel-heading {
-	background-color: white;
-}
-legend {
-	border-bottom: 0;
-	margin-bottom: 15px;
-}
-.panel-title {
-	font-size: 20px;
-	font-weight: 700;
-}
-.panel-body {
-	padding: 0;
+.webform-client-form {
+	.panel {
+		 border: none;
+		 -webkit-box-shadow: none;
+		 box-shadow: none;
+		 border-bottom: 1px solid $light-tan;
+		 padding-bottom: 10px;
+		 border-radius: 0;
+	}
+	.panel-heading {
+		background-color: white;
+		border: none;
+		border-radius: 0;
+		padding: 0;
+	}
+	.panel-default > .panel-heading {
+		background-color: white;
+	}
+	legend {
+		border-bottom: 0;
+		margin-bottom: 15px;
+	}
+	.panel-title {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.panel-body {
+		padding: 0;
+	}
 }
 
 // Large resource links, like visual resources
