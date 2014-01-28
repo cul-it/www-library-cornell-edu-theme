@@ -7521,7 +7521,8 @@ h2.patroninfo-title {
   border-radius: 4px; }
 
 .accordion-heading {
-  border-bottom: 0; }
+  border-bottom: 0;
+  font-size: 16px; }
 
 .accordion-heading .accordion-toggle {
   display: block;
