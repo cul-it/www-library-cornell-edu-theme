@@ -7723,45 +7723,6 @@ body.admin-menu {
 #edit-description {
   margin-bottom: 0; }
 
-@media (max-width: 767px) {
-  .view-id-unit_lib_list .view-content .table {
-    width: 100%;
-    margin-bottom: 15px;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #dddddd;
-    -webkit-overflow-scrolling: touch; }
-    .view-id-unit_lib_list .view-content .table > .table {
-      margin-bottom: 0; }
-      .view-id-unit_lib_list .view-content .table > .table > thead > tr > th,
-      .view-id-unit_lib_list .view-content .table > .table > thead > tr > td,
-      .view-id-unit_lib_list .view-content .table > .table > tbody > tr > th,
-      .view-id-unit_lib_list .view-content .table > .table > tbody > tr > td,
-      .view-id-unit_lib_list .view-content .table > .table > tfoot > tr > th,
-      .view-id-unit_lib_list .view-content .table > .table > tfoot > tr > td {
-        white-space: nowrap; }
-    .view-id-unit_lib_list .view-content .table > .table-bordered {
-      border: 0; }
-      .view-id-unit_lib_list .view-content .table > .table-bordered > thead > tr > th:first-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > thead > tr > td:first-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tbody > tr > th:first-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tbody > tr > td:first-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tfoot > tr > th:first-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tfoot > tr > td:first-child {
-        border-left: 0; }
-      .view-id-unit_lib_list .view-content .table > .table-bordered > thead > tr > th:last-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > thead > tr > td:last-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tbody > tr > th:last-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tbody > tr > td:last-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tfoot > tr > th:last-child,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tfoot > tr > td:last-child {
-        border-right: 0; }
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tbody > tr:last-child > th,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tbody > tr:last-child > td,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tfoot > tr:last-child > th,
-      .view-id-unit_lib_list .view-content .table > .table-bordered > tfoot > tr:last-child > td {
-        border-bottom: 0; } }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
