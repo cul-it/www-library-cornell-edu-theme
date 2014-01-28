@@ -7302,16 +7302,15 @@ footer {
     margin: .75em 0 .25em; }
   .highlight-box h4:first-child {
     margin-top: 0; }
-  .highlight-box p {
-    font-size: 14px; }
   .highlight-box ul {
     padding-left: 18px; }
   .highlight-box li {
-    margin-bottom: .5em;
-    font-size: 14px; }
+    margin-bottom: .5em; }
 
 .pull-right.highlight-box {
   float: none !important; }
+  .pull-right.highlight-box p, .pull-right.highlight-box li {
+    font-size: 14px; }
 
 .feature-story h3 {
   font-size: 26px;

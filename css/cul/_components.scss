@@ -231,15 +231,13 @@
 		font-size: 14px;
 		margin: .75em 0 .25em; }
 	h4:first-child { margin-top: 0; }
-	p { font-size: 14px; }
 	ul { padding-left: 18px; }
-	li { 
-		margin-bottom: .5em;
-		font-size: 14px; }
+	li { margin-bottom: .5em; }
 }
 // set a width on a highlight box that
 .pull-right.highlight-box { 
 	float: none !important;
+	p, li { font-size: 14px; }
 
 }
 
