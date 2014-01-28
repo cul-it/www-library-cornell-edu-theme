@@ -6315,6 +6315,14 @@ td {
   margin-left: 20px;
   padding-left: 0; }
 
+.table-responsive > .table > thead > tr > th,
+.table-responsive > .table > thead > tr > td,
+.table-responsive > .table > tbody > tr > th,
+.table-responsive > .table > tbody > tr > td,
+.table-responsive > .table > tfoot > tr > th,
+.table-responsive > .table > tfoot > tr > td {
+  white-space: normal; }
+
 .btn-cul {
   color: white;
   background-color: #2aa198;

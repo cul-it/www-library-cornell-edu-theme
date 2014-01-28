@@ -117,6 +117,16 @@ td { vertical-align: top; }
   }
 }
 
+// override word-wrapping for bootstrap responsive tables 
+.table-responsive > .table > thead > tr > th,
+.table-responsive > .table > thead > tr > td,
+.table-responsive > .table > tbody > tr > th,
+.table-responsive > .table > tbody > tr > td, 
+.table-responsive > .table > tfoot > tr > th,
+.table-responsive > .table > tfoot > tr > td {
+  white-space: normal;
+}
+
 // CUL button
 // -------------------------
 
