@@ -38,8 +38,7 @@
 	@include make-sm-column-pull(8);
 	padding-left: 15px;
 	padding-top: 20px;
-	// border-top: 5px solid $teal;
-	background: $pale-gray;
+	border-top: 3px solid $teal;
 	h4 {
 		a { color: $dark-gray; }
 	}
@@ -151,8 +150,7 @@ footer {
 		margin-top: 20px;
 		padding-left: 0;
 		padding-top: 0;
-		// border-top: 0;
-		background: white;
+		border-top: 0;
 	}
 	.footer-secondary {
 		text-align: right;
