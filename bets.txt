@@ -30,13 +30,13 @@ j stor|JSTOR: the scholarly journal archive|http://resolver.library.cornell.edu/
 j-stor|JSTOR: the scholarly journal archive|http://resolver.library.cornell.edu/jsto/2900365
 pubmed|PubMed|http://resolver.library.cornell.edu/misc/apw3190
 pub med|PubMed|http://resolver.library.cornell.edu/misc/apw3190
-lexisnexis academic|LexisNexis Academic|http://resolver.library.cornell.edu/misc/4215469
-lexis|LexisNexis Academic|http://resolver.library.cornell.edu/misc/4215469
-lexis nexis|LexisNexis Academic|http://resolver.library.cornell.edu/misc/4215469
-lexisnexis|LexisNexis Academic|http://resolver.library.cornell.edu/misc/4215469
-lexis-nexis|LexisNexis Academic|http://resolver.library.cornell.edu/misc/4215469
-lexis nexis academic|LexisNexis Academic|http://resolver.library.cornell.edu/misc/4215469
-lexis nexus|LexisNexis Academic|http://resolver.library.cornell.edu/misc/4215469
+lexisnexis academic|LexisNexis Academic|http://resolver.library.cornell.edu/misc/3126641
+lexis|LexisNexis Academic|http://resolver.library.cornell.edu/misc/3126641
+lexis nexis|LexisNexis Academic|http://resolver.library.cornell.edu/misc/3126641
+lexisnexis|LexisNexis Academic|http://resolver.library.cornell.edu/misc/3126641
+lexis-nexis|LexisNexis Academic|http://resolver.library.cornell.edu/misc/3126641
+lexis nexis academic|LexisNexis Academic|http://resolver.library.cornell.edu/misc/3126641
+lexis nexus|LexisNexis Academic|http://resolver.library.cornell.edu/misc/3126641
 science magazine|Science magazine|http://encompass.library.cornell.edu/cgi-bin/checkIP.cgi?access=gateway_standard%26url=http://www.sciencemag.org
 science|Science magazine|http://encompass.library.cornell.edu/cgi-bin/checkIP.cgi?access=gateway_standard%26url=http://www.sciencemag.org
 refworks|RefWorks|http://olinuris.library.cornell.edu/ref/refworks.html
