@@ -62,7 +62,7 @@
   </div>
 <?php endif; ?>
 
-<div class="main-content" id="maincontent">
+<div class="main-content">
   <div class="container">
     <div class="row">
       <div class="breadcrumb-wrapper"><!--TO DO: SEMANTIC-->
@@ -76,7 +76,7 @@
     <?php // if there is a sidebar, then create two column layout ?>
     <?php if ($sidebar): ?>
     <div class="row primary-wrapper">
-      <div class="main-text">
+      <div class="main-text" id="maincontent">
         <?php print render($page['highlighted']); ?>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
