@@ -6994,6 +6994,7 @@ footer {
   margin-bottom: 20px; }
 
 .spotlight {
+  background: #555;
   background: rgba(0, 0, 0, 0.75);
   padding: 20px 15px;
   width: auto; }
