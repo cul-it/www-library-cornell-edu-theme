@@ -64,7 +64,7 @@
 
 <div class="hero" id="hero">
   <div class="container">
-    <div class="jumbotron jumbotron-single">
+    <div class="jumbotron">
 
       <div class="row">
         <div class="search-form">
