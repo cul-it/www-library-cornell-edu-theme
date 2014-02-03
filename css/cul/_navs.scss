@@ -152,16 +152,6 @@
 .dropdown-menu > li > a { white-space: normal; }
 
 // override bootstrap focus color
-.nav {
-  > li {
-    > a {
-      &:focus {
-        background-color: white;
-      }
-    }
-  }
-}
-// override bootstrap focus color
 .nav.navbar-nav {
   > li {
     > a {
