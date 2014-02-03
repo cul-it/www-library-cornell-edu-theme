@@ -6678,7 +6678,7 @@ td {
   background-color: white; }
 
 .nav.navbar-nav > li > a:focus {
-  background-color: #222222; }
+  background-color: #222222 !important; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */

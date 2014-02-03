@@ -166,7 +166,7 @@
   > li {
     > a {
       &:focus {
-        background-color: $nav-link-hover-bg;
+        background-color: $nav-link-hover-bg !important;
       }
     }
   }
