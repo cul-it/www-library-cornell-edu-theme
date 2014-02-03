@@ -7175,6 +7175,8 @@ footer {
     padding-bottom: 10px;
     margin: 0 0 .5em;
     color: white; }
+  .secondary-feature a {
+    color: white; }
   .secondary-feature i {
     color: #b8d6d4;
     margin-right: 8px; }
@@ -7187,8 +7189,6 @@ footer {
     display: block;
     font-size: 20px;
     margin-bottom: .5em; }
-    .secondary-feature .title a {
-      color: white; }
   .secondary-feature .libescope-type {
     font-size: 12px;
     display: block;
@@ -7203,8 +7203,6 @@ footer {
     font-size: 12px;
     margin-top: .5em;
     text-align: right; }
-    .secondary-feature .more-link a {
-      color: white; }
   .secondary-feature img {
     margin: 0 0 5px 10px; }
 

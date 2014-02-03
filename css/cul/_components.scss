@@ -27,6 +27,7 @@
 		margin: 0 0 .5em;
 		color: white;
 	}
+	a { color: white; }
 	i { 
 		color: #b8d6d4;
 		margin-right: 8px; }
@@ -40,7 +41,7 @@
 		display: block;
 		font-size: 20px;
 		margin-bottom: .5em;
-		a { color: white; }
+		// a { color: white; }
 	}
 	.libescope-type {
 		font-size: 12px;
@@ -56,7 +57,7 @@
 		font-size: 12px;
 		margin-top: .5em;
 		text-align: right;
-		a { color: white; }
+		// a { color: white; }
 	}
 	img { margin: 0 0 5px 10px; }
 }
