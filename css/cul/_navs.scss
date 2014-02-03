@@ -152,14 +152,16 @@
 .dropdown-menu > li > a { white-space: normal; }
 
 // override bootstrap focus color
-.nav.navbar-nav {
-  > li {
-    > a {
-      &:focus {
-        background-color: $nav-link-hover-bg;
-      }
-    }
-  }
+.nav-collapse {
+	.nav {
+	  > li {
+	    > a {
+	      &:focus {
+	        background-color: $nav-link-hover-bg;
+	      }
+	    }
+	  }
+	}
 }
 
 // Override Bootstrap's unclickable parent link
