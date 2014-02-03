@@ -7216,6 +7216,8 @@ footer {
     border-bottom: 2px solid #d8d2c9; }
     .sidebar .secondary-feature h3 i {
       display: none; }
+    .sidebar .secondary-feature h3 a:hover {
+      text-decoration: none; }
   .sidebar .secondary-feature .secondary-feature-events {
     margin-bottom: 0;
     padding-bottom: 0;
