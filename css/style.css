@@ -6674,7 +6674,7 @@ td {
 .dropdown-menu > li > a {
   white-space: normal; }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.nav > li > a:focus {
   background-color: white; }
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
