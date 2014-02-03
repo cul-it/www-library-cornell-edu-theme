@@ -162,6 +162,17 @@
     }
   }
 }
+// override bootstrap focus color
+.navbar-nav {
+  > li {
+    > a {
+      &:hover,
+      &:focus {
+        background-color: $nav-link-hover-bg;
+      }
+    }
+  }
+}
 
 // Override Bootstrap's unclickable parent link
 // https://drupal.org/comment/7228804#comment-7228804

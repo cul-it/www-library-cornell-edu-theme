@@ -6521,9 +6521,6 @@ td {
 .navbar-toggle:hover {
   background: #990f26; }
 
-.nav.navbar-nav > li > a:hover, .nav.navbar-nav > li > a:focus {
-  background-color: #222222; }
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .navbar {
@@ -6679,6 +6676,9 @@ td {
 
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: white; }
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+  background-color: #222222; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
