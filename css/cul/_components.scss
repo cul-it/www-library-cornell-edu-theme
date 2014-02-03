@@ -13,6 +13,8 @@
 		i { 
 			color: $cornell-primary;
 			font-size: 20px; }
+		a { color: $cornell-primary; }
+		a:hover { text-decoration: none; }
 	}
 }
 .secondary-feature {
