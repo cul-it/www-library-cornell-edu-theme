@@ -107,6 +107,19 @@
 	background: $cornell-primary-hover;
 }
 
+// override bootstrap focus color
+.nav.navbar-nav {
+  > li {
+    > a {
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        background-color: $nav-link-hover-bg;
+      }
+    }
+  }
+}
+
 // MEDIA QUERIES
 // -------------------------
 

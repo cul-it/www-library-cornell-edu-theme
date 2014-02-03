@@ -151,19 +151,6 @@
 // override bootstrap dropdown link wrapping
 .dropdown-menu > li > a { white-space: normal; }
 
-// override bootstrap focus color
-
-.nav {
-  > li {
-    > a {
-      &:hover,
-      &:focus {
-        text-decoration: none;
-        background-color: $nav-link-hover-bg;
-      }
-    }
-  }
-}
 
 // Override Bootstrap's unclickable parent link
 // https://drupal.org/comment/7228804#comment-7228804
