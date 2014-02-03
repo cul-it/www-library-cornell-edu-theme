@@ -34,7 +34,7 @@
       <a class="navbar-brand visible-xs" href="/">Cornell University Library</a>
     </div>
     <div class="navbar-collapse collapse">
-      <div class="visible-xs">
+      <div class="visible-xs mobile-search">
         <form class="form-inline clearfix" role="form" action="http://search.library.cornell.edu/" method="get">
           <div class="form-group">
             <label class="sr-only" for="q">Search</label>
