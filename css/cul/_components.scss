@@ -26,6 +26,8 @@
 		padding-bottom: 10px;
 		margin: 0 0 .5em;
 		color: white;
+		a { color: white; }
+		a:hover { text-decoration: none; }
 	}
 	a { color: white; }
 	i { 
@@ -80,7 +82,6 @@
 			// color: $dark-gray;
 			border-bottom: 2px solid $tan;
 			i { display: none; }
-			a:hover { text-decoration: none; }
 		}
 		// .btn-rss { 
 		// 	// background: $light-gray;
