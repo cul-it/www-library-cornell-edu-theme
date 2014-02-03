@@ -7094,8 +7094,7 @@ footer {
 
   .spotlight-caption {
     float: right;
-    max-width: 30%;
-    margin-top: -20px;
+    width: 20%;
     margin-bottom: 0; }
 
   .search-form {
