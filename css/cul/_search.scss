@@ -179,11 +179,12 @@
 		li { font-size: 12px; }
 	}
 }
+.mobile-search,
 .nav-global {
 	.form-group { width: 40%; }
 }
 // search box on mobile devices
-.navbar-collapse {
+.mobile-search {
 	.btn-search-icon { 
 		background: #580606;
 		vertical-align: top; }

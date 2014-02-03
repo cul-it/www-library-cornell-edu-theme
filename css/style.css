@@ -7078,10 +7078,11 @@ footer {
 .not-front .ui-menu li {
   font-size: 12px; }
 
+.mobile-search .form-group,
 .nav-global .form-group {
   width: 40%; }
 
-.navbar-collapse .btn-search-icon {
+.mobile-search .btn-search-icon {
   background: #580606;
   vertical-align: top; }
 
