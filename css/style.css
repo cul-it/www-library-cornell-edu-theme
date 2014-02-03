@@ -7078,13 +7078,17 @@ footer {
 .not-front .ui-menu li {
   font-size: 12px; }
 
-.mobile-search .form-group,
 .nav-global .form-group {
   width: 40%; }
 
 .mobile-search .btn-search-icon {
   background: #580606;
-  vertical-align: top; }
+  vertical-align: top;
+  float: left; }
+.mobile-search .form-group {
+  width: 80%; }
+.mobile-search .form-control {
+  float: left; }
 
 .form-image-search input.form-control {
   width: 100%; }

@@ -179,7 +179,6 @@
 		li { font-size: 12px; }
 	}
 }
-.mobile-search,
 .nav-global {
 	.form-group { width: 40%; }
 }
@@ -187,7 +186,13 @@
 .mobile-search {
 	.btn-search-icon { 
 		background: #580606;
-		vertical-align: top; }
+		vertical-align: top;
+		float: left;
+	}
+	.form-group { width: 80%; }
+	.form-control {
+		float: left;
+	}
 }
 
 // Visual resources image search
