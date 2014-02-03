@@ -258,7 +258,7 @@
 		margin-top: 20px;
 	}
 	.search-options {
-		li { margin-bottom: 0; }
+		li { margin-bottom: 5px; }
 	}
 	// Visual resources image search
 	// -----------------------------------
@@ -277,10 +277,7 @@
 	.search-form {
 		form { width: 100%; }
 	}
-	// Visual Resources search box
-	//-----------------------------------//
-	// .form-image-search {
-	// 	input.form-control, 
-	// 	select.form-control { width: auto; }
-	// }
+	.search-options {
+		li { margin-bottom: 0; }
+	}
 }
