@@ -184,14 +184,16 @@
 }
 // search box on mobile devices
 .mobile-search {
+	margin-bottom: 10px;
 	.btn-search-icon { 
 		background: #580606;
 		vertical-align: top;
 		float: left;
 	}
-	.form-group { width: 80%; }
+	.form-group { width: 90%; }
 	.form-control {
 		float: left;
+		margin: 5px;
 	}
 }
 
