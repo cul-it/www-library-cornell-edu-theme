@@ -156,6 +156,7 @@
 	.nav {
 	  > li {
 	    > a {
+	      &:hover,
 	      &:focus {
 	        background-color: $nav-link-hover-bg;
 	      }

@@ -6674,7 +6674,7 @@ td {
 .dropdown-menu > li > a {
   white-space: normal; }
 
-.nav-collapse .nav > li > a:focus {
+.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus {
   background-color: #222222; }
 
 /* Small devices (tablets, 768px and up) */
