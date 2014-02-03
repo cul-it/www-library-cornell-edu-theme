@@ -6677,7 +6677,7 @@ td {
 .nav > li > a:focus {
   background-color: white; }
 
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+.nav.navbar-nav > li > a:focus {
   background-color: #222222; }
 
 /* Small devices (tablets, 768px and up) */
