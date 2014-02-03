@@ -66,22 +66,11 @@
 		float: left;
 	}
 }
-// .btn-search { 
-// 	color: white;
-// 	background: $teal; }
-// .btn-search:hover { 
-// 	background: $dark-teal;
-// 	color: white; }
 
 // tabs only
 .search-form-tabs {
 	input { border-top-left-radius: 0; }
 }
-
-//TODO: clean up search-form class depending on whether or not we have single search or tabbed search
-// .search-form-single {
-// 	.help-links { padding-right: 30px; }
-// }
 
 .form-control.col-9 { width: inherit; }
 
@@ -273,7 +262,7 @@
 	.container {
 		.jumbotron { padding: 30px 60px 0 60px; }
 	}
-	.jumbotron-single { padding: 30px 0 0; }
+	// .jumbotron-single { padding: 30px 0 0; }
 	.search-form {
 		form { width: 100%; }
 	}

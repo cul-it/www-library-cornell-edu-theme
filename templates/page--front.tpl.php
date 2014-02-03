@@ -29,7 +29,7 @@
         <span class="icon-bar"></span>
       </button>
       <div class="mobile-insignia visible-xs">
-        <a href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/insignia.png" alt=""></a>
+        <a href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/insignia.png" alt="Cornell University"></a>
       </div>
       <a class="navbar-brand visible-xs" href="#">Cornell University Library</a>
     </div>
@@ -67,7 +67,7 @@
     <div class="jumbotron jumbotron-single">
 
       <div class="row">
-        <div class="search-form search-form-single"><!-- TODO: consolidate into one class after selecting search box style; remove search-form-single class-->
+        <div class="search-form">
           <h1>Search</h1>
           <form class="form-inline clearfix" role="form" action="http://search.library.cornell.edu/" method="get">
             <div class="form-group search-box">
