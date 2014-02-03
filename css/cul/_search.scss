@@ -227,7 +227,7 @@
 	}
 	.spotlight-caption {
 		float: right; 
-		width: 20%;
+		// max-width: 30%;
 		// margin-top: -20px;
 		margin-bottom: 0;
 	}
@@ -279,5 +279,9 @@
 	}
 	.search-options {
 		li { margin-bottom: 0; }
+	}
+	.spotlight-caption {
+		width: 20%;
+		margin-bottom: 0;
 	}
 }
