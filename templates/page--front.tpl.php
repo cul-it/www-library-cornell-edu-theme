@@ -34,10 +34,11 @@
       <a class="navbar-brand visible-xs" href="#">Cornell University Library</a>
     </div>
     <div class="navbar-collapse collapse">
-      <?php 
-        print drupal_render(drupal_get_form('course_help_form'));
-      ?>
+      
       <div class="nav navbar-nav">
+        <?php 
+          print drupal_render(drupal_get_form('course_help_form'));
+        ?>
         <?php print render($page['navigation']); ?>
       </div>
     </div><!--/.navbar-collapse -->
