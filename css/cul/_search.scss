@@ -11,7 +11,7 @@
 	@include make-md-column(8);
 	@include make-lg-column(6);
 	padding: 20px 10px 10px 10px;
-	background: #555; //ie8
+	background: #333; //ie8
 	background: rgba(0, 0, 0, 0.75);
 	margin-bottom: 20px;
 	h1 { 
@@ -80,7 +80,7 @@
 
 .spotlight-caption { margin-bottom: 20px; }
 .spotlight {
-	background: #555; //ie8
+	background: #333; //ie8
 	background: rgba(0, 0, 0, 0.75);
 	padding: 20px 15px;
 	width: auto;

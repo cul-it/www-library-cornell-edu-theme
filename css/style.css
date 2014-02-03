@@ -6911,7 +6911,7 @@ footer {
   padding-left: 15px;
   padding-right: 15px;
   padding: 20px 10px 10px 10px;
-  background: #555;
+  background: #333;
   background: rgba(0, 0, 0, 0.75);
   margin-bottom: 20px; }
   @media (min-width: 768px) {
@@ -6994,7 +6994,7 @@ footer {
   margin-bottom: 20px; }
 
 .spotlight {
-  background: #555;
+  background: #333;
   background: rgba(0, 0, 0, 0.75);
   padding: 20px 15px;
   width: auto; }
