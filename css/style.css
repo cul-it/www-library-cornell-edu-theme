@@ -7081,6 +7081,10 @@ footer {
 .nav-global .form-group {
   width: 40%; }
 
+.navbar-collapse .btn-search-icon {
+  background: #580606;
+  vertical-align: top; }
+
 .form-image-search input.form-control {
   width: 100%; }
 .form-image-search select.form-control {
