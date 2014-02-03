@@ -74,7 +74,7 @@
               <!-- <h2>Other search options</h4> -->
               <ul>
                 <li><a href="http://newcatalog.library.cornell.edu"><i class="fa fa-external-link"></i> Catalog</a></li>
-                <li><a href="http://cornell.summon.serialssolutions.com/search?s.cmd=addFacetValueFilters(ContentType,Journal%20Article)"><i class="fa fa-external-link"></i> Articles</a></li>
+                <li><a href="http://cornell.summon.serialssolutions.com/"><i class="fa fa-external-link"></i> Articles</a></li>
                 <li><a href="http://erms.library.cornell.edu/search~S4"><i class="fa fa-external-link"></i> Database Names</a></li>
                 <li><a href="http://erms.library.cornell.edu/"><i class="fa fa-external-link"></i> E-Journal Titles</a></li>
                 <li><a href="/visual-resources"><i class="fa fa-external-link"></i> Images</a></li>
