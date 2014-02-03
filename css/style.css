@@ -7165,12 +7165,10 @@ footer {
     .feature h2 i {
       color: #b31b1b;
       font-size: 20px; }
-
-.feature h2 a {
-  color: #b31b1b; }
-
-.feature h2 a:hover {
-  text-decoration: none; }
+    .feature h2 a {
+      color: #b31b1b; }
+    .feature h2 a:hover {
+      text-decoration: none; }
 
 .secondary-feature {
   margin-bottom: 30px; }
@@ -7181,6 +7179,10 @@ footer {
     padding-bottom: 10px;
     margin: 0 0 .5em;
     color: white; }
+    .secondary-feature h3 a {
+      color: white; }
+    .secondary-feature h3 a:hover {
+      text-decoration: none; }
   .secondary-feature a {
     color: white; }
   .secondary-feature i {

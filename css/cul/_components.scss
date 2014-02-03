@@ -13,10 +13,10 @@
 		i { 
 			color: $cornell-primary;
 			font-size: 20px; }
+		a { color: $cornell-primary; }
+		a:hover { text-decoration: none; }
 	}
 }
-.feature h2 a { color: $cornell-primary; } // for some reason the nested sass styles for this are not working in the browser
-.feature h2 a:hover { text-decoration: none; }
 .secondary-feature {
 	margin-bottom: 30px;
 	// height: 250px;
@@ -28,6 +28,8 @@
 		padding-bottom: 10px;
 		margin: 0 0 .5em;
 		color: white;
+		a { color: white; }
+		a:hover { text-decoration: none; }
 	}
 	a { color: white; }
 	i { 
