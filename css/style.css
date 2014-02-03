@@ -7094,6 +7094,7 @@ footer {
 
   .spotlight-caption {
     float: right;
+    margin-top: -20px;
     margin-bottom: 0; }
 
   .search-form {
@@ -7141,7 +7142,7 @@ footer {
 
   .spotlight-caption {
     width: 20%;
-    margin-bottom: 0; } }
+    margin-top: 0; } }
 .feature {
   margin: 0 10px 15px 10px; }
   .feature h2 {
