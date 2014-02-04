@@ -72,10 +72,12 @@
 // -----------------------------
 
 .social-links {
+	margin-bottom: 2em;
 	i { 
 		font-size: 40px;
 	}
 	a { color: $medium-gray; }
+	.facebook-button { margin-right: 10px; }
 }
 
 // .social-links {

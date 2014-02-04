@@ -7613,10 +7613,14 @@ h2.patroninfo-title {
   .main-content .webform-client-form .form-item {
     margin: 0 0 1em; }
 
-.social-links i {
-  font-size: 40px; }
-.social-links a {
-  color: #666666; }
+.social-links {
+  margin-bottom: 2em; }
+  .social-links i {
+    font-size: 40px; }
+  .social-links a {
+    color: #666666; }
+  .social-links .facebook-button {
+    margin-right: 10px; }
 
 .pdf-icon {
   margin-bottom: 5px; }
