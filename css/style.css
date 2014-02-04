@@ -6676,6 +6676,9 @@ td {
   white-space: normal; }
 
 .nav > li > a:focus {
+  background-color: white; }
+
+.navbar-collapse .nav > li > a:focus {
   background-color: black; }
 
 /* Small devices (tablets, 768px and up) */

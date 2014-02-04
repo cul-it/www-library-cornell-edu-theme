@@ -156,10 +156,21 @@
   > li {
     > a {
       &:focus {
-        background-color: black;
+        background-color: white;
       }
     }
   }
+}
+.navbar-collapse {
+	.nav {
+	  > li {
+	    > a {
+	      &:focus {
+	        background-color: black;
+	      }
+	    }
+	  }
+	}
 }
 
 // Override Bootstrap's unclickable parent link
