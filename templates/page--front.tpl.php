@@ -6,7 +6,7 @@
       <div class="cornell-logo">
         <div class="cu-logo">
           <img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif">
-          <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
+          <a id="insignia-link" href="http://www.cornell.edu/" alt="Cornell insignia">Cornell Insignia</a>
           <div class="unit-signature-links">
             <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
             <a id="unit-link" href="/">Cornell University Library</a>
@@ -71,7 +71,7 @@
           <h1>Search</h1>
           <form class="form-inline clearfix" role="form" action="http://search.library.cornell.edu/" method="get">
             <div class="form-group search-box">
-              <label class="sr-only" for="exampleInputEmail2">Search everything</label>
+              <label class="sr-only" for="q">Search everything</label>
               <input type="text" class="form-control" id="q" name="q" placeholder="Books, articles, databases, websites and more">
             </div>
             <div class="search-button">
