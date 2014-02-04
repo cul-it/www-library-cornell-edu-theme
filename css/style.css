@@ -6675,7 +6675,7 @@ td {
 .dropdown-menu > li > a {
   white-space: normal; }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.nav > li > a:focus {
   background-color: black; }
 
 /* Small devices (tablets, 768px and up) */
