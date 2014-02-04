@@ -152,18 +152,16 @@
 .dropdown-menu > li > a { white-space: normal; }
 
 // // override bootstrap focus color
-// .nav-collapse {
-// 	.nav {
-// 	  > li {
-// 	    > a {
-// 	      &:hover,
-// 	      &:focus {
-// 	        background-color: $nav-link-hover-bg;
-// 	      }
-// 	    }
-// 	  }
-// 	}
-// }
+.nav {
+  > li {
+    > a {
+      &:hover,
+      &:focus {
+        background-color: black;
+      }
+    }
+  }
+}
 
 // Override Bootstrap's unclickable parent link
 // https://drupal.org/comment/7228804#comment-7228804

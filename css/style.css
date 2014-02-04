@@ -6675,6 +6675,9 @@ td {
 .dropdown-menu > li > a {
   white-space: normal; }
 
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: black; }
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 .hero {
