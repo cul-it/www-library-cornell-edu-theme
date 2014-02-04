@@ -7614,11 +7614,8 @@ h2.patroninfo-title {
     margin: 0 0 1em; }
 
 .social-links i {
-  font-size: 40px; }
-.social-links .facebook-button i {
-  color: #0068ac; }
-.social-links .twitter-button i {
-  color: #00c3f8; }
+  font-size: 40px;
+  color: #666666; }
 
 .pdf-icon {
   margin-bottom: 5px; }

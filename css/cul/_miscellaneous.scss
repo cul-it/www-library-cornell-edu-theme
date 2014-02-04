@@ -72,12 +72,9 @@
 // -----------------------------
 
 .social-links {
-	i { font-size: 40px; }
-	.facebook-button {
-		i { color: $link-color; }
-	}
-	.twitter-button {
-		i { color: #00c3f8; }
+	i { 
+		font-size: 40px;
+		color: $medium-gray;
 	}
 }
 
