@@ -6478,7 +6478,8 @@ td {
   .navbar .active {
     color: white;
     background: black; }
-  .navbar .active:hover {
+  .navbar .active:hover,
+  .navbar .active:focus {
     background: black;
     color: white; }
   .navbar .navbar-header {
@@ -6673,9 +6674,6 @@ td {
 
 .dropdown-menu > li > a {
   white-space: normal; }
-
-.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus {
-  background-color: #222222; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */

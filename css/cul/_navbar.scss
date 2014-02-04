@@ -63,7 +63,8 @@
 		color: white;
 		background: black;
 	}
-	.active:hover { 
+	.active:hover,
+	.active:focus { 
 		background: black;
 		color: white;
 	}
