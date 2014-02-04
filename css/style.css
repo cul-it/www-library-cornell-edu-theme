@@ -7613,6 +7613,9 @@ h2.patroninfo-title {
   .main-content .webform-client-form .form-item {
     margin: 0 0 1em; }
 
+.social-links i {
+  font-size: 24px; }
+
 .pdf-icon {
   margin-bottom: 5px; }
 
