@@ -34,15 +34,6 @@
       <a class="navbar-brand visible-xs" href="/">Cornell University Library</a>
     </div>
     <div class="navbar-collapse collapse">
-      <div class="visible-xs mobile-search">
-        <form class="form-inline clearfix" role="form" action="http://search.library.cornell.edu/" method="get">
-          <div class="form-group">
-            <label class="sr-only" for="q2">Search</label>
-            <input type="text" class="form-control input-sm search-box" id="q2" name="q2" placeholder="Search everything">
-          </div>
-          <button type="submit" class="btn btn-search-icon btn-sm"><i class="fa fa-search fa-inverse"></i></button>
-        </form>
-      </div>
       <div class="nav navbar-nav">
         <?php print render($page['navigation']); ?>
       </div>
