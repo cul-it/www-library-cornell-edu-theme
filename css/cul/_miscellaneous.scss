@@ -72,8 +72,13 @@
 // -----------------------------
 
 .social-links {
-	i { font-size: 30px; }
-	a { color: $medium-gray; }
+	i { font-size: 40px; }
+	.facebook-button {
+		i { color: $link-color; }
+	}
+	.twitter-button {
+		i { color: #00c3f8; }
+	}
 }
 
 // .social-links {
