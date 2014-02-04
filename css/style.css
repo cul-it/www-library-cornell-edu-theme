@@ -7618,7 +7618,8 @@ h2.patroninfo-title {
   .social-links i {
     font-size: 40px; }
   .social-links a {
-    color: #666666; }
+    color: #666666;
+    text-indent: -9999999px; }
   .social-links .facebook-button {
     margin-right: 5px; }
 
