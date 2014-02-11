@@ -6489,6 +6489,7 @@ td {
     position: relative;
     z-index: 100;
     background: #222;
+    max-height: 400px;
     padding-left: 0;
     margin-left: 10px; }
   .navbar .navbar-nav {
