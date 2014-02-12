@@ -112,6 +112,8 @@
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
+          <h3>Website <i class="fa fa-external-link"></i></h3>
+          <?php print render($content['group_contact']['field_website']); ?>
           <h3>Contact</h3>
           <h4>Reference</h4>
           <?php print render($content['group_contact']['field_ref_email']); ?>
@@ -119,8 +121,6 @@
           <h4>Circulation</h4>
           <?php print render($content['group_contact']['field_circ_email']); ?>
           <?php print render($content['group_contact']['field_circ_phone']); ?>
-          <h4>Website <i class="fa fa-external-link"></i></h4>
-          <?php print render($content['group_contact']['field_website']); ?>
           <h4>Address</h4>
           <?php if ($location['name']) : ?>
             <?php print $location['name'] ?><br>
