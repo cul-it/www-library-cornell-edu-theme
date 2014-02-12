@@ -7774,8 +7774,9 @@ body.admin-menu {
   margin-bottom: 40px; }
   #views-exposed-form-borrowing-policy-block select.form-control {
     width: 100%; }
-  #views-exposed-form-borrowing-policy-block th {
-    width: 50%; }
+
+.view-borrowing-policy th {
+  width: 50%; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
