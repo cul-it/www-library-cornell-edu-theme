@@ -7770,6 +7770,9 @@ body.admin-menu {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px; }
 
+#views-exposed-form-borrowing-policy-block select.form-control {
+  width: 100%; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
