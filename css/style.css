@@ -7777,6 +7777,10 @@ body.admin-menu {
 
 .view-borrowing-policy th {
   width: 50%; }
+.view-borrowing-policy h3 {
+  color: #b31b1b;
+  font-size: 20px;
+  margin-bottom: 20px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
