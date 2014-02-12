@@ -7346,7 +7346,7 @@ footer {
     margin: 1em 0;
     font-size: 12px;
     border-top: 1px solid #cccccc;
-    padding-top: 10px; }
+    padding-top: 15px; }
   .highlight-box h3:first-child {
     margin-top: 0;
     padding-top: 0;
@@ -7717,6 +7717,8 @@ body.admin-menu {
 
 .node-type-unit-library .highlight-box p {
   font-size: 14px; }
+.node-type-unit-library .highlight-box h3 {
+  color: #b31b1b; }
 
 .auxiliary-title {
   font-size: 90%;
