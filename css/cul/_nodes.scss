@@ -17,6 +17,11 @@
 .gmap {
 	border: 5px solid $light-gray;
 }
+.node-type-unit-library {
+	.highlight-box {
+		p { font-size: 14px; }
+	}
+}
 
 // Library spaces
 //------------------//

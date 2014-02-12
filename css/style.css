@@ -7715,6 +7715,9 @@ body.admin-menu {
 .gmap {
   border: 5px solid #cccccc; }
 
+.node-type-unit-library .highlight-box p {
+  font-size: 14px; }
+
 .auxiliary-title {
   font-size: 90%;
   margin-top: .25em;
