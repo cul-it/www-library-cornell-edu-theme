@@ -7344,9 +7344,13 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     margin: 1em 0;
-    font-size: 12px; }
+    font-size: 12px;
+    border-top: 1px solid #cccccc;
+    padding-top: 10px; }
   .highlight-box h3:first-child {
-    margin-top: 0; }
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none; }
   .highlight-box h4 {
     font-weight: 700;
     font-size: 14px;
