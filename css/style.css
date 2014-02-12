@@ -7343,8 +7343,10 @@ footer {
     color: #666666;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0 0 1em;
+    margin: 1em 0;
     font-size: 12px; }
+  .highlight-box h3:first-child {
+    margin-top: 0; }
   .highlight-box h4 {
     font-weight: 700;
     font-size: 14px;

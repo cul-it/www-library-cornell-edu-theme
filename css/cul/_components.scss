@@ -228,9 +228,10 @@
 		color: $medium-gray;
 		font-weight: 700;
 		text-transform: uppercase;
-		margin: 0 0 1em;
+		margin: 1em 0;
 		font-size: 12px;
 	}
+	h3:first-child { margin-top: 0; }
 	h4 { 
 		font-weight: 700;
 		font-size: 14px;
