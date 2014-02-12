@@ -140,7 +140,7 @@
           <?php if ($location['postal_code']) : ?>
             <?php print $location['postal_code'] ?>
           <?php endif; ?>
-          <h4>Hours</h4>
+          <h3>Hours</h3>
           <?php print render($content['field_hours']); ?>
         </div>
       </div>
