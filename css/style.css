@@ -7340,7 +7340,7 @@ footer {
 .highlight-box {
   padding-bottom: 5px; }
   .highlight-box h3 {
-    color: #666666;
+    color: #b31b1b;
     font-weight: 700;
     text-transform: uppercase;
     margin: 1em 0;
@@ -7717,8 +7717,6 @@ body.admin-menu {
 
 .node-type-unit-library .highlight-box p {
   font-size: 14px; }
-.node-type-unit-library .highlight-box h3 {
-  color: #b31b1b; }
 
 .auxiliary-title {
   font-size: 90%;
