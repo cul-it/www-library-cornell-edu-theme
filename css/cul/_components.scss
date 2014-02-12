@@ -270,6 +270,11 @@
 	font-weight: bold;
 	text-align: center;
 	color: $cornell-primary;
+	i {
+		color: $medium-gray;
+		margin-right: 5px;
+		font-size: 20px;
+	}
 }
 .not-front {
 	.announcement {
