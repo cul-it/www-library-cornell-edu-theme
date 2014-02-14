@@ -3,15 +3,14 @@
   $(document).ready(function() {
 
     $('#q').autocomplete({
-      source: Drupal.settings.basePath + 'sites/all/themes/' + Drupal.settings.ajaxPageState.theme + '/autocomplete.php',
-          minLength: 2,
-          select: function(event, ui) {
-            console.log('got response');
-              var url = ui.item.id;
-              if (url != '#') {
-                location.href = url;
-              }
-          }
+      source: 'http://mjc12-dev.library.cornell.edu:8080/match/' + $('#q').val(),
+      minLength: 2,
+      select: function(event, ui) {
+        var url = ui.item.url;
+        if (url != '#') {
+          location.href = url;
+        }
+      }
     })
     // This next section is just to add the little external link icon (the <i> class) 
     // after the label in the results list!
@@ -19,7 +18,7 @@
     .data('autocomplete')._renderItem = function(ul, item) {
       return $('<li>')
         .data('item.autocomplete', item)
-        .append('<a>' + item.label + '&nbsp;&nbsp;<i class="fa fa-external-link"></i>')
+        .append('<a>' + item.name + '&nbsp;&nbsp;<i class="fa fa-external-link"></i>')
         .append()
         .appendTo(ul);
     }
