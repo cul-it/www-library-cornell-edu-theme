@@ -100,7 +100,11 @@ footer {
 		 	border-left: 0;
 		 	padding-left: 0; }
 		 a { padding: 0; }
-		 .active,
+		 .active {
+		 	color: white;
+		 	background: $dark-gray;
+		 	text-decoration: none;
+		 }
 		 a:hover { 
 			color: white;
 			background: $dark-gray;
