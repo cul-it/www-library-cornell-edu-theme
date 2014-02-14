@@ -6846,8 +6846,7 @@ footer {
     footer .nav .active,
     footer .nav a:hover {
       color: white;
-      background: #222222;
-      text-decoration: none; }
+      background: #222222; }
   footer p {
     clear: both;
     line-height: 1.75em; }
