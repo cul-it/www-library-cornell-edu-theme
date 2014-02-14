@@ -114,7 +114,7 @@ footer {
 	a:hover { 
 		color: white;
 		background: $dark-gray;
-		text-decoration: none; }
+		}
 }
 .footer-primary {
 	@include make-sm-column(8);
