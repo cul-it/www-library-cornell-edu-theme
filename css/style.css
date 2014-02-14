@@ -6846,7 +6846,8 @@ footer {
     footer .nav .active,
     footer .nav a:hover {
       color: white;
-      background: #222222; }
+      background: #222222;
+      text-decoration: underline; }
   footer p {
     clear: both;
     line-height: 1.75em; }
@@ -6854,7 +6855,8 @@ footer {
     color: #cccccc; }
   footer a:hover {
     color: white;
-    background: #222222; }
+    background: #222222;
+    text-decoration: underline; }
 
 .footer-primary {
   position: relative;
