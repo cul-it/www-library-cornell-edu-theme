@@ -63,7 +63,7 @@
           <form class="form-inline clearfix" role="form" action="//search.library.cornell.edu/" method="get">
             <div class="form-group search-box">
               <label class="sr-only" for="q">Search everything</label>
-              <input type="text" class="form-control" id="q" name="q" placeholder="Books, articles, databases, websites and more">
+              <input type="text" class="form-control" id="q" name="q" placeholder="Books, articles, databases, journals and more">
             </div>
             <div class="search-button">
               <button type="submit" class="btn btn-cul">Search</button>
