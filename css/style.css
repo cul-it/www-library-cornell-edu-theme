@@ -6995,11 +6995,11 @@ footer {
         float: left;
         width: 16.66667%; } }
   .search-form .form-control::-webkit-input-placeholder {
-    color: #999; }
+    color: #777; }
   .search-form .form-control::-moz-placeholder {
-    color: #999; }
+    color: #777; }
   .search-form .form-control:-ms-input-placeholder {
-    color: #999; }
+    color: #777; }
 
 .search-form-tabs input {
   border-top-left-radius: 0; }
