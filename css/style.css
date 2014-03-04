@@ -6994,6 +6994,12 @@ footer {
       .search-form .search-button {
         float: left;
         width: 16.66667%; } }
+  .search-form .form-control::-webkit-input-placeholder {
+    color: #666666; }
+  .search-form .form-control::-moz-placeholder {
+    color: #666666; }
+  .search-form .form-control:-ms-input-placeholder {
+    color: #666666; }
 
 .search-form-tabs input {
   border-top-left-radius: 0; }
