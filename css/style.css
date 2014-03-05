@@ -7339,6 +7339,25 @@ footer {
     margin-bottom: 0; }
   .feature .courses-form .btn {
     vertical-align: top; }
+  .feature .courses-form .btn-primary {
+    color: #333333;
+    background-color: white;
+    border-color: #cccccc; }
+    .feature .courses-form .btn-primary:hover, .feature .courses-form .btn-primary:focus, .feature .courses-form .btn-primary:active, .feature .courses-form .btn-primary.active {
+      color: #333333;
+      background-color: #ebebeb;
+      border-color: #adadad; }
+    .open .feature .courses-form .btn-primary.dropdown-toggle {
+      color: #333333;
+      background-color: #ebebeb;
+      border-color: #adadad; }
+    .feature .courses-form .btn-primary:active, .feature .courses-form .btn-primary.active {
+      background-image: none; }
+    .open .feature .courses-form .btn-primary.dropdown-toggle {
+      background-image: none; }
+    .feature .courses-form .btn-primary.disabled, .feature .courses-form .btn-primary.disabled:hover, .feature .courses-form .btn-primary.disabled:focus, .feature .courses-form .btn-primary.disabled:active, .feature .courses-form .btn-primary.disabled.active, .feature .courses-form .btn-primary[disabled], .feature .courses-form .btn-primary[disabled]:hover, .feature .courses-form .btn-primary[disabled]:focus, .feature .courses-form .btn-primary[disabled]:active, .feature .courses-form .btn-primary[disabled].active, fieldset[disabled] .feature .courses-form .btn-primary, fieldset[disabled] .feature .courses-form .btn-primary:hover, fieldset[disabled] .feature .courses-form .btn-primary:focus, fieldset[disabled] .feature .courses-form .btn-primary:active, fieldset[disabled] .feature .courses-form .btn-primary.active {
+      background-color: white;
+      border-color: #cccccc; }
 
 .highlight-box {
   padding-bottom: 5px; }
