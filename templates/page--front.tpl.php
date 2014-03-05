@@ -59,29 +59,7 @@
 
       <div class="row">
         <div class="search-form">
-          <h1>Search</h1>
-          <form class="form-inline clearfix" role="form" action="//search.library.cornell.edu/" method="get">
-            <div class="form-group search-box">
-              <label class="sr-only" for="q">Search everything</label>
-              <input type="text" class="form-control" id="q" name="q" placeholder="Books, articles, databases, journals and more">
-            </div>
-            <div class="search-button">
-              <button type="submit" class="btn btn-cul">Search</button>
-            </div>
-          </form>
-          <div class="help-links">
-            <div class="search-options">
-              <!-- <h2>Other search options</h4> -->
-              <ul>
-                <li><a href="http://newcatalog.library.cornell.edu"><i class="fa fa-external-link"></i> Catalog</a></li>
-                <li><a href="http://cornell.summon.serialssolutions.com/"><i class="fa fa-external-link"></i> Articles</a></li>
-                <li><a href="http://erms.library.cornell.edu/search~S4"><i class="fa fa-external-link"></i> Database Names</a></li>
-                <li><a href="http://erms.library.cornell.edu/"><i class="fa fa-external-link"></i> E-Journal Titles</a></li>
-                <li><a href="/visual-resources"><i class="fa fa-external-link"></i> Images</a></li>
-              </ul>
-            </div>
-            <a href="/help/catalog" class="search-help">Help</a>
-          </div>
+          <?php print render($page['jumbotron']); ?>
         </div><!-- /search-form -->
       </div><!-- /row -->
 
