@@ -7242,44 +7242,48 @@ footer {
   .sidebar .secondary-feature .block:last-child {
     margin-bottom: 0; }
 
-.bridge .bridge-section {
-  clear: both;
-  padding-top: 10px;
-  border-bottom: 1px solid #edebe7; }
-.bridge .row .bridge-section {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  clear: both;
-  margin-bottom: 0; }
-  @media (min-width: 768px) {
-    .bridge .row .bridge-section {
-      float: left;
-      width: 50%; } }
-.bridge .bridge-content {
-  float: left; }
-.bridge h2 {
-  color: #b31b1b;
-  margin: 0 0 .25em;
-  font-weight: normal;
-  font-size: 20px; }
-.bridge h3 {
-  margin: 0 0 .25em; }
-.bridge .nav-section li a {
-  padding-left: 18px; }
-  .bridge .nav-section li a i {
-    margin-top: 6px; }
-.bridge p {
-  font-size: 14px; }
-.bridge img {
-  margin-right: 10px;
-  max-width: 100px;
-  display: none; }
-.bridge .bridge-highlight h3 {
-  color: #b31b1b; }
-.bridge .bridge-highlight img {
-  max-width: 75px; }
+.bridge {
+  margin-bottom: 20px; }
+  .bridge .bridge-section {
+    clear: both;
+    padding-top: 10px;
+    border-bottom: 1px solid #edebe7; }
+  .bridge .row .bridge-section {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    clear: both;
+    margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .bridge .row .bridge-section {
+        float: left;
+        width: 50%; } }
+  .bridge .bridge-content {
+    float: left; }
+  .bridge h2 {
+    color: #b31b1b;
+    margin: 0 0 .25em;
+    font-weight: normal;
+    font-size: 20px; }
+  .bridge h3 {
+    margin: 0 0 .25em; }
+  .bridge .nav-section li a {
+    padding-left: 18px; }
+    .bridge .nav-section li a i {
+      margin-top: 6px; }
+  .bridge h4 {
+    margin-top: 0; }
+  .bridge p {
+    font-size: 14px; }
+  .bridge img {
+    margin-right: 10px;
+    max-width: 100px;
+    display: none; }
+  .bridge .bridge-highlight h3 {
+    color: #b31b1b; }
+  .bridge .bridge-highlight img {
+    max-width: 75px; }
 
 .bridge-one-column .bridge-section {
   overflow: hidden;

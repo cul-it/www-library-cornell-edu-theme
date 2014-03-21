@@ -123,6 +123,7 @@
 // -------------------------
 
 .bridge {
+	margin-bottom: 20px;
 	.bridge-section { 
 		clear: both;
 		// margin-bottom: 20px;
@@ -156,6 +157,9 @@
 				i { margin-top: 6px; }
 			}
 		}
+	}
+	h4 {
+		margin-top: 0;
 	}
 	p {
 		font-size: 14px;
