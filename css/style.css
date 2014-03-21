@@ -214,7 +214,6 @@ table {
 
   @page {
     margin: 2cm .5cm; }
-
   p,
   h2,
   h3 {
@@ -254,7 +253,7 @@ table {
 
 html {
   font-size: 62.5%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: transparent; }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1862,7 +1861,6 @@ input[type="button"].btn-block {
   font-family: 'Glyphicons Halflings';
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg"); }
-
 .glyphicon {
   position: relative;
   top: 1px;
@@ -3622,28 +3620,24 @@ a.thumbnail:focus {
 
   to {
     background-position: 0 0; } }
-
 @-moz-keyframes progress-bar-stripes {
   from {
     background-position: 40px 0; }
 
   to {
     background-position: 0 0; } }
-
 @-o-keyframes progress-bar-stripes {
   from {
     background-position: 0 0; }
 
   to {
     background-position: 40px 0; } }
-
 @keyframes progress-bar-stripes {
   from {
     background-position: 40px 0; }
 
   to {
     background-position: 0 0; } }
-
 .progress {
   overflow: hidden;
   height: 20px;
@@ -4458,7 +4452,6 @@ body.modal-open {
 
 @-ms-viewport {
   width: device-width; }
-
 @media screen and (max-width: 400px) {
   @-ms-viewport {
     width: 320px; } }
@@ -4908,7 +4901,6 @@ td.visible-print {
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 .fa {
   display: inline-block;
   font-family: FontAwesome;
@@ -4984,35 +4976,30 @@ td.visible-print {
 
   100% {
     -moz-transform: rotate(359deg); } }
-
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
 
   100% {
     -webkit-transform: rotate(359deg); } }
-
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
 
   100% {
     -o-transform: rotate(359deg); } }
-
 @-ms-keyframes spin {
   0% {
     -ms-transform: rotate(0deg); }
 
   100% {
     -ms-transform: rotate(359deg); } }
-
 @keyframes spin {
   0% {
     transform: rotate(0deg); }
 
   100% {
     transform: rotate(359deg); } }
-
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$rotation);
   -webkit-transform: rotate(90deg);
@@ -7257,7 +7244,8 @@ footer {
 
 .bridge .bridge-section {
   clear: both;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-bottom: 1px solid #edebe7; }
 .bridge .row .bridge-section {
   position: relative;
   min-height: 1px;
@@ -7272,11 +7260,10 @@ footer {
 .bridge .bridge-content {
   float: left; }
 .bridge h2 {
-  border-bottom: 5px solid #edebe7;
-  padding-bottom: 5px;
   color: #b31b1b;
   margin: 0 0 .25em;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 20px; }
 .bridge h3 {
   margin: 0 0 .25em; }
 .bridge .nav-section li a {
@@ -7556,7 +7543,12 @@ h2.patroninfo-title {
     padding-left: 15px;
     padding-right: 15px;
     clear: none;
-    margin-bottom: 0; }
+    margin-bottom: 0; } }
+  @media (min-width: 768px) and (min-width: 768px) {
+    .bridge .row .bridge-section {
+      float: left;
+      width: 50%; } }
+@media (min-width: 768px) {
   .bridge img {
     display: block; }
 
@@ -7572,10 +7564,6 @@ h2.patroninfo-title {
 
   .resource-wrapper:first-child {
     border-left: none; } }
-  @media (min-width: 768px) and (min-width: 768px) {
-    .bridge .row .bridge-section {
-      float: left;
-      width: 50%; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .secondary-feature {
