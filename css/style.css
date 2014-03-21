@@ -7244,7 +7244,7 @@ footer {
 
 .bridge .bridge-section {
   clear: both;
-  margin-bottom: 20px;
+  padding-top: 10px;
   border-bottom: 1px solid #edebe7; }
 .bridge .row .bridge-section {
   position: relative;

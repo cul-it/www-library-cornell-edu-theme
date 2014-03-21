@@ -125,7 +125,8 @@
 .bridge {
 	.bridge-section { 
 		clear: both;
-		margin-bottom: 20px;
+		// margin-bottom: 20px;
+		padding-top: 10px;
 		border-bottom: 1px solid $light-tan;
 	}
 	// two-column bridge
