@@ -7346,6 +7346,7 @@ footer {
 
 .bridge {
   margin-bottom: 20px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #edebe7; }
   .bridge .bridge-section {
     clear: both;
