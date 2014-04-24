@@ -154,3 +154,7 @@
 </footer>
 
 <?php print render($page['bottom']); ?>
+
+<script type="text/javascript">
+  document.getElementById('q').focus()
+</script>
