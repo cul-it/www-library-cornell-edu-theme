@@ -146,10 +146,11 @@
 		font-weight: normal;
 		font-size: 20px;
 		padding-top: 10px;
-		border-bottom: 1px solid $light-tan;
+		border-top: 1px solid $light-tan;
 	}
 	h2:first-child {
 		padding-top: 0;
+		border-top: 0;
 	}
 	h3 { margin: 0 0 .25em; }
 	.nav-section { 
