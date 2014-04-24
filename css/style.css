@@ -7373,6 +7373,8 @@ footer {
   .bridge h2:first-child {
     padding-top: 0;
     border-top: 0; }
+  .bridge h2:last-child {
+    border-bottom: 1px solid #edebe7; }
   .bridge h3 {
     margin: 0 0 .25em; }
   .bridge .nav-section li a {
