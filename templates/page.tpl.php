@@ -72,6 +72,7 @@
     <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar  = render($page['sidebar']);
+      $news_sidebar  = render($page['news-sidebar']);
     ?>
     <?php // if there is a sidebar, then create two column layout ?>
     <?php if ($sidebar): ?>
@@ -92,9 +93,11 @@
 
       <div class="sidebar">
         <?php print render($page['sidebar']); ?>
-        <div class="callout secondary-feature">
-          <?php print render($page['news-sidebar']); ?>
-        </div>
+        <?php if ($news_sidebar): ?>
+          <div class="callout secondary-feature">
+            <?php print render($page['news-sidebar']); ?>
+          </div>
+        <?php endif; ?>
       </div><!--/sidebar-->
 
     </div>
