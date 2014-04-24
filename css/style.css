@@ -7802,8 +7802,6 @@ body.admin-menu {
 
 .unit-map {
   margin: 20px 0; }
-  .unit-map .gmap {
-    width: auto !important; }
 
 .unit-location {
   margin-top: 20px; }
