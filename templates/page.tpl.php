@@ -140,8 +140,4 @@
   </div>
 </footer>
 
-<script type="text/javascript">
-  document.getElementById('q').focus()
-</script>
-
 <?php print render($page['bottom']); ?>
