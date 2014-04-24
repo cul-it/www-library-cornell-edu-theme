@@ -124,6 +124,7 @@
 
 .bridge {
 	margin-bottom: 20px;
+	border-bottom: 1px solid $light-tan;
 	.bridge-section { 
 		clear: both;
 		// margin-bottom: 20px;
@@ -151,9 +152,6 @@
 	h2:first-child {
 		padding-top: 0;
 		border-top: 0;
-	}
-	h2:last-child {
-		border-bottom: 1px solid $light-tan;
 	}
 	h3 { margin: 0 0 .25em; }
 	.nav-section { 
