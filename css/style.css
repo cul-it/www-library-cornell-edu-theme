@@ -7895,7 +7895,7 @@ body.admin-menu {
   font-size: 20px;
   margin-bottom: 20px; }
 
-.block-views-borrowing-policy-block .view-exposed-form label {
+#block-views-borrowing-policy-block .view-exposed-form label {
   font-weight: normal; }
 
 /* Small devices (tablets, 768px and up) */
