@@ -7895,6 +7895,9 @@ body.admin-menu {
   font-size: 20px;
   margin-bottom: 20px; }
 
+.block-views-borrowing-policy-block .view-exposed-form label {
+  font-weight: normal; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
