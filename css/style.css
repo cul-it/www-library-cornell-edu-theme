@@ -7897,6 +7897,8 @@ body.admin-menu {
 
 #block-views-borrowing-policy-block .views-exposed-form label {
   font-weight: normal; }
+#block-views-borrowing-policy-block .views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 1.8em; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

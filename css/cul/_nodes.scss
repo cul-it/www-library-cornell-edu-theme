@@ -132,6 +132,11 @@
 	.views-exposed-form {
 		label { font-weight: normal; }
 	}
+	.views-exposed-form {
+		.views-exposed-widget {
+			.form-submit { margin-top: 1.8em; }
+		}
+	}
 }
 
 
