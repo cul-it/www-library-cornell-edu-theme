@@ -176,6 +176,7 @@
         </tbody>
       </table>
     </div>
+    <h4>Special Considerations</h4>
     <?php print render($content['body']); ?>
   </div>
 
