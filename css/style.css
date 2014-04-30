@@ -7886,8 +7886,10 @@ body.admin-menu {
   #views-exposed-form-borrowing-policy-block select.form-control {
     width: 100%; }
 
+.node-type-patron-group th,
 .view-borrowing-policy th {
   width: 50%; }
+.node-type-patron-group h3,
 .view-borrowing-policy h3 {
   color: #b31b1b;
   font-size: 20px;
