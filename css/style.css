@@ -7881,10 +7881,8 @@ body.admin-menu {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px; }
 
-.page-node-2282 .courses-form {
-  height: 315px; }
-  .page-node-2282 .courses-form label {
-    font-size: 18px; }
+.page-node-2282 .courses-form label {
+  font-size: 18px; }
 
 .box-layout h2 {
   margin-top: 0;
@@ -7916,7 +7914,10 @@ body.admin-menu {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {
-    width: 250%; } }
+    width: 250%; }
+
+  .page-node-2282 .courses-form {
+    height: 315px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* High-res styles go here */
   .cu-logo {

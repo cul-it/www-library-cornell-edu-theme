@@ -115,7 +115,6 @@
 // courses page / box layout
 .page-node-2282 {
 	.courses-form {
-		height: 315px;
 		label { font-size: 18px; }
 	}
 }
@@ -175,5 +174,10 @@
 	  			.dropdown { width: 250%;}
 	  		}
 	  	}
+	}
+	.page-node-2282 {
+		.courses-form {
+			height: 315px;
+		}
 	}
 }
