@@ -7786,7 +7786,7 @@ h2.patroninfo-title {
   margin-bottom: 0; }
 
 .maintenance-page .main-content {
-  margin-top: 60px;
+  padding-top: 60px;
   min-height: 500px; }
 
 /* Small devices (tablets, 768px and up) */
