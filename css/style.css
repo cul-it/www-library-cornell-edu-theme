@@ -7785,6 +7785,8 @@ h2.patroninfo-title {
 .form-image-search .form-group {
   margin-bottom: 0; }
 
+.maintenance-page body {
+  background: white; }
 .maintenance-page .main-content {
   padding-top: 60px;
   min-height: 500px; }
