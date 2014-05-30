@@ -6533,8 +6533,7 @@ td {
     text-align: center; }
   .navbar .navbar-brand {
     color: white;
-    float: none;
-    margin: 12px 0 0;
+    margin: 12px 0 0 5px;
     font-size: 16px;
     padding: 0; }
   .navbar .nav {
