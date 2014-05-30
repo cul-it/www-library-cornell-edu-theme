@@ -7178,8 +7178,11 @@ footer {
 .search-toggle:hover {
   background: #990f26; }
 
-.search-collapse form {
+.search-collapse {
+  z-index: 1000;
   background: #222222; }
+  .search-collapse form {
+    background: #222222; }
 
 #block-block-9 {
   margin-top: 15px; }

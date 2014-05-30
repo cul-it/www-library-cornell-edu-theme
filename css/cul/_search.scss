@@ -179,6 +179,8 @@
 	background: $cornell-primary-hover;
 }
 .search-collapse {
+	z-index: 1000;
+	background: $dark-gray;
 	form {
 		background: $dark-gray;
 	}
