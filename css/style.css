@@ -6690,10 +6690,6 @@ td {
       text-decoration: underline; }
       .nav-section li a:hover i {
         text-decoration: none; }
-    .nav-section li i {
-      color: #cccccc;
-      margin-top: 6px;
-      margin-left: 22px; }
 
 .sidebar {
   padding-bottom: 30px; }
