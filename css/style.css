@@ -7163,6 +7163,17 @@ footer {
   display: inline-block;
   float: right; }
 
+.search-toggle {
+  background-color: transparent;
+  border: 1px solid transparent;
+  float: right;
+  border-radius: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  height: 45px;
+  color: white; }
+
 #block-block-9 {
   margin-top: 15px; }
   #block-block-9 .btn-search-icon {
