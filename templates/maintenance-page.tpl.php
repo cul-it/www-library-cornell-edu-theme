@@ -140,10 +140,14 @@
         <?php if ($action_links): ?>
           <ul class="action-links"><?php print render($action_links); ?></ul>
         <?php endif; ?>
-        <?php if ($title): ?>
+        <!--<?php if ($title): ?>
           <h1><?php print $title; ?></h1>
         <?php endif; ?>
-        <?php print render($page['content']); ?>
+        <?php print render($page['content']); ?>-->
+        <div class="well">
+          <h2>Site under maintenance</h2>
+          <p>We're sorry, the Cornell University Library website is currently under maintenance. Please check back again soon!</p>
+        </div>
 
     </div>
 
@@ -170,7 +174,7 @@
 </footer>
 
 <?php print render($page['bottom']); ?>
-  
+
 
 </body>
 </html>
