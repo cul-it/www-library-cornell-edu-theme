@@ -7171,11 +7171,15 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 0;
+  padding: 0 5px;
   height: 45px;
   color: white; }
 
 .search-toggle:hover {
   background: #990f26; }
+
+.search-collapse {
+  background: #222222; }
 
 #block-block-9 {
   margin-top: 15px; }

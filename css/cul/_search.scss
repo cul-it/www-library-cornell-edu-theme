@@ -171,11 +171,15 @@
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-right: 0;
+	padding: 0 5px;
 	height: 45px;
 	color: white;
 }
 .search-toggle:hover {
 	background: $cornell-primary-hover;
+}
+.search-collapse {
+	background: $dark-gray;
 }
 
 // Search box on sub-pages
