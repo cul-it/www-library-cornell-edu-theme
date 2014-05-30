@@ -21,6 +21,7 @@
   <title><?php print $head_title; ?></title>
   <?php print $head; ?>
   <?php print $styles; ?>
+  <link href="/sites/all/themes/bootstrap_cul7/css/style.css" rel="stylesheet">
   <?php print $scripts; ?>
 </head>
 <body class="<?php print $classes; ?>">
