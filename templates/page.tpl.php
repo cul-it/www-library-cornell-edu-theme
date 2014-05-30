@@ -36,8 +36,8 @@
       </div>
       <a class="navbar-brand visible-xs" href="/">Cornell University Library</a>
     </div>
-    <div class="visible-xs mobile-search search-collapse collapse">
-      <!-- <div class="search-collapse collapse"> -->
+    <div class="visible-xs mobile-search">
+      <div class="search-collapse collapse">
         <form class="form-inline clearfix" role="form" action="http://search.library.cornell.edu/" method="get">
           <div class="form-group">
             <label class="sr-only" for="q">Search</label>
@@ -45,7 +45,7 @@
           </div>
           <button type="submit" class="btn btn-search-icon btn-sm"><i class="fa fa-search fa-inverse"></i></button>
         </form>
-      <!-- </div> -->
+      </div>
     </div>
     <div class="navbar-collapse collapse">
       <div class="nav navbar-nav">
