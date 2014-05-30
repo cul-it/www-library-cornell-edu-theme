@@ -7785,11 +7785,11 @@ h2.patroninfo-title {
 .form-image-search .form-group {
   margin-bottom: 0; }
 
-.maintenance-page body {
+.maintenance-page {
   background: white; }
-.maintenance-page .main-content {
-  padding-top: 60px;
-  min-height: 500px; }
+  .maintenance-page .main-content {
+    padding-top: 60px;
+    min-height: 500px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
