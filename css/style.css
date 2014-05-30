@@ -7174,6 +7174,9 @@ footer {
   height: 45px;
   color: white; }
 
+.search-toggle:hover {
+  background: #990f26; }
+
 #block-block-9 {
   margin-top: 15px; }
   #block-block-9 .btn-search-icon {
