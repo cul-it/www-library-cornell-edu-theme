@@ -79,79 +79,13 @@
   </div>
 </div>
 
-<?php
-  $announcement  = render($page['announcement']);
-?>
-
-<?php if ($announcement): ?>
-  <div class="announcement">
-    <div class="container">
-      <?php print render($announcement); ?>
-    </div>
-  </div>
-<?php endif; ?>
 
 <div class="main-content">
   <div class="container">
-    <div class="row">
-      <div class="breadcrumb-wrapper"><!--TO DO: SEMANTIC-->
-        <?php print render($breadcrumb); ?>
-      </div>
+    <div class="well">
+      <h2>Site under maintenance</h2>
+      <p>We're sorry, the Cornell University Library website is currently under maintenance. Please check back again soon!</p>
     </div>
-    <?php
-      // Render the sidebars to see if there's anything in them.
-      $sidebar  = render($page['sidebar']);
-      $news_sidebar  = render($page['news-sidebar']);
-    ?>
-    <?php // if there is a sidebar, then create two column layout ?>
-    <?php if ($sidebar): ?>
-    <div class="row primary-wrapper">
-      <div class="main-text" id="maincontent">
-        <?php print render($page['highlighted']); ?>
-        <?php print $messages; ?>
-        <?php print render($tabs); ?>
-        <?php print render($page['help']); ?>
-        <?php if ($action_links): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
-        <?php endif; ?>
-        <?php if ($title): ?>
-          <h1><?php print $title; ?></h1>
-        <?php endif; ?>
-        <?php print render($page['content']); ?>
-      </div><!--/main-text-->
-
-      <div class="sidebar">
-        <?php print render($page['sidebar']); ?>
-        <?php if ($news_sidebar): ?>
-          <div class="callout secondary-feature">
-            <?php print render($page['news-sidebar']); ?>
-          </div>
-        <?php endif; ?>
-      </div><!--/sidebar-->
-
-    </div>
-
-    <?php else: ?>
-      <div class="row primary-wrapper">
-        <?php print render($page['highlighted']); ?>
-        <?php print $messages; ?>
-        <?php print render($tabs); ?>
-        <?php print render($page['help']); ?>
-        <?php if ($action_links): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
-        <?php endif; ?>
-        <!--<?php if ($title): ?>
-          <h1><?php print $title; ?></h1>
-        <?php endif; ?>
-        <?php print render($page['content']); ?>-->
-        <div class="well">
-          <h2>Site under maintenance</h2>
-          <p>We're sorry, the Cornell University Library website is currently under maintenance. Please check back again soon!</p>
-        </div>
-
-    </div>
-
-  <?php endif; ?>
 
   </div> <!-- /container -->
 </div><!-- /main-content -->
