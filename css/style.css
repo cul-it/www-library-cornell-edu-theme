@@ -7881,6 +7881,15 @@ body.admin-menu {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px; }
 
+.page-node-2282 .courses-form {
+  height: 315px; }
+  .page-node-2282 .courses-form label {
+    font-size: 18px; }
+
+.box-layout h2 {
+  margin-top: 0;
+  font-size: 18px; }
+
 #views-exposed-form-borrowing-policy-block {
   margin-bottom: 40px; }
   #views-exposed-form-borrowing-policy-block select.form-control {
