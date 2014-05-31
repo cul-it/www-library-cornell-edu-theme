@@ -7853,6 +7853,12 @@ body.admin-menu {
 .node-type-unit-library .highlight-box p {
   font-size: 14px; }
 
+.view-libraries-and-hours h2 {
+  font-size: 18px;
+  margin-top: 0; }
+.view-libraries-and-hours .row {
+  margin: 5px 0; }
+
 .auxiliary-title {
   font-size: 90%;
   margin-top: .25em;
