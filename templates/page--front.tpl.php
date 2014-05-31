@@ -28,9 +28,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <div class="mobile-insignia visible-xs">
+      <!-- <div class="mobile-insignia visible-xs">
         <a href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/insignia.png" alt="Cornell University"></a>
-      </div>
+      </div> -->
       <a class="navbar-brand visible-xs" href="/">Cornell University Library</a>
     </div>
     <div class="navbar-collapse collapse">
