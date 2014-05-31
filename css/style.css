@@ -7187,9 +7187,6 @@ footer {
   .search-collapse form {
     background: #222222; }
 
-.search-collapse:after {
-  clear: both; }
-
 #block-block-9 {
   margin-top: 15px; }
   #block-block-9 .btn-search-icon {
@@ -7703,7 +7700,8 @@ h2.patroninfo-title {
 .breadcrumb {
   background: inherit;
   padding: 15px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  clear: both; }
   .breadcrumb li {
     font-size: .75em; }
   .breadcrumb a {
