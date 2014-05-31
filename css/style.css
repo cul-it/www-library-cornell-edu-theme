@@ -6627,6 +6627,7 @@ td {
         padding: 15px 12px; }
     .navbar .navbar-collapse {
       margin-left: 0;
+      margin-top: 0;
       border-top-right-radius: 3px;
       border-top-left-radius: 3px; }
       .navbar .navbar-collapse li.active:first-child {
