@@ -6544,7 +6544,8 @@ td {
       color: #cccccc;
       padding: 8px 10px;
       text-align: left;
-      border-bottom: 1px solid #333; }
+      border-bottom: 1px solid #333;
+      font-size: 16px; }
     .navbar li a:hover {
       color: white;
       background: inherit; }
@@ -6624,7 +6625,8 @@ td {
       float: left; }
       .navbar li a {
         border-bottom: none;
-        padding: 15px 12px; }
+        padding: 15px 12px;
+        font-size: 14px; }
     .navbar .navbar-collapse {
       margin-left: 0;
       margin-top: 0;
