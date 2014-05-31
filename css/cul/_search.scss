@@ -187,6 +187,9 @@
 		background: $dark-gray;
 	}
 }
+.search-collapse:after {
+	clear: both;
+}
 
 // Search box on sub-pages
 // -------------------------

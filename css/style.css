@@ -7187,6 +7187,9 @@ footer {
   .search-collapse form {
     background: #222222; }
 
+.search-collapse:after {
+  clear: both; }
+
 #block-block-9 {
   margin-top: 15px; }
   #block-block-9 .btn-search-icon {
