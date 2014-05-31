@@ -6634,7 +6634,10 @@ td {
         border-top-left-radius: 3px; }
 
   .first.leaf.active.menu-mlid-224.active a {
-    border-top-left-radius: 3px; } }
+    border-top-left-radius: 3px; }
+
+  .search-toggle {
+    display: none; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .navbar li a {
