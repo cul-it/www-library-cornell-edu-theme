@@ -7858,6 +7858,9 @@ body.admin-menu {
   margin-top: 0; }
 .view-libraries-and-hours .row {
   margin: 5px 0; }
+.view-libraries-and-hours .img-thumbnail, .view-libraries-and-hours .thumbnail {
+  max-width: 100px;
+  margin-right: 10px; }
 
 .auxiliary-title {
   font-size: 90%;
