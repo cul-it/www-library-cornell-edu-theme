@@ -74,7 +74,7 @@
 	.navbar-collapse { 
 		position: relative;
 		z-index: 100;
-		background: #222;
+		background: $dark-gray;
 		max-height: 400px;	// override Bootstrap max-height so My Account and Help are visible mobile nav
 		padding-left: 0;
 		margin-left: 10px; }

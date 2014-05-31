@@ -6576,7 +6576,7 @@ td {
   .navbar .navbar-collapse {
     position: relative;
     z-index: 100;
-    background: #222;
+    background: #222222;
     max-height: 400px;
     padding-left: 0;
     margin-left: 10px; }
@@ -7180,7 +7180,8 @@ footer {
 
 .search-collapse {
   z-index: 1000;
-  background: #222222; }
+  background: #222222;
+  position: relative; }
   .search-collapse form {
     background: #222222; }
 

@@ -181,6 +181,7 @@
 .search-collapse {
 	z-index: 1000;
 	background: $dark-gray;
+	position: relative;
 	form {
 		background: $dark-gray;
 	}
