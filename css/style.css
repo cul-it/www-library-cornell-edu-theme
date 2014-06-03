@@ -7856,7 +7856,8 @@ body.admin-menu {
 .view-libraries-and-hours h2 {
   font-size: 22px;
   margin-top: 0;
-  font-weight: normal; }
+  font-weight: normal;
+  display: inline-block; }
 .view-libraries-and-hours .row {
   padding: 15px 0;
   border-bottom: 1px solid #edebe7; }
@@ -7886,7 +7887,7 @@ body.admin-menu {
   border: 1px solid #ddd;
   transition: all .2s ease-in-out;
   display: inline-block;
-  margin-right: 10px; }
+  margin-right: 15px; }
 
 .auxiliary-title {
   font-size: 90%;
