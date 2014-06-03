@@ -7886,7 +7886,6 @@ body.admin-menu {
   border: 1px solid #ddd;
   transition: all .2s ease-in-out;
   display: inline-block;
-  max-width: 100px;
   margin-right: 10px; }
 
 .auxiliary-title {
