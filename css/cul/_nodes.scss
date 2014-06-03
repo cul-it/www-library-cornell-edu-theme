@@ -35,10 +35,6 @@
 		padding: 15px 0;
 	 	border-bottom: 1px solid $light-tan;
 	}
-	.img-thumbnail {
-		max-width: 100px;
-		margin-right: 10px;
-	}
 }
 .list-hours {
 	margin-bottom: .5em;
@@ -69,7 +65,8 @@
 	border: 1px solid #ddd;
 	transition: all .2s ease-in-out;
 	display: inline-block;
-	max-width: 100%;
+	max-width: 100px;
+	margin-right: 10px;
 }
 
 // Library spaces
