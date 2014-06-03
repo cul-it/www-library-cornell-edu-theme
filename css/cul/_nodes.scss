@@ -55,6 +55,15 @@
 .today-hours {
 	margin-right: 30px;
 }
+.full-hours {
+	a {
+		display: inline-block;
+		margin: 0 5px;
+	}
+	a:first-child {
+		border-right: 1px solid $light-tan;
+	}
+}
 
 // Library spaces
 //------------------//

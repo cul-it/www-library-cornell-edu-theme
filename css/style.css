@@ -7878,6 +7878,12 @@ body.admin-menu {
 .today-hours {
   margin-right: 30px; }
 
+.full-hours a {
+  display: inline-block;
+  margin: 0 5px; }
+.full-hours a:first-child {
+  border-right: 1px solid #edebe7; }
+
 .auxiliary-title {
   font-size: 90%;
   margin-top: .25em;
