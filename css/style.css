@@ -7858,9 +7858,11 @@ body.admin-menu {
   margin-top: 0;
   font-weight: normal;
   display: inline-block; }
-.view-libraries-and-hours .row {
+.view-libraries-and-hours .unit-library {
   padding: 15px 0;
   border-bottom: 1px solid #edebe7; }
+  .view-libraries-and-hours .unit-library .col-sm-4 {
+    margin-left: 0; }
 
 .list-hours {
   margin-bottom: .5em; }

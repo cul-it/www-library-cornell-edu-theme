@@ -32,9 +32,12 @@
 		font-weight: normal;
 		display: inline-block;
 	}
-	.row {
+	.unit-library {
 		padding: 15px 0;
 	 	border-bottom: 1px solid $light-tan;
+	 	.col-sm-4 {
+	 		margin-left: 0;
+	 	}
 	}
 }
 .list-hours {
