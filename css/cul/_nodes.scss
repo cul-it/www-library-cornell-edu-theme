@@ -64,6 +64,13 @@
 		border-right: 1px solid $light-tan;
 	}
 }
+.library-thumbnail {
+	padding: 4px;
+	border: 1px solid #ddd;
+	transition: all .2s ease-in-out;
+	display: inline-block;
+	max-width: 100%;
+}
 
 // Library spaces
 //------------------//

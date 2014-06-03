@@ -7884,6 +7884,13 @@ body.admin-menu {
 .full-hours a:first-child {
   border-right: 1px solid #edebe7; }
 
+.library-thumbnail {
+  padding: 4px;
+  border: 1px solid #ddd;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+  max-width: 100%; }
+
 .auxiliary-title {
   font-size: 90%;
   margin-top: .25em;
