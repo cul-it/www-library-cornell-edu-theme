@@ -7862,7 +7862,7 @@ body.admin-menu {
   padding: 15px 0;
   border-bottom: 1px solid #edebe7; }
   .view-libraries-and-hours .unit-library .col-sm-4 {
-    margin-left: 0; }
+    padding-left: 0; }
 
 .list-hours {
   margin-bottom: .5em; }
