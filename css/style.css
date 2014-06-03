@@ -7864,6 +7864,20 @@ body.admin-menu {
   max-width: 100px;
   margin-right: 10px; }
 
+.list-hours {
+  margin-bottom: .5em; }
+  .list-hours .label {
+    margin-right: 5px; }
+
+.list-phone {
+  margin-bottom: .2em; }
+
+.list-email {
+  margin-top: .3em; }
+
+.today-hours {
+  margin-right: 30px; }
+
 .auxiliary-title {
   font-size: 90%;
   margin-top: .25em;
