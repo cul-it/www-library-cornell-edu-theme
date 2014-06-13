@@ -7438,11 +7438,19 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-left: 0; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .bridge-one-column .bridge-content {
       float: left;
       width: 83.33333%; } }
+  @media (min-width: 768px) {
+    .bridge-one-column .bridge-content {
+      float: left;
+      width: 50%; } }
 .bridge-one-column img {
   max-width: 100px; }
 

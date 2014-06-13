@@ -183,7 +183,8 @@
 		border-bottom: 1px solid $light-tan; }
 	.bridge-section:first-child { margin-top: 1em; }
 	.bridge-content {
-		@include make-sm-column(10);
+		@include make-md-column(10);
+		@include make-sm-column(6);
 		padding-left: 0;
 	}
 	img { max-width: 100px; }
