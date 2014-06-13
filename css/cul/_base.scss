@@ -133,6 +133,7 @@ td { vertical-align: top; }
 // Info appears as blue-green
 .btn-cul {
   @include button-variant($btn-cul-color, $btn-cul-bg, $btn-cul-border);
+  border: none;
 }
 
 

@@ -6415,7 +6415,8 @@ td {
 .btn-cul {
   color: white;
   background-color: #2aa198;
-  border-color: #1f7972; }
+  border-color: #1f7972;
+  border: none; }
   .btn-cul:hover, .btn-cul:focus, .btn-cul:active, .btn-cul.active {
     color: white;
     background-color: #228179;
