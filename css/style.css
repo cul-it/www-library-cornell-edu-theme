@@ -7420,8 +7420,7 @@ footer {
     font-size: 14px; }
   .bridge img {
     margin-right: 10px;
-    max-width: 100px;
-    display: none; }
+    max-width: 100px; }
   .bridge .bridge-highlight h3 {
     color: #b31b1b; }
   .bridge .bridge-highlight img {
@@ -7702,10 +7701,8 @@ h2.patroninfo-title {
     .bridge .row .bridge-section {
       float: left;
       width: 50%; } }
-@media (min-width: 768px) {
-  .bridge img {
-    display: block; }
 
+@media (min-width: 768px) {
   .pull-right.highlight-box {
     margin-left: 15px;
     width: 40%;
