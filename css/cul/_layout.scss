@@ -149,7 +149,9 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) { 
 	.hero {
-		background-size: cover !important; }
+		background-size: cover !important;
+		min-height: 350px;
+	}
 	.sidebar {
 		margin-top: 20px;
 		padding-left: 0;
