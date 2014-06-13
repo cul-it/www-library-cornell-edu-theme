@@ -184,7 +184,7 @@
 	.bridge-section:first-child { margin-top: 1em; }
 	.bridge-content {
 		@include make-md-column(10);
-		@include make-sm-column(6);
+		@include make-sm-column(8);
 		padding-left: 0;
 	}
 	img { max-width: 100px; }
