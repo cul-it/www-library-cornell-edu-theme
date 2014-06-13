@@ -6727,17 +6727,13 @@ td {
         text-decoration: underline; }
         .sidebar .nav li a:hover i {
           text-decoration: none; }
-    .sidebar .nav .active a, .sidebar .nav .active-trail a,
-    .sidebar .nav .menu-mlid-827 a {
+    .sidebar .nav .active a, .sidebar .nav .active-trail a {
       color: inherit; }
-      .sidebar .nav .active a i, .sidebar .nav .active-trail a i,
-      .sidebar .nav .menu-mlid-827 a i {
+      .sidebar .nav .active a i, .sidebar .nav .active-trail a i {
         color: #b31b1b; }
-    .sidebar .nav .active li a, .sidebar .nav .active-trail li a,
-    .sidebar .nav .menu-mlid-827 li a {
+    .sidebar .nav .active li a, .sidebar .nav .active-trail li a {
       color: #0068ac; }
-    .sidebar .nav .active li a:hover, .sidebar .nav .active-trail li a:hover,
-    .sidebar .nav .menu-mlid-827 li a:hover {
+    .sidebar .nav .active li a:hover, .sidebar .nav .active-trail li a:hover {
       color: black; }
     .sidebar .nav .dropdown-menu {
       position: relative;
@@ -6771,6 +6767,15 @@ td {
           font-size: 12px; }
         .sidebar .nav .dropdown-menu .dropdown-menu .active {
           font-weight: 700; }
+
+.page-services-liaisons .sidebar .nav .menu-mlid-827 a {
+  color: inherit; }
+  .page-services-liaisons .sidebar .nav .menu-mlid-827 a i {
+    color: #b31b1b; }
+.page-services-liaisons .sidebar .nav .menu-mlid-827 li a {
+  color: #0068ac; }
+.page-services-liaisons .sidebar .nav .menu-mlid-827 li a:hover {
+  color: black; }
 
 .dropdown-menu > li > a {
   white-space: normal; }

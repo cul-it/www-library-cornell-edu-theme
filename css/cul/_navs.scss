@@ -97,9 +97,7 @@
 				i { text-decoration: none; }
 			}
 		}
-		.active, .active-trail,
-		// force active menu for liaisons section
-		.menu-mlid-827 {
+		.active, .active-trail, {
 			a { 
 				color: inherit;
 				i { color: $cornell-primary; }
@@ -145,6 +143,23 @@
 				margin-top: 5px;
 				li { font-size: 12px; }
 				.active { font-weight: 700; }
+			}
+		}
+	}
+}
+// force active menu for liaisons section
+.page-services-liaisons {
+	.sidebar {
+		.nav {
+			.menu-mlid-827 {
+				a { 
+					color: inherit;
+					i { color: $cornell-primary; }
+				}
+				li {
+					a { color: $link-color; }
+					a:hover { color: $link-color-hover; }
+				}
 			}
 		}
 	}
