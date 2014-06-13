@@ -118,6 +118,18 @@
 		.block:last-child { margin-bottom: 0; }
 	}
 }
+// Recent News sidebar
+.main-content {
+	.item-list {
+		ul {
+			padding-left: 15px;
+			margin-bottom: 0;
+		}
+		li {
+			font-size: 14px;
+		}
+	}
+}
 
 // Bridge page
 // -------------------------

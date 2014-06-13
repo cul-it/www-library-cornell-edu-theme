@@ -7384,6 +7384,12 @@ footer {
   .sidebar .secondary-feature .block:last-child {
     margin-bottom: 0; }
 
+.main-content .item-list ul {
+  padding-left: 15px;
+  margin-bottom: 0; }
+.main-content .item-list li {
+  font-size: 14px; }
+
 .bridge {
   margin-bottom: 20px; }
   .bridge .bridge-section {
