@@ -7441,6 +7441,12 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-left: 0; }
   @media (min-width: 992px) {
     .bridge-one-column .bridge-content {
