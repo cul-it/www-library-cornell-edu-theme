@@ -97,7 +97,9 @@
 				i { text-decoration: none; }
 			}
 		}
-		.active, .active-trail {
+		.active, .active-trail,
+		// force active menu for liaisons section
+		.leaf menu-mlid-827 {
 			a { 
 				color: inherit;
 				i { color: $cornell-primary; }

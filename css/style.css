@@ -6727,13 +6727,17 @@ td {
         text-decoration: underline; }
         .sidebar .nav li a:hover i {
           text-decoration: none; }
-    .sidebar .nav .active a, .sidebar .nav .active-trail a {
+    .sidebar .nav .active a, .sidebar .nav .active-trail a,
+    .sidebar .nav .leaf menu-mlid-827 a {
       color: inherit; }
-      .sidebar .nav .active a i, .sidebar .nav .active-trail a i {
+      .sidebar .nav .active a i, .sidebar .nav .active-trail a i,
+      .sidebar .nav .leaf menu-mlid-827 a i {
         color: #b31b1b; }
-    .sidebar .nav .active li a, .sidebar .nav .active-trail li a {
+    .sidebar .nav .active li a, .sidebar .nav .active-trail li a,
+    .sidebar .nav .leaf menu-mlid-827 li a {
       color: #0068ac; }
-    .sidebar .nav .active li a:hover, .sidebar .nav .active-trail li a:hover {
+    .sidebar .nav .active li a:hover, .sidebar .nav .active-trail li a:hover,
+    .sidebar .nav .leaf menu-mlid-827 li a:hover {
       color: black; }
     .sidebar .nav .dropdown-menu {
       position: relative;
