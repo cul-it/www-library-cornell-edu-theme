@@ -65,6 +65,9 @@
 		padding-right: 0;
 		float: left;
 	}
+	.btn-cul {
+		border: 1px solid $btn-cul-border;
+	}
 	// darken placeholder text in home page search box
 	// .form-control::-webkit-input-placeholder { color: #777; }
 	// .form-control::-moz-placeholder { color: #777; }

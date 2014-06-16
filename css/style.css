@@ -7099,6 +7099,8 @@ footer {
       .search-form .search-button {
         float: left;
         width: 16.66667%; } }
+  .search-form .btn-cul {
+    border: 1px solid #1f7972; }
 
 .search-form-tabs input {
   border-top-left-radius: 0; }
