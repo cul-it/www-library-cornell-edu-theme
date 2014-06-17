@@ -110,6 +110,13 @@
       <p><?php print render($content['field_notes']); ?></p>
     </div>
 
+    <div class="well highlight-box">
+      <h3>Contact</h3>
+        <div class="space-notes">
+          <p><?php print render($content['field_ls_contact_point']); ?></p>
+        </div>
+    </div>
+
 
   </div>
 
