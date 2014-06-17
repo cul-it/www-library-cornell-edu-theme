@@ -112,8 +112,11 @@
 
     <div class="well highlight-box">
       <h3>Contact</h3>
-        <div class="space-notes">
+        <div class="space-contact-point">
           <p><?php print render($content['field_ls_contact_point']); ?></p>
+        </div>
+        <div class="space-contact-phone">
+          <p><?php print render($content['field_contact_phone']); ?></p>
         </div>
     </div>
 
