@@ -104,9 +104,7 @@
     ?>
 
     <div class="col-sm-12">
-      <?php if ($location['ls_unit_library']) : ?>
-        <?php print $location['ls_unit_library'] ?><br>
-      <?php endif; ?>
+      <?php print render($content['field_ls_unit_library']); ?>
     </div>
 
 
