@@ -103,7 +103,7 @@
       hide($content['links']);
     ?>
 
-    <div class="col-sm-12">
+    <div class="space-unit-library">
       <?php print render($content['field_ls_unit_library']); ?>
     </div>
 
