@@ -106,12 +106,9 @@
     <div class="space-unit-library">
       <?php print render($content['field_ls_unit_library']); ?>
     </div>
-
-    <?php if ($content['field_notes']): ?>
-      <div class="space-notes">
-        <p><?php print render($content['field_notes']); ?></p>
-      </div>
-    <?php endif; ?>
+    <div class="space-notes">
+      <p><?php print render($content['field_notes']); ?></p>
+    </div>
 
 
   </div>
