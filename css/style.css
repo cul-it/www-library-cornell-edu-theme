@@ -7925,7 +7925,7 @@ body.admin-menu {
 
 .library-thumbnail {
   float: left;
-  width: 12%; }
+  width: 35%; }
   .library-thumbnail img {
     padding: 4px;
     border: 1px solid #ddd;
@@ -7936,7 +7936,7 @@ body.admin-menu {
 
 .library-info {
   float: left;
-  width: 75%; }
+  width: 65%; }
 
 .auxiliary-title {
   font-size: 90%;
