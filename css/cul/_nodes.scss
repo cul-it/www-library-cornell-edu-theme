@@ -32,13 +32,15 @@
 		font-weight: normal;
 		display: inline-block;
 	}
+	h2:hover {
+		text-decoration: underline;
+	}
 	.unit-library {
 		padding: 15px 0;
 	 	border-bottom: 1px solid $light-tan;
 	 	.col-sm-4 {
 	 		padding-left: 0;
 	 	}
-	 	a:hover { text-decoration: underline; }
 	}
 }
 .list-hours {
