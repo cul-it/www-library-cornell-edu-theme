@@ -7936,7 +7936,7 @@ body.admin-menu {
 
 .library-info {
   float: left;
-  width: 55%; }
+  width: 75%; }
 
 .auxiliary-title {
   font-size: 90%;
@@ -8032,7 +8032,14 @@ body.admin-menu {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
-    width: 350%; } }
+    width: 350%; }
+
+  .library-thumbnail {
+    width: 100px; }
+
+  .library-info {
+    width: 75%;
+    margin-left: 1em; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {

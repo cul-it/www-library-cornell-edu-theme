@@ -91,7 +91,7 @@
 }
 .library-info {
 	float: left;
-	width: 55%;
+	width: 75%;
 }
 
 // Library spaces
@@ -234,6 +234,13 @@
 	  			.dropdown { width: 350%;}
 	  		}
 	  	}
+	}
+	.library-thumbnail {
+		width: 100px;
+	}
+	.library-info {
+		width: 75%;
+		margin-left: 1em;
 	}
 }
 
