@@ -68,11 +68,11 @@
 .full-hours {
 	a {
 		display: inline-block;
-		margin: 0 10px;
+		padding: 0 10px;
 	}
 	a:first-child {
 		border-right: 1px solid $dark-tan;
-		margin-left: 0;
+		padding-left: 0;
 	}
 }
 .library-thumbnail {
