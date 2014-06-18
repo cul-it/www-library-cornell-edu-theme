@@ -106,8 +106,6 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
-        <h3>Hours</h3>
-        <?php print render($content['field_hours']); ?>
         <div class="unit-map">
           <?php print render($content['field_map']); ?>
         </div>
@@ -142,6 +140,8 @@
           <?php if ($location['postal_code']) : ?>
             <?php print $location['postal_code'] ?>
           <?php endif; ?>
+          <h3>Hours</h3>
+          <?php print render($content['field_hours']); ?>
         </div>
       </div>
     </div>
