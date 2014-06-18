@@ -7896,7 +7896,7 @@ body.admin-menu {
 .list-hours {
   margin-bottom: .5em; }
   .list-hours .label {
-    margin-right: 5px; }
+    margin-left: .5em; }
 
 .list-phone {
   margin-bottom: .25em; }
@@ -7907,7 +7907,10 @@ body.admin-menu {
   margin-top: .3em; }
 
 .today-hours {
-  margin-right: 30px; }
+  margin-right: 30px;
+  margin-bottom: .5em; }
+  .today-hours span {
+    margin-right: .5em; }
 
 .full-hours a {
   display: inline-block;
