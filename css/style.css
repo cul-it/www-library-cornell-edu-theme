@@ -7892,6 +7892,8 @@ body.admin-menu {
   border-bottom: 1px solid #edebe7; }
   .view-libraries-and-hours .unit-library .col-sm-4 {
     padding-left: 0; }
+  .view-libraries-and-hours .unit-library a:hover {
+    text-decoration: underline; }
 
 .list-hours {
   margin-bottom: .5em; }
