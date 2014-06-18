@@ -7925,7 +7925,7 @@ body.admin-menu {
 
 .library-thumbnail {
   float: left;
-  width: 35%; }
+  display: none; }
   .library-thumbnail img {
     padding: 4px;
     border: 1px solid #ddd;
