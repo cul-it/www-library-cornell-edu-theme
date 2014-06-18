@@ -7916,9 +7916,10 @@ body.admin-menu {
 
 .full-hours a {
   display: inline-block;
-  margin: 0 5px; }
+  margin: 0 10px; }
 .full-hours a:first-child {
-  border-right: 1px solid #edebe7; }
+  border-right: 1px solid #b3ab9e;
+  margin-left: 0; }
 
 .library-thumbnail {
   padding: 4px;
