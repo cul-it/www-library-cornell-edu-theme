@@ -106,6 +106,27 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
+        <h3>Hours</h3>
+        <?php
+            # Retrieve complete hours from Mann services
+
+            $location = $node->field_hours_id['und'][0]['value'];
+            # Handle special cases
+            if ($location == 'PhysSci') {
+              $full_hours = '24/7 study space is available in Clark Hall.';
+            }
+            elseif ($location == 'Engineering') {
+              $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
+            }
+            else {
+              $location = urlencode($location);
+              $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicYear.do?output=xhtml&location=" . $location;
+              $full_hours = file_get_contents($url);
+            }
+
+            print render($full_hours);
+            #print render($content['field_hours']); 
+        ?>
         <div class="unit-map">
           <?php print render($content['field_map']); ?>
         </div>
@@ -140,27 +161,6 @@
           <?php if ($location['postal_code']) : ?>
             <?php print $location['postal_code'] ?>
           <?php endif; ?>
-          <h3>Hours</h3>
-          <?php
-              # Retrieve complete hours from Mann services
-
-              $location = $node->field_hours_id['und'][0]['value'];
-              # Handle special cases
-              if ($location == 'PhysSci') {
-                $full_hours = '24/7 study space is available in Clark Hall.';
-              }
-              elseif ($location == 'Engineering') {
-                $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
-              }
-              else {
-                $location = urlencode($location);
-                $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicYear.do?output=xhtml&location=" . $location;
-                $full_hours = file_get_contents($url);
-              }
-
-              print render($full_hours);
-              #print render($content['field_hours']); 
-          ?>
         </div>
       </div>
     </div>
