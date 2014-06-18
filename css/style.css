@@ -7916,9 +7916,9 @@ body.admin-menu {
 
 .full-hours a {
   display: inline-block;
-  padding: 0 10px; }
+  padding: 0 5px; }
 .full-hours a:first-child {
-  border-right: 1px solid #b3ab9e;
+  border-right: 1px solid #d8d2c9;
   padding-left: 0; }
 
 .library-thumbnail {
