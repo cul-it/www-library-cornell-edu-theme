@@ -38,6 +38,8 @@
 	.unit-library {
 		padding: 15px 0;
 	 	border-bottom: 1px solid $light-tan;
+	 	clear: both;
+	 	overflow: hidden;
 	 	.col-sm-4 {
 	 		padding-left: 0;
 	 	}
@@ -85,6 +87,7 @@
 		display: inline-block;
 		// max-width: 100px;
 		margin-right: 15px;
+		max-width: 100px;
 	}
 }
 .library-info {
