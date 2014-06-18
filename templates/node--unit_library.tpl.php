@@ -120,7 +120,7 @@
             }
             else {
               $location = urlencode($location);
-              $url = "http://mannservices.mannlib.cornell.edu/LibServices/showAllLibraryHoursForAcademicSemester.do?output=xhtml&locationId=" . $location;
+              $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicYear.do?output=xhtml&location=" . $location;
               $full_hours = file_get_contents($url);
             }
 
