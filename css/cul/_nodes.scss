@@ -76,12 +76,20 @@
 	}
 }
 .library-thumbnail {
-	padding: 4px;
-	border: 1px solid #ddd;
-	transition: all .2s ease-in-out;
-	display: inline-block;
-	// max-width: 100px;
-	margin-right: 15px;
+	float: left;
+	width: 12%;
+	img {
+		padding: 4px;
+		border: 1px solid #ddd;
+		transition: all .2s ease-in-out;
+		display: inline-block;
+		// max-width: 100px;
+		margin-right: 15px;
+	}
+}
+.library-info {
+	float: left;
+	width: 75%;
 }
 
 // Library spaces

@@ -7922,11 +7922,18 @@ body.admin-menu {
   padding-left: 0; }
 
 .library-thumbnail {
-  padding: 4px;
-  border: 1px solid #ddd;
-  transition: all .2s ease-in-out;
-  display: inline-block;
-  margin-right: 15px; }
+  float: left;
+  width: 12%; }
+  .library-thumbnail img {
+    padding: 4px;
+    border: 1px solid #ddd;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    margin-right: 15px; }
+
+.library-info {
+  float: left;
+  width: 75%; }
 
 .auxiliary-title {
   font-size: 90%;
