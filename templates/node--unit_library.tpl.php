@@ -106,27 +106,29 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
-        <h3>Hours</h3>
-        <?php
-            # Retrieve complete hours from Mann services
+        <h2>Hours</h2>
+        <div class="library-hours">
+          <?php
+              # Retrieve complete hours from Mann services
 
-            $location_hours = $node->field_hours_id['und'][0]['value'];
-            # Handle special cases
-            if ($location_hours == 'PhysSci') {
-              $full_hours = '24/7 study space is available in Clark Hall.';
-            }
-            elseif ($location_hours == 'Engineering') {
-              $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
-            }
-            else {
-              $location_hours = urlencode($location_hours);
-              $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicSemester.do?output=xhtml&location=" . $location_hours;
-              $full_hours = file_get_contents($url);
-            }
+              $location_hours = $node->field_hours_id['und'][0]['value'];
+              # Handle special cases
+              if ($location_hours == 'PhysSci') {
+                $full_hours = '24/7 study space is available in Clark Hall.';
+              }
+              elseif ($location_hours == 'Engineering') {
+                $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
+              }
+              else {
+                $location_hours = urlencode($location_hours);
+                $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicSemester.do?output=xhtml&location=" . $location_hours;
+                $full_hours = file_get_contents($url);
+              }
 
-            print render($full_hours);
-            #print render($content['field_hours']); 
-        ?>
+              print render($full_hours);
+              #print render($content['field_hours']); 
+          ?>
+        </div>
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
