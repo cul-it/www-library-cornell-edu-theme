@@ -95,6 +95,11 @@
 	width: 75%;
 	margin-left: 1em;
 }
+.library-hours {
+	div {
+		h2:first-child { display: none; }
+	}
+}
 
 // Library spaces
 //------------------//
