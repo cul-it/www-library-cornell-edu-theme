@@ -110,17 +110,17 @@
         <?php
             # Retrieve complete hours from Mann services
 
-            $location = $node->field_hours_id['und'][0]['value'];
+            $location_hours = $node->field_hours_id['und'][0]['value'];
             # Handle special cases
-            if ($location == 'PhysSci') {
+            if ($location_hours == 'PhysSci') {
               $full_hours = '24/7 study space is available in Clark Hall.';
             }
-            elseif ($location == 'Engineering') {
+            elseif ($location_hours == 'Engineering') {
               $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
             }
             else {
-              $location = urlencode($location);
-              $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicSemester.do?output=xhtml&location=" . $location;
+              $location_hours = urlencode($location_hours);
+              $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicSemester.do?output=xhtml&location=" . $location_hours;
               $full_hours = file_get_contents($url);
             }
 
