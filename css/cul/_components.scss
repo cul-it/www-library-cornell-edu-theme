@@ -237,9 +237,6 @@
 		border-bottom: 1px dotted $tan;
 		form { margin-bottom: 0; }
 		.btn { vertical-align: top; }
-		// .btn-primary {
-		// 	@include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
-		// }
 	}
 }
 
@@ -248,7 +245,6 @@
 // -- contains things like related links and contact info
 // --------------------------------------------------------
 .highlight-box {
-	padding-bottom: 5px;
 	h3 {
 		// color: $medium-gray;
 		color: $cornell-primary;

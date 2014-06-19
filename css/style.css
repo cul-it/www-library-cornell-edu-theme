@@ -7494,30 +7494,28 @@ footer {
   .feature .courses-form .btn {
     vertical-align: top; }
 
-.highlight-box {
-  padding-bottom: 5px; }
-  .highlight-box h3 {
-    color: #b31b1b;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 1em 0;
-    font-size: 12px;
-    border-top: 1px solid #cccccc;
-    padding-top: 15px; }
-  .highlight-box h3:first-child {
-    margin-top: 0;
-    padding-top: 0;
-    border-top: none; }
-  .highlight-box h4 {
-    font-weight: 700;
-    font-size: 14px;
-    margin: .75em 0 .25em; }
-  .highlight-box h4:first-child {
-    margin-top: 0; }
-  .highlight-box ul {
-    padding-left: 18px; }
-  .highlight-box li {
-    margin-bottom: .5em; }
+.highlight-box h3 {
+  color: #b31b1b;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1em 0;
+  font-size: 12px;
+  border-top: 1px solid #cccccc;
+  padding-top: 15px; }
+.highlight-box h3:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none; }
+.highlight-box h4 {
+  font-weight: 700;
+  font-size: 14px;
+  margin: .75em 0 .25em; }
+.highlight-box h4:first-child {
+  margin-top: 0; }
+.highlight-box ul {
+  padding-left: 18px; }
+.highlight-box li {
+  margin-bottom: .5em; }
 
 .pull-right.highlight-box {
   float: none !important; }
