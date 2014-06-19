@@ -2,9 +2,10 @@
 //-------------//
 .unit-map {
 	margin: 20px 0;
-	// .gmap {
-	// 	width: auto !important;
-	// }
+	.gmap {
+		border: 5px solid $light-gray;
+		width: 100% !important;
+	}
 }
 .unit-location {
 	margin-top: 20px;
@@ -14,9 +15,7 @@
 	font-size: 16px;
 	margin-bottom: 1em;
 }
-.gmap {
-	border: 5px solid $light-gray;
-}
+
 .node-type-unit-library {
 	.highlight-box {
 		p { font-size: 14px; }

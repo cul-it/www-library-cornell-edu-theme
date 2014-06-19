@@ -7866,6 +7866,9 @@ body.admin-menu {
 
 .unit-map {
   margin: 20px 0; }
+  .unit-map .gmap {
+    border: 5px solid #cccccc;
+    width: 100% !important; }
 
 .unit-location {
   margin-top: 20px; }
@@ -7873,9 +7876,6 @@ body.admin-menu {
 .unit-administrator {
   font-size: 16px;
   margin-bottom: 1em; }
-
-.gmap {
-  border: 5px solid #cccccc; }
 
 .node-type-unit-library .highlight-box p {
   font-size: 14px; }
