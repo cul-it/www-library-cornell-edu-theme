@@ -107,7 +107,7 @@
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
         <h2>Hours</h2>
-        <div class="library-hours">
+        <div class="well library-hours">
           <?php
               # Retrieve complete hours from Mann services
 
