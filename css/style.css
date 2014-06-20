@@ -7938,6 +7938,10 @@ body.admin-menu {
   width: 75%;
   margin-left: 1em; }
 
+.library-hours h2 {
+  font-weight: 700;
+  font-size: 18px; }
+
 .auxiliary-title {
   font-size: 90%;
   margin-top: .25em;

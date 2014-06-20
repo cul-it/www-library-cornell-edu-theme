@@ -99,6 +99,13 @@
 // 		h2:first-child { display: none; }
 // 	}
 // }
+.library-hours {
+	// give the h2 from the hours service the same treatment as an h3
+	h2 {
+  		font-weight: 700;
+  		font-size: 18px;
+	}
+}
 
 // Library spaces
 //------------------//
