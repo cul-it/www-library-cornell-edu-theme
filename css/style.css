@@ -7938,12 +7938,17 @@ body.admin-menu {
   width: 75%;
   margin-left: 1em; }
 
-.library-hours h2 {
-  font-weight: 700;
-  font-size: 18px; }
-.library-hours ul {
-  padding-left: 0;
-  line-height: 1.75em; }
+.library-hours {
+  margin-top: 1.5em; }
+  .library-hours h2 {
+    font-weight: 700;
+    font-size: 18px; }
+  .library-hours ul {
+    padding-left: 0;
+    line-height: 1.75em; }
+  .library-hours p {
+    font-size: 14px;
+    margin-bottom: 0; }
 
 .auxiliary-title {
   font-size: 90%;
