@@ -7948,10 +7948,8 @@ body.admin-menu {
     line-height: 1.5em;
     margin-bottom: 0; }
   .library-hours p {
-    font-size: 16px;
     margin-bottom: 0;
-    margin-top: 1.5em;
-    font-weight: 700; }
+    margin-top: 1.5em; }
   .library-hours div:first-child {
     line-height: 1.75em; }
 
