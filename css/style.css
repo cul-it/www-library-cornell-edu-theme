@@ -7947,7 +7947,7 @@ body.admin-menu {
   .library-hours ul {
     padding-left: 1em;
     line-height: 1.5em;
-    margin-bottom: 0; }
+    margin-bottom: 1em; }
   .library-hours p {
     margin-bottom: 0;
     margin-top: 1.5em; }
