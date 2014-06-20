@@ -7945,7 +7945,8 @@ body.admin-menu {
     font-size: 18px; }
   .library-hours ul {
     padding-left: 1em;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    margin-bottom: 0; }
   .library-hours p {
     font-size: 16px;
     margin-bottom: 0;
