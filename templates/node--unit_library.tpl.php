@@ -126,8 +126,8 @@
 
                 # strip out tags and labels
                 #$patterns = array('/<\/?strong>/','/Location: /','/Description: /', '/Date Range: /', '/style\=".*?"/');
-                $patterns = array('/<\/?strong>/','/style\=".*?"/');
-                $full_hours = preg_replace($patterns, '', $full_hours);
+                // $patterns = array('/<\/?strong>/','/style\=".*?"/');
+                $full_hours = preg_replace($patterns, array(' ','/<span class="hours-label">Location:</span> /','/Description: /', '/Date Range: /', ''), $full_hours);
               }
 
 
