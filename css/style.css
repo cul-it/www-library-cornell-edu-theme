@@ -7941,6 +7941,9 @@ body.admin-menu {
 .library-hours h2 {
   font-weight: 700;
   font-size: 18px; }
+.library-hours ul {
+  padding-left: 0;
+  line-height: 1.75em; }
 
 .auxiliary-title {
   font-size: 90%;
