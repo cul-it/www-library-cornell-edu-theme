@@ -107,12 +107,13 @@
   		font-size: 18px;
 	}
 	ul {
-		padding-left: 0;
-		line-height: 1.75em;
+		padding-left: 1em;
+		line-height: 1.5em;
 	}
 	p {
-		font-size: 14px; 
+		font-size: 16px; 
 		margin-bottom: 0;
+		font-weight: 700;
 	}
 	// add spacing in between hours info at top (location, description, date range)
 	div:first-child {

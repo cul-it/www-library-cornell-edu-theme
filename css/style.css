@@ -7944,11 +7944,12 @@ body.admin-menu {
     font-weight: 700;
     font-size: 18px; }
   .library-hours ul {
-    padding-left: 0;
-    line-height: 1.75em; }
+    padding-left: 1em;
+    line-height: 1.5em; }
   .library-hours p {
-    font-size: 14px;
-    margin-bottom: 0; }
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 700; }
   .library-hours div:first-child {
     line-height: 1.75em; }
 
