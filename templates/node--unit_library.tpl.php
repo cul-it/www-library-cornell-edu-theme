@@ -107,7 +107,7 @@
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
         <h2>Hours</h2>
-        <div class="well library-hours">
+        <div class="library-hours">
           <?php
               # Retrieve complete hours from Mann services
 
@@ -126,8 +126,8 @@
 
                 # strip out tags and labels
                 #$patterns = array('/<\/?strong>/','/Location: /','/Description: /', '/Date Range: /', '/style\=".*?"/');
-                // $patterns = array('/<\/?strong>/','/style\=".*?"/');
-                $full_hours = preg_replace($patterns, array(' ','/<span class="hours-label">Location:</span> /','/Description: /', '/Date Range: /', ''), $full_hours);
+                $patterns = array('/<\/?strong>/','/style\=".*?"/');
+                $full_hours = preg_replace($patterns, '', $full_hours);
               }
 
 
