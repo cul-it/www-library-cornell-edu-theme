@@ -125,7 +125,7 @@
                 $full_hours = file_get_contents($url);
 
                 # strip out tags and labels
-                $patterns = array('/<\/?strong>/','/Location: /','/Description: /', '/Date Range: /', '/style\=".*?"/');
+                $patterns = array('/<\/?strong>/','/Location: /','/Description: /', '/Date Range: /', '/style\=".*?"/', '/<h2>Default hours</h2> /',);
                 $full_hours = preg_replace($patterns, '', $full_hours);
               }
 
