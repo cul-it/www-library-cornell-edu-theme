@@ -120,7 +120,7 @@
                 $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
               }
                elseif ($location_hours == 'Hotel') {
-                $full_hours = 'The Hotel Library will be closed from June 6, 2014 to August 17, 2014.';
+                $full_hours = 'The Hotel Library will be closed from June 6, 2014 to August 17, 2014. Librarians are available for research help at hotellibrary@cornell.edu.';
               }
               else {
                 $location_hours = urlencode($location_hours);
