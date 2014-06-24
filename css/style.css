@@ -6931,7 +6931,7 @@ td {
 
 footer {
   color: #999;
-  padding: 40px 0;
+  padding: 0 0 40px;
   background: #222;
   border-top: 10px solid #16524d; }
   footer .nav {
@@ -7747,6 +7747,14 @@ h2.patroninfo-title {
 
 .btn-rss:hover {
   background: #d85f22; }
+
+.btn-libraries {
+  background: #2aa198;
+  color: white;
+  border-radius: 0; }
+
+.btn-libraries:hover {
+  background: #16524d; }
 
 .well {
   background: #f4f3f0; }

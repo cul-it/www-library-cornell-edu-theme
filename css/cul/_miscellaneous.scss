@@ -17,6 +17,14 @@
 	padding: 0 4px;
 }
 .btn-rss:hover { background: #d85f22; }
+.btn-libraries {
+	background: $teal;
+	color: white;
+	border-radius: 0;
+}
+.btn-libraries:hover {
+	background: $dark-teal;
+}
 
 // Well
 // -------------------------
