@@ -135,16 +135,25 @@
 
 <footer>
   <div class="container">
-    <!-- div class="libraries-list">
-      <div class="row">
-        <div class="col-sm-4">
-        </div>
-        <div class="col-sm-4">
-        </div>
-        <div class="col-sm-4">
+    <div class="libraries-list">
+      <a data-toggle="collapse" data-target=".libraries-collapse">
+        Libraries
+      </a>
+      <div class="libraries-collapse">
+        <div class="row">
+          <div class="col-sm-4">
+            list
+          </div>
+          <div class="col-sm-4">
+            list
+          </div>
+          <div class="col-sm-4">
+            list
+          </div>
         </div>
       </div>
-    </div> -->
+    </div>
+    </div>
     <div class="row">
       <div class="col-sm-2">
         <h3>Explore</h3>
@@ -186,6 +195,7 @@
       <div class="col-sm-4 text-right">
         <a href="btn btn-cul">Feedback</a>
       </div>
+
       
       <!-- <div class="footer-primary">
         <# ?php print render($page['footer-primary']); ?>
