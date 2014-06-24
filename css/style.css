@@ -7751,10 +7751,12 @@ h2.patroninfo-title {
 .btn-libraries {
   background: #16524d;
   color: white;
-  border-radius: 0; }
+  border-radius: 0;
+  color: #2aa198; }
 
 .btn-libraries:hover {
-  background: #16524d; }
+  background: #16524d;
+  color: white; }
 
 .well {
   background: #f4f3f0; }
