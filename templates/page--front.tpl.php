@@ -137,7 +137,7 @@
   <div class="container">
     <div class="libraries-list">
       <a data-toggle="collapse" data-target=".libraries-collapse" class="btn btn-libraries">
-        Libraries
+        Libraries<i class="fa fa-chevron-right">
       </a>
       <div class="libraries-collapse collapse">
         <div class="row">
