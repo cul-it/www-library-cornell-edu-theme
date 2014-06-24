@@ -409,13 +409,16 @@ table.delivery-options {
 .libraries-list {
 	padding: 0 0 2em;
 	.libraries-collapse {
-		padding: 2em 1em 0 1em;
+		padding: 2em 1em;
 		background: #2d2d2d;
 		ul {
 			list-style: none;
 			padding-left: 0;
 		}
-		li { font-size: 12px; }
+		li { 
+			// font-size: 12px;
+			line-height: 1.5em;
+		}
 	}
 }
 
