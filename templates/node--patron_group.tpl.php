@@ -176,8 +176,16 @@
         </tbody>
       </table>
     </div>
-    <h4>Special Considerations</h4>
-    <?php print render($content['body']); ?>
+
+    <?php
+      // Render the body to see if there's anything in them.
+      $body  = render($content['body']);
+    ?>
+
+    <?php if ($body): ?>
+      <h4>Special Considerations</h4>
+      <?php print render($content['body']); ?>
+    <?php endif; ?>
   </div>
 
   <?php print render($content['links']); ?>
