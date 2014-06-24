@@ -136,7 +136,7 @@
 <footer>
   <div class="container">
     <div class="libraries-list">
-      <a data-toggle="collapse" data-target=".libraries-collapse" class="btn btn-default">
+      <a data-toggle="collapse" data-target=".libraries-collapse" class="btn btn-libraries">
         Libraries
       </a>
       <div class="libraries-collapse collapse">
