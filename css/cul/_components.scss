@@ -407,8 +407,10 @@ table.delivery-options {
 // Libraries list in footer
 // -------------------------
 .libraries-list {
-	padding: 2em 0;
-	
+	padding: 0 0 2em;
+	.libraries-collapse {
+		padding-top: 2em;
+	}
 }
 
 

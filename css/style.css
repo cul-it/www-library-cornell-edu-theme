@@ -7612,7 +7612,9 @@ table.delivery-options :first-child > td:first-child {
   color: #d8d2c9; }
 
 .libraries-list {
-  padding: 2em 0; }
+  padding: 0 0 2em; }
+  .libraries-list .libraries-collapse {
+    padding-top: 2em; }
 
 h2.patroninfo-title {
   margin-top: 0; }
