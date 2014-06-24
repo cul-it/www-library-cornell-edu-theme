@@ -135,7 +135,7 @@
 
 <footer>
   <div class="container">
-    <<!-- div class="libraries-list">
+    <!-- div class="libraries-list">
       <div class="row">
         <div class="col-sm-4">
         </div>
