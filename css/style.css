@@ -7611,6 +7611,9 @@ table.delivery-options :first-child > td:first-child {
   margin-top: 10px;
   color: #d8d2c9; }
 
+.libraries-list {
+  padding: 2em 0; }
+
 h2.patroninfo-title {
   margin-top: 0; }
 
