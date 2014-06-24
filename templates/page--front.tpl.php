@@ -139,7 +139,7 @@
       <a data-toggle="collapse" data-target=".libraries-collapse">
         Libraries
       </a>
-      <div class="libraries-collapse">
+      <div class="libraries-collapse collapse">
         <div class="row">
           <div class="col-sm-4">
             list
@@ -152,7 +152,6 @@
           </div>
         </div>
       </div>
-    </div>
     </div>
     <div class="row">
       <div class="col-sm-2">
