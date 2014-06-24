@@ -7620,7 +7620,8 @@ table.delivery-options :first-child > td:first-child {
       list-style: none;
       padding-left: 0; }
     .libraries-list .libraries-collapse li {
-      line-height: 1.75em; }
+      line-height: 1.5em;
+      padding-bottom: .5em; }
     .libraries-list .libraries-collapse a:hover {
       background: #2d2d2d; }
 
