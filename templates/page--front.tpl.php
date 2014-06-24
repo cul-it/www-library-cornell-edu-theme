@@ -147,6 +147,19 @@
     </div> -->
     <div class="row">
       <div class="col-sm-2">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/libraries">Libraries</a></li>
+          <li><a href="/hours">Hours and Maps</a></li>
+          <li><a href="/courses">Courses</a></li>
+          <li><a href="/research">Research</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/ask">Ask a Librarian</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2">
         <h3>Resources</h3>
         <ul>
           <li><a href="http://newcatalog.library.cornell.edu">Catalog</a></li>
@@ -170,7 +183,7 @@
           <li><a href="/secure/cu_webauth">Staff Login</a></li>
         </ul>
       </div>
-      <div class="col-sm-6 text-right">
+      <div class="col-sm-4 text-right">
         <a href="btn btn-cul">Feedback</a>
       </div>
       
