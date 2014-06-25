@@ -114,6 +114,13 @@ footer {
 		color: white;
 		background: $dark-gray;
 		text-decoration: underline; }
+	.copyright {
+		@include make-sm-column(6);
+	}
+	.social-links {
+		@include make-sm-column(6);
+		text-align: right;
+	}
 }
 .footer-primary {
 	@include make-sm-column(8);

@@ -6958,6 +6958,25 @@ footer {
     color: white;
     background: #222222;
     text-decoration: underline; }
+  footer .copyright {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      footer .copyright {
+        float: left;
+        width: 50%; } }
+  footer .social-links {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: right; }
+    @media (min-width: 768px) {
+      footer .social-links {
+        float: left;
+        width: 50%; } }
 
 .footer-primary {
   position: relative;
