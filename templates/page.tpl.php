@@ -187,7 +187,15 @@
         <?php print render($page['footer-feedback']); ?>
       </div>
     </div>
-    <?php print render($page['footer-copyright']); ?>
+    <div class="row footer-copyright">
+      <div class="copyright">
+        <?php print render($page['footer-copyright']); ?>
+      </div>
+      <div class="social-links">
+        <a class="facebook-button" href="http://www.facebook.com/cornelluniversitylibrary" title="Find us on Facebook"><i class="fa fa-facebook-square" alt="Find us on Facebook"></i></a> 
+        <a class="twitter-button" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.library.cornell.edu%2Findex&amp;region=follow_link&amp;screen_name=Cornell_Library&amp;tw_p=followbutton&amp;variant=2.0" title="Follow us on Twitter"><i class="fa fa-twitter-square" alt="Follow us on Twitter"></i></a>
+      </div>
+    </div>
   </div>
 </footer>
 
