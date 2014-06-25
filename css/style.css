@@ -7842,7 +7842,8 @@ h2.patroninfo-title {
 .btn-feedback {
   background: #16524d;
   color: white;
-  color: #cccccc; }
+  color: #cccccc;
+  border-radius: 0; }
 
 .btn-feedback:hover {
   background: #16524d;
