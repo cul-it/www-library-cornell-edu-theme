@@ -7005,8 +7005,8 @@ footer {
       width: 33.33333%; } }
 
 .footer-copyright {
-  padding-top: 1em;
-  border-top: 1px solid #666666; }
+  padding-top: 1.5em;
+  border-top: 1px solid #2d2d2d; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
