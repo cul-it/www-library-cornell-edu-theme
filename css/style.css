@@ -7647,7 +7647,8 @@ table.delivery-options :first-child > td:first-child {
       margin-bottom: 0; }
     .libraries-list .libraries-collapse li {
       line-height: 1.5em;
-      padding-bottom: .5em; }
+      padding-bottom: .5em;
+      font-size: 13px; }
     .libraries-list .libraries-collapse a:hover {
       background: #2d2d2d; }
 
