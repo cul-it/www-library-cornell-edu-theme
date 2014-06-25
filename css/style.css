@@ -6938,7 +6938,8 @@ footer {
     list-style: none;
     padding: 0 0 1em; }
     footer .nav li {
-      margin-bottom: .25em; }
+      margin-bottom: .25em;
+      font-size: 12px; }
     footer .nav a {
       padding: 0; }
     footer .nav .active {
@@ -6977,28 +6978,6 @@ footer {
       footer .social-links {
         float: left;
         width: 50%; } }
-
-.footer-primary {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
-    .footer-primary {
-      float: left;
-      width: 66.66667%; } }
-
-.footer-secondary {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: left;
-  margin-top: 20px; }
-  @media (min-width: 768px) {
-    .footer-secondary {
-      float: left;
-      width: 33.33333%; } }
 
 .footer-links {
   position: relative;

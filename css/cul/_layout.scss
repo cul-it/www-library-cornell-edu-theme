@@ -93,6 +93,7 @@ footer {
 		padding: 0 0 1em;
 		li { 
 			margin-bottom: .25em;
+			font-size: 12px;
 		 }
 		 a { padding: 0; }
 		 .active {
@@ -122,14 +123,14 @@ footer {
 		text-align: right;
 	}
 }
-.footer-primary {
-	@include make-sm-column(8);
-}
-.footer-secondary {
-	@include make-sm-column(4);
-	text-align: left;
-	margin-top: 20px;
-}
+// .footer-primary {
+// 	@include make-sm-column(8);
+// }
+// .footer-secondary {
+// 	@include make-sm-column(4);
+// 	text-align: left;
+// 	margin-top: 20px;
+// }
 .footer-links {
 	@include make-sm-column(2);
 	.block-title {
