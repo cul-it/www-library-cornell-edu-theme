@@ -8149,10 +8149,7 @@ body.admin-menu {
     width: 100px; }
 
   .library-info {
-    width: 75%; }
-
-  .today-hours span {
-    margin-left: .5em; } }
+    width: 75%; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {
