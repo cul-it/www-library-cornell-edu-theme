@@ -132,8 +132,9 @@ footer {
 .footer-links {
 	@include make-sm-column(2);
 	.block-title {
-		font-size: 11px;
+		font-size: 12px;
 		text-transform: uppercase;
+		margin: 0 0 2em;
 	}
 }
 
