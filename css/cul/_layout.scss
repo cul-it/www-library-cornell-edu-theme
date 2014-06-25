@@ -122,6 +122,9 @@ footer {
 		@include make-sm-column(2);
 		text-align: right;
 	}
+	.copyright {
+		p { font-size: 13px; }
+	}
 }
 // .footer-primary {
 // 	@include make-sm-column(8);

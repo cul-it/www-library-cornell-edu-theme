@@ -6978,6 +6978,8 @@ footer {
       footer .social-links {
         float: left;
         width: 16.66667%; } }
+  footer .copyright p {
+    font-size: 13px; }
 
 .footer-links {
   position: relative;
