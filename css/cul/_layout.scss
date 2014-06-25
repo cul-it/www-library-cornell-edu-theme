@@ -193,6 +193,14 @@ footer {
 	.footer-toggle {
 		display: none;
 	}
+	// add footer collapse behavior to mimic navbar-collapse
+	.footer-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important; }
+    .footer-collapse.in {
+        overflow-y: auto; }
 }
 
 /* Medium devices (desktops, 992px and up) */
