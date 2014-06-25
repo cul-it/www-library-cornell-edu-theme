@@ -7000,7 +7000,8 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-top: 1em; }
   @media (min-width: 768px) {
     .footer-feedback {
       float: left;
@@ -7036,8 +7037,7 @@ footer {
 
   .footer-feedback {
     text-align: right;
-    padding-left: 15px;
-    margin-top: 1em; }
+    padding-left: 15px; }
 
   .footer-toggle {
     display: none; }
