@@ -7149,7 +7149,8 @@ footer {
         float: left;
         width: 16.66667%; } }
   .search-form .btn-cul {
-    border: 1px solid #1f7972; }
+    border: 1px solid #1f7972;
+    border-radius: 0; }
 
 .search-form-tabs input {
   border-top-left-radius: 0; }
@@ -7821,7 +7822,8 @@ h2.patroninfo-title {
 
 .btn-rss {
   background: #f06925;
-  padding: 0 4px; }
+  padding: 0 4px;
+  border-radius: 0; }
 
 .btn-rss:hover {
   background: #d85f22; }
