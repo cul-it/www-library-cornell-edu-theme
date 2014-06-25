@@ -6931,7 +6931,7 @@ td {
 
 footer {
   color: #999;
-  padding: 0 0 40px;
+  padding: 0 0 1em;
   background: #222;
   border-top: 10px solid #16524d; }
   footer .nav {
@@ -7006,7 +7006,8 @@ footer {
 
 .footer-copyright {
   padding-top: 1.5em;
-  border-top: 1px solid #2d2d2d; }
+  border-top: 1px solid #2d2d2d;
+  margin-top: 1em; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

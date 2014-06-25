@@ -85,7 +85,7 @@
 footer { 
 	color: #999;
 	// padding: 40px 0;
-	padding: 0 0 40px;
+	padding: 0 0 1em;
 	background: #222;
 	border-top: 10px solid $dark-teal;
 	.nav {
@@ -146,6 +146,7 @@ footer {
 .footer-copyright {
 	padding-top: 1.5em;
 	border-top: 1px solid #2d2d2d;
+	margin-top: 1em;
 }
 
 
