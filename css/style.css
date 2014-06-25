@@ -7829,7 +7829,8 @@ h2.patroninfo-title {
 .btn-libraries {
   background: #16524d;
   color: white;
-  color: #cccccc; }
+  color: #cccccc;
+  border-radius: 0; }
   .btn-libraries i {
     color: #1f7972;
     margin-left: 3px; }
