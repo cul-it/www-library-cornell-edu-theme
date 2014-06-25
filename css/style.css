@@ -7022,9 +7022,6 @@ footer {
     text-align: right;
     margin-top: 0; } }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  footer .nav li {
-    margin-bottom: 0; } }
 .jumbotron {
   margin-bottom: 0;
   background: inherit;
