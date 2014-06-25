@@ -179,7 +179,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-2">
+      <div class="footer-links">
         <?php print render($page['footer-links1']); ?>
         <!-- <h3>Explore</h3>
         <ul>
@@ -193,7 +193,7 @@
           <li><a href="/ask">Ask a Librarian</a></li>
         </ul> -->
       </div>
-      <div class="col-sm-2">
+      <div class="footer-links">
         <?php print render($page['footer-links2']); ?>
         <!-- <h3>Resources</h3>
         <ul>
@@ -204,7 +204,7 @@
           <li><a href="/visual-resources">Images</a></li>
         </ul> -->
       </div>
-      <div class="col-sm-2">
+      <div class="footer-links">
         <?php print render($page['footer-links3']); ?>
         <!-- <h3>Cornell</h3>
         <ul>
@@ -212,7 +212,7 @@
           <li><a href="http://cuinfo.cornell.edu/">CUinfo</a></li>
         </ul> -->
       </div>
-      <div class="col-sm-2">
+      <div class="footer-links">
         <?php print render($page['footer-links4']); ?>
         <!-- <h3>Tools</h3>
         <ul>

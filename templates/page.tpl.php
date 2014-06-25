@@ -171,16 +171,16 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-2">
+      <div class="footer-links">
         <?php print render($page['footer-links1']); ?>
       </div>
-      <div class="col-sm-2">
+      <div class="footer-links">
         <?php print render($page['footer-links2']); ?>
       </div>
-      <div class="col-sm-2">
+      <div class="footer-links">
         <?php print render($page['footer-links3']); ?>
       </div>
-      <div class="col-sm-2">
+      <div class="footer-links">
         <?php print render($page['footer-links4']); ?>
       </div>
       <div class="col-sm-4 text-right">

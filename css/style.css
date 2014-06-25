@@ -6979,6 +6979,19 @@ footer {
       float: left;
       width: 33.33333%; } }
 
+.footer-links {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .footer-links {
+      float: left;
+      width: 16.66667%; } }
+  .footer-links .block-title {
+    font-size: 11px;
+    text-transform: uppercase; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {

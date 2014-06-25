@@ -129,7 +129,13 @@ footer {
 	text-align: left;
 	margin-top: 20px;
 }
-
+.footer-links {
+	@include make-sm-column(2);
+	.block-title {
+		font-size: 11px;
+		text-transform: uppercase;
+	}
+}
 
 
 // MEDIA QUERIES
