@@ -206,21 +206,11 @@
       </div>
       <div class="footer-links">
         <?php print render($page['footer-links3']); ?>
-        <!-- <h3>Cornell</h3>
-        <ul>
-          <li><a href="http://www.cornell.edu">Cornell.edu</a></li>
-          <li><a href="http://cuinfo.cornell.edu/">CUinfo</a></li>
-        </ul> -->
       </div>
       <div class="footer-links">
         <?php print render($page['footer-links4']); ?>
-        <!-- <h3>Tools</h3>
-        <ul>
-          <li><a href="/myacct">My Account</a></li>
-          <li><a href="/secure/cu_webauth">Staff Login</a></li>
-        </ul> -->
       </div>
-      <div class="col-sm-4 text-right">
+      <div class="footer-feedback">
         <?php print render($page['footer-feedback']); ?>
         <!-- <a href="btn btn-cul">Feedback</a> -->
       </div>

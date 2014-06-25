@@ -183,7 +183,7 @@
       <div class="footer-links">
         <?php print render($page['footer-links4']); ?>
       </div>
-      <div class="col-sm-4 text-right">
+      <div class="footer-feedback">
         <?php print render($page['footer-feedback']); ?>
       </div>
     </div>

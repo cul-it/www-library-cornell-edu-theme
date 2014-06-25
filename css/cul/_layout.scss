@@ -134,8 +134,12 @@ footer {
 	.block-title {
 		font-size: 12px;
 		text-transform: uppercase;
-		margin: 0 0 2em;
+		margin: 0 0 1em;
 	}
+}
+.footer-feedback {
+	@include make-sm-column(4);
+	text-align:	right;
 }
 
 

@@ -6991,7 +6991,18 @@ footer {
   .footer-links .block-title {
     font-size: 12px;
     text-transform: uppercase;
-    margin: 0 0 2em; }
+    margin: 0 0 1em; }
+
+.footer-feedback {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: right; }
+  @media (min-width: 768px) {
+    .footer-feedback {
+      float: left;
+      width: 33.33333%; } }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
