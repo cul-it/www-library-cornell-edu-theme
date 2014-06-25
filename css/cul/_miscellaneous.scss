@@ -11,22 +11,17 @@
 
 // Buttons
 // -------------------------
-.btn { border-radius: 0; }
 .btn-rss {
-	// background: $dark-tan;
 	background: #f06925;
 	padding: 0 4px;
-	border-radius: 0;
 }
 .btn-rss:hover { background: #d85f22; }
 .btn-cul {
 	border: 1px solid $btn-cul-border;
-	border-radius: 0;
 }
 .btn-libraries {
 	background: $dark-teal;
 	color: white;
-	border-radius: 0;
 	color: $light-gray;
 	// display: block;
 	// text-align: left;
@@ -42,7 +37,6 @@
 .btn-feedback {
 	background: $dark-teal;
 	color: white;
-	border-radius: 0;
 	color: $light-gray;
 }
 .btn-feedback:hover {
