@@ -180,7 +180,7 @@
     </div>
     <div class="row">
       <div class="col-sm-2">
-        <? php print render($page['footer-links1']); ?>
+        <?php print render($page['footer-links1']); ?>
         <!-- <h3>Explore</h3>
         <ul>
           <li><a href="/">Home</a></li>
@@ -194,7 +194,7 @@
         </ul> -->
       </div>
       <div class="col-sm-2">
-        <? php print render($page['footer-links2']); ?>
+        <?php print render($page['footer-links2']); ?>
         <!-- <h3>Resources</h3>
         <ul>
           <li><a href="http://newcatalog.library.cornell.edu">Catalog</a></li>
@@ -205,7 +205,7 @@
         </ul> -->
       </div>
       <div class="col-sm-2">
-        <? php print render($page['footer-links3']); ?>
+        <?php print render($page['footer-links3']); ?>
         <!-- <h3>Cornell</h3>
         <ul>
           <li><a href="http://www.cornell.edu">Cornell.edu</a></li>
@@ -213,7 +213,7 @@
         </ul> -->
       </div>
       <div class="col-sm-2">
-        <? php print render($page['footer-links4']); ?>
+        <?php print render($page['footer-links4']); ?>
         <!-- <h3>Tools</h3>
         <ul>
           <li><a href="/myacct">My Account</a></li>
@@ -221,11 +221,11 @@
         </ul> -->
       </div>
       <div class="col-sm-4 text-right">
-        <? php print render($page['footer-feedback']); ?>
+        <?php print render($page['footer-feedback']); ?>
         <!-- <a href="btn btn-cul">Feedback</a> -->
       </div>
     </div>
-    <? php print render($page['footer-copyright']); ?>
+    <?php print render($page['footer-copyright']); ?>
     <!-- <div class="row footer-copyright">
       <div class="col-sm-6">
         Copyright

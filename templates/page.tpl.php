@@ -172,22 +172,22 @@
     </div>
     <div class="row">
       <div class="col-sm-2">
-        <? php print render($page['footer-links1']); ?>
+        <?php print render($page['footer-links1']); ?>
       </div>
       <div class="col-sm-2">
-        <? php print render($page['footer-links2']); ?>
+        <?php print render($page['footer-links2']); ?>
       </div>
       <div class="col-sm-2">
-        <? php print render($page['footer-links3']); ?>
+        <?php print render($page['footer-links3']); ?>
       </div>
       <div class="col-sm-2">
-        <? php print render($page['footer-links4']); ?>
+        <?php print render($page['footer-links4']); ?>
       </div>
       <div class="col-sm-4 text-right">
-        <? php print render($page['footer-feedback']); ?>
+        <?php print render($page['footer-feedback']); ?>
       </div>
     </div>
-    <? php print render($page['footer-copyright']); ?>
+    <?php print render($page['footer-copyright']); ?>
     <!-- <div class="row footer-copyright">
       <div class="col-sm-6">
         Copyright
