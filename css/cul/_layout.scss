@@ -144,7 +144,7 @@ footer {
 }
 .footer-feedback {
 	@include make-sm-column(4);
-	text-align:	center;
+	padding-left: 0;
 }
 .footer-copyright {
 	padding-top: 1.5em;
@@ -192,6 +192,7 @@ footer {
 	}
 	.footer-feedback {
 		text-align:	right;
+		padding-left: 15px;
 	}
 	.footer-toggle {
 		display: none;

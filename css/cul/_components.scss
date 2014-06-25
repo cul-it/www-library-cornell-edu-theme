@@ -407,7 +407,7 @@ table.delivery-options {
 // Libraries list in footer
 // -------------------------
 .libraries-list {
-	padding: 0 0 2em;
+	padding: 0 0 1em;
 	.libraries-collapse {
 		padding: 2em;
 		background: #2d2d2d;
@@ -588,6 +588,9 @@ h2.patroninfo-title { margin-top: 0; }
 	}
 	.resource-wrapper:first-child {
 		border-left: none;
+	}
+	.libraries-list {
+		padding: 0 0 2em;
 	}
 }
 
