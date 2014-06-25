@@ -170,19 +170,26 @@
         </div>
       </div>
     </div>
+
     <div class="row">
-      <div class="footer-links">
-        <?php print render($page['footer-links1']); ?>
+      <a data-toggle="collapse" data-target=".footer-collapse" class="btn btn-libraries">
+        Menu <i class="fa fa-chevron-right"></i>
+      </a>
+      <div class="footer-collapse collapse">
+        <div class="footer-links">
+          <?php print render($page['footer-links1']); ?>
+        </div>
+        <div class="footer-links">
+          <?php print render($page['footer-links2']); ?>
+        </div>
+        <div class="footer-links">
+          <?php print render($page['footer-links3']); ?>
+        </div>
+        <div class="footer-links">
+          <?php print render($page['footer-links4']); ?>
+        </div>
       </div>
-      <div class="footer-links">
-        <?php print render($page['footer-links2']); ?>
-      </div>
-      <div class="footer-links">
-        <?php print render($page['footer-links3']); ?>
-      </div>
-      <div class="footer-links">
-        <?php print render($page['footer-links4']); ?>
-      </div>
+
       <div class="footer-feedback">
         <?php print render($page['footer-feedback']); ?>
       </div>
