@@ -135,6 +135,9 @@ footer {
 	@include make-sm-column(4);
 	text-align:	right;
 }
+.cornell-collapse {
+	display: none;
+}
 
 
 // MEDIA QUERIES
@@ -167,6 +170,9 @@ footer {
 	.footer-secondary {
 		text-align: right;
 		margin-top: 0;
+	}
+	.cornell-collapse {
+		display: block;
 	}
 }
 

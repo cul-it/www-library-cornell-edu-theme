@@ -7006,6 +7006,9 @@ footer {
       float: left;
       width: 33.33333%; } }
 
+.cornell-collapse {
+  display: none; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
@@ -7020,7 +7023,10 @@ footer {
 
   .footer-secondary {
     text-align: right;
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .cornell-collapse {
+    display: block; } }
 /* Medium devices (desktops, 992px and up) */
 .jumbotron {
   margin-bottom: 0;
