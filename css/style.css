@@ -6937,6 +6937,8 @@ footer {
   footer .nav {
     list-style: none;
     padding: 0 0 1em; }
+    footer .nav li {
+      margin-bottom: .25em; }
     footer .nav a {
       padding: 0; }
     footer .nav .active {
