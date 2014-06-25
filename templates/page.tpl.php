@@ -172,7 +172,7 @@
     </div>
 
     <div class="row">
-      <a data-toggle="collapse" data-target=".footer-collapse" class="btn btn-libraries">
+      <a data-toggle="collapse" data-target=".footer-collapse" class="btn btn-libraries footer-toggle">
         Menu <i class="fa fa-chevron-right"></i>
       </a>
       <div class="footer-collapse collapse">

@@ -7031,7 +7031,10 @@ footer {
     display: block; }
 
   .footer-feedback {
-    text-align: right; } }
+    text-align: right; }
+
+  .footer-toggle {
+    display: none; } }
 /* Medium devices (desktops, 992px and up) */
 .jumbotron {
   margin-bottom: 0;
