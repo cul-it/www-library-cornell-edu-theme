@@ -62,9 +62,6 @@
 .today-hours {
 	margin-right: 30px;
 	margin-bottom: .75em;
-	span {
-		margin-right: .5em;
-	}
 }
 .full-hours {
 	a {
@@ -268,6 +265,11 @@
 	}
 	.library-info {
 		width: 75%;
+	}
+	.today-hours {
+		span {
+			margin-right: .5em;
+		}
 	}
 }
 
