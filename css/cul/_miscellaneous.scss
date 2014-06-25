@@ -22,8 +22,8 @@
 	color: white;
 	border-radius: 0;
 	color: $light-gray;
-	display: block;
-	text-align: left;
+	// display: block;
+	// text-align: left;
 	i {
 		color: $medium-teal;
 		margin-left: 3px;
@@ -253,10 +253,10 @@
 	    column-gap: 20px;
 	    li { font-size: 14px; }
 	}
-	.btn-libraries {
-		display: inline-block;
-		text-align: center;
-	}
+	// .btn-libraries {
+	// 	display: inline-block;
+	// 	text-align: center;
+	// }
 }
 
 /* Medium devices (desktops, 992px and up) */
