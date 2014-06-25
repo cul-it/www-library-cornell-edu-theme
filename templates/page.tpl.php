@@ -134,7 +134,7 @@
       <!--<#? php print render($page['footer-libraries']); ?>-->
       <div class="libraries-collapse collapse">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="libraries-group">
             <ul>
               <li><a href="http://africana.library.cornell.edu">Africana Library</a></li>
               <li><a href="http://engineering.library.cornell.edu">Engineering Library</a></li>
@@ -145,7 +145,7 @@
               <li><a href="http://asia.library.cornell.edu/ac/">Kroch Library, Division of Asia Collections</a></li>
             </ul>
           </div>
-          <div class="col-sm-4">
+          <div class="libraries-group">
             <ul>
               <li><a href="http://rmc.library.cornell.edu">Kroch Library, Division of Rare &amp; Manuscript Collections</a></li>
               <li><a href="http://www.lawschool.cornell.edu/library/index2.cfm">Law Library</a></li>
@@ -156,7 +156,7 @@
               <li><a href="http://www.med.cornell.edu/archives/">Medical Center Archives</a></li>
             </ul>
           </div>
-          <div class="col-sm-4">
+          <div class="libraries-group">
             <ul>
               <li><a href="http://library.med.cornell.edu/">Medical Library</a></li>
               <li><a href="http://music.library.cornell.edu">Music Library</a></li>

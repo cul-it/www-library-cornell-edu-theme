@@ -422,6 +422,9 @@ table.delivery-options {
 		a:hover { background: #2d2d2d; }
 	}
 }
+.libraries-group {
+	@include make-sm-column(4);
+}
 
 
 // My Account page
