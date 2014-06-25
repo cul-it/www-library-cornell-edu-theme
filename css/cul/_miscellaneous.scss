@@ -22,6 +22,10 @@
 	color: white;
 	border-radius: 0;
 	color: $light-gray;
+	i {
+		color: $medium-gray;
+		margin-left: 3px;
+	}
 }
 .btn-libraries:hover {
 	background: $dark-teal;
