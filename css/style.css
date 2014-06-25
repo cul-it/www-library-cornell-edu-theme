@@ -7820,6 +7820,9 @@ h2.patroninfo-title {
   .breadcrumb a {
     color: #666666; }
 
+.btn {
+  border-radius: 0; }
+
 .btn-rss {
   background: #f06925;
   padding: 0 4px;
