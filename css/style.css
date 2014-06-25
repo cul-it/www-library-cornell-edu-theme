@@ -7036,7 +7036,8 @@ footer {
 
   .footer-feedback {
     text-align: right;
-    padding-left: 15px; }
+    padding-left: 15px;
+    margin-top: 1em; }
 
   .footer-toggle {
     display: none; }
