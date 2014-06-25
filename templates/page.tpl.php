@@ -128,12 +128,12 @@
 <footer>
   <div class="container">
     <div class="libraries-list">
-      <a data-toggle="collapse" data-target=".libraries-collapse" class="btn btn-libraries">
-        Libraries <i class="fa fa-chevron-right"></i>
-      </a>
-      <!--<#? php print render($page['footer-libraries']); ?>-->
-      <div class="libraries-collapse collapse">
-        <div class="row">
+      <div class="row">
+        <a data-toggle="collapse" data-target=".libraries-collapse" class="btn btn-libraries">
+          Libraries <i class="fa fa-chevron-right"></i>
+        </a>
+        <!--<#? php print render($page['footer-libraries']); ?>-->
+        <div class="libraries-collapse collapse">
           <div class="libraries-group">
             <ul>
               <li><a href="http://africana.library.cornell.edu">Africana Library</a></li>
