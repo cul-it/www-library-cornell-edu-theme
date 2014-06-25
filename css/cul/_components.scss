@@ -404,6 +404,31 @@ table.delivery-options {
 	}
 }
 
+// Libraries list in footer
+// -------------------------
+.libraries-list {
+	padding: 0 0 2em;
+	.libraries-collapse {
+		padding: 2em;
+		background: #2d2d2d;
+		ul {
+			list-style: none;
+			padding-left: 0;
+			margin-bottom: 0;
+		}
+		li { 
+			line-height: 1.5em;
+			padding-bottom: .5em;
+			font-size: 13px;
+		}
+		a:hover { background: #2d2d2d; }
+	}
+}
+.libraries-group {
+	@include make-sm-column(4);
+}
+
+
 // My Account page
 // -------------------------
 h2.patroninfo-title { margin-top: 0; }
