@@ -127,18 +127,105 @@
 
 <footer>
   <div class="container">
-    <div class="row">
-      <div class="footer-primary">
-        <?php print render($page['footer-primary']); ?>
-      </div>
-      <div class="footer-secondary">
-        <div class="social-links">
-          <a class="facebook-button" href="http://www.facebook.com/cornelluniversitylibrary" title="Find us on Facebook"><i class="fa fa-facebook-square" alt="Find us on Facebook"></i></a> 
-          <a class="twitter-button" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.library.cornell.edu%2Findex&amp;region=follow_link&amp;screen_name=Cornell_Library&amp;tw_p=followbutton&amp;variant=2.0" title="Follow us on Twitter"><i class="fa fa-twitter-square" alt="Follow us on Twitter"></i></a>
+    <div class="libraries-list">
+      <a data-toggle="collapse" data-target=".libraries-collapse" class="btn btn-libraries">
+        Libraries <i class="fa fa-chevron-right"></i>
+      </a>
+      <!--<#? php print render($page['footer-libraries']); ?>-->
+      <div class="libraries-collapse collapse">
+        <div class="row">
+          <div class="col-sm-4">
+            <ul>
+              <li><a href="http://africana.library.cornell.edu">Africana Library</a></li>
+              <li><a href="http://engineering.library.cornell.edu">Engineering Library</a></li>
+              <li><a href="http://finearts.library.cornell.edu">Fine Arts Library</a></li>
+              <li><a href="http://leelibrary.cornell.edu">Geneva Experiment Station</a></li>
+              <li><a href="http://www.hotelschool.cornell.edu/research/library/">Hotel Library</a></li>
+              <li><a href="http://www.ilr.cornell.edu/library">Industrial and Labor Relations Library</a></li>
+              <li><a href="http://asia.library.cornell.edu/ac/">Kroch Library, Division of Asia Collections</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul>
+              <li><a href="http://rmc.library.cornell.edu">Kroch Library, Division of Rare &amp; Manuscript Collections</a></li>
+              <li><a href="http://www.lawschool.cornell.edu/library/index2.cfm">Law Library</a></li>
+              <li><a href="http://annex.library.cornell.edu">Library Annex</a></li>
+              <li><a href="http://johnson.library.cornell.edu">Management Library</a></li>
+              <li><a href="http://mannlib.cornell.edu">Mann Library</a></li>
+              <li><a href="http://mathematics.library.cornell.edu">Mathematics Library</a></li>
+              <li><a href="http://www.med.cornell.edu/archives/">Medical Center Archives</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul>
+              <li><a href="http://library.med.cornell.edu/">Medical Library</a></li>
+              <li><a href="http://music.library.cornell.edu">Music Library</a></li>
+              <li><a href="http://olinuris.library.cornell.edu">Olin Library</a></li>
+              <li><a href="http://www.birds.cornell.edu/Adelson">Ornithology Library</a></li>
+              <li><a href="http://physicalsciences.library.cornell.edu">Physical Sciences Library</a></li>
+              <li><a href="http://olinuris.library.cornell.edu">Uris Library</a></li>
+              <li><a href="http://www.vet.cornell.edu/library/">Veterinary Library</a></li>
+            </ul>
+          </div>
         </div>
-        <?php print render($page['footer-secondary']); ?>
       </div>
     </div>
+    <div class="row">
+      <div class="col-sm-2">
+        <? php print render($page['footer-links1']); ?>
+        <!-- <h3>Explore</h3>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/libraries">Libraries</a></li>
+          <li><a href="/hours">Hours and Maps</a></li>
+          <li><a href="/courses">Courses</a></li>
+          <li><a href="/research">Research</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/ask">Ask a Librarian</a></li>
+        </ul> -->
+      </div>
+      <div class="col-sm-2">
+        <? php print render($page['footer-links2']); ?>
+        <!-- <h3>Resources</h3>
+        <ul>
+          <li><a href="http://newcatalog.library.cornell.edu">Catalog</a></li>
+          <li><a href="http://cornell.summon.serialssolutions.com/">Articles &amp; Full Text</a></li>
+          <li><a href="http://erms.library.cornell.edu/search~S4">Databases</a></li>
+          <li><a href="http://erms.library.cornell.edu/">E-journal titles</a></li>
+          <li><a href="/visual-resources">Images</a></li>
+        </ul> -->
+      </div>
+      <div class="col-sm-2">
+        <? php print render($page['footer-links3']); ?>
+        <!-- <h3>Cornell</h3>
+        <ul>
+          <li><a href="http://www.cornell.edu">Cornell.edu</a></li>
+          <li><a href="http://cuinfo.cornell.edu/">CUinfo</a></li>
+        </ul> -->
+      </div>
+      <div class="col-sm-2">
+        <? php print render($page['footer-links4']); ?>
+        <!-- <h3>Tools</h3>
+        <ul>
+          <li><a href="/myacct">My Account</a></li>
+          <li><a href="/secure/cu_webauth">Staff Login</a></li>
+        </ul> -->
+      </div>
+      <div class="col-sm-4 text-right">
+        <? php print render($page['footer-feedback']); ?>
+        <!-- <a href="btn btn-cul">Feedback</a> -->
+      </div>
+    </div>
+    <? php print render($page['footer-copyright']); ?>
+    <!-- <div class="row footer-copyright">
+      <div class="col-sm-6">
+        Copyright
+      </div>
+      <div class="col-sm-6 text-right">
+        social links
+      </div>
+    </div> -->
   </div>
 </footer>
 
