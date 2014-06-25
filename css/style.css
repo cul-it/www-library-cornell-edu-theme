@@ -6998,7 +6998,7 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: right; }
+  text-align: center; }
   @media (min-width: 768px) {
     .footer-feedback {
       float: left;
@@ -7026,7 +7026,10 @@ footer {
     margin-top: 0; }
 
   .cornell-collapse {
-    display: block; } }
+    display: block; }
+
+  .footer-feedback {
+    text-align: right; } }
 /* Medium devices (desktops, 992px and up) */
 .jumbotron {
   margin-bottom: 0;
@@ -7640,7 +7643,8 @@ table.delivery-options :first-child > td:first-child {
     background: #2d2d2d; }
     .libraries-list .libraries-collapse ul {
       list-style: none;
-      padding-left: 0; }
+      padding-left: 0;
+      margin-bottom: 0; }
     .libraries-list .libraries-collapse li {
       line-height: 1.5em;
       padding-bottom: .5em; }
