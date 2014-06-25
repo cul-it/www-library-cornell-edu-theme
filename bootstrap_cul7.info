@@ -21,10 +21,6 @@ regions[footer-links4] = 'Footer links 4'
 regions[footer-feedback] = 'Footer feedback'
 regions[footer-copyright] = 'Footer copyright'
 
-; delete these after footer is re-worked
-regions[footer-primary] = 'Footer primary'
-regions[footer-secondary] = 'Footer secondary'
-
 ; Home page regions
 regions[jumbotron] = 'Jumbotron'
 regions[home-feature1] = 'Home feature 1'
