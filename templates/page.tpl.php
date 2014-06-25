@@ -188,14 +188,6 @@
       </div>
     </div>
     <?php print render($page['footer-copyright']); ?>
-    <!-- <div class="row footer-copyright">
-      <div class="col-sm-6">
-        Copyright
-      </div>
-      <div class="col-sm-6 text-right">
-        social links
-      </div>
-    </div> -->
   </div>
 </footer>
 
