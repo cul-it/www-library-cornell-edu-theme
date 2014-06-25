@@ -142,7 +142,7 @@
       <!--<#? php print render($page['footer-libraries']); ?>-->
       <div class="libraries-collapse collapse">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="libraries-group">
             <ul>
               <li><a href="http://africana.library.cornell.edu">Africana Library</a></li>
               <li><a href="http://engineering.library.cornell.edu">Engineering Library</a></li>
@@ -153,7 +153,7 @@
               <li><a href="http://asia.library.cornell.edu/ac/">Kroch Library, Division of Asia Collections</a></li>
             </ul>
           </div>
-          <div class="col-sm-4">
+          <div class="libraries-group">
             <ul>
               <li><a href="http://rmc.library.cornell.edu">Kroch Library, Division of Rare &amp; Manuscript Collections</a></li>
               <li><a href="http://www.lawschool.cornell.edu/library/index2.cfm">Law Library</a></li>
@@ -164,7 +164,7 @@
               <li><a href="http://www.med.cornell.edu/archives/">Medical Center Archives</a></li>
             </ul>
           </div>
-          <div class="col-sm-4">
+          <div class="libraries-group">
             <ul>
               <li><a href="http://library.med.cornell.edu/">Medical Library</a></li>
               <li><a href="http://music.library.cornell.edu">Music Library</a></li>
@@ -195,7 +195,15 @@
         <?php print render($page['footer-feedback']); ?>
       </div>
     </div>
-    <?php print render($page['footer-copyright']); ?>
+    <div class="row footer-copyright">
+      <div class="copyright">
+        <?php print render($page['footer-copyright']); ?>
+      </div>
+      <div class="social-links">
+        <a class="facebook-button" href="http://www.facebook.com/cornelluniversitylibrary" title="Find us on Facebook"><i class="fa fa-facebook-square" alt="Find us on Facebook"></i></a> 
+        <a class="twitter-button" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.library.cornell.edu%2Findex&amp;region=follow_link&amp;screen_name=Cornell_Library&amp;tw_p=followbutton&amp;variant=2.0" title="Follow us on Twitter"><i class="fa fa-twitter-square" alt="Follow us on Twitter"></i></a>
+      </div>
+    </div>
   </div>
 </footer>
 
