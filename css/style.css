@@ -7011,6 +7011,10 @@ footer {
   border-top: 1px solid #2d2d2d;
   margin-top: 1em; }
 
+.footer-collapse {
+  padding: 2em;
+  background: #2d2d2d; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
@@ -7043,7 +7047,11 @@ footer {
     overflow: visible !important; }
 
   .footer-collapse.in {
-    overflow-y: auto; } }
+    overflow-y: auto; }
+
+  .footer-collapse {
+    padding: 2em;
+    background: inherit; } }
 /* Medium devices (desktops, 992px and up) */
 .jumbotron {
   margin-bottom: 0;
@@ -7649,32 +7657,6 @@ table.delivery-options :first-child > td:first-child {
   margin-right: -20px;
   margin-top: 10px;
   color: #d8d2c9; }
-
-.libraries-list {
-  padding: 0 0 2em; }
-  .libraries-list .libraries-collapse {
-    padding: 2em;
-    background: #2d2d2d; }
-    .libraries-list .libraries-collapse ul {
-      list-style: none;
-      padding-left: 0;
-      margin-bottom: 0; }
-    .libraries-list .libraries-collapse li {
-      line-height: 1.5em;
-      padding-bottom: .5em;
-      font-size: 13px; }
-    .libraries-list .libraries-collapse a:hover {
-      background: #2d2d2d; }
-
-.libraries-group {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
-    .libraries-group {
-      float: left;
-      width: 33.33333%; } }
 
 h2.patroninfo-title {
   margin-top: 0; }

@@ -151,7 +151,10 @@ footer {
 	border-top: 1px solid #2d2d2d;
 	margin-top: 1em;
 }
-
+.footer-collapse {
+	padding: 2em;
+	background: #2d2d2d;
+}
 
 // MEDIA QUERIES
 // -------------------------
@@ -201,6 +204,10 @@ footer {
         overflow: visible !important; }
     .footer-collapse.in {
         overflow-y: auto; }
+    .footer-collapse {
+		padding: 2em;
+		background: inherit;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
