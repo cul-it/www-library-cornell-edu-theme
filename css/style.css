@@ -7006,9 +7006,6 @@ footer {
       float: left;
       width: 33.33333%; } }
 
-.cornell-collapse {
-  display: none; }
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
@@ -7801,6 +7798,16 @@ h2.patroninfo-title {
   color: #cccccc; }
 
 .btn-libraries:hover {
+  background: #16524d;
+  color: white; }
+
+.btn-feedback {
+  background: #16524d;
+  color: white;
+  border-radius: 0;
+  color: #cccccc; }
+
+.btn-feedback:hover {
   background: #16524d;
   color: white; }
 

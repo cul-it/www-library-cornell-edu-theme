@@ -27,6 +27,16 @@
 	background: $dark-teal;
 	color: white;
 }
+.btn-feedback {
+	background: $dark-teal;
+	color: white;
+	border-radius: 0;
+	color: $light-gray;
+}
+.btn-feedback:hover {
+	background: $dark-teal;
+	color: white;
+}
 
 // Well
 // -------------------------
