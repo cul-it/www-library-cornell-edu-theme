@@ -6967,7 +6967,7 @@ footer {
     @media (min-width: 768px) {
       footer .copyright {
         float: left;
-        width: 50%; } }
+        width: 83.33333%; } }
   footer .social-links {
     position: relative;
     min-height: 1px;
@@ -6977,7 +6977,7 @@ footer {
     @media (min-width: 768px) {
       footer .social-links {
         float: left;
-        width: 50%; } }
+        width: 16.66667%; } }
 
 .footer-links {
   position: relative;

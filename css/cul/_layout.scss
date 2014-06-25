@@ -116,10 +116,10 @@ footer {
 		background: $dark-gray;
 		text-decoration: underline; }
 	.copyright {
-		@include make-sm-column(6);
+		@include make-sm-column(10);
 	}
 	.social-links {
-		@include make-sm-column(6);
+		@include make-sm-column(2);
 		text-align: right;
 	}
 }
