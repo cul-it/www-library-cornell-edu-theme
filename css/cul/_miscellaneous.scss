@@ -19,6 +19,10 @@
 	border-radius: 0;
 }
 .btn-rss:hover { background: #d85f22; }
+.btn-cul {
+	border: 1px solid $btn-cul-border;
+	border-radius: 0;
+}
 .btn-libraries {
 	background: $dark-teal;
 	color: white;

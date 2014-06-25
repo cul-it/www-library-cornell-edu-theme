@@ -6,6 +6,7 @@
 	h1 { 
 		display: inline; 
 		margin: 0; }
+	.form-control { border-radius: 0; }
 }
 .cornell-logo {
 	@include make-sm-column(6);

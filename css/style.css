@@ -6451,6 +6451,8 @@ td {
   .cornell-brand h1 {
     display: inline;
     margin: 0; }
+  .cornell-brand .form-control {
+    border-radius: 0; }
 
 .cornell-logo {
   position: relative;
@@ -7148,8 +7150,7 @@ footer {
       .search-form .search-button {
         float: left;
         width: 16.66667%; } }
-  .search-form .btn-cul {
-    border: 1px solid #1f7972;
+  .search-form .form-control {
     border-radius: 0; }
 
 .search-form-tabs input {
@@ -7830,6 +7831,10 @@ h2.patroninfo-title {
 
 .btn-rss:hover {
   background: #d85f22; }
+
+.btn-cul {
+  border: 1px solid #1f7972;
+  border-radius: 0; }
 
 .btn-libraries {
   background: #16524d;
