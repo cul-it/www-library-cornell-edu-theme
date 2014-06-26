@@ -6947,7 +6947,7 @@ footer {
       text-decoration: none; }
     footer .nav a:hover {
       color: white;
-      background: #2d2d2d;
+      background: inherit;
       text-decoration: underline; }
   footer p {
     clear: both;
