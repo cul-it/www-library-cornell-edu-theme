@@ -3,7 +3,7 @@
   $(document).ready(function() {
 
     $('#q').autocomplete({
-      source: 'http://bestbets.library.cornell.edu/match/' + $('#q').val(),
+      source: 'https://bestbets.library.cornell.edu/match/' + $('#q').val(),
       minLength: 2,
       select: function(event, ui) {
         var url = ui.item.url;
