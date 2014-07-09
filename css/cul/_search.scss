@@ -72,9 +72,11 @@
 }
 .search-info {
 	text-align: right;
-	margin-right: 15px;
-	font-size: 14px;
-	color: #666;
+	font-size: 12px;
+	margin-top: .5em;
+	a {
+		color: #666;
+	}
 }
 
 // tabs only
