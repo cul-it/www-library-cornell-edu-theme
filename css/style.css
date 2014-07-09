@@ -7120,7 +7120,8 @@ footer {
     border-top-left-radius: 0; }
   .search-form form {
     width: 100%;
-    margin: 0; }
+    margin: 0;
+    clear: both; }
   .search-form .form-group {
     margin-bottom: 0; }
   .search-form .text-right {
@@ -7348,8 +7349,7 @@ footer {
     padding: 30px 60px 0 60px; }
 
   .search-form form {
-    width: 100%;
-    clear: both; }
+    width: 100%; }
 
   .search-options li {
     margin-bottom: 0; } }
