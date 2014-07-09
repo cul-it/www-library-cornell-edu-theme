@@ -7095,7 +7095,9 @@ footer {
     color: white;
     margin-top: 0;
     margin-bottom: .5em;
-    font-weight: normal; }
+    font-weight: normal;
+    display: inline-block;
+    float: left; }
   .search-form .nav-tabs {
     border-bottom: 0; }
     .search-form .nav-tabs li {
@@ -7152,7 +7154,8 @@ footer {
 .search-info {
   text-align: right;
   font-size: 12px;
-  margin-top: .5em; }
+  margin-top: .5em;
+  float: right; }
   .search-info a {
     color: #666; }
 
@@ -7345,7 +7348,8 @@ footer {
     padding: 30px 60px 0 60px; }
 
   .search-form form {
-    width: 100%; }
+    width: 100%;
+    clear: both; }
 
   .search-options li {
     margin-bottom: 0; } }
