@@ -7160,6 +7160,9 @@ footer {
   .search-info a {
     color: #666;
     cursor: pointer; }
+  .search-info .popover-content {
+    font-size: 12px;
+    color: #666666; }
 
 .search-form-tabs input {
   border-top-left-radius: 0; }
