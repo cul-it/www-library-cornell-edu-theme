@@ -7149,6 +7149,12 @@ footer {
         float: left;
         width: 16.66667%; } }
 
+.search-info {
+  text-align: right;
+  margin-right: 15px;
+  font-size: 14px;
+  color: #666; }
+
 .search-form-tabs input {
   border-top-left-radius: 0; }
 
