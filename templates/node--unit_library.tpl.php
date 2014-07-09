@@ -172,6 +172,7 @@
         <div class="unit-map">
           <?php print render($content['field_map']); ?>
         </div>
+        <p><a href="https://www.cornell.edu/about/maps/index.cfm?overlays=Library">View map of Cornell libraries</a></p>
       </div>
     </div>
 
