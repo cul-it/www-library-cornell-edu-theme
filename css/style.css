@@ -7211,8 +7211,11 @@ footer {
       background-color: #16524d; }
 
 .search-options h2 {
-  margin: 0;
-  font-size: 12px; }
+  margin: 0 0 .25em 0;
+  font-size: 11px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: normal; }
 .search-options ul {
   margin: 0;
   padding: 0;
