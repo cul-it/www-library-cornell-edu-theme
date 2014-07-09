@@ -6626,7 +6626,7 @@ td {
       .navbar li a {
         border-bottom: none;
         padding: 15px 12px;
-        font-size: 14px; }
+        font-size: 13px; }
     .navbar .navbar-collapse {
       margin-left: 0;
       margin-top: 0;
@@ -6643,7 +6643,8 @@ td {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .navbar li a {
-    padding: 15px 20px; } }
+    padding: 15px 20px;
+    font-size: 14px; } }
 .nav-global {
   position: relative;
   min-height: 1px;

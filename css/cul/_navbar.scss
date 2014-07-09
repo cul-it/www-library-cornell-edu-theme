@@ -139,7 +139,7 @@
 			a { 
 				border-bottom: none;
 				padding: 15px 12px;
-				font-size: 14px;
+				font-size: 13px;
 			}
 		}
 		.navbar-collapse { 
@@ -160,7 +160,10 @@
 @media (min-width: $screen-md) {
 	.navbar {
 		li {
-			a { padding: 15px 20px; }
+			a { 
+				padding: 15px 20px;
+				font-size: 14px;
+			}
 		}
 	}
 	
