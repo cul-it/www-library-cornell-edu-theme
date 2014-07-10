@@ -218,7 +218,9 @@
 
 <script type="text/javascript">
   document.getElementById('q').focus();
-  $ ('.popover-dismiss').popover({
-    trigger: 'focus'
-  })
+  $jQuery(document).ready(function() {
+    ('.popover-dismiss').popover({
+      trigger: 'focus'
+    })
+  };
 </script>
