@@ -7224,23 +7224,26 @@ footer {
     .help-links .dropdown-menu li > a:hover {
       background-color: #16524d; }
 
-.search-options h2 {
-  margin: 0 0 .25em 0;
-  font-size: 11px;
-  color: #999;
-  text-transform: uppercase;
-  font-weight: normal; }
-.search-options ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-.search-options li {
-  float: left;
-  margin: 0 18px 10px 0;
-  padding: 0; }
-  .search-options li i {
-    margin-right: 2px;
-    color: #999; }
+.search-options {
+  margin-top: 10px; }
+  .search-options h2 {
+    margin: 0 0 .5em 0;
+    font-size: 11px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: normal; }
+  .search-options ul {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style: none; }
+  .search-options li {
+    float: left;
+    margin: 0 18px 10px 0;
+    padding: 0;
+    font-size: 14px; }
+    .search-options li i {
+      margin-right: 2px;
+      color: #999; }
 
 .search-help {
   display: inline-block;

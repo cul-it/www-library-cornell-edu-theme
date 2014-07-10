@@ -157,15 +157,16 @@
 	} 
 }
 .search-options {
+	margin-top: 10px;
 	h2 {
-		margin: 0 0 .25em 0;
+		margin: 0 0 .5em 0;
 		font-size: 11px;
 		color: #999;
 		text-transform: uppercase;
 		font-weight: normal;
 	}
 	ul { 
-		margin: 0; 
+		margin: 0 0 10px; 
 		padding: 0;
 		list-style: none;
 	}
@@ -173,6 +174,7 @@
 		float: left; 
 		margin: 0 18px 10px 0;
 		padding: 0;
+		font-size: 14px;
 		i { 
 			margin-right: 2px;
 			color: #999; }
