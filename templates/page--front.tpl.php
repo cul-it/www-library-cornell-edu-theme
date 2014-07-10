@@ -217,8 +217,5 @@
 <?php print render($page['bottom']); ?>
 
 <script type="text/javascript">
-  document.getElementById('q').focus();
-  jQuery('.popover-dismiss').popover({
-    trigger: 'focus'
-  })
+  document.getElementById('q').focus()
 </script>
