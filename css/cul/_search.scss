@@ -7,7 +7,7 @@
 }
 
 .search-form {
-	@include make-sm-column(8);
+	@include make-sm-column(9);
 	@include make-md-column(8);
 	@include make-lg-column(6);
 	padding: 20px 10px 10px 10px;
