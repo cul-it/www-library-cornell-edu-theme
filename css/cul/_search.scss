@@ -89,8 +89,9 @@
 .tooltip-inner {
 	padding: 10px 12px; 
 	font-size: 13px;
-	background: $dark-teal;
+	// background: $dark-teal;
 	opacity: 1;
+	background: rgba(22, 82, 77, 1); // $dark-teal in rgb values
 }
 
 // tabs only
