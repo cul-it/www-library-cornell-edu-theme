@@ -7158,12 +7158,13 @@ footer {
   .search-info a {
     color: #666;
     cursor: pointer; }
-  .search-info .tooltip-inner {
-    background-color: black; }
 
 .popover-content {
   font-size: 12px;
   color: #666666; }
+
+.tooltip-inner {
+  background-color: black; }
 
 .search-form-tabs input {
   border-top-left-radius: 0; }
