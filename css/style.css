@@ -7243,9 +7243,8 @@ footer {
 .search-options li {
   float: left;
   margin: 0;
-  padding: 0 9px;
-  font-size: 13px;
-  border-left: 1px solid #444; }
+  padding: 0 18px 10px 0;
+  font-size: 12px; }
   .search-options li i {
     margin-right: 2px;
     color: #999; }
@@ -7352,7 +7351,9 @@ footer {
     margin-top: 20px; }
 
   .search-options li {
-    margin-bottom: 5px; }
+    padding: 0 9px;
+    font-size: 13px;
+    border-left: 1px solid #444; }
 
   .form-image-search input.form-control,
   .form-image-search select.form-control {
