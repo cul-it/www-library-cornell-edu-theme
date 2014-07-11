@@ -7245,10 +7245,13 @@ footer {
   float: left;
   margin: 0 18px 10px 0;
   padding: 0;
-  font-size: 13px; }
+  font-size: 13px;
+  border-left: 1px solid #666666; }
   .search-options li i {
     margin-right: 2px;
     color: #999; }
+.search-options li:first-child {
+  border-left: 0; }
 
 .search-help {
   display: inline-block;
