@@ -7158,6 +7158,8 @@ footer {
   .search-info a {
     color: #666;
     cursor: pointer; }
+  .search-info .tooltip-inner {
+    background-color: black; }
 
 .popover-content {
   font-size: 12px;
@@ -7243,8 +7245,6 @@ footer {
   .search-options li i {
     margin-right: 2px;
     color: #999; }
-.search-options .tooltip-inner {
-  background-color: black; }
 
 .search-help {
   display: inline-block;

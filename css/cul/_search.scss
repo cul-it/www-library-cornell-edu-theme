@@ -81,6 +81,9 @@
 		color: #666;
 		cursor: pointer;
 	}
+	.tooltip-inner {
+	  background-color: $tooltip-bg;
+	}
 }
 .popover-content {
 	font-size: 12px;
@@ -178,9 +181,6 @@
 		i { 
 			margin-right: 2px;
 			color: #999; }
-	}
-	.tooltip-inner {
-	  background-color: $tooltip-bg;
 	}
 }
 .search-help {
