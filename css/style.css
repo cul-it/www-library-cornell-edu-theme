@@ -7165,7 +7165,7 @@ footer {
 
 .tooltip-inner {
   padding: 8px 10px;
-  background: rgba(0, 0, 0, 0.85);
+  background: black;
   background-color: #222222; }
 
 .search-form-tabs input {
