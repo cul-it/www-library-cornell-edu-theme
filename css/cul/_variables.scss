@@ -39,3 +39,12 @@ $link-color-hover: black;
 
 $font-family-sans-serif:  Oxygen;        @import
 url(//fonts.googleapis.com/css?family=Oxygen);
+
+// Tooltip
+
+// $tooltip-max-width:           200px !default;
+// $tooltip-color:               #fff !default;
+$tooltip-bg:                  $medium-gray !default;
+
+// $tooltip-arrow-width:         5px !default;
+$tooltip-arrow-color:         $tooltip-bg !default;
