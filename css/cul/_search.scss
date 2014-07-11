@@ -87,8 +87,9 @@
 	color: $medium-gray;
 }
 .tooltip-inner {
-	background-color: $dark-gray;
 	padding: 8px 10px;
+	background: rgba(0, 0, 0, 0.85);
+	background-color: $dark-gray;
 }
 
 // tabs only

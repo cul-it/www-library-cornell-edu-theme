@@ -7164,8 +7164,9 @@ footer {
   color: #666666; }
 
 .tooltip-inner {
-  background-color: #222222;
-  padding: 8px 10px; }
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.85);
+  background-color: #222222; }
 
 .search-form-tabs input {
   border-top-left-radius: 0; }
