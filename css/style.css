@@ -7243,6 +7243,8 @@ footer {
   .search-options li i {
     margin-right: 2px;
     color: #999; }
+.search-options .tooltip-inner {
+  background-color: black; }
 
 .search-help {
   display: inline-block;

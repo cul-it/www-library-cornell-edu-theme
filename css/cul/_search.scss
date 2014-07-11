@@ -179,6 +179,9 @@
 			margin-right: 2px;
 			color: #999; }
 	}
+	.tooltip-inner {
+	  background-color: $tooltip-bg;
+	}
 }
 .search-help {
 	display: inline-block;
