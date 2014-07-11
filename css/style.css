@@ -7224,27 +7224,25 @@ footer {
     .help-links .dropdown-menu li > a:hover {
       background-color: #16524d; }
 
-.search-options {
-  margin-top: 5px; }
-  .search-options h2 {
-    margin: 0 0 .5em 0;
-    font-size: 11px;
-    color: #999;
-    text-transform: uppercase;
-    font-weight: normal; }
-  .search-options ul {
-    margin: 0 0 5px;
-    padding: 0;
-    list-style: none;
-    overflow: hidden; }
-  .search-options li {
-    float: left;
-    margin: 0 18px 10px 0;
-    padding: 0;
-    font-size: 13px; }
-    .search-options li i {
-      margin-right: 2px;
-      color: #999; }
+.search-options h2 {
+  margin: 0 0 .5em 0;
+  font-size: 11px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: normal; }
+.search-options ul {
+  margin: 0 0 5px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden; }
+.search-options li {
+  float: left;
+  margin: 0 18px 10px 0;
+  padding: 0;
+  font-size: 13px; }
+  .search-options li i {
+    margin-right: 2px;
+    color: #999; }
 
 .search-help {
   display: inline-block;
