@@ -10,7 +10,7 @@
   <title><?php print $head_title; ?></title>
 
   <?php print $styles; ?>
-  <link href="/sites/all/themes/bootstrap_cul7/css/style.css" rel="stylesheet">
+  <link href="/sites/all/themes/bootstrap_cul7/css/style.css" rel="stylesheet" media="screen">
   <link href="/sites/all/themes/bootstrap_cul7/css/print.css" rel="stylesheet" media="print">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
