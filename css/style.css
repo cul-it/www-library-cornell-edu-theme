@@ -8197,6 +8197,10 @@ body.admin-menu {
     background-size: 300px 75px;
     width: 300px; } }
 @media print {
-  body, h1, h2, h3, h4, h5, h6 {
+  body {
     font-family: sans-serif !important;
-    font-size: 90%; } }
+    font-size: 90%; }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif !important;
+    font-size: inherit !important; } }
