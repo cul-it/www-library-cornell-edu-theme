@@ -8203,4 +8203,10 @@ body.admin-menu {
 
   h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif !important;
-    font-size: inherit !important; } }
+    font-size: inherit !important; }
+
+  .sidebar,
+  .breadcrumb-wrapper,
+  footer,
+  .nav-global {
+    display: none; } }

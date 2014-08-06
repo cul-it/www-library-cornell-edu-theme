@@ -7,4 +7,10 @@
     	font-family: sans-serif !important;
     	font-size: inherit !important;
     }
+    .sidebar,
+    .breadcrumb-wrapper,
+    footer,
+    .nav-global {
+    	display: none;
+    }
 }
