@@ -6768,6 +6768,8 @@ td {
           font-size: 12px; }
         .sidebar .nav .dropdown-menu .dropdown-menu .active {
           font-weight: 700; }
+        .sidebar .nav .dropdown-menu .dropdown-menu a {
+          color: #0068ac; }
 
 .page-services-liaisons .sidebar .nav .menu-mlid-827 a {
   color: inherit; }

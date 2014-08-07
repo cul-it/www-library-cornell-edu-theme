@@ -143,6 +143,9 @@
 				margin-top: 5px;
 				li { font-size: 12px; }
 				.active { font-weight: 700; }
+				a {
+					color: $link-color;
+				}
 			}
 		}
 	}
