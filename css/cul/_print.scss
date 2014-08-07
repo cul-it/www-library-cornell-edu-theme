@@ -36,4 +36,9 @@
     	width: 100% !important;
     	float: none !important;
     }
+    .container {
+        .row:first-child {
+            display: none !important; // hide whole row div where breadcrumbs are to save space
+        }
+    }
 }

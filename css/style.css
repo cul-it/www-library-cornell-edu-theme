@@ -8232,4 +8232,7 @@ body.admin-menu {
   .sidebar {
     right: 0;
     width: 100% !important;
-    float: none !important; } }
+    float: none !important; }
+
+  .container .row:first-child {
+    display: none !important; } }
