@@ -6766,11 +6766,9 @@ td {
         margin-top: 5px; }
         .sidebar .nav .dropdown-menu .dropdown-menu li {
           font-size: 12px; }
-        .sidebar .nav .dropdown-menu .dropdown-menu .active {
-          font-weight: 700; }
         .sidebar .nav .dropdown-menu .dropdown-menu a {
           color: #0068ac; }
-        .sidebar .nav .dropdown-menu .dropdown-menu a.active {
+        .sidebar .nav .dropdown-menu .dropdown-menu .active {
           color: black; }
 
 .page-services-liaisons .sidebar .nav .menu-mlid-827 a {

@@ -142,11 +142,10 @@
 				padding-left: 15px;
 				margin-top: 5px;
 				li { font-size: 12px; }
-				.active { font-weight: 700; }
 				a {
 					color: $link-color;
 				}
-				a.active { color: $link-color-hover; }
+				.active { color: $link-color-hover; }
 			}
 		}
 	}
