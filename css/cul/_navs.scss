@@ -146,6 +146,7 @@
 				a {
 					color: $link-color;
 				}
+				a.active { color: $link-color-hover; }
 			}
 		}
 	}

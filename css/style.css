@@ -6770,6 +6770,8 @@ td {
           font-weight: 700; }
         .sidebar .nav .dropdown-menu .dropdown-menu a {
           color: #0068ac; }
+        .sidebar .nav .dropdown-menu .dropdown-menu a.active {
+          color: black; }
 
 .page-services-liaisons .sidebar .nav .menu-mlid-827 a {
   color: inherit; }
