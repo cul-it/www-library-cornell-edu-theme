@@ -8234,5 +8234,5 @@ body.admin-menu {
     width: 100% !important;
     float: none !important; }
 
-  .container .row:first-child {
-    display: none !important; } }
+  .cu-logo img {
+    display: block; } }
