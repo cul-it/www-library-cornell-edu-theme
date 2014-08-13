@@ -119,9 +119,6 @@
               elseif ($location_hours == 'Engineering') {
                 $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
               }
-               elseif ($location_hours == 'Hotel') {
-                $full_hours = 'The Hotel School Library will be closed from June 6, 2014 to August 17, 2014. Librarians are available for research help at <a href="mailto:hotelllibrary.cornell.edu">hotellibrary@cornell.edu</a>.';
-              }
               else {
                 $location_hours = urlencode($location_hours);
                 $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicSemester.do?output=xhtml&location=" . $location_hours;
