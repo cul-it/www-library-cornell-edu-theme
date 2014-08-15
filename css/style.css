@@ -6780,6 +6780,11 @@ td {
 .page-services-liaisons .sidebar .nav .menu-mlid-827 li a:hover {
   color: black; }
 
+.node-type-patron-group .sidebar .nav .menu-mlid-1136 a {
+  color: inherit; }
+  .node-type-patron-group .sidebar .nav .menu-mlid-1136 a i {
+    color: #b31b1b; }
+
 .dropdown-menu > li > a {
   white-space: normal; }
 

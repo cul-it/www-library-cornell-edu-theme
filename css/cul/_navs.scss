@@ -167,6 +167,23 @@
 		}
 	}
 }
+// force active menu for patron group nodes
+.node-type-patron-group {
+	.sidebar {
+		.nav {
+			.menu-mlid-1136 {
+				a { 
+					color: inherit;
+					i { color: $cornell-primary; }
+				}
+				// li {
+				// 	a { color: $link-color; }
+				// 	a:hover { color: $link-color-hover; }
+				// }
+			}
+		}
+	}
+}
 
 // override bootstrap dropdown link wrapping
 .dropdown-menu > li > a { white-space: normal; }
