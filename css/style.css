@@ -7027,7 +7027,7 @@ footer {
 @media (min-width: 768px) {
   .hero {
     background-size: cover !important;
-    min-height: 350px; }
+    min-height: 300px; }
 
   .sidebar {
     margin-top: 20px;
