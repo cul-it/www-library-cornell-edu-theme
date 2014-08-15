@@ -252,6 +252,7 @@
 		float: left;
 		margin-right: 5px;
 		margin-bottom: 2em;
+		width: 80%;
 	}
 }
 
@@ -275,11 +276,12 @@
 	.library-info {
 		width: 75%;
 	}
-	// .today-hours {
-	// 	span {
-	// 		margin-left: .5em;
-	// 	}
-	// }
+	// float form elements on borrowing jump menu so they are inline
+	.view-borrowing-policy {
+		.ctools-jump-menu-select {
+			width: 100%;
+		}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */

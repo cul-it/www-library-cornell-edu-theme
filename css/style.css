@@ -8179,7 +8179,8 @@ body.admin-menu {
 .view-borrowing-policy .ctools-jump-menu-select {
   float: left;
   margin-right: 5px;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  width: 80%; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -8190,7 +8191,10 @@ body.admin-menu {
     width: 100px; }
 
   .library-info {
-    width: 75%; } }
+    width: 75%; }
+
+  .view-borrowing-policy .ctools-jump-menu-select {
+    width: 100%; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {
