@@ -7200,7 +7200,7 @@ footer {
     font-size: 12px;
     margin-bottom: 5px; }
   .spotlight .spotlight-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: white;
     margin: 0 0 .75em; }
@@ -7332,7 +7332,7 @@ footer {
   .spotlight-caption {
     float: right;
     width: 25%;
-    margin-top: -20px;
+    margin-top: -50px;
     margin-bottom: 0; }
 
   .search-form {
