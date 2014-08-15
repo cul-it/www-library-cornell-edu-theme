@@ -246,6 +246,15 @@
 		}
 	}
 }
+// float form elements on borrowing jump menu so they are inline
+.view-borrowing-policy {
+	.ctools-jump-menu-select {
+		float: left;
+		margin-right: 5px;
+		margin-bottom: 2em;
+	}
+}
+
 
 
 // MEDIA QUERIES

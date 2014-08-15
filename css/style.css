@@ -8176,6 +8176,11 @@ body.admin-menu {
 #block-views-borrowing-policy-block .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1.8em; }
 
+.view-borrowing-policy .ctools-jump-menu-select {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 2em; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
