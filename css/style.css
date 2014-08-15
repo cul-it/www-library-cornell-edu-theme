@@ -7332,7 +7332,7 @@ footer {
   .spotlight-caption {
     float: right;
     width: 25%;
-    margin-top: -70px;
+    margin-top: -100px;
     margin-bottom: 0; }
 
   .search-form {
@@ -7370,6 +7370,9 @@ footer {
 @media (min-width: 992px) {
   .container .jumbotron {
     padding: 30px 60px 0 60px; }
+
+  .spotlight-caption {
+    margin-top: -70px; }
 
   .search-form form {
     width: 100%; }
