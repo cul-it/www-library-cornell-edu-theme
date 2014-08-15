@@ -140,12 +140,16 @@
           <h3>Website <i class="fa fa-external-link"></i></h3>
           <?php print render($content['group_contact']['field_website']); ?>
           <h3>Contact</h3>
-          <h4>Reference</h4>
-          <?php print render($content['group_contact']['field_ref_email']); ?>
-          <?php print render($content['group_contact']['field_ref_phone']); ?>
-          <h4>Circulation</h4>
-          <?php print render($content['group_contact']['field_circ_email']); ?>
-          <?php print render($content['group_contact']['field_circ_phone']); ?>
+          <?php if ($content['group_contact']['field_ref_email']) || ($content['group_contact']['field_ref_phone']) : ?>
+            <h4>Reference</h4>
+            <?php print render($content['group_contact']['field_ref_email']); ?>
+            <?php print render($content['group_contact']['field_ref_phone']); ?>
+          <?php endif; ?>
+          <?php if ($content['group_contact']['field_circ_email']) || ($content['group_contact']['field_circ_phone']) : ?>
+            <h4>Circulation</h4>
+            <?php print render($content['group_contact']['field_circ_email']); ?>
+            <?php print render($content['group_contact']['field_circ_phone']); ?>
+          <?php endif; ?>
           <h4>Address</h4>
           <?php if ($location['name']) : ?>
             <?php print $location['name'] ?><br>
