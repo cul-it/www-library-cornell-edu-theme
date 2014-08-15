@@ -8191,17 +8191,17 @@ body.admin-menu {
     width: 100px; }
 
   .library-info {
-    width: 75%; }
-
-  .view-borrowing-policy .ctools-jump-menu-select {
-    width: 100%; } }
+    width: 75%; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {
     width: 250%; }
 
   .page-node-2282 .courses-form {
-    height: 315px; } }
+    height: 315px; }
+
+  .view-borrowing-policy .ctools-jump-menu-select {
+    width: 100%; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* High-res styles go here */
   .cu-logo {

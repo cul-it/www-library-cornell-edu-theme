@@ -276,12 +276,6 @@
 	.library-info {
 		width: 75%;
 	}
-	// float form elements on borrowing jump menu so they are inline
-	.view-borrowing-policy {
-		.ctools-jump-menu-select {
-			width: 100%;
-		}
-	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -296,6 +290,11 @@
 	.page-node-2282 {
 		.courses-form {
 			height: 315px;
+		}
+	}
+	.view-borrowing-policy {
+		.ctools-jump-menu-select {
+			width: 100%;
 		}
 	}
 }
