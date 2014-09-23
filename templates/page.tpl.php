@@ -35,7 +35,7 @@
     </div>
     <div class="visible-xs mobile-search">
       <div class="search-collapse collapse">
-        <form class="form-inline clearfix" role="form" action="http://search.library.cornell.edu/" method="get">
+        <form class="form-inline clearfix" role="form" action="//search.library.cornell.edu/" method="get">
           <div class="form-group">
             <label class="sr-only" for="q">Search</label>
             <input type="text" class="form-control input-sm search-box" id="q" name="q" placeholder="Search everything">
