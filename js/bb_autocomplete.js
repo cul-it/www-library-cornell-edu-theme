@@ -12,16 +12,6 @@
         }
       }
     })
-    $('#q1').autocomplete({
-      source: 'https://bestbets.library.cornell.edu/match/' + $('#q1').val(),
-      minLength: 2,
-      select: function(event, ui) {
-        var url = ui.item.url;
-        if (url != '#') {
-          location.href = url;
-        }
-      }
-    })
     // This next section is just to add the little external link icon (the <i> class) 
     // after the label in the results list!
     // It can be completely removed if all you need is basic autocomplete

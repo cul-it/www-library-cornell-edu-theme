@@ -35,10 +35,10 @@
     </div>
     <div class="visible-xs mobile-search">
       <div class="search-collapse collapse">
-        <form class="form-inline clearfix" role="form" action="//search.library.cornell.edu/" method="get">
+        <form class="form-inline clearfix" role="form" action="http://search.library.cornell.edu/" method="get">
           <div class="form-group">
-            <label class="sr-only" for="q1">Search</label>
-            <input type="text" class="form-control input-sm search-box" id="q1" name="q1" placeholder="Search everything">
+            <label class="sr-only" for="q">Search</label>
+            <input type="text" class="form-control input-sm search-box" id="q" name="q" placeholder="Search everything">
           </div>
           <button type="submit" class="btn btn-search-icon btn-sm"><i class="fa fa-search fa-inverse"></i></button>
         </form>
