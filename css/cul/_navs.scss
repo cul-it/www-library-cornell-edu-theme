@@ -176,11 +176,9 @@
 					color: inherit;
 					i { color: $cornell-primary; }
 				}
-				.active-trail {
-					.dropdown-menu {
-						a { color: $link-color; }
-						a:hover { color: $link-color-hover; }
-					}
+				.dropdown-menu {
+					a { color: $link-color; }
+					a:hover { color: $link-color-hover; }
 				}
 			}
 		}

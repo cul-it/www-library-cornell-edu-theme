@@ -6785,9 +6785,9 @@ td {
   color: inherit; }
   .node-type-patron-group .sidebar .nav .menu-mlid-1136 a i {
     color: #b31b1b; }
-.node-type-patron-group .sidebar .nav .menu-mlid-1136 .active-trail .dropdown-menu a {
+.node-type-patron-group .sidebar .nav .menu-mlid-1136 .dropdown-menu a {
   color: #0068ac; }
-.node-type-patron-group .sidebar .nav .menu-mlid-1136 .active-trail .dropdown-menu a:hover {
+.node-type-patron-group .sidebar .nav .menu-mlid-1136 .dropdown-menu a:hover {
   color: black; }
 
 .dropdown-menu > li > a {
