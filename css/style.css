@@ -6358,7 +6358,8 @@ h2:first-child {
 
 h3 {
   font-weight: 700;
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 1.4em; }
 
 .main-content p, .main-content li {
   font-size: 16px;
@@ -8189,7 +8190,8 @@ body.admin-menu {
 .page-node-1651 .tab-content {
   padding: 40px 30px;
   border: 1px solid #ddd;
-  border-top: 0; }
+  border-top: 0;
+  margin-bottom: 2em; }
 
 table.delivery-options h3 {
   font-size: .9em;
