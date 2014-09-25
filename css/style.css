@@ -7641,14 +7641,6 @@ footer {
   width: 100%;
   height: auto; }
 
-table.delivery-options h3 {
-  font-size: 0.9em; }
-table.delivery-options tr > td:first-child {
-  color: #b31b1b;
-  text-align: center; }
-table.delivery-options :first-child > td:first-child {
-  color: #2aa198; }
-
 .webform-client-form .panel {
   border: none;
   -webkit-box-shadow: none;
@@ -8198,6 +8190,15 @@ body.admin-menu {
   padding: 40px 30px;
   border: 1px solid #ddd;
   border-top: 0; }
+
+table.delivery-options h3 {
+  font-size: .9em;
+  margin-top: 12px; }
+table.delivery-options tr > td:first-child {
+  color: #b31b1b;
+  text-align: center; }
+table.delivery-options :first-child > td:first-child {
+  color: #2aa198; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

@@ -326,24 +326,6 @@
 	height:auto;
 }
 
-// Delivery options table
-// -------------------------
-
-table.delivery-options {
-	h3 {
-		font-size: .9em
-	}
-
-	tr > td:first-child {
-		color:$cornell-primary;
-		text-align: center;
-	}
-
-	:first-child > td:first-child {
-		color: $teal;
-	}
-
-}
 // Forms with fieldsets - override wonky Bootstrap formatting
 // -------------------------------------------------------------
 .webform-client-form {
