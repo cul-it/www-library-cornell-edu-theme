@@ -265,10 +265,13 @@
 		margin-top: 2em;
 	}
 	.tab-content {
-		padding: 40px 30px; 
+		padding: 30px; 
 		border: 1px solid #ddd; 
 		border-top: 0;
 		margin-bottom: 2em;
+		h2 {
+			margin-bottom: 1em;
+		}
 	}
 }
 table.delivery-options {
