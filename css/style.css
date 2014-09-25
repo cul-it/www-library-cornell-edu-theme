@@ -8191,6 +8191,14 @@ body.admin-menu {
   margin-bottom: 2em;
   width: 80%; }
 
+.page-node-1651 .nav-tabs {
+  margin-bottom: 0;
+  margin-top: 2em; }
+.page-node-1651 .tab-content {
+  padding: 40px 30px;
+  border: 1px solid #ddd;
+  border-top: 0; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {

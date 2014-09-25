@@ -256,6 +256,20 @@
 	}
 }
 
+// Request materials
+//--------------------------//
+//make changes to bootstrap tabs but only on the request page
+.page-node-1651 {
+	.nav-tabs {
+		margin-bottom: 0; 
+		margin-top: 2em;
+	}
+	.tab-content {
+		padding: 40px 30px; 
+		border: 1px solid #ddd; 
+		border-top: 0;
+	}
+}
 
 
 // MEDIA QUERIES
