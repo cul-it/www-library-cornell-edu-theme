@@ -136,6 +136,17 @@
 	font-size: 16px;
 	line-height: 1.5em;
 }
+.space-website {
+	font-size: 16px;
+}
+// remove default bold state of node label just for library space
+.node-library-space {
+	.field {
+		.field-label {
+			font-weight: normal;
+		}
+	}
+}
 
 // Search tips table
 //------------------//

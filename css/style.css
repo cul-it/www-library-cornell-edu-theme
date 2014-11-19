@@ -8100,6 +8100,12 @@ body.admin-menu {
   font-size: 16px;
   line-height: 1.5em; }
 
+.space-website {
+  font-size: 16px; }
+
+.node-library-space .field .field-label {
+  font-weight: normal; }
+
 .page-node-90 td {
   width: 33%; }
 
