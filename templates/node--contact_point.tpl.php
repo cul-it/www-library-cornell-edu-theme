@@ -86,7 +86,7 @@
 
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
-    <h2><?php print $title; ?></h2>
+    <p><?php print $title; ?></p>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
 
