@@ -103,23 +103,25 @@
       hide($content['links']);
     ?>
 
-    <div class="space-unit-library">
-      <?php print render($content['field_ls_unit_library']); ?>
-    </div>
-    <div class="space-notes">
-      <p><?php print render($content['field_notes']); ?></p>
-    </div>
+    <?php if (!empty ($content['field_ls_unit_library'])) : ?>
+      <div class="space-unit-library">
+        <?php print render($content['field_ls_unit_library']); ?>
+      </div>
+    <?php endif; ?>
+    <?php if (!empty ($content['field_notes'])) : ?>
+      <div class="space-notes">
+        <p><?php print render($content['field_notes']); ?></p>
+      </div>
+    <?php endif; ?>
 
-    <div class="well highlight-box">
-      <h3>Contact</h3>
-        <div class="space-contact-point">
-          <p><?php print render($content['field_ls_contact_point']); ?></p>
-        </div>
-        <div class="space-contact-phone">
-          <p><?php print render($content['field_contact_phone']); ?></p>
-        </div>
-    </div>
-
+    <?php if (!empty ($content['field_ls_contact_point'])) : ?>
+      <div class="well highlight-box">
+        <h3>Contact</h3>
+          <div class="space-contact-point">
+            <p><?php print render($content['field_ls_contact_point']); ?></p>
+          </div>
+      </div>
+    <?php endif; ?>
 
   </div>
 
