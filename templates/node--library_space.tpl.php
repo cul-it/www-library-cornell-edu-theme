@@ -147,17 +147,14 @@
       </div>
     <?php endif; ?>
 
-    <?php if (!empty ($content['field_ls_contact_website'])) : ?>
-      <div class="space-website">
-        <?php print render($content['field_ls_contact_website']); ?>
-      </div>
-    <?php endif; ?>
-
-    <?php if (!empty ($content['field_ls_contact_point'])) : ?>
+    <?php if (!empty ($content['field_ls_contact_point']) || ($content['field_ls_contact_website'])) : ?>
       <div class="well highlight-box">
         <h3>Contact</h3>
           <div class="space-contact-point">
             <?php print render($content['field_ls_contact_point']); ?>
+          </div>
+          <div class="space-website">
+            <?php print render($content['field_ls_contact_website']); ?>
           </div>
       </div>
     <?php endif; ?>
