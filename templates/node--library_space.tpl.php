@@ -108,6 +108,39 @@
         <?php print render($content['field_ls_unit_library']); ?>
       </div>
     <?php endif; ?>
+
+    <?php if (!empty ($content['field_ls_space_type'])) : ?>
+      <div class="space-type">
+        <p><?php print render($content['field_ls_space_type']); ?></p>
+      </div>
+    <?php endif; ?>
+
+    <?php if (!empty ($content['field_ls_access_granted_to'])) : ?>
+      <div class="space-access">
+        <p><?php print render($content['field_ls_access_granted_to']); ?></p>
+      </div>
+    <?php endif; ?>
+
+    
+    <?php if (!empty ($content['field_ls_room_capacity'])) : ?>
+      <div class="space-capacity">
+        <p><?php print render($content['field_ls_room_capacity']); ?></p>
+      </div>
+    <?php endif; ?>
+
+    <?php if (!empty ($content['field_ls_food_allowed'])) : ?>
+      <div class="space-food">
+        <p><?php print render($content['field_ls_food_allowed']); ?></p>
+      </div>
+    <?php endif; ?>
+
+    <?php if (!empty ($content['field_ls_room_locked'])) : ?>
+      <div class="space-locked">
+        <p><?php print render($content['field_ls_room_locked']); ?></p>
+      </div>
+    <?php endif; ?>
+
+
     <?php if (!empty ($content['field_notes'])) : ?>
       <div class="space-notes">
         <p><?php print render($content['field_notes']); ?></p>
