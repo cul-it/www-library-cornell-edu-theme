@@ -148,7 +148,9 @@
 		}
 	}
 }
-.space-access {
+// display multiple values inline
+.space-access,
+.space-type {
 	.field-item {
 		display: inline;
 		margin-right: .5em;
