@@ -8107,6 +8107,10 @@ body.admin-menu {
   font-weight: normal;
   margin-right: .25em; }
 
+.space-access .field-item {
+  display: inline;
+  margin-right: .5em; }
+
 .page-node-90 td {
   width: 33%; }
 
