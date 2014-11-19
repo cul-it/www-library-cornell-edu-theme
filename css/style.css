@@ -8093,10 +8093,12 @@ body.admin-menu {
   font-weight: 700; }
 
 .space-unit-library {
-  font-size: 16px; }
+  font-size: 16px;
+  margin-bottom: 1em; }
 
 .space-contact-point {
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 1.5em; }
 
 .page-node-90 td {
   width: 33%; }
