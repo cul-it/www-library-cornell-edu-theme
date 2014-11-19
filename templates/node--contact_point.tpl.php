@@ -103,6 +103,7 @@
       hide($content['links']);
       print render($content);
     ?>
+    test this is working
   </div>
 
   <?php print render($content['links']); ?>
