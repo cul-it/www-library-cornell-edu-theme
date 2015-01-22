@@ -46,14 +46,20 @@
 	margin-top: 1em;
 	background: $medium-gray;
 	color: $light-gray;
-	font-size: 16px;
+	padding: 10px 15px;
 	-webkit-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
 	-moz-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
 	box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
+	border: 0;
 }
 .btn-give:hover {
-	// background: $medium-gray;
+	background: $medium-gray;
+	color: $light-gray;
+	-webkit-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
+	-moz-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
+	box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
 	color: white;
+	border: 0;
 }
 
 // Well
