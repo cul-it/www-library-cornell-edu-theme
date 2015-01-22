@@ -53,6 +53,7 @@
 	box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
 	border: 0;
 	font-size: 16px;
+	margin-left: 15px; // for mobile, mostly
 }
 .btn-give:hover {
 	background: $medium-gray;

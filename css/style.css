@@ -7891,7 +7891,8 @@ h2.patroninfo-title {
   -moz-box-shadow: inset 0px 0px 10px 5px #555555;
   box-shadow: inset 0px 0px 10px 5px #555555;
   border: 0;
-  font-size: 16px; }
+  font-size: 16px;
+  margin-left: 15px; }
 
 .btn-give:hover {
   background: #666;
