@@ -8104,7 +8104,7 @@ body.admin-menu {
   .library-hours div:first-child {
     line-height: 1.75em; }
 
-.space-auxiliary-title {
+.auxiliary-title {
   font-size: 90%;
   margin-top: .25em;
   color: #666;
@@ -8116,6 +8116,10 @@ body.admin-menu {
 .space-unit-library {
   font-size: 16px;
   margin-bottom: 1em; }
+
+.space-auxiliary-title {
+  font-size: 18px;
+  margin: 0 0 .5em; }
 
 .space-contact-point {
   font-size: 16px;

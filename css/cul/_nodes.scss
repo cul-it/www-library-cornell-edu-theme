@@ -121,8 +121,8 @@
 
 // Library spaces
 //------------------//
-.space-auxiliary-title {
-	font-size: 90%;
+.auxiliary-title {
+	font-size: 90%; // on list view
 	margin-top: .25em;
 	color: $medium-gray;
 	font-weight: normal;
@@ -131,6 +131,10 @@
 .space-unit-library {
 	font-size: 16px;
 	 margin-bottom: 1em;
+}
+.space-auxiliary-title { // on space node itself
+	font-size: 18px;
+	margin: 0 0 .5em;
 }
 .space-contact-point {
 	font-size: 16px;
