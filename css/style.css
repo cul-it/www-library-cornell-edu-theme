@@ -7882,12 +7882,14 @@ h2.patroninfo-title {
 
 .btn-give {
   margin-top: 1em;
-  background: #b3ab9e;
+  background: #666;
   color: #ccc;
-  font-size: 16px; }
+  font-size: 16px;
+  -webkit-box-shadow: inset 0px 0px 10px 5px #555555;
+  -moz-box-shadow: inset 0px 0px 10px 5px #555555;
+  box-shadow: inset 0px 0px 10px 5px #555555; }
 
 .btn-give:hover {
-  background: #d8d2c9;
   color: white; }
 
 .well {

@@ -44,12 +44,15 @@
 }
 .btn-give {
 	margin-top: 1em;
-	background: $dark-tan;
+	background: $medium-gray;
 	color: $light-gray;
 	font-size: 16px;
+	-webkit-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
+	-moz-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
+	box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
 }
 .btn-give:hover {
-	background: $tan;
+	// background: $medium-gray;
 	color: white;
 }
 
