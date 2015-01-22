@@ -7860,7 +7860,6 @@ h2.patroninfo-title {
 
 .btn-libraries {
   background: #16524d;
-  color: white;
   color: #ccc;
   border-radius: 0; }
   .btn-libraries i {
@@ -7880,6 +7879,15 @@ h2.patroninfo-title {
 .btn-feedback:hover {
   background: #16524d;
   color: white; }
+
+.btn-give {
+  background: #b31b1b;
+  color: #ccc;
+  border-radius: 0; }
+
+.btn-give:hover {
+  background: white;
+  color: #222; }
 
 .well {
   background: #f4f3f0; }
