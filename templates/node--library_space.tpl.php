@@ -103,6 +103,12 @@
       hide($content['links']);
     ?>
 
+    <?php if (!empty ($content['field_ls_auxiliary_title'])) : ?>
+      <div class="space-auxiliary-title">
+        <?php print render($content['field_ls_auxiliary_title']); ?>
+      </div>
+    <?php endif; ?>
+
     <?php if (!empty ($content['field_ls_unit_library'])) : ?>
       <div class="space-unit-library">
         <?php print render($content['field_ls_unit_library']); ?>
