@@ -127,6 +127,9 @@
                 # strip out tags and labels
                 $patterns = array('/<\/?strong>/','/Location: /','/Description: /', '/Date Range: /', '/style\=".*?"/');
                 $full_hours = preg_replace($patterns, '', $full_hours);
+
+                # emphasize the notes field
+                $full_hours = preg_replace('/<div>.*(Note: .+?)</', '<span class="hours_note">$1</span><', $full_hours);
               }
 
 
