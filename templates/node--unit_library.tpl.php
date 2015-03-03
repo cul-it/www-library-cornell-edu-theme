@@ -136,7 +136,6 @@
               print render($full_hours);
               #print render($content['field_hours']); 
           ?>
-        </div>
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
