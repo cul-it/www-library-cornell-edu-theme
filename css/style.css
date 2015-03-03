@@ -8033,6 +8033,13 @@ body.admin-menu {
 .node-type-unit-library .highlight-box p {
   font-size: 14px; }
 
+.hours-note {
+  font-weight: 700;
+  display: inline-block;
+  padding: 10px 15px;
+  background: #f3f3f3;
+  font-style: italic; }
+
 .view-libraries-and-hours h2 {
   font-size: 22px;
   margin-top: 0;
