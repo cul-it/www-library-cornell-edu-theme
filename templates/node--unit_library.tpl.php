@@ -137,42 +137,42 @@
               #print render($content['field_hours']); 
           ?>
       </div>
-      <div class="col-sm-4">
-        <div class="well highlight-box">
-          <h3>Website <i class="fa fa-external-link"></i></h3>
-          <?php print render($content['group_contact']['field_website']); ?>
-          <h3>Contact</h3>
-          <h4>Reference</h4>
-          <?php print render($content['group_contact']['field_ref_email']); ?>
-          <?php print render($content['group_contact']['field_ref_phone']); ?>
-          <h4>Circulation</h4>
-          <?php print render($content['group_contact']['field_circ_email']); ?>
-          <?php print render($content['group_contact']['field_circ_phone']); ?>
-          <h4>Address</h4>
-          <?php if ($location['name']) : ?>
-            <?php print $location['name'] ?><br>
-          <?php endif; ?>
-          <?php if ($location['street']) : ?>
-            <?php print $location['street'] ?><br>
-          <?php endif; ?>
-          <?php if ($location['additional']) : ?>
-            <?php print $location['additional'] ?><br>
-          <?php endif; ?>
-          <?php if ($location['city']) : ?>
-            <?php print $location['city'] ?>, 
-          <?php endif; ?>
-          <?php if ($location['province']) : ?>
-            <?php print $location['province'] ?> 
-          <?php endif; ?>
-          <?php if ($location['postal_code']) : ?>
-            <?php print $location['postal_code'] ?>
-          <?php endif; ?>
-        </div>
-        <div class="unit-map">
-          <?php print render($content['field_map']); ?>
-        </div>
-        <p class="text-center"><small><a href="https://www.cornell.edu/about/maps/index.cfm?overlays=Library">View map of Cornell libraries <i class="fa fa-arrow-right"></i></a></small></p>
+    </div>
+     <div class="col-sm-4">
+      <div class="well highlight-box">
+        <h3>Website <i class="fa fa-external-link"></i></h3>
+        <?php print render($content['group_contact']['field_website']); ?>
+        <h3>Contact</h3>
+        <h4>Reference</h4>
+        <?php print render($content['group_contact']['field_ref_email']); ?>
+        <?php print render($content['group_contact']['field_ref_phone']); ?>
+        <h4>Circulation</h4>
+        <?php print render($content['group_contact']['field_circ_email']); ?>
+        <?php print render($content['group_contact']['field_circ_phone']); ?>
+        <h4>Address</h4>
+        <?php if ($location['name']) : ?>
+          <?php print $location['name'] ?><br>
+        <?php endif; ?>
+        <?php if ($location['street']) : ?>
+          <?php print $location['street'] ?><br>
+        <?php endif; ?>
+        <?php if ($location['additional']) : ?>
+          <?php print $location['additional'] ?><br>
+        <?php endif; ?>
+        <?php if ($location['city']) : ?>
+          <?php print $location['city'] ?>, 
+        <?php endif; ?>
+        <?php if ($location['province']) : ?>
+          <?php print $location['province'] ?> 
+        <?php endif; ?>
+        <?php if ($location['postal_code']) : ?>
+          <?php print $location['postal_code'] ?>
+        <?php endif; ?>
       </div>
+      <div class="unit-map">
+        <?php print render($content['field_map']); ?>
+      </div>
+      <p class="text-center"><small><a href="https://www.cornell.edu/about/maps/index.cfm?overlays=Library">View map of Cornell libraries <i class="fa fa-arrow-right"></i></a></small></p>
     </div>
 
   </div>
