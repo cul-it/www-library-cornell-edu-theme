@@ -8123,6 +8123,11 @@ body.admin-menu {
 .node-tools i {
   margin-left: .25em; }
 
+#block-cul-hours-hours-printable {
+  padding: 20px;
+  background: #f3f3f3;
+  margin-bottom: 1.5em; }
+
 .auxiliary-title {
   font-size: 90%;
   margin-top: .25em;
