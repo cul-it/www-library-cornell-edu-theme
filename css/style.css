@@ -8120,6 +8120,9 @@ body.admin-menu {
   .library-hours div:first-child {
     line-height: 1.75em; }
 
+.node-tools i {
+  margin-left: .25em; }
+
 .auxiliary-title {
   font-size: 90%;
   margin-top: .25em;
