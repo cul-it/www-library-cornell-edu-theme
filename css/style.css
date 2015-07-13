@@ -7639,6 +7639,11 @@ footer {
   width: 100%;
   height: auto; }
 
+.view-id-libescope .views-row {
+  margin: 0 0 1.5em 0; }
+.view-id-libescope h2 {
+  margin-bottom: .25em; }
+
 .webform-client-form .panel {
   border: none;
   -webkit-box-shadow: none;

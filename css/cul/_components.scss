@@ -326,6 +326,16 @@
 	height:auto;
 }
 
+// spacing on Libescope archive page
+.view-id-libescope {
+	.views-row {
+		margin: 0 0 1.5em 0;
+	}
+	h2 {
+		margin-bottom: .25em;
+	}
+}
+
 // Forms with fieldsets - override wonky Bootstrap formatting
 // -------------------------------------------------------------
 .webform-client-form {
