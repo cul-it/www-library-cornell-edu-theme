@@ -7830,6 +7830,9 @@ h2.patroninfo-title {
     width: 40%;
     float: right !important; }
 
+  .page-node-1345 .pull-right.highlight-box {
+    width: 25%; }
+
   .resource-wrapper {
     border-left: 1px solid #edebe7;
     border-top: none;

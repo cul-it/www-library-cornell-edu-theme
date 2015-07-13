@@ -574,6 +574,12 @@ h2.patroninfo-title { margin-top: 0; }
 		width: 40%;
 		float: right !important;
 	}
+	// make the highlight box a little less wide on the my account page
+	.page-node-1345 {
+		.pull-right.highlight-box {
+			width: 25%;
+		}
+	}
 	.resource-wrapper {
 		border-left: 1px solid $light-tan;
 		border-top: none;
