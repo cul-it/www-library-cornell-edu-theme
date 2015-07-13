@@ -98,11 +98,6 @@
 	width: 75%;
 	margin-left: 1em;
 }
-// .library-hours {
-// 	div {
-// 		h2:first-child { display: none; }
-// 	}
-// }
 .library-hours {
 	margin-top: 1.5em;
 	// give the h2 from the hours service the same treatment as an h3
@@ -131,7 +126,7 @@
 	}
 }
 .pull-right.node-tools {
-	float: none;
+	float: none !important;
 }
 // Print hours block
 #block-cul-hours-hours-printable {
@@ -361,7 +356,7 @@ table.delivery-options {
 		width: 75%;
 	}
 	.pull-right.node-tools {
-		float: right;
+		float: right !important;
 	}
 }
 
