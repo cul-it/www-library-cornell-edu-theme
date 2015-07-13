@@ -8120,8 +8120,10 @@ body.admin-menu {
   .library-hours div:first-child {
     line-height: 1.75em; }
 
-.node-tools i {
-  margin-left: .25em; }
+.node-tools {
+  margin-bottom: .25em; }
+  .node-tools i {
+    margin-left: .25em; }
 
 .pull-right.node-tools {
   float: none !important; }
