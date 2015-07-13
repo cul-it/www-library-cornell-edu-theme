@@ -8123,6 +8123,9 @@ body.admin-menu {
 .node-tools i {
   margin-left: .25em; }
 
+.pull-right.node-tools {
+  float: none; }
+
 #block-cul-hours-hours-printable {
   padding: 20px;
   background: #f3f3f3;
@@ -8278,7 +8281,10 @@ table.delivery-options :first-child > td:first-child {
     width: 100px; }
 
   .library-info {
-    width: 75%; } }
+    width: 75%; }
+
+  .pull-right.node-tools {
+    float: right; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {

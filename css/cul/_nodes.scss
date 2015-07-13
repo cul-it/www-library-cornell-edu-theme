@@ -130,6 +130,9 @@
 		margin-left: .25em;
 	}
 }
+.pull-right.node-tools {
+	float: none;
+}
 // Print hours block
 #block-cul-hours-hours-printable {
 	padding: 20px;
@@ -356,6 +359,9 @@ table.delivery-options {
 	}
 	.library-info {
 		width: 75%;
+	}
+	.pull-right.node-tools {
+		float: right;
 	}
 }
 
