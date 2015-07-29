@@ -112,26 +112,30 @@
               # Retrieve complete hours from Mann services
 
               $location_hours = $node->field_hours_id['und'][0]['value'];
-              # Handle special cases
-              if ($location_hours == 'PhysSci') {
-                $full_hours = '24/7 study space is available in Clark Hall.';
-              }
-              elseif ($location_hours == 'Engineering') {
-                $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
+              if (isset($location_hours)) {
+                # Handle special cases
+                if ($location_hours == 'PhysSci') {
+                  $full_hours = '24/7 study space is available in Clark Hall.';
+                }
+                elseif ($location_hours == 'Engineering') {
+                  $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
+                }
+                else {
+                  $location_hours = urlencode($location_hours);
+                  $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicSemester.do?output=xhtml&location=" . $location_hours;
+                  $full_hours = file_get_contents($url);
+
+                  # strip out tags and labels
+                  $patterns = array('/<\/?strong>/','/Location: /','/Description: /', '/Date Range: /', '/style\=".*?"/');
+                  $full_hours = preg_replace($patterns, '', $full_hours);
+
+                  # emphasize the notes field
+                  $full_hours = preg_replace('/<div>.*(Note: .+?)</', '<div class="hours-note">$1</div><', $full_hours);
+                }
               }
               else {
-                $location_hours = urlencode($location_hours);
-                $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicSemester.do?output=xhtml&location=" . $location_hours;
-                $full_hours = file_get_contents($url);
-
-                # strip out tags and labels
-                $patterns = array('/<\/?strong>/','/Location: /','/Description: /', '/Date Range: /', '/style\=".*?"/');
-                $full_hours = preg_replace($patterns, '', $full_hours);
-
-                # emphasize the notes field
-                $full_hours = preg_replace('/<div>.*(Note: .+?)</', '<div class="hours-note">$1</div><', $full_hours);
+                $full_hours = 'Full hours are unavailable for this location.';
               }
-
 
               print render($full_hours);
               #print render($content['field_hours']); 
