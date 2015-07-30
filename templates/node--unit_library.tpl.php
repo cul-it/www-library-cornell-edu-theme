@@ -120,6 +120,9 @@
                 elseif ($location_hours == 'Engineering') {
                   $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
                 }
+                elseif ($location_hours == 'weill') {
+                  $full_hours = '<a href="http://library.med.cornell.edu/About/hours.html">Complete schedule of hours</a>';
+                }
                 else {
                   $location_hours = urlencode($location_hours);
                   $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicSemester.do?output=xhtml&location=" . $location_hours;
