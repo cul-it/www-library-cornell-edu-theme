@@ -402,4 +402,11 @@ table.delivery-options {
 			width: 100%;
 		}
 	}
+	// New ares search - need to specify at this size to override global media query
+	#ares-search-form {
+		// override global input width
+		.main-content input.form-control, .main-content select.form-control, .main-content .form-email {
+			width: 100%;
+		}
+	}
 }
