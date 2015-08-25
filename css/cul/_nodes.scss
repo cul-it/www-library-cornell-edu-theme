@@ -278,6 +278,14 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 	background: $light-tan;
 }
 
+// New ares search
+#ares-search-form {
+	// override global input width
+	.main-content input.form-control, .main-content select.form-control, .main-content .form-email {
+		width: 100%;
+	}
+}
+
 // Borrowing policies
 // ---------------------- //
 #views-exposed-form-borrowing-policy-block {
@@ -366,6 +374,12 @@ table.delivery-options {
 	}
 	.pull-right.node-tools {
 		float: right !important;
+	}
+	// New ares search
+	#ares-search-form {
+		.input-group {
+			width: 50%;
+		}
 	}
 }
 
