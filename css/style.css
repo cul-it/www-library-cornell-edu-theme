@@ -8236,7 +8236,7 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   background: #edebe7; }
 
 #ares-search-form .main-content input.form-control, #ares-search-form .main-content select.form-control, #ares-search-form .main-content .form-email {
-  width: 100%; }
+  width: 100% !important; }
 
 #views-exposed-form-borrowing-policy-block {
   margin-bottom: 40px; }
