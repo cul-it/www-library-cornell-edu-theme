@@ -8297,7 +8297,10 @@ table.delivery-options :first-child > td:first-child {
     width: 75%; }
 
   .pull-right.node-tools {
-    float: right !important; } }
+    float: right !important; }
+
+  #ares-search-form .input-group {
+    width: 50%; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {
