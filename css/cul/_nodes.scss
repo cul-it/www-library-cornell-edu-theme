@@ -270,6 +270,16 @@
 	}
 }
 
+// New course reserves search - table display
+.course-reserves {
+	th {
+		background: $light-tan;
+	}
+	.headerSortDown {
+		background: $tan;
+	}
+}
+
 // Borrowing policies
 // ---------------------- //
 #views-exposed-form-borrowing-policy-block {

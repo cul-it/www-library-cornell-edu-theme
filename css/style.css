@@ -8229,6 +8229,11 @@ body.admin-menu {
   margin-top: 0;
   font-size: 18px; }
 
+.course-reserves th {
+  background: #edebe7; }
+.course-reserves .headerSortDown {
+  background: #d8d2c9; }
+
 #views-exposed-form-borrowing-policy-block {
   margin-bottom: 40px; }
   #views-exposed-form-borrowing-policy-block select.form-control {
