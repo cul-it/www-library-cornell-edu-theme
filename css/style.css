@@ -8229,10 +8229,11 @@ body.admin-menu {
   margin-top: 0;
   font-size: 18px; }
 
-.course-reserves th {
-  background: #edebe7; }
-.course-reserves .headerSortDown {
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
   background: #d8d2c9; }
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+  background: #edebe7; }
 
 #views-exposed-form-borrowing-policy-block {
   margin-bottom: 40px; }

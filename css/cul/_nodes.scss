@@ -270,14 +270,12 @@
 	}
 }
 
-// New course reserves search - table display
-.course-reserves {
-	th {
-		background: $light-tan;
-	}
-	.headerSortDown {
-		background: $tan;
-	}
+// New course reserves search - table display - override module CSS
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background: $tan;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background: $light-tan;
 }
 
 // Borrowing policies
