@@ -378,6 +378,11 @@ table.delivery-options {
 	.pull-right.node-tools {
 		float: right !important;
 	}
+	#ares-search-form {
+		.input-group {
+			width: 50%;
+		}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
