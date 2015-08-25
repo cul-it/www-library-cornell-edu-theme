@@ -280,10 +280,13 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 
 // New ares search
 #ares-search-form {
-	// override global input width
-	.main-content input.form-control, .main-content select.form-control, .main-content .form-email {
-		width: 100% !important;
-	}
+	main-content {
+	    input.form-control,
+	    select.form-control,
+	    .form-email { 
+	    	width: 100%;
+	    }
+	 }
 }
 
 // Borrowing policies
@@ -375,12 +378,6 @@ table.delivery-options {
 	.pull-right.node-tools {
 		float: right !important;
 	}
-	// New ares search
-	#ares-search-form {
-		.input-group {
-			width: 50%;
-		}
-	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -399,13 +396,6 @@ table.delivery-options {
 	}
 	.view-borrowing-policy {
 		.ctools-jump-menu-select {
-			width: 100%;
-		}
-	}
-	// New ares search - need to specify at this size to override global media query
-	#ares-search-form {
-		// override global input width
-		.main-content input.form-control, .main-content select.form-control, .main-content .form-email {
 			width: 100%;
 		}
 	}

@@ -8235,8 +8235,10 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   background: #edebe7; }
 
-#ares-search-form .main-content input.form-control, #ares-search-form .main-content select.form-control, #ares-search-form .main-content .form-email {
-  width: 100% !important; }
+#ares-search-form main-content input.form-control,
+#ares-search-form main-content select.form-control,
+#ares-search-form main-content .form-email {
+  width: 100%; }
 
 #views-exposed-form-borrowing-policy-block {
   margin-bottom: 40px; }
@@ -8295,10 +8297,7 @@ table.delivery-options :first-child > td:first-child {
     width: 75%; }
 
   .pull-right.node-tools {
-    float: right !important; }
-
-  #ares-search-form .input-group {
-    width: 50%; } }
+    float: right !important; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {
@@ -8308,9 +8307,6 @@ table.delivery-options :first-child > td:first-child {
     height: 315px; }
 
   .view-borrowing-policy .ctools-jump-menu-select {
-    width: 100%; }
-
-  #ares-search-form .main-content input.form-control, #ares-search-form .main-content select.form-control, #ares-search-form .main-content .form-email {
     width: 100%; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* High-res styles go here */
