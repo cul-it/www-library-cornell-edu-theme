@@ -8239,10 +8239,8 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 .main-content #ares-search-form select.form-control,
 .main-content #ares-search-form .form-email {
   width: 100%; }
-.main-content #ares-search-form .dropdown {
-  width: auto; }
-  .main-content #ares-search-form .dropdown li {
-    font-size: 14px; }
+.main-content #ares-search-form .dropdown li {
+  font-size: 14px; }
 
 .front .block-ares {
   margin-bottom: 1.5em; }
@@ -8313,7 +8311,9 @@ table.delivery-options :first-child > td:first-child {
     width: 50%; }
 
   .front #ares-search-form .input-group {
-    width: 100%; } }
+    width: 100%; }
+  .front #ares-search-form .dropdown {
+    width: 350%; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {
@@ -8323,7 +8323,10 @@ table.delivery-options :first-child > td:first-child {
     height: 315px; }
 
   .view-borrowing-policy .ctools-jump-menu-select {
-    width: 100%; } }
+    width: 100%; }
+
+  .front #ares-search-form .dropdown {
+    width: 250%; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* High-res styles go here */
   .cu-logo {

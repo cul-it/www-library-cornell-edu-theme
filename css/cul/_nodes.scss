@@ -258,7 +258,7 @@
 .course_help_detailContent { line-height: 22px; }
 #edit-description { margin-bottom: 0; }
 
-// hide the autocomplete refresh thing that the Bootstrap theme is adding by itself
+// OLD FORM - hide the autocomplete refresh thing that the Bootstrap theme is adding by itself
 .courses-form {
 	.input-group-addon { display: none; }
 	.input-group {
@@ -299,7 +299,6 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 	    	width: 100%;
 	    }
 	    .dropdown {
-	    	width: auto;
 	    	li {
 	    		font-size: 14px;
 	    	}
@@ -388,6 +387,7 @@ table.delivery-options {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) { 
+	// OLD courses form
 	.front {
 	  	.main-content {
 	  		.courses-form {
@@ -414,12 +414,16 @@ table.delivery-options {
 			.input-group {
 				width: 100%;
 			}
+			.dropdown {
+				width: 350%;
+			}
 		}
 	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
+	// old courses form
 	.front {
 	  	.main-content {
 	  		.courses-form {
@@ -427,6 +431,7 @@ table.delivery-options {
 	  		}
 	  	}
 	}
+	// old courses form
 	.page-node-2282 {
 		.courses-form {
 			height: 315px;
@@ -435,6 +440,13 @@ table.delivery-options {
 	.view-borrowing-policy {
 		.ctools-jump-menu-select {
 			width: 100%;
+		}
+	}
+	.front {
+		#ares-search-form {
+			.dropdown {
+				width: 250%;
+			}
 		}
 	}
 }
