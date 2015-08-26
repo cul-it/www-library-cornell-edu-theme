@@ -8243,6 +8243,9 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 .front .block-ares {
   margin-bottom: 1.5em; }
 
+.reserve-items {
+  margin-top: 3em; }
+
 #views-exposed-form-borrowing-policy-block {
   margin-bottom: 40px; }
   #views-exposed-form-borrowing-policy-block select.form-control {
