@@ -7571,15 +7571,6 @@ footer {
     margin-bottom: .25em;
     font-weight: 700; }
 
-.feature .courses-form {
-  margin-bottom: 10px;
-  padding: 5px 0;
-  border-bottom: 1px dotted #d8d2c9; }
-  .feature .courses-form form {
-    margin-bottom: 0; }
-  .feature .courses-form .btn {
-    vertical-align: top; }
-
 .highlight-box h3 {
   color: #b31b1b;
   font-weight: 700;
@@ -8188,6 +8179,15 @@ body.admin-menu {
   .main-content .liaison-dept li {
     font-size: 14px; }
 
+.feature .courses-form {
+  margin-bottom: 10px;
+  padding: 5px 0;
+  border-bottom: 1px dotted #d8d2c9; }
+  .feature .courses-form form {
+    margin-bottom: 0; }
+  .feature .courses-form .btn {
+    vertical-align: top; }
+
 .main-content .courses-form li {
   font-size: 12px; }
 
@@ -8300,7 +8300,10 @@ table.delivery-options :first-child > td:first-child {
     float: right !important; }
 
   #ares-search-form .input-group {
-    width: 50%; } }
+    width: 50%; }
+
+  .front #ares-search-form .input-group {
+    width: 100%; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {

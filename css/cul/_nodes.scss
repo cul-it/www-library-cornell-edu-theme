@@ -215,6 +215,18 @@
 
 // Courses
 //------------------//
+
+// courses form on home page
+.feature {
+	.courses-form {
+		margin-bottom: 10px;
+		padding: 5px 0;
+		border-bottom: 1px dotted $tan;
+		form { margin-bottom: 0; }
+		.btn { vertical-align: top; }
+	}
+}
+
 .main-content {
 	.courses-form {
 		li { 
@@ -381,6 +393,13 @@ table.delivery-options {
 	#ares-search-form {
 		.input-group {
 			width: 50%;
+		}
+	}
+	.front {
+		#ares-search-form {
+			.input-group {
+				width: 100%;
+			}
 		}
 	}
 }
