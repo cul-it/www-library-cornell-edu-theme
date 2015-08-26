@@ -8241,6 +8241,11 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   width: 100%; }
 .main-content #ares-search-form .dropdown li {
   font-size: 12px; }
+.main-content #ares-search-form .input-group-addon {
+  display: none; }
+.main-content #ares-search-form .form-control:first-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px; }
 
 .front .block-ares {
   margin-bottom: 1.5em; }
