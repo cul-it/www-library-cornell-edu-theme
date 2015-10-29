@@ -12,16 +12,7 @@
         }
       }
     })
-    // This next section is just to add the little external link icon (the <i> class) 
-    // after the label in the results list!
-    // It can be completely removed if all you need is basic autocomplete
-    .data('autocomplete')._renderItem = function(ul, item) {
-      return $('<li>')
-        .data('item.autocomplete', item)
-        .append('<a>' + item.name + '&nbsp;&nbsp;<i class="fa fa-external-link"></i>')
-        .append()
-        .appendTo(ul);
-    }
+
 
   });
 })(jQuery);
