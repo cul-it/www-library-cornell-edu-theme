@@ -18,7 +18,7 @@
     .data('autocomplete')._renderItem = function(ul, item) {
       return $('<li>')
         .data('item.autocomplete', item)
-        .append('<a onclick="javascript:_paq.push%28['trackEvent', 'BestBets', 'autocomplete']%29;">' + item.name + '&nbsp;&nbsp;<i class="fa fa-external-link"></i>')
+        .append('<a>' + item.name + '&nbsp;&nbsp;<i class="fa fa-external-link"></i>')
         .append()
         .appendTo(ul);
     }
