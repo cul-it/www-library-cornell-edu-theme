@@ -133,7 +133,7 @@
                   $full_hours = preg_replace($patterns, '', $full_hours);
 
                   # emphasize the notes field
-                  $full_hours = preg_replace('/<div>.*(Note: .+?)</', '<div class="hours-note">$1</div><', $full_hours);
+                  $full_hours = preg_replace('/<div>.*(Note: .+?)</', '<div class="hours-note">$1<', $full_hours);
                 }
               }
               else {
