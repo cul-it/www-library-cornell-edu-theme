@@ -389,6 +389,16 @@ table.delivery-options {
 	}
 }
 
+// Libescope
+//--------------------------//
+.field-name-field-libescope-image {
+	img { // apply bootstrap img-thumbnail style
+		padding: 4px;
+		background: white;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+	}
+}
 
 // MEDIA QUERIES
 // -------------------------
