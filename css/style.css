@@ -8302,7 +8302,8 @@ table.delivery-options :first-child > td:first-child {
   padding: 4px;
   background: white;
   border: 1px solid #ddd;
-  border-radius: 4px; }
+  border-radius: 4px;
+  height: auto; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
