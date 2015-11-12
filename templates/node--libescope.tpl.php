@@ -105,7 +105,7 @@
 
     <?php if (!empty ($content['field_libescope_image'])) : ?>
       <div class="pull-right img-right">
-        <?php print render($content['field_libescope_image']); ?>
+        <img class="img-thumbnail img-responsive" src="<?php print render($content['field_libescope_image']); ?>">
       </div>
     <?php endif; ?>
 
