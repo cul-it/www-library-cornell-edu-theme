@@ -8305,6 +8305,9 @@ table.delivery-options :first-child > td:first-child {
   border-radius: 4px;
   height: auto; }
 
+.node-libescope .img-right img {
+  width: auto; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
