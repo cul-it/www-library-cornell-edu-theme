@@ -8308,6 +8308,21 @@ table.delivery-options :first-child > td:first-child {
 .node-libescope .img-right img {
   width: auto; }
 
+.node-type-article .field-name-field-image {
+  float: right;
+  margin: 0 0 15px 15px;
+  max-width: 300px; }
+  .node-type-article .field-name-field-image img {
+    max-width: 100%;
+    padding: 4px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: auto; }
+.node-type-article .field-name-field-news-dates {
+  margin-bottom: 2em;
+  font-size: 12px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {
