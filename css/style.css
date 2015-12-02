@@ -8362,7 +8362,7 @@ table.delivery-options :first-child > td:first-child {
     width: 250%; }
 
   .node-type-article .field-name-field-image {
-    max-width: 100%; } }
+    max-width: 450px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* High-res styles go here */
   .cu-logo {
