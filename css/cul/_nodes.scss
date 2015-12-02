@@ -414,7 +414,7 @@ table.delivery-options {
 .node-type-article {
 	.field-name-field-image {
 		float: right;
-		margin: 0 0 15px 15px;
+		margin: 0 0 15px 0;
 		img {
 			max-width: 100%;
 			// apply bootstrap img-thumbnail style
@@ -471,6 +471,7 @@ table.delivery-options {
 	.node-type-article {
 		.field-name-field-image {
 			max-width: 300px;
+			margin-left: 15px;
 		}
 	}
 }
@@ -501,6 +502,11 @@ table.delivery-options {
 			.dropdown {
 				width: 250%;
 			}
+		}
+	}
+	.node-type-article {
+		.field-name-field-image {
+			max-width: 400px;
 		}
 	}
 }
