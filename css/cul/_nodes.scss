@@ -140,8 +140,12 @@
 #cul-hours-printable-form {
 	.form-group {
 		float: left;
+		margin-right: 5px;
 		.form-control {
 			width: auto !important;
+		}
+		label {
+			display: none;
 		}
 	}
 }

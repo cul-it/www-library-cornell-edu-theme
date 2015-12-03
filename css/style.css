@@ -8125,9 +8125,12 @@ body.admin-menu {
   margin-bottom: 1.5em; }
 
 #cul-hours-printable-form .form-group {
-  float: left; }
+  float: left;
+  margin-right: 5px; }
   #cul-hours-printable-form .form-group .form-control {
     width: auto !important; }
+  #cul-hours-printable-form .form-group label {
+    display: none; }
 
 .auxiliary-title {
   font-size: 90%;
