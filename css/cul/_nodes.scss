@@ -136,6 +136,16 @@
 	margin-bottom: 1.5em;
 }
 
+// Make library hours form inline
+#cul-hours-printable-form {
+	.form-group {
+		float: left;
+		.form-control {
+			width: auto !important;
+		}
+	}
+}
+
 // Library spaces
 //------------------//
 .auxiliary-title {
