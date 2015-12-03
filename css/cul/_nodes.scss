@@ -512,6 +512,12 @@ table.delivery-options {
 			margin-left: 15px;
 		}
 	}
+	.node-libescope {
+		.field-name-field-libescope-image {
+			max-width: 300px;
+			margin-left: 15px;
+		}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -544,6 +550,11 @@ table.delivery-options {
 	}
 	.node-type-article {
 		.field-name-field-image {
+			max-width: 450px;
+		}
+	}
+	.node-type-libescope {
+		.field-name-field-libescope-image {
 			max-width: 450px;
 		}
 	}
