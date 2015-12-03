@@ -391,20 +391,40 @@ table.delivery-options {
 
 // Libescope
 //--------------------------//
-.field-name-field-libescope-image {
-	img { // apply bootstrap img-thumbnail style
-		padding: 4px;
-		background: white;
-		border: 1px solid #ddd;
-		border-radius: 4px;
-		height: auto;
-	}
-}
+// this stuff was from when I had a libescope node template
+// .field-name-field-libescope-image {
+// 	img { // apply bootstrap img-thumbnail style
+// 		padding: 4px;
+// 		background: white;
+// 		border: 1px solid #ddd;
+// 		border-radius: 4px;
+// 		height: auto;
+// 	}
+// }
+// .node-libescope {
+// 	.img-right {
+// 		img {
+// 			width: auto;
+// 		}
+// 	}
+// }
 .node-libescope {
-	.img-right {
+	.field-name-field-libescope-image {
+		float: right;
+		margin: 0 0 15px 0;
 		img {
-			width: auto;
+			max-width: 100%;
+			// apply bootstrap img-thumbnail style
+			padding: 4px;
+			background: white;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			height: auto;
 		}
+	}
+	.field-name-field-libescope-dates {
+		margin-bottom: 2em;
+		font-size: 12px;
 	}
 }
 

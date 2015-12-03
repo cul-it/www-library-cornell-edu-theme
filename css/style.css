@@ -8298,15 +8298,19 @@ table.delivery-options tr > td:first-child {
 table.delivery-options :first-child > td:first-child {
   color: #2aa198; }
 
-.field-name-field-libescope-image img {
-  padding: 4px;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  height: auto; }
-
-.node-libescope .img-right img {
-  width: auto; }
+.node-libescope .field-name-field-libescope-image {
+  float: right;
+  margin: 0 0 15px 0; }
+  .node-libescope .field-name-field-libescope-image img {
+    max-width: 100%;
+    padding: 4px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: auto; }
+.node-libescope .field-name-field-libescope-dates {
+  margin-bottom: 2em;
+  font-size: 12px; }
 
 .node-type-article .field-name-field-image {
   float: right;
