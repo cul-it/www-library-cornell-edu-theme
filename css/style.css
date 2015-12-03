@@ -8323,7 +8323,6 @@ table.delivery-options :first-child > td:first-child {
   font-size: 12px; }
 
 .view-display-id-page_1 img {
-  max-width: 100%;
   padding: 4px;
   background: white;
   border: 1px solid #ddd;
@@ -8331,7 +8330,7 @@ table.delivery-options :first-child > td:first-child {
   height: auto; }
 .view-display-id-page_1 .post-date {
   font-size: 12px;
-  margin-bottom: 2em; }
+  margin-bottom: 1em; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
