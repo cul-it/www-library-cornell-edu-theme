@@ -8322,6 +8322,17 @@ table.delivery-options :first-child > td:first-child {
   margin-bottom: 2em;
   font-size: 12px; }
 
+.view-display-id-page_1 img {
+  max-width: 100%;
+  padding: 4px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: auto; }
+.view-display-id-page_1 .post-date {
+  font-size: 12px;
+  margin-bottom: 2em; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .front .main-content .courses-form .dropdown {

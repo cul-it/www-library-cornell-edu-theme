@@ -430,6 +430,25 @@ table.delivery-options {
 		font-size: 12px;
 	}
 }
+// apply bootstrap img-thumbnail style to image on news view page
+.view-display-id-page_1 {
+	img {
+		max-width: 100%;
+		// apply bootstrap img-thumbnail style
+		padding: 4px;
+		background: white;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		height: auto;
+	}
+	// format date on news view page
+	.post-date {
+		font-size: 12px;
+		margin-bottom: 2em;
+	}
+}
+
+
 
 // MEDIA QUERIES
 // -------------------------
