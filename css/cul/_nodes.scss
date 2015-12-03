@@ -141,12 +141,12 @@
 	.form-group {
 		float: left;
 		margin-right: 5px;
-		.form-control {
-			width: auto !important;
-		}
 		label {
 			display: none;
 		}
+	}
+	.form-submit {
+		margin-left: 10px;
 	}
 }
 
@@ -530,6 +530,13 @@ table.delivery-options {
 		.field-name-field-libescope-image {
 			max-width: 300px;
 			margin-left: 15px;
+		}
+	}
+	#cul-hours-printable-form {
+		.form-group {
+			.form-control {
+				width: auto !important;
+			}
 		}
 	}
 }

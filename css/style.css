@@ -8127,10 +8127,10 @@ body.admin-menu {
 #cul-hours-printable-form .form-group {
   float: left;
   margin-right: 5px; }
-  #cul-hours-printable-form .form-group .form-control {
-    width: auto !important; }
   #cul-hours-printable-form .form-group label {
     display: none; }
+#cul-hours-printable-form .form-submit {
+  margin-left: 10px; }
 
 .auxiliary-title {
   font-size: 90%;
@@ -8372,7 +8372,10 @@ table.delivery-options :first-child > td:first-child {
 
   .node-libescope .field-name-field-libescope-image {
     max-width: 300px;
-    margin-left: 15px; } }
+    margin-left: 15px; }
+
+  #cul-hours-printable-form .form-group .form-control {
+    width: auto !important; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .main-content .courses-form .dropdown {
