@@ -1,8 +1,14 @@
+.navbar-brand { 
+	color: white;
+	// float: none;
+	// margin: 12px 0 0 10px;
+	font-size: 16px;
+	padding: 0 10px;
+}
 .navbar {
 	border-radius: 0;
 	position: inherit;
 	min-height: 0;
-	height: 45px;
 	margin-bottom: 0;
 	@include gradient-vertical($start-color: $cornell-primary, $end-color: $cornell-primary-hover);
 	padding-left: 0;
@@ -16,12 +22,6 @@
     	padding: 0;
     	text-align: center;
 	}
-	.navbar-brand { 
-		color: white;
-		// float: none;
-		// margin: 12px 0 0 10px;
-		font-size: 16px;
-		padding: 0; }
 	.nav {
 		padding-bottom: 0;
 	}
@@ -73,7 +73,6 @@
 		margin-left: 0;
 		margin-right: 0; }
 	.navbar-collapse { 
-		margin-top: -11px;
 		position: relative;
 		z-index: 100;
 		background: $dark-gray;
@@ -132,7 +131,8 @@
 	.navbar {
 		padding-left: 15px; 
 		padding-right: 15px;
-		height: auto;
+		// height: auto;
+		// // height: 45px;
 		.brand { font-size: 18px; }
 		li {
 			float: left;

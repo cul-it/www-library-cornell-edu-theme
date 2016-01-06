@@ -1,19 +1,26 @@
 <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
 
-<div class="cornell-brand hidden-xs">
+<div class="cornell-brand">
   <div class="container">
     <div class="row">
+      <a class="navbar-brand visible-xs" href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/cornell-red.gif" alt="Cornell University"></a>
+      <div class="navbar-header visible-xs">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <button type="button" class="search-toggle" data-toggle="collapse" data-target=".search-collapse">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
       <div class="cornell-logo">
-        <div class="cu-logo">
-          <img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif" alt="Cornell University Library">
-          <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
-          <div class="unit-signature-links">
-            <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
-            <a id="unit-link" href="/">Cornell University Library</a>
-          </div>
+        <a href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/CU-Insignia-White-120.png" alt="Cornell University" class="insignia hidden-xs"></a>
+        <div class="library-brand">
+          <a href="/">Cornell University Library</a>
         </div>
       </div>
-      <div class="nav-global">
+      <div class="nav-global hidden-xs">
         <?php print render($page['header']); ?>
       </div>
     </div>
@@ -22,17 +29,6 @@
 
 <div class="navbar">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <button type="button" class="search-toggle" data-toggle="collapse" data-target=".search-collapse">
-        <i class="fa fa-search"></i>
-      </button>
-      <a class="navbar-brand visible-xs" href="/"><img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-mobile.png" alt="Cornell University Library"></a>
-    </div>
     <div class="visible-xs mobile-search">
       <div class="search-collapse collapse">
         <form class="form-inline clearfix" role="form" action="//search.library.cornell.edu/" method="get">
