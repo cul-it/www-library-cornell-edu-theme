@@ -9,6 +9,11 @@
   <meta name="author" content="">
   <title><?php print $head_title; ?></title>
 
+  <link rel="apple-touch-icon" href="/sites/all/themes/bootstrap_cul7/img/layout/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="/sites/all/themes/bootstrap_cul7/img/layout/touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/bootstrap_cul7/img/layout/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/sites/all/themes/bootstrap_cul7/img/layout/touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/sites/all/themes/bootstrap_cul7/img/layout/touch-icon-ipad-retina.png">
   <?php print $styles; ?>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
