@@ -1366,8 +1366,9 @@ footer {
       line-height: 1.5em;
       padding-bottom: .5em;
       font-size: 12px; }
-    .libraries-list .libraries-collapse a:hover {
-      background: #2d2d2d; }
+    .libraries-list .libraries-collapse a:hover, .libraries-list .libraries-collapse a:active, .libraries-list .libraries-collapse a:focus {
+      background: #2d2d2d;
+      color: white; }
 
 .libraries-group {
   position: relative;

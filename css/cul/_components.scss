@@ -131,7 +131,7 @@
 	}
 }
 
-// Bridge page
+// Bridge page - TODO, 2/1/16: moving bridge content to Bootstrap media object so can probably remove these styles soon.
 // -------------------------
 
 .bridge {
@@ -400,7 +400,10 @@
 			padding-bottom: .5em;
 			font-size: 12px;
 		}
-		a:hover { background: #2d2d2d; }
+		a:hover, a:active, a:focus { 
+			background: #2d2d2d;
+			color: white;
+		}
 	}
 }
 .libraries-group {
