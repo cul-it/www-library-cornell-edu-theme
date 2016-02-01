@@ -1,5 +1,7 @@
 <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
 
+<img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif" alt="Cornell University Library" class="print-logo">
+
 <div class="cornell-brand">
   <div class="container">
     <div class="row">
