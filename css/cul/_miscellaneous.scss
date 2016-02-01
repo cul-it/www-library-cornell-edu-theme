@@ -43,24 +43,19 @@
 	color: white;
 }
 .btn-give {
-	font-family: $font-family-serif;
+	font-family: $font-family-cul;
 	margin-top: 2em;
-	background: $medium-gray;
-	color: $light-gray;
-	padding: 10px 15px;
-	-webkit-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
-	-moz-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
-	box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
+	color: white;
+	// padding: 10px 15px;
 	border: 0;
-	font-size: 16px;
+	font-size: 14px;
 	margin-left: 15px; // for mobile, mostly
+	border-radius: 0;
+	background: $cornell-primary-hover;
+	text-transform: uppercase;
 }
 .btn-give:hover {
-	background: $medium-gray;
-	color: $light-gray;
-	-webkit-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
-	-moz-box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
-	box-shadow: inset 0px 0px 10px 5px rgba(85,85,85,1);
+	background: $cornell-primary;
 	color: white;
 	border: 0;
 }

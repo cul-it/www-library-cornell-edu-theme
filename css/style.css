@@ -2867,24 +2867,18 @@ h2.patroninfo-title {
   color: white; }
 
 .btn-give {
-  font-family: Habibi;
+  font-family: "Montserrat";
   margin-top: 2em;
-  background: #666;
-  color: #ccc;
-  padding: 10px 15px;
-  -webkit-box-shadow: inset 0px 0px 10px 5px #555555;
-  -moz-box-shadow: inset 0px 0px 10px 5px #555555;
-  box-shadow: inset 0px 0px 10px 5px #555555;
+  color: white;
   border: 0;
-  font-size: 16px;
-  margin-left: 15px; }
+  font-size: 14px;
+  margin-left: 15px;
+  border-radius: 0;
+  background: #990f26;
+  text-transform: uppercase; }
 
 .btn-give:hover {
-  background: #666;
-  color: #ccc;
-  -webkit-box-shadow: inset 0px 0px 10px 5px #555555;
-  -moz-box-shadow: inset 0px 0px 10px 5px #555555;
-  box-shadow: inset 0px 0px 10px 5px #555555;
+  background: #b31b1b;
   color: white;
   border: 0; }
 
