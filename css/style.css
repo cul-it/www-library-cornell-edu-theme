@@ -1572,6 +1572,9 @@ h2.patroninfo-title {
   .footnotes p {
     font-size: 14px; }
 
+.media-object {
+  border: 3px solid #d8d2c9; }
+
 .citation {
   text-indent: -2em;
   margin: 1em 2em 2em 6em;
@@ -1665,7 +1668,6 @@ h2.patroninfo-title {
     padding-top: 60px;
     min-height: 500px; }
 
-/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .multicolumn {
     -moz-column-count: 2;
@@ -1676,7 +1678,6 @@ h2.patroninfo-title {
     column-gap: 20px; }
     .multicolumn li {
       font-size: 14px; } }
-/* Medium devices (desktops, 992px and up) */
 body.toolbar-drawer {
   padding-top: 30px !important; }
 
