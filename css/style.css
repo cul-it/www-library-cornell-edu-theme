@@ -1580,6 +1580,9 @@ h2.patroninfo-title {
   border-bottom: 1px solid #edebe7;
   padding-bottom: 15px; }
 
+.main-content .media-body p {
+  font-size: 14px; }
+
 .citation {
   text-indent: -2em;
   margin: 1em 2em 2em 6em;
