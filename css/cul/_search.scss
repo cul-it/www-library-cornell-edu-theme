@@ -62,6 +62,9 @@
 		padding-right: 5px;
 		float: left;
 		width: 75%;
+		.form-control {
+			width: 100%;
+		}
 	}
 	.search-button {
 		@include make-sm-column(2);
@@ -69,10 +72,6 @@
 		padding-right: 0;
 		float: left;
 	}
-	// darken placeholder text in home page search box
-	// .form-control::-webkit-input-placeholder { color: #777; }
-	// .form-control::-moz-placeholder { color: #777; }
-	// .form-control:-ms-input-placeholder { color: #777; }
 }
 .search-info {
 	font-size: 16px;

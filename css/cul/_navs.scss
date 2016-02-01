@@ -18,7 +18,10 @@
 		a:hover { 
 			text-decoration: underline;
 			background: inherit; }
-	}	
+	}
+	.form-control {
+		width: 100%;
+	}
 }
 
 .search-nav {
@@ -223,25 +226,11 @@
 
 // MEDIA QUERIES
 // -------------------------
+// Small devices (tablets, 768px and up) */
+// @media (min-width: $screen-sm) {
+// }
 
-	// /* Extra small devices (phones, up to 480px) */
-	// /* No media query since this is the default in Bootstrap */
+// Medium devices (desktops, 992px and up)
+// @media (min-width: $screen-md) {
 
-	// /* Small devices (tablets, 768px and up) */
-	// @media (min-width: @screen-sm) { ... }
-
-	// /* Medium devices (desktops, 992px and up) */
-	// @media (min-width: @screen-md) { ... }
-
-	// /* Large devices (large desktops, 1200px and up) */
-	// @media (min-width: @screen-lg) { ... }
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm) {
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: $screen-md) {
-
-}
+// }
