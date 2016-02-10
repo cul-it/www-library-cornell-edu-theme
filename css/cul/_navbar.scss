@@ -33,7 +33,7 @@
 			padding: 8px 10px;
 			text-align: left; 
 			border-bottom: 1px solid #333;
-			font-size: 16px;
+			font-size: 13px;
 		}
 		a:hover {
 			color: white;
@@ -126,19 +126,17 @@
 	// @media (min-width: @screen-lg) { ... }
 
 
-/* Small devices (tablets, 768px and up) */
+// Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm) {
 	.navbar {
 		padding-left: 15px; 
 		padding-right: 15px;
-		// height: auto;
-		// // height: 45px;
 		.brand { font-size: 18px; }
 		li {
 			float: left;
 			a { 
 				border-bottom: none;
-				padding: 15px 12px;
+				padding: 15px 10px;
 				font-size: 12px;
 			}
 		}
@@ -156,12 +154,12 @@
 	.search-toggle { display: none; }
 }
 
-/* Medium devices (desktops, 992px and up) */
+// Medium devices (desktops, 992px and up)
 @media (min-width: $screen-md) {
 	.navbar {
 		li {
 			a { 
-				padding: 15px 20px;
+				padding: 15px 18px;
 				font-size: 14px;
 			}
 		}
@@ -169,4 +167,14 @@
 	
 }
 
-
+// Large devices (large desktops, 1200px and up)
+@media (min-width: $screen-lg) {
+	.navbar {
+		li {
+			a { 
+				padding: 15px 22px;
+			}
+		}
+	}
+	
+}

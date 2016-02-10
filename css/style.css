@@ -208,7 +208,7 @@ td {
       padding: 8px 10px;
       text-align: left;
       border-bottom: 1px solid #333;
-      font-size: 16px; }
+      font-size: 13px; }
     .navbar li a:hover {
       color: white;
       background: inherit; }
@@ -275,7 +275,6 @@ td {
 .navbar-toggle:hover {
   background: #990f26; }
 
-/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .navbar {
     padding-left: 15px;
@@ -286,7 +285,7 @@ td {
       float: left; }
       .navbar li a {
         border-bottom: none;
-        padding: 15px 12px;
+        padding: 15px 10px;
         font-size: 12px; }
     .navbar .navbar-collapse {
       margin-left: 0;
@@ -301,11 +300,13 @@ td {
 
   .search-toggle {
     display: none; } }
-/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .navbar li a {
-    padding: 15px 20px;
+    padding: 15px 18px;
     font-size: 14px; } }
+@media (min-width: 1200px) {
+  .navbar li a {
+    padding: 15px 22px; } }
 .nav-global {
   position: relative;
   min-height: 1px;
@@ -1048,7 +1049,7 @@ footer {
 .feature {
   margin: 0 10px 15px 10px; }
   .feature h2 {
-    font-size: 26px;
+    font-size: 24px;
     font-family: Oxygen;
     font-weight: 700;
     border-bottom: 5px solid #edebe7;
@@ -1501,11 +1502,17 @@ h2.patroninfo-title {
     border-left: none; }
 
   .libraries-list {
-    padding: 0 0 2em; } }
+    padding: 0 0 2em; }
+
+  .feature h2 {
+    font-size: 17px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .secondary-feature {
-    padding: 0 20px; } }
+    padding: 0 20px; }
+
+  .feature h2 {
+    font-size: 24px; } }
 .breadcrumb {
   background: inherit;
   padding: 15px;
