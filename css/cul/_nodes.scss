@@ -149,47 +149,99 @@
 	}
 }
 
-// Library spaces
-//------------------//
-.auxiliary-title {
-	font-size: 90%; // on list view
-	margin-top: .25em;
-	color: $medium-gray;
-	font-weight: normal;
-}
-.space { font-weight: 700; }
-.space-unit-library {
-	font-size: 16px;
-	 margin-bottom: 1em;
-}
-.space-auxiliary-title { // on space node itself
-	font-size: 18px;
-	margin: 0 0 .5em;
-}
-.space-contact-point {
-	font-size: 16px;
-	line-height: 1.5em;
-}
-.space-website {
-	font-size: 16px;
-}
+// Library spaces custom template display
+//-----------------------------------------//
+// .auxiliary-title {
+// 	font-size: 90%; // on list view
+// 	margin-top: .25em;
+// 	color: $medium-gray;
+// 	font-weight: normal;
+// }
+// .space { font-weight: 700; }
+// .space-unit-library {
+// 	font-size: 16px;
+// 	 margin-bottom: 1em;
+// }
+// .space-auxiliary-title { // on space node itself
+// 	font-size: 18px;
+// 	margin: 0 0 .5em;
+// }
+// .space-contact-point {
+// 	font-size: 16px;
+// 	line-height: 1.5em;
+// }
+// .space-website {
+// 	font-size: 16px;
+// }
 // remove default bold state of node label just for library space
-.node-library-space {
+// .node-library-space {
+// 	.field {
+// 		.field-label {
+// 			font-weight: normal;
+// 			margin-right: .25em;
+// 		}
+// 	}
+// }
+// display multiple values inline
+// .space-access,
+// .space-type {
+// 	.field-item {
+// 		display: inline;
+// 		margin-right: .5em;
+// 	}
+// }
+
+// Library spaces node template display
+//---------------------------------------
+.node-type-library-space {
+	// all fields
 	.field {
+		margin: 0 0 .25em 0;
+	}
+	// unit library
+	.field-name-field-ls-unit-library {
+		font-size: 16px;
+		margin: 0 0 1em;
+	}
+	// access granted to
+	.field-name-field-ls-access-granted-to {
+		margin: 0 0 1em;
+	}
+	// contact point
+	.field-name-field-ls-contact-point,
+	.field-name-field-notes {
 		.field-label {
-			font-weight: normal;
-			margin-right: .25em;
+			margin-bottom: .25em;
+		}
+	}
+	.field-name-field-ls-image {
+		img {
+			padding: 4px;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			float: left;
+			margin: 0 10px 10px 0;
+		}
+	}
+	.field-name-field-ls-contact-point {
+		padding: 19px;
+		border-radius: 4px;
+		background: #f4f3f0;
+		margin-bottom: 2em;
+		border: 1px solid #e3e3e3;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+		.field-label {
+			font-size: 12px;
+			color: $cornell-primary;
+			text-transform: uppercase;
+			margin-bottom: 1em;
 		}
 	}
 }
-// display multiple values inline
-.space-access,
-.space-type {
-	.field-item {
-		display: inline;
-		margin-right: .5em;
-	}
-}
+
+
+
 
 // Search tips table
 //------------------//

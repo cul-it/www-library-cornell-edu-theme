@@ -1811,38 +1811,35 @@ body.toolbar-drawer {
 #cul-hours-printable-form .form-submit {
   margin-left: 10px; }
 
-.auxiliary-title {
-  font-size: 90%;
-  margin-top: .25em;
-  color: #666;
-  font-weight: normal; }
-
-.space {
-  font-weight: 700; }
-
-.space-unit-library {
+.node-type-library-space .field {
+  margin: 0 0 .25em 0; }
+.node-type-library-space .field-name-field-ls-unit-library {
   font-size: 16px;
-  margin-bottom: 1em; }
-
-.space-auxiliary-title {
-  font-size: 18px;
-  margin: 0 0 .5em; }
-
-.space-contact-point {
-  font-size: 16px;
-  line-height: 1.5em; }
-
-.space-website {
-  font-size: 16px; }
-
-.node-library-space .field .field-label {
-  font-weight: normal;
-  margin-right: .25em; }
-
-.space-access .field-item,
-.space-type .field-item {
-  display: inline;
-  margin-right: .5em; }
+  margin: 0 0 1em; }
+.node-type-library-space .field-name-field-ls-access-granted-to {
+  margin: 0 0 1em; }
+.node-type-library-space .field-name-field-ls-contact-point .field-label,
+.node-type-library-space .field-name-field-notes .field-label {
+  margin-bottom: .25em; }
+.node-type-library-space .field-name-field-ls-image img {
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  float: left;
+  margin: 0 10px 10px 0; }
+.node-type-library-space .field-name-field-ls-contact-point {
+  padding: 19px;
+  border-radius: 4px;
+  background: #f4f3f0;
+  margin-bottom: 2em;
+  border: 1px solid #e3e3e3;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
+  .node-type-library-space .field-name-field-ls-contact-point .field-label {
+    font-size: 12px;
+    color: #b31b1b;
+    text-transform: uppercase;
+    margin-bottom: 1em; }
 
 .page-node-90 td {
   width: 33%; }
