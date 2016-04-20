@@ -80,6 +80,9 @@
  * @ingroup themeable
  */
 ?>
+
+<script src="//api3.libcal.com/js/hours_grid.js?002"></script> 
+
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php print $user_picture; ?>
@@ -107,43 +110,8 @@
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
         <h2>Hours</h2>
-        <div class="library-hours">
-          <?php
-              # Retrieve complete hours from Mann services
-
-              $location_hours = $node->field_hours_id['und'][0]['value'];
-              if (isset($location_hours)) {
-                # Handle special cases
-                if ($location_hours == 'PhysSci') {
-                  $full_hours = '24/7 study space is available in Clark Hall.';
-                }
-                elseif ($location_hours == 'Engineering') {
-                  $full_hours = '24/7 study space is available in Carpenter Hall. An ID is required for access from 4:30 pm - 7:30 am. Closed for major holidays.';
-                }
-                elseif ($location_hours == 'weill') {
-                  $full_hours = '<a href="http://library.med.cornell.edu/About/hours.html">Complete schedule of hours</a>';
-                }
-                else {
-                  $location_hours = urlencode($location_hours);
-                  $url = "http://mannservices.mannlib.cornell.edu/LibServices/showLibraryHoursForAcademicSemester.do?output=xhtml&location=" . $location_hours;
-                  $full_hours = file_get_contents($url);
-
-                  # strip out tags and labels
-                  $patterns = array('/<\/?strong>/','/Location: /','/Description: /', '/Date Range: /', '/style\=".*?"/');
-                  $full_hours = preg_replace($patterns, '', $full_hours);
-
-                  # emphasize the notes field
-                  $full_hours = preg_replace('/<div>.*(Note: .+?)</', '<div class="hours-note">$1<', $full_hours);
-                }
-              }
-              else {
-                $full_hours = 'Full hours are unavailable for this location.';
-              }
-
-              print render($full_hours);
-              #print render($content['field_hours']); 
-          ?>
-      </div>
+            <div id="s-lc-whw2818"></div> 
+        
     </div>
      <div class="col-sm-4">
       <div class="well highlight-box">
