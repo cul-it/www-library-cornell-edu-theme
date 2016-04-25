@@ -109,8 +109,36 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
+        
         <h2>Hours</h2>
-            <div id="s-lc-whw2818"></div> 
+        <?php 
+          // Figure out the LibCal library code for whichever library this is
+          $libcal_codes = array(
+            'Africana' => 3319,
+            'Fine Arts' => 3321,
+            'Hotel' => 3322,
+            'ILR' => 3323,
+            'Kroch' => 3324,
+            'Rare' => 3325,
+            'Law' => 2814,
+            'ANNEX' => 3326,
+            'JGSM' => 3340,
+            'MANNLIB' => 1707,
+            'MATH' => 3327,
+            'Music' => 3328,
+            'OLIN' => 2818,
+            'Ornithology' => 3329,
+            'Uris' => 2830,
+            'Vet' => 3331
+          );
+          
+          $location_hours = $node->field_hours_id['und'][0]['value'];
+          $library_id = $libcal_codes[$location_hours];
+          print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>' 
+
+        ?>
+      </div>
+
         
     </div>
      <div class="col-sm-4">
