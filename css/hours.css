@@ -2,7 +2,6 @@
 <!-- Styles for the LibCal hours widgets on unit library pages. These are the defaults
 provided with the widget code. -->
 <!-- Please note: The following styles are optional, feel free to modify! //-->
-<style>
 .s-lc-whw thead { background-color: #F5F5F5; }
 .s-lc-whw-head-date { color: #999; }
 .s-lc-whw-today-h {  background-color: #ddd; }
@@ -26,4 +25,3 @@ provided with the widget code. -->
    .s-lc-whw-cont .table-responsive { width: 100%; margin-bottom: 15px; overflow-y: hidden; overflow-x: scroll; -ms-overflow-style: -ms-autohiding-scrollbar; border: 1px solid #ddd; -webkit-overflow-scrolling: touch; }
    .s-lc-whw td { white-space: nowrap; }
 }
-</style>
