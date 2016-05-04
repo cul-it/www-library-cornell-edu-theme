@@ -137,11 +137,8 @@
           print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>' 
 
         ?>
-      </div>
-
-        
     </div>
-     <div class="col-sm-4">
+    <div class="col-sm-4">
       <div class="well highlight-box">
         <h3>Website <i class="fa fa-external-link"></i></h3>
         <?php print render($content['group_contact']['field_website']); ?>
