@@ -133,8 +133,17 @@
           );
           
           $location_hours = $node->field_hours_id['und'][0]['value'];
-          $library_id = $libcal_codes[$location_hours];
-          print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>' 
+          // We don't track hours for Weill
+          if ($location_hours == 'weill') {
+            print '<div><a href="http://library.med.cornell.edu/About/hours.html">Library hours available on the Weill Library website</a></div>';
+          }
+          elseif ($location_hours == 'weill-archives') {
+            print '<div><a href="http://weill.cornell.edu/archives/visiting/">Library hours available on the Weill Archives website</a></div>';
+          }
+          else {
+            $library_id = $libcal_codes[$location_hours];
+            print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>'; 
+          }
 
         ?>
     </div>
