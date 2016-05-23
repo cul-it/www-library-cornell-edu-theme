@@ -1150,7 +1150,7 @@ footer {
   margin-bottom: 20px; }
   .bridge .bridge-section {
     clear: both;
-    padding-top: 10px;
+    padding: 10px 0;
     border-bottom: 1px solid #edebe7; }
   .bridge .row .bridge-section {
     position: relative;
