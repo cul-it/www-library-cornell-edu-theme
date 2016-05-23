@@ -2105,6 +2105,12 @@ table.delivery-options :first-child > td:first-child {
   h4 {
     font-size: 18px !important; }
 
+  a[href]:after {
+    content: ""; }
+
+  abbr[title]:after {
+    content: ""; }
+
   .cornell-brand,
   .sidebar,
   .breadcrumb-wrapper,
