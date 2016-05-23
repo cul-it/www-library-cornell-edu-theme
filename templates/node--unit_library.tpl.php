@@ -141,6 +141,12 @@
           elseif ($location_hours == 'weill-archives') {
             print '<div><a href="http://weill.cornell.edu/archives/visiting/">Library hours available on the Weill Archives website</a></div>';
           }
+          elseif ($location_hours == 'PhysSci') {
+            print '<div><p>24/7 quiet study space only</p></div>';
+          }
+          elseif ($location_hours == 'Engineering') {
+            print '<div><p>24/7 study space and computing only</p></div>';
+          }
           else {
             $library_id = $libcal_codes[$location_hours];
             print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>'; 
