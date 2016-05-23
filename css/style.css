@@ -1722,7 +1722,8 @@ body.toolbar-drawer {
 .view-libraries-and-hours h2 {
   font-size: 22px;
   margin-top: 0;
-  display: inline-block; }
+  display: inline-block;
+  font-weight: 400; }
 .view-libraries-and-hours h2:hover {
   text-decoration: underline; }
 .view-libraries-and-hours .unit-library {
@@ -1871,6 +1872,8 @@ body.toolbar-drawer {
     margin-bottom: 0; }
   .feature .courses-form .btn {
     vertical-align: top; }
+  .feature .courses-form .form-item:first-child {
+    margin-bottom: 0; }
 
 .main-content .courses-form li {
   font-size: 12px; }

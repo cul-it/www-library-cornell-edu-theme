@@ -36,6 +36,7 @@
 		font-size: 22px;
 		margin-top: 0;
 		display: inline-block;
+		font-weight: 400;
 	}
 	h2:hover {
 		text-decoration: underline;
@@ -289,6 +290,9 @@
 		border-bottom: 1px dotted $tan;
 		form { margin-bottom: 0; }
 		.btn { vertical-align: top; }
+		.form-item:first-child {
+			margin-bottom: 0;
+		}
 	}
 }
 
