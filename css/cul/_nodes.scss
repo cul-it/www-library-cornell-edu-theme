@@ -295,6 +295,14 @@
 		}
 	}
 }
+// wider search box on courses page
+.page-node-2282 {
+	#ares-search-form {
+		.input-group {
+			width: 100%;
+		}
+	}
+}
 
 .main-content {
 	.courses-form {
@@ -460,23 +468,6 @@ table.delivery-options {
 
 // Libescope
 //--------------------------//
-// this stuff was from when I had a libescope node template
-// .field-name-field-libescope-image {
-// 	img { // apply bootstrap img-thumbnail style
-// 		padding: 4px;
-// 		background: white;
-// 		border: 1px solid #ddd;
-// 		border-radius: 4px;
-// 		height: auto;
-// 	}
-// }
-// .node-libescope {
-// 	.img-right {
-// 		img {
-// 			width: auto;
-// 		}
-// 	}
-// }
 .node-libescope {
 	.field-name-field-libescope-image {
 		float: right;
