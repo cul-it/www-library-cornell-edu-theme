@@ -1,8 +1,8 @@
-@import url(//fonts.googleapis.com/css?family=Oxygen);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic);
 @import url(//fonts.googleapis.com/css?family=Habibi);
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 body {
-  font-family: Oxygen;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   background-color: #222;
   color: #222; }
 
@@ -23,7 +23,7 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: Oxygen; }
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
 h1 {
   margin-bottom: .75em;
@@ -286,7 +286,7 @@ td {
       .navbar li a {
         border-bottom: none;
         padding: 15px 10px;
-        font-size: 12px; }
+        font-size: 13px; }
     .navbar .navbar-collapse {
       margin-left: 0;
       margin-top: 0;
@@ -303,10 +303,11 @@ td {
 @media (min-width: 992px) {
   .navbar li a {
     padding: 15px 18px;
-    font-size: 14px; } }
+    font-size: 15px; } }
 @media (min-width: 1200px) {
   .navbar li a {
-    padding: 15px 22px; } }
+    padding: 15px 22px;
+    font-size: 16px; } }
 .nav-global {
   position: relative;
   min-height: 1px;
@@ -863,14 +864,14 @@ footer {
     color: #2aa198;
     text-transform: uppercase;
     font-size: 12px;
-    margin-bottom: .25em; }
+    margin-bottom: .25em;
+    font-weight: 700; }
   .spotlight .spotlight-link {
     color: white;
     font-size: 12px;
     margin-bottom: 5px; }
   .spotlight .spotlight-title {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
     color: white;
     margin: 0 0 .75em; }
   .spotlight a, .spotlight a:hover {
@@ -967,7 +968,7 @@ footer {
   z-index: 1000 !important; }
 
 .ui-widget {
-  font-family: Oxygen; }
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
 .not-front .ui-menu li {
   font-size: 12px; }
@@ -1050,8 +1051,8 @@ footer {
   margin: 0 10px 15px 10px; }
   .feature h2 {
     font-size: 24px;
-    font-family: Oxygen;
-    font-weight: 700;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 400;
     border-bottom: 5px solid #edebe7;
     padding-bottom: 10px;
     margin: 0 0 .5em;
@@ -1150,7 +1151,7 @@ footer {
   margin-bottom: 20px; }
   .bridge .bridge-section {
     clear: both;
-    padding-top: 10px;
+    padding: 10px 0;
     border-bottom: 1px solid #edebe7; }
   .bridge .row .bridge-section {
     position: relative;
@@ -1387,7 +1388,7 @@ h2.patroninfo-title {
 #pi-tabs {
   margin: 20px 0; }
   #pi-tabs ul.ui-tabs-nav {
-    font-family: Oxygen;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     padding-left: 0; }
     #pi-tabs ul.ui-tabs-nav li {
       padding-left: 0;
@@ -1405,7 +1406,7 @@ h2.patroninfo-title {
 
 .ui-tabs-nav,
 .ui-tabs-panel {
-  font-family: Oxygen; }
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
 #pi-tabs ul.ui-tabs-nav li.ui-tabs-selected a span {
   background: white;
@@ -1722,7 +1723,8 @@ body.toolbar-drawer {
 .view-libraries-and-hours h2 {
   font-size: 22px;
   margin-top: 0;
-  display: inline-block; }
+  display: inline-block;
+  font-weight: 400; }
 .view-libraries-and-hours h2:hover {
   text-decoration: underline; }
 .view-libraries-and-hours .unit-library {
@@ -1871,6 +1873,11 @@ body.toolbar-drawer {
     margin-bottom: 0; }
   .feature .courses-form .btn {
     vertical-align: top; }
+  .feature .courses-form .form-item:first-child {
+    margin-bottom: 0; }
+
+.page-node-2282 #ares-search-form .input-group {
+  width: 100%; }
 
 .main-content .courses-form li {
   font-size: 12px; }
