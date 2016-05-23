@@ -1,8 +1,8 @@
-@import url(//fonts.googleapis.com/css?family=Oxygen);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic);
 @import url(//fonts.googleapis.com/css?family=Habibi);
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 body {
-  font-family: Oxygen;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   background-color: #222;
   color: #222; }
 
@@ -23,7 +23,7 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: Oxygen; }
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
 h1 {
   margin-bottom: .75em;
@@ -967,7 +967,7 @@ footer {
   z-index: 1000 !important; }
 
 .ui-widget {
-  font-family: Oxygen; }
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
 .not-front .ui-menu li {
   font-size: 12px; }
@@ -1050,7 +1050,7 @@ footer {
   margin: 0 10px 15px 10px; }
   .feature h2 {
     font-size: 24px;
-    font-family: Oxygen;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-weight: 700;
     border-bottom: 5px solid #edebe7;
     padding-bottom: 10px;
@@ -1387,7 +1387,7 @@ h2.patroninfo-title {
 #pi-tabs {
   margin: 20px 0; }
   #pi-tabs ul.ui-tabs-nav {
-    font-family: Oxygen;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     padding-left: 0; }
     #pi-tabs ul.ui-tabs-nav li {
       padding-left: 0;
@@ -1405,7 +1405,7 @@ h2.patroninfo-title {
 
 .ui-tabs-nav,
 .ui-tabs-panel {
-  font-family: Oxygen; }
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
 #pi-tabs ul.ui-tabs-nav li.ui-tabs-selected a span {
   background: white;
