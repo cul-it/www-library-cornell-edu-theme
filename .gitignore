@@ -6,3 +6,4 @@
 
 # Ignore sass-cache
 /css/.sass-cache
+.remote-sync.json
