@@ -2116,7 +2116,7 @@ table.delivery-options :first-child > td:first-child {
   .breadcrumb-wrapper,
   footer,
   .nav-global,
-  .block-patroninfo-patroninfo button {
+  #block-patroninfo-patroninfo button {
     display: none !important; }
 
   .main-text {
