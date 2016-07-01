@@ -141,6 +141,7 @@
               <li><a href="https://catherwood.library.cornell.edu/">Industrial and Labor Relations Library</a></li>
               <li><a href="http://asia.library.cornell.edu/">Kroch Library, Division of Asia Collections</a></li>
               <li><a href="http://rare.library.cornell.edu">Kroch Library, Division of Rare &amp; Manuscript Collections</a></li>
+              <li><a href="http://library.med.cornell.edu/">Medical Library</a></li>
             </ul>
           </div>
           <div class="libraries-group">
@@ -151,12 +152,11 @@
               <li><a href="http://mannlib.cornell.edu">Mann Library</a></li>
               <li><a href="http://mathematics.library.cornell.edu">Mathematics Library</a></li>
               <li><a href="http://weill.cornell.edu/archives/">Medical Center Archives</a></li>
-              <li><a href="http://library.med.cornell.edu/">Medical Library</a></li>
+              <li><a href="http://music.library.cornell.edu">Music Library</a></li>
             </ul>
           </div>
           <div class="libraries-group">
             <ul>
-              <li><a href="http://music.library.cornell.edu">Music Library</a></li>
               <li><a href="http://olinuris.library.cornell.edu">Olin Library</a></li>
               <li><a href="http://www.birds.cornell.edu/Adelson">Ornithology Library</a></li>
               <li><a href="http://physicalsciences.library.cornell.edu">Physical Sciences Library</a></li>
