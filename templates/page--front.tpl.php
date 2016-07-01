@@ -145,7 +145,6 @@
               <li><a href="http://africana.library.cornell.edu">Africana Library</a></li>
               <li><a href="http://engineering.library.cornell.edu">Engineering Library</a></li>
               <li><a href="http://finearts.library.cornell.edu">Fine Arts Library</a></li>
-              <li><a href="http://leelibrary.cornell.edu">Geneva Experiment Station</a></li>
               <li><a href="https://catherwood.library.cornell.edu/">Industrial and Labor Relations Library</a></li>
               <li><a href="http://asia.library.cornell.edu/">Kroch Library, Division of Asia Collections</a></li>
               <li><a href="http://rare.library.cornell.edu">Kroch Library, Division of Rare &amp; Manuscript Collections</a></li>
