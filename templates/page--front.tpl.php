@@ -5,13 +5,8 @@
 <div class="cornell-brand">
   <div class="container">
     <div class="row">
-      <a class="navbar-brand visible-xs" href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/cornell-red.gif" alt="Cornell University"></a>
       <div class="navbar-header visible-xs">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+        <a class="navbar-brand visible-xs" href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/cornell-red.gif" alt="Cornell University"></a>
       </div>
       <div class="cornell-logo">
         <a href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/CU-Insignia-White-120.png" alt="Cornell University" class="insignia hidden-xs"></a>
@@ -28,11 +23,9 @@
 
 <div class="navbar">
   <div class="container">
-    <div class="navbar-collapse collapse">
-      <div class="nav navbar-nav">
-        <?php print render($page['navigation']); ?>
-      </div>
-    </div><!--/.navbar-collapse -->
+    <div class="nav navbar-nav">
+      <?php print render($page['navigation']); ?>
+    </div>
   </div>
 </div>
 

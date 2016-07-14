@@ -15,10 +15,7 @@
 	padding-right: 0;
 	border: 0;
 	.container {
-		// border: 1px solid $cornell-primary;
-    	// border-bottom: none;
-    	// border-top: none;
-    	background: $cornell-primary;
+    	background: $dark-gray;
     	padding: 0;
     	text-align: center;
 	}
@@ -110,21 +107,59 @@
 	background: $cornell-primary-hover;
 }
 
+// Superfish dropdown
+.sf-menu {
+	a:hover, a:active, a:focus {
+		text-decoration: none;
+	}
+	// Add font awesome chevron down
+	a.sf-depth-1.menuparent:after {
+		font-family: FontAwesome;
+		content: "\f078";
+		font-size: 75%;
+		padding-left: .5em;
+	}
+	// don't put the chevron on a cloned menu parent
+	.sf-clone-parent {
+		.sf-depth-1.menuparent:after {
+			content: ""
+		}
+	}
+	ul {
+		background: black;
+		padding-top: 1em;
+		border-bottom: 3px solid $dark-gray;
+	}
+	.sfHover > a,
+	.sfHover >  a:hover{
+		background: black !important;
+	}
+	li {
+		ul {
+			a {
+				padding-left: 20px;
+			}
+		}
+	}
+}
+// Mobile toggle
+.sf-accordion-toggle {
+	padding: 10px 0;
+	a, a:hover, a:active, a:focus {
+		color: white;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	a:after {
+		font-family: FontAwesome;
+		content: "\f0c9";
+		font-size: 75%;
+		padding-left: .5em;
+	}
+}
+
 // MEDIA QUERIES
 // -------------------------
-
-	// /* Extra small devices (phones, up to 480px) */
-	// /* No media query since this is the default in Bootstrap */
-
-	// /* Small devices (tablets, 768px and up) */
-	// @media (min-width: @screen-sm) { ... }
-
-	// /* Medium devices (desktops, 992px and up) */
-	// @media (min-width: @screen-md) { ... }
-
-	// /* Large devices (large desktops, 1200px and up) */
-	// @media (min-width: @screen-lg) { ... }
-
 
 // Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm) {
@@ -137,7 +172,7 @@
 			a { 
 				border-bottom: none;
 				padding: 15px 10px;
-				font-size: 13px;
+				font-size: 12px;
 			}
 		}
 		.navbar-collapse { 
@@ -145,6 +180,16 @@
 			margin-top: 0;
 			@include border-top-radius($border-radius-small);
 			li.active:first-child { border-top-left-radius: 3px; }
+		}
+		.sf-menu {
+			li ul {
+				padding-top: .5em;
+				padding-bottom: .5em;
+				margin-top: .5em !important;
+				a {
+					padding: 8px 10px;
+				}
+			}
 		}
 	}
 	// force home link to have a rounded corner when active
@@ -159,8 +204,17 @@
 	.navbar {
 		li {
 			a { 
-				padding: 15px 18px;
+				padding: 15px 14px;
 				font-size: 15px;
+			}
+		}
+		.sf-menu {
+			li ul {
+				padding-top: .75em;
+				padding-bottom: .75em;
+				a {
+					padding: 10px 14px;
+				}
 			}
 		}
 	}

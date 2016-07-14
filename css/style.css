@@ -157,7 +157,7 @@ td {
   text-transform: uppercase;
   font-size: 17px;
   padding: 0 10px;
-  margin: .5em 0; }
+  margin: 0 0 .5em 0; }
   .library-brand a {
     color: white; }
   .library-brand a:hover, .library-brand a:focus, .library-brand a:active {
@@ -196,7 +196,7 @@ td {
   padding-right: 0;
   border: 0; }
   .navbar .container {
-    background: #b31b1b;
+    background: #222;
     padding: 0;
     text-align: center; }
   .navbar .nav {
@@ -275,6 +275,37 @@ td {
 .navbar-toggle:hover {
   background: #990f26; }
 
+.sf-menu a:hover, .sf-menu a:active, .sf-menu a:focus {
+  text-decoration: none; }
+.sf-menu a.sf-depth-1.menuparent:after {
+  font-family: FontAwesome;
+  content: "\f078";
+  font-size: 75%;
+  padding-left: .5em; }
+.sf-menu .sf-clone-parent .sf-depth-1.menuparent:after {
+  content: ""; }
+.sf-menu ul {
+  background: black;
+  padding-top: 1em;
+  border-bottom: 3px solid #222; }
+.sf-menu .sfHover > a,
+.sf-menu .sfHover > a:hover {
+  background: black !important; }
+.sf-menu li ul a {
+  padding-left: 20px; }
+
+.sf-accordion-toggle {
+  padding: 10px 0; }
+  .sf-accordion-toggle a, .sf-accordion-toggle a:hover, .sf-accordion-toggle a:active, .sf-accordion-toggle a:focus {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none; }
+  .sf-accordion-toggle a:after {
+    font-family: FontAwesome;
+    content: "\f0c9";
+    font-size: 75%;
+    padding-left: .5em; }
+
 @media (min-width: 768px) {
   .navbar {
     padding-left: 15px;
@@ -286,7 +317,7 @@ td {
       .navbar li a {
         border-bottom: none;
         padding: 15px 10px;
-        font-size: 13px; }
+        font-size: 12px; }
     .navbar .navbar-collapse {
       margin-left: 0;
       margin-top: 0;
@@ -294,6 +325,12 @@ td {
       border-top-left-radius: 3px; }
       .navbar .navbar-collapse li.active:first-child {
         border-top-left-radius: 3px; }
+    .navbar .sf-menu li ul {
+      padding-top: .5em;
+      padding-bottom: .5em;
+      margin-top: .5em !important; }
+      .navbar .sf-menu li ul a {
+        padding: 8px 10px; }
 
   .first.leaf.active.menu-mlid-224.active a {
     border-top-left-radius: 3px; }
@@ -302,8 +339,13 @@ td {
     display: none; } }
 @media (min-width: 992px) {
   .navbar li a {
-    padding: 15px 18px;
-    font-size: 15px; } }
+    padding: 15px 14px;
+    font-size: 15px; }
+  .navbar .sf-menu li ul {
+    padding-top: .75em;
+    padding-bottom: .75em; }
+    .navbar .sf-menu li ul a {
+      padding: 10px 14px; } }
 @media (min-width: 1200px) {
   .navbar li a {
     padding: 15px 22px;
