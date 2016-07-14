@@ -27,14 +27,16 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-cul;
+  font-weight: 400;
 }
 h1 { 
   margin-bottom: .75em;
   margin-top: 0;
   color: $cornell-primary;
   font-size: 30px;
-  font-weight: 700; }
+  font-family: $font-family-cul;
+}
 
 h2, h3, h4 { 
   margin-bottom: .5em;
@@ -42,11 +44,10 @@ h2, h3, h4 {
 
 h2 { 
   font-size: 22px;
-  font-weight: 700; }
+}
 h2:first-child { margin-top: 0; }
 
 h3 { 
-  font-weight: 700;
   font-size: 18px;
   line-height: 1.4em;
 }
