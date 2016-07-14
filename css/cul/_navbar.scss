@@ -34,7 +34,7 @@
 		}
 		a:hover {
 			color: white;
-			background: inherit;
+			background: black;
 		}
 		a.global-link {
 			float: left;
@@ -214,6 +214,7 @@
 				padding-bottom: .75em;
 				a {
 					padding: 10px 14px;
+					font-size: 14px;
 				}
 			}
 		}
@@ -228,6 +229,13 @@
 			a { 
 				padding: 15px 22px;
 				font-size: 16px;
+			}
+		}
+		.sf-menu {
+			li ul {
+				a {
+					padding: 10px 22px;
+				}
 			}
 		}
 	}
