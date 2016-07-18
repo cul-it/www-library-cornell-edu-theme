@@ -335,7 +335,10 @@ td {
     border-top-left-radius: 3px; }
 
   .search-toggle {
-    display: none; } }
+    display: none; }
+
+  .sf-accordion-toggle a:after {
+    font-size: 65%; } }
 @media (min-width: 992px) {
   .navbar li a {
     padding: 15px 14px;

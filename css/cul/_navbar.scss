@@ -197,6 +197,11 @@
 		a { border-top-left-radius: 3px;}
 	}
 	.search-toggle { display: none; }
+	.sf-accordion-toggle {
+		a:after {
+			font-size: 65%;
+		}
+	}
 }
 
 // Medium devices (desktops, 992px and up)
