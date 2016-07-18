@@ -8,7 +8,7 @@
       <div class="navbar-header visible-xs">
         <a class="navbar-brand visible-xs" href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/cornell-red.gif" alt="Cornell University"></a>
         <button type="button" class="search-toggle" data-toggle="collapse" data-target=".search-collapse">
-          <i class="fa fa-search"></i>
+          <i class="fa fa-search"></i><span class="sr-only">Search</span>
         </button>
       </div>
       <div class="cornell-logo">
@@ -33,7 +33,7 @@
             <label class="sr-only" for="q">Search</label>
             <input type="text" class="form-control input-sm search-box" id="q" name="q" placeholder="Search everything">
           </div>
-          <button type="submit" class="btn btn-search-icon btn-sm"><i class="fa fa-search fa-inverse"></i></button>
+          <button type="submit" class="btn btn-search-icon btn-sm"><i class="fa fa-search fa-inverse"></i><span class="sr-only">Search</span></button>
         </form>
       </div>
     </div>
@@ -190,8 +190,8 @@
         <?php print render($page['footer-copyright']); ?>
       </div>
       <div class="social-links">
-        <a class="facebook-button" href="http://www.facebook.com/cornelluniversitylibrary" title="Find us on Facebook"><i class="fa fa-facebook-square" alt="Find us on Facebook"></i></a> 
-        <a class="twitter-button" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.library.cornell.edu%2Findex&amp;region=follow_link&amp;screen_name=Cornell_Library&amp;tw_p=followbutton&amp;variant=2.0" title="Follow us on Twitter"><i class="fa fa-twitter-square" alt="Follow us on Twitter"></i></a>
+        <a class="facebook-button" href="http://www.facebook.com/cornelluniversitylibrary" title="Find us on Facebook"><i class="fa fa-facebook-square" alt="Find us on Facebook"></i><span class="sr-only">Facebook>/span></a> 
+        <a class="twitter-button" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.library.cornell.edu%2Findex&amp;region=follow_link&amp;screen_name=Cornell_Library&amp;tw_p=followbutton&amp;variant=2.0" title="Follow us on Twitter"><i class="fa fa-twitter-square" alt="Follow us on Twitter"></i><span class="sr-only">Twitter</span></a>
       </div>
     </div>
   </div>
