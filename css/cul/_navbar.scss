@@ -197,8 +197,8 @@
 		a { border-top-left-radius: 3px;}
 	}
 	.search-toggle { display: none; }
-	.sf-accordion-toggle {
-		a:after {
+	.sf-menu {
+		a.sf-depth-1.menuparent:after {
 			font-size: 65%;
 		}
 	}
@@ -222,6 +222,11 @@
 					font-size: 14px;
 				}
 			}
+		}
+	}
+	.sf-menu {
+		a.sf-depth-1.menuparent:after {
+			font-size: 65%;
 		}
 	}
 	

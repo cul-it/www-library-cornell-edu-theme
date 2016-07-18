@@ -337,7 +337,7 @@ td {
   .search-toggle {
     display: none; }
 
-  .sf-accordion-toggle a:after {
+  .sf-menu a.sf-depth-1.menuparent:after {
     font-size: 65%; } }
 @media (min-width: 992px) {
   .navbar li a {
@@ -348,7 +348,10 @@ td {
     padding-bottom: .75em; }
     .navbar .sf-menu li ul a {
       padding: 10px 14px;
-      font-size: 14px; } }
+      font-size: 14px; }
+
+  .sf-menu a.sf-depth-1.menuparent:after {
+    font-size: 65%; } }
 @media (min-width: 1200px) {
   .navbar li a {
     padding: 15px 22px;
