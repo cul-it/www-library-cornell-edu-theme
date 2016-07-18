@@ -1101,13 +1101,14 @@ footer {
 .feature {
   margin: 0 10px 15px 10px; }
   .feature h2 {
-    font-size: 21px;
+    font-size: 18px;
     font-family: "Montserrat";
     font-weight: 400;
     border-bottom: 5px solid #edebe7;
     padding-bottom: 10px;
     margin: 0 0 .5em;
-    color: #b31b1b; }
+    color: #b31b1b;
+    text-transform: uppercase; }
     .feature h2 i {
       color: #b31b1b;
       font-size: 20px; }
@@ -1558,14 +1559,14 @@ h2.patroninfo-title {
     padding: 0 0 2em; }
 
   .feature h2 {
-    font-size: 16px; } }
+    font-size: 13px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .secondary-feature {
     padding: 0 20px; }
 
   .feature h2 {
-    font-size: 22px; } }
+    font-size: 18px; } }
 .breadcrumb {
   background: inherit;
   padding: 15px;
