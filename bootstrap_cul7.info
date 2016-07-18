@@ -12,6 +12,7 @@ regions[help]           = 'Help'
 regions[content]        = 'Content'
 regions[sidebar]        = 'Sidebar'
 regions[news-sidebar]   = 'News Sidebar'
+regions[mobile-search]  = 'Mobile search'
 
 regions[footer-libraries] = 'Footer libraries list'
 regions[footer-links1] = 'Footer links 1'
