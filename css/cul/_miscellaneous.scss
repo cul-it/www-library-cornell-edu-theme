@@ -88,16 +88,6 @@
 
 // Citation styles
 // ------------------------------
-
-// .page-node-41 {
-// 	.main-text {
-// 		blockquote {
-// 			padding: 0 30px;
-// 			border-left: 0;
-// 			p { font-size: 14px; }
-// 		}
-// 	}
-// }
 .citation {
 	text-indent: -2em;
 	margin: 1em 2em 2em 6em;
@@ -121,6 +111,15 @@
 	.webform-client-form {
 		margin: 20px 0;
 		.form-item { margin: 0 0 1em; }
+		.panel {
+			margin-bottom: 10px;
+		}
+	}
+}
+// Give a little more space for fieldset headings
+.webform-component-fieldset {
+	.panel-heading {
+		margin: 1em 0 .5em 0;
 	}
 }
 
