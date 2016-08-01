@@ -74,6 +74,9 @@
 // Comm bar with Ask a Librarian
 .news-wrapper {
 	@include make-sm-column(3);
+	.view-news {
+		margin-bottom: 1em;
+	}
 }
 .ask-main {
 	@include make-sm-column(6);
@@ -83,7 +86,7 @@
 	}
 }
 .region-ask-main {
-	padding: 0 0 40px 40px;
+	padding: 0 0 40px 0;
 	border-left: 5px dotted $teal;
 }
 .ask-secondary {
@@ -190,18 +193,6 @@ footer {
 // MEDIA QUERIES
 // -------------------------
 
-	// /* Extra small devices (phones, up to 480px) */
-	// /* No media query since this is the default in Bootstrap */
-
-	// /* Small devices (tablets, 768px and up) */
-	// @media (min-width: @screen-sm) { ... }
-
-	// /* Medium devices (desktops, 992px and up) */
-	// @media (min-width: @screen-md) { ... }
-
-	// /* Large devices (large desktops, 1200px and up) */
-	// @media (min-width: @screen-lg) { ... }
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) { 
 	.hero {
@@ -240,9 +231,20 @@ footer {
 		padding: 0;
 		background: inherit;
 	}
+	.region-ask-main {
+		padding-left: 40px;
+	}
+	.region-news-events {
+		border-right: 5px dotted $teal;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-
+	.region-ask-main {
+		border-left: 5px dotted $teal;
+	}
+	.region-news-events {
+		border-right: 0;
+	}
 }
