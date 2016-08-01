@@ -75,7 +75,10 @@
 .news-wrapper {
 	@include make-sm-column(3);
 	a {
-		border-bottom: 1px solid white;
+		border-bottom: 1px dotted white;
+	}
+	a:hover, a:active, a:focus {
+		text-decoration: none;
 	}
 	.view-news {
 		margin-bottom: 1em;
@@ -104,6 +107,9 @@
 	a, a:hover, a:visited, a:active {
 		color: white;
 		border-bottom: 1px dotted white;
+	}
+	a:hover, a:active, a:focus {
+		text-decoration: none;
 	}
 	p {
 		font-size: 16px;
