@@ -74,6 +74,9 @@
 // Comm bar with Ask a Librarian
 .news-wrapper {
 	@include make-sm-column(3);
+	a {
+		border-bottom: 1px solid white;
+	}
 	.view-news {
 		margin-bottom: 1em;
 	}
@@ -100,6 +103,7 @@
 	}
 	a, a:hover, a:visited, a:active {
 		color: white;
+		border-bottom: 1px dotted white;
 	}
 	p {
 		font-size: 16px;

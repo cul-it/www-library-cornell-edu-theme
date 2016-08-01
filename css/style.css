@@ -652,6 +652,8 @@ td {
     .news-wrapper {
       float: left;
       width: 25%; } }
+  .news-wrapper a {
+    border-bottom: 1px solid white; }
   .news-wrapper .view-news {
     margin-bottom: 1em; }
 
@@ -687,7 +689,8 @@ td {
   .ask-secondary .block-title {
     color: white; }
   .ask-secondary a, .ask-secondary a:hover, .ask-secondary a:visited, .ask-secondary a:active {
-    color: white; }
+    color: white;
+    border-bottom: 1px dotted white; }
   .ask-secondary p {
     font-size: 16px; }
   .ask-secondary .well {
