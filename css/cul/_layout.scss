@@ -83,6 +83,9 @@
 	.block-title {
 		color: white;
 		font-size: 36px;
+		a, a:hover, a:visited, a:active, a:focus {
+			color: white;
+		}
 	}
 }
 .region-ask-main {
