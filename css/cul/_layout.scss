@@ -71,6 +71,45 @@
 }
 .secondary-wrapper:first-child { background-image: none; }
 
+// Comm bar with Ask a Librarian
+.news-wrapper {
+	@include make-sm-column(3);
+}
+.ask-main {
+	@include make-sm-column(6);
+	.block-title {
+		color: white;
+		font-size: 36px;
+	}
+}
+.region-ask-main {
+	padding: 0 0 40px 40px;
+	border-left: 5px dotted $teal;
+}
+.ask-secondary {
+	@include make-sm-column(3);
+	color: white;
+	.block-title {
+		color: white;
+	}
+	a, a:hover, a:visited, a:active {
+		color: white;
+	}
+	p {
+		font-size: 16px;
+	}
+	.well {
+		background: $teal;
+		border-color: $teal;
+		margin-top: 1em;
+		p {
+			font-size: 22px;
+		}
+	}
+}
+
+
+
 // BREADCRUMBS
 //-------------//
 

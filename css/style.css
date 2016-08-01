@@ -643,6 +643,56 @@ td {
 .secondary-wrapper:first-child {
   background-image: none; }
 
+.news-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .news-wrapper {
+      float: left;
+      width: 25%; } }
+
+.ask-main {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .ask-main {
+      float: left;
+      width: 50%; } }
+  .ask-main .block-title {
+    color: white;
+    font-size: 36px; }
+
+.region-ask-main {
+  padding: 0 0 40px 40px;
+  border-left: 5px dotted #2aa198; }
+
+.ask-secondary {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white; }
+  @media (min-width: 768px) {
+    .ask-secondary {
+      float: left;
+      width: 25%; } }
+  .ask-secondary .block-title {
+    color: white; }
+  .ask-secondary a, .ask-secondary a:hover, .ask-secondary a:visited, .ask-secondary a:active {
+    color: white; }
+  .ask-secondary p {
+    font-size: 16px; }
+  .ask-secondary .well {
+    background: #2aa198;
+    border-color: #2aa198;
+    margin-top: 1em; }
+    .ask-secondary .well p {
+      font-size: 22px; }
+
 .breadcrumb-wrapper {
   position: relative;
   min-height: 1px;
@@ -1117,9 +1167,11 @@ footer {
     .feature h2 a:hover {
       text-decoration: none; }
 
-.secondary-feature {
+.secondary-feature,
+.news-wrapper {
   margin-bottom: 30px; }
-  .secondary-feature h3 {
+  .secondary-feature h3,
+  .news-wrapper h3 {
     font-size: 16px;
     text-transform: uppercase;
     font-family: "Montserrat";
@@ -1127,39 +1179,50 @@ footer {
     padding-bottom: 10px;
     margin: 0 0 .5em;
     color: white; }
-    .secondary-feature h3 a {
+    .secondary-feature h3 a,
+    .news-wrapper h3 a {
       color: white; }
-    .secondary-feature h3 a:hover {
+    .secondary-feature h3 a:hover,
+    .news-wrapper h3 a:hover {
       text-decoration: none; }
-  .secondary-feature a {
+  .secondary-feature a,
+  .news-wrapper a {
     color: white; }
-  .secondary-feature i {
+  .secondary-feature i,
+  .news-wrapper i {
     color: #b8d6d4;
     margin-right: 8px; }
-  .secondary-feature .btn-rss {
+  .secondary-feature .btn-rss,
+  .news-wrapper .btn-rss {
     margin: 4px 0 0 10px; }
-    .secondary-feature .btn-rss i {
+    .secondary-feature .btn-rss i,
+    .news-wrapper .btn-rss i {
       color: white;
       margin-right: 0; }
-  .secondary-feature .title {
+  .secondary-feature .title,
+  .news-wrapper .title {
     display: block;
     font-size: 20px;
     margin-bottom: .5em; }
-  .secondary-feature .libescope-type {
+  .secondary-feature .libescope-type,
+  .news-wrapper .libescope-type {
     font-size: 12px;
     display: block;
     clear: left;
     color: #666;
     text-transform: uppercase; }
-  .secondary-feature .teaser {
+  .secondary-feature .teaser,
+  .news-wrapper .teaser {
     color: #b8d6d4;
     line-height: 1.5em; }
-  .secondary-feature .more-link {
+  .secondary-feature .more-link,
+  .news-wrapper .more-link {
     display: block;
     font-size: 12px;
     margin-top: .5em;
     text-align: right; }
-  .secondary-feature img {
+  .secondary-feature img,
+  .news-wrapper img {
     margin: 0 0 5px 10px; }
 
 .sidebar .secondary-feature {
