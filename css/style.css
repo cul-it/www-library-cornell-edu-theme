@@ -668,7 +668,8 @@ td {
     color: white;
     font-size: 36px; }
     .ask-main .block-title a, .ask-main .block-title a:hover, .ask-main .block-title a:visited, .ask-main .block-title a:active, .ask-main .block-title a:focus {
-      color: white; }
+      color: white;
+      text-decoration: none; }
 
 .region-ask-main {
   padding: 0 0 40px 0; }
