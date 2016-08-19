@@ -670,7 +670,8 @@ td {
       width: 50%; } }
   .ask-main .block-title {
     color: white;
-    font-size: 36px; }
+    font-size: 36px;
+    margin-top: 0; }
     .ask-main .block-title a, .ask-main .block-title a:hover, .ask-main .block-title a:visited, .ask-main .block-title a:active, .ask-main .block-title a:focus {
       color: white;
       text-decoration: none; }
