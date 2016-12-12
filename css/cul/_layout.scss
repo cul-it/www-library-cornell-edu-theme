@@ -66,65 +66,17 @@
 .secondary-wrapper {
 	@include make-sm-column(4);
 	@include make-lg-column(4);
-	// border-left: 1px solid $tan;
 	background: url("../img/layout/secondary-divider.png") no-repeat left top;
+	.well {
+		background: $teal;
+		border-color: $teal;
+		margin-top: 1em;
+		p {
+			font-size: 22px;
+		}
+	}
 }
-.secondary-wrapper:first-child { background-image: none; }
-
-// Comm bar with Ask a Librarian
-// .news-wrapper {
-// 	@include make-sm-column(3);
-// 	a {
-// 		border-bottom: 1px dotted white;
-// 	}
-// 	a:hover, a:active, a:focus {
-// 		text-decoration: none;
-// 	}
-// 	.view-news {
-// 		margin-bottom: 1em;
-// 	}
-// }
-// .comm-main {
-// 	@include make-sm-column(6);
-// 	.block-title {
-// 		color: white;
-// 		font-size: 36px;
-// 		margin-top: 0;
-// 		a, a:hover, a:visited, a:active, a:focus {
-// 			color: white;
-// 			text-decoration: none;
-// 		}
-// 	}
-// }
-// .region-comm-main {
-// 	padding: 0 0 40px 0;
-// }
-// .comm-secondary {
-// 	@include make-sm-column(3);
-// 	color: white;
-// 	.block-title {
-// 		color: white;
-// 	}
-// 	a, a:hover, a:visited, a:active {
-// 		color: white;
-// 		border-bottom: 1px dotted white;
-// 	}
-// 	a:hover, a:active, a:focus {
-// 		text-decoration: none;
-// 	}
-// 	p {
-// 		font-size: 16px;
-// 	}
-// 	.well {
-// 		background: $teal;
-// 		border-color: $teal;
-// 		margin-top: 1em;
-// 		p {
-// 			font-size: 22px;
-// 		}
-// 	}
-// }
-
+.secondary-wrapper:first-child { background-image: none; } 
 
 
 // BREADCRUMBS

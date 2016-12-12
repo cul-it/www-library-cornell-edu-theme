@@ -639,6 +639,12 @@ td {
     .secondary-wrapper {
       float: left;
       width: 33.33333%; } }
+  .secondary-wrapper .well {
+    background: #2aa198;
+    border-color: #2aa198;
+    margin-top: 1em; }
+    .secondary-wrapper .well p {
+      font-size: 22px; }
 
 .secondary-wrapper:first-child {
   background-image: none; }
@@ -1156,7 +1162,8 @@ footer {
     clear: left;
     color: #666;
     text-transform: uppercase; }
-  .secondary-feature .teaser {
+  .secondary-feature .teaser,
+  .secondary-feature p {
     color: #b8d6d4;
     line-height: 1.5em; }
   .secondary-feature .more-link {
