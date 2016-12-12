@@ -128,7 +128,7 @@
   <div class="container">
     <div class="libraries-list">
       <div class="row">
-        <? php print render($page['footer-libraries']); ?>
+        <?php print render($page['footer-libraries']); ?>
       </div>
     </div>
 
