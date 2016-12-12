@@ -643,68 +643,6 @@ td {
 .secondary-wrapper:first-child {
   background-image: none; }
 
-.news-wrapper {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
-    .news-wrapper {
-      float: left;
-      width: 25%; } }
-  .news-wrapper a {
-    border-bottom: 1px dotted white; }
-  .news-wrapper a:hover, .news-wrapper a:active, .news-wrapper a:focus {
-    text-decoration: none; }
-  .news-wrapper .view-news {
-    margin-bottom: 1em; }
-
-.ask-main {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
-    .ask-main {
-      float: left;
-      width: 50%; } }
-  .ask-main .block-title {
-    color: white;
-    font-size: 36px;
-    margin-top: 0; }
-    .ask-main .block-title a, .ask-main .block-title a:hover, .ask-main .block-title a:visited, .ask-main .block-title a:active, .ask-main .block-title a:focus {
-      color: white;
-      text-decoration: none; }
-
-.region-ask-main {
-  padding: 0 0 40px 0; }
-
-.ask-secondary {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  color: white; }
-  @media (min-width: 768px) {
-    .ask-secondary {
-      float: left;
-      width: 25%; } }
-  .ask-secondary .block-title {
-    color: white; }
-  .ask-secondary a, .ask-secondary a:hover, .ask-secondary a:visited, .ask-secondary a:active {
-    color: white;
-    border-bottom: 1px dotted white; }
-  .ask-secondary a:hover, .ask-secondary a:active, .ask-secondary a:focus {
-    text-decoration: none; }
-  .ask-secondary p {
-    font-size: 16px; }
-  .ask-secondary .well {
-    background: #2aa198;
-    border-color: #2aa198;
-    margin-top: 1em; }
-    .ask-secondary .well p {
-      font-size: 22px; }
-
 .breadcrumb-wrapper {
   position: relative;
   min-height: 1px;
@@ -1183,11 +1121,9 @@ footer {
     .feature h2 a:hover {
       text-decoration: none; }
 
-.secondary-feature,
-.news-wrapper {
+.secondary-feature {
   margin-bottom: 30px; }
-  .secondary-feature h3,
-  .news-wrapper h3 {
+  .secondary-feature h3 {
     font-size: 16px;
     text-transform: uppercase;
     font-family: "Montserrat";
@@ -1195,51 +1131,40 @@ footer {
     padding-bottom: 10px;
     margin: 0 0 .5em;
     color: white; }
-    .secondary-feature h3 a,
-    .news-wrapper h3 a {
+    .secondary-feature h3 a {
       color: white;
       border: 0; }
-    .secondary-feature h3 a:hover,
-    .news-wrapper h3 a:hover {
+    .secondary-feature h3 a:hover {
       text-decoration: none; }
-  .secondary-feature a,
-  .news-wrapper a {
+  .secondary-feature a {
     color: white; }
-  .secondary-feature i,
-  .news-wrapper i {
+  .secondary-feature i {
     color: #b8d6d4;
     margin-right: 8px; }
-  .secondary-feature .btn-rss,
-  .news-wrapper .btn-rss {
+  .secondary-feature .btn-rss {
     margin: 4px 0 0 10px; }
-    .secondary-feature .btn-rss i,
-    .news-wrapper .btn-rss i {
+    .secondary-feature .btn-rss i {
       color: white;
       margin-right: 0; }
-  .secondary-feature .title,
-  .news-wrapper .title {
+  .secondary-feature .title {
     display: block;
     font-size: 20px;
     margin-bottom: .5em; }
-  .secondary-feature .libescope-type,
-  .news-wrapper .libescope-type {
+  .secondary-feature .libescope-type {
     font-size: 12px;
     display: block;
     clear: left;
     color: #666;
     text-transform: uppercase; }
-  .secondary-feature .teaser,
-  .news-wrapper .teaser {
+  .secondary-feature .teaser {
     color: #b8d6d4;
     line-height: 1.5em; }
-  .secondary-feature .more-link,
-  .news-wrapper .more-link {
+  .secondary-feature .more-link {
     display: block;
     font-size: 12px;
     margin-top: .5em;
     text-align: right; }
-  .secondary-feature img,
-  .news-wrapper img {
+  .secondary-feature img {
     margin: 0 0 5px 10px; }
 
 .sidebar .secondary-feature {

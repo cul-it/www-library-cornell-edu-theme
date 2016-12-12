@@ -105,14 +105,20 @@
 <div class="secondary-content">
   <div class="container">
     <div class="row">
-      <div class="news-wrapper">
-        <?php print render($page['news-events']); ?>
+      <div class="secondary-wrapper">
+        <div class="secondary-feature">
+          <?php print render($page['home-secondary1']); ?>
+        </div>
       </div>
-      <div class="ask-main">
-        <?php print render($page['ask-main']); ?>
+      <div class="secondary-wrapper">
+        <div class="secondary-feature">
+          <?php print render($page['home-secondary2']); ?>
+        </div>
       </div>
-      <div class="ask-secondary">
-        <?php print render($page['ask-secondary']); ?>
+      <div class="secondary-wrapper">
+        <div class="secondary-feature">
+          <?php print render($page['home-secondary3']); ?>
+        </div>
       </div>
     </div>
   </div>
