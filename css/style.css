@@ -644,7 +644,8 @@ td {
     border-color: #2aa198;
     margin-top: 1em; }
     .secondary-wrapper .well p {
-      font-size: 22px; }
+      font-size: 22px;
+      color: white; }
 
 .secondary-wrapper:first-child {
   background-image: none; }
@@ -784,11 +785,7 @@ footer {
 
   .footer-collapse {
     padding: 0;
-    background: inherit; }
-
-  .region-ask-main {
-    padding-left: 40px;
-    border-left: 5px dotted #2aa198; } }
+    background: inherit; } }
 /* Medium devices (desktops, 992px and up) */
 .jumbotron {
   margin-bottom: 0;
