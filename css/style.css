@@ -1203,6 +1203,9 @@ footer {
   .sidebar .secondary-feature .block:last-child {
     margin-bottom: 0; }
 
+.home-shortened-events {
+  margin-top: 2em; }
+
 .main-content .item-list ul {
   padding-left: 18px;
   margin-bottom: 0; }
