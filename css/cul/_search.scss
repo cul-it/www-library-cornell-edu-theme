@@ -14,13 +14,12 @@
 	margin-bottom: 20px;
 	h1 { 
 		color: white;
-		margin-top: 0;
-		margin-bottom: .5em;
+		margin: .5em 0 1em 0;
 		font-weight: normal;
 		display: inline-block;
 		float: left;
 		font-family: $font-family-sans-serif;
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.nav-tabs {
 		border-bottom: 0;
@@ -29,7 +28,7 @@
 	}
 	.nav-tabs > li > a,
 	.nav-tabs > li > a:hover {
-		font-size: 11px; 
+		font-size: 16px; 
 		color: $light-gray;
 		border: 0;
 		background: rgba(22, 82, 77, .95);
@@ -50,7 +49,7 @@
 		padding: 15px;
 		background: #333; //ie8
 		background: rgba(0, 0, 0, 0.85);
-		height: 150px;
+		height: 185px;
 	}
 	form {
 		width: 100%;
@@ -82,6 +81,7 @@
 .search-info {
 	font-size: 16px;
 	float: right;
+	margin-top: .25em;
 	a {
 		color: #999;
 		cursor: pointer;
@@ -294,29 +294,24 @@
 	}
 	.spotlight-caption {
 		float: right; 
-		// max-width: 30%;
 		width: 25%;
-		margin-top: -100px;
+		margin-top: -161px;
 		margin-bottom: 0;
 	}
 	.search-form {
 		padding: 10px 10px 10px 20px;
 		margin-top: 30px;
 		margin-bottom: 0;
-		// background: rgba(0, 0, 0, 0.65);
 		border-bottom: 0;
-		// .nav-tabs {
-		// 	a { 
-		// 		font-size: 16px;
-		// 		padding: 8px 15px;
-		// 	}
-		// }
 		form {
 			width: 98%;
 			.col-sm-2 { padding-left: 0; }
 		}
 		.text-right { text-align: right; }
 		button { margin-left: 0; }
+		.tab-content {
+			height: 150px;
+		}
 	}
 	.help-links {
 		margin-top: 20px;
@@ -342,7 +337,7 @@
 		.jumbotron { padding: 30px 60px 0 60px; }
 	}
 	.spotlight-caption {
-		margin-top: -70px;
+		margin-top: -162px;
 	}
 	.search-form {
 		form { 

@@ -823,13 +823,12 @@ footer {
       width: 50%; } }
   .search-form h1 {
     color: white;
-    margin-top: 0;
-    margin-bottom: .5em;
+    margin: .5em 0 1em 0;
     font-weight: normal;
     display: inline-block;
     float: left;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-size: 14px; }
+    font-size: 16px; }
   .search-form .nav-tabs {
     border-bottom: 0;
     margin-bottom: 0; }
@@ -837,7 +836,7 @@ footer {
       margin-bottom: 0; }
   .search-form .nav-tabs > li > a,
   .search-form .nav-tabs > li > a:hover {
-    font-size: 11px;
+    font-size: 16px;
     color: #ccc;
     border: 0;
     background: rgba(22, 82, 77, 0.95);
@@ -856,7 +855,7 @@ footer {
     padding: 15px;
     background: #333;
     background: rgba(0, 0, 0, 0.85);
-    height: 150px; }
+    height: 185px; }
   .search-form form {
     width: 100%;
     margin: 0;
@@ -895,7 +894,8 @@ footer {
 
 .search-info {
   font-size: 16px;
-  float: right; }
+  float: right;
+  margin-top: .25em; }
   .search-info a {
     color: #999;
     cursor: pointer;
@@ -1065,7 +1065,7 @@ footer {
   .spotlight-caption {
     float: right;
     width: 25%;
-    margin-top: -100px;
+    margin-top: -161px;
     margin-bottom: 0; }
 
   .search-form {
@@ -1081,6 +1081,8 @@ footer {
       text-align: right; }
     .search-form button {
       margin-left: 0; }
+    .search-form .tab-content {
+      height: 150px; }
 
   .help-links {
     margin-top: 20px; }
@@ -1099,7 +1101,7 @@ footer {
     padding: 30px 60px 0 60px; }
 
   .spotlight-caption {
-    margin-top: -70px; }
+    margin-top: -162px; }
 
   .search-form form {
     width: 100%; }
