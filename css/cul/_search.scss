@@ -29,6 +29,7 @@
 			font-size: 11px; 
 			color: $light-gray;
 			border: 0;
+			background: rgba(22, 82, 77, .95);
 		}
 		a:hover { 
 			background: inherit;
@@ -36,16 +37,17 @@
 			color: white;
 		}
 		.active {
-			a { 
+			a, a:hover { 
 				background: #333;
 				background: rgba(0,0,0,.85);
 				font-weight: 400;
-				color: $cornell-primary;
+				color: white;
 			}
 		}
 	}
 	.nav-tabs > li.active > a {
 		border: 0;
+		margin-right: 0;
 	}
 	.tab-content { 
 		border-radius: $border-radius-base;
@@ -53,6 +55,7 @@
 		padding: 15px;
 		background: #333; //ie8
 		background: rgba(0, 0, 0, 0.85);
+		height: 150px;
 	}
 	form {
 		width: 100%;
@@ -314,8 +317,8 @@
 		}
 		.nav-tabs {
 			a { 
-				font-size: 18px;
-				padding: 10px 12px;
+				font-size: 16px;
+				padding: 8px 15px;
 			}
 		}
 		form {
