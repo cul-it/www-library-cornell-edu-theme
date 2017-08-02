@@ -827,22 +827,20 @@ footer {
     margin-bottom: .5em;
     font-weight: normal;
     display: inline-block;
-    float: left; }
+    float: left;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
   .search-form .nav-tabs {
     border-bottom: 0;
     margin-bottom: 0; }
     .search-form .nav-tabs li {
       margin-bottom: 0; }
-    .search-form .nav-tabs a {
+    .search-form .nav-tabs a, .search-form .nav-tabs a:hover {
       padding: 6px;
       font-size: 11px;
       color: #ccc;
       border: 0;
       background: rgba(22, 82, 77, 0.95); }
-    .search-form .nav-tabs a:hover {
-      background: inherit;
-      border: 0;
-      color: white; }
     .search-form .nav-tabs .active a, .search-form .nav-tabs .active a:hover {
       background: #333;
       background: rgba(0, 0, 0, 0.85);
