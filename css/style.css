@@ -864,6 +864,21 @@ footer {
     margin-bottom: 0; }
   .search-form .text-right {
     text-align: left; }
+  .search-form .search-box {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 5px;
+    float: left;
+    width: 75%; }
+    @media (min-width: 768px) {
+      .search-form .search-box {
+        float: left;
+        width: 83.33333%; } }
+    .search-form .search-box .form-control {
+      width: 100%; }
   .search-form .search-button {
     position: relative;
     min-height: 1px;
@@ -1061,6 +1076,10 @@ footer {
     margin-top: 30px;
     margin-bottom: 0;
     border-bottom: 0; }
+    .search-form form {
+      width: 98%; }
+      .search-form form .col-sm-2 {
+        padding-left: 0; }
     .search-form .text-right {
       text-align: right; }
     .search-form button {
@@ -1086,6 +1105,9 @@ footer {
 
   .spotlight-caption {
     margin-top: -162px; }
+
+  .search-form form {
+    width: 100%; }
 
   .search-options li {
     margin-bottom: 0; } }
