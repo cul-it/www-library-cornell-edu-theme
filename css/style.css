@@ -837,6 +837,7 @@ footer {
   .search-form .nav-tabs > li > a,
   .search-form .nav-tabs > li > a:hover {
     font-size: 16px;
+    margin-right: 0;
     color: #ccc;
     border: 0;
     background: rgba(22, 82, 77, 0.95);
@@ -844,7 +845,6 @@ footer {
   .search-form .nav-tabs > li.active > a,
   .search-form .nav-tabs > li.active > a:hover {
     border: 0;
-    margin-right: 0;
     background: #333;
     background: rgba(0, 0, 0, 0.85);
     font-weight: 400;
