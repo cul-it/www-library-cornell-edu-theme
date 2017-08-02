@@ -11,8 +11,6 @@
 	@include make-md-column(8);
 	@include make-lg-column(6);
 	padding: 20px 10px 10px 10px;
-	background: #333; //ie8
-	background: rgba(0, 0, 0, 0.85);
 	margin-bottom: 20px;
 	h1 { 
 		color: white;
@@ -24,6 +22,7 @@
 	}
 	.nav-tabs {
 		border-bottom: 0;
+		margin-bottom: 0;
 		li { margin-bottom: 0; }
 		a { 
 			padding: 6px;
@@ -36,9 +35,11 @@
 			color: white; }
 		.active {
 			a { 
-				background: #e1e1e1;
+				background: #333;
+				background: rgba(0,0,0,.85);
 				font-weight: 400;
-				color: $cornell-primary; }
+				color: $cornell-primary;
+			}
 		}
 	}
 	.tab-content { 
@@ -71,6 +72,10 @@
 		padding-left: 0;
 		padding-right: 0;
 		float: left;
+	}
+	.tab-content {
+		background: #333; //ie8
+		background: rgba(0, 0, 0, 0.85);
 	}
 }
 .search-info {

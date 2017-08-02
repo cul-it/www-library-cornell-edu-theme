@@ -808,8 +808,6 @@ footer {
   padding-left: 15px;
   padding-right: 15px;
   padding: 20px 10px 10px 10px;
-  background: #333;
-  background: rgba(0, 0, 0, 0.85);
   margin-bottom: 20px; }
   @media (min-width: 768px) {
     .search-form {
@@ -831,7 +829,8 @@ footer {
     display: inline-block;
     float: left; }
   .search-form .nav-tabs {
-    border-bottom: 0; }
+    border-bottom: 0;
+    margin-bottom: 0; }
     .search-form .nav-tabs li {
       margin-bottom: 0; }
     .search-form .nav-tabs a {
@@ -844,7 +843,8 @@ footer {
       border: 0;
       color: white; }
     .search-form .nav-tabs .active a {
-      background: #e1e1e1;
+      background: #333;
+      background: rgba(0, 0, 0, 0.85);
       font-weight: 400;
       color: #b31b1b; }
   .search-form .tab-content {
@@ -885,6 +885,9 @@ footer {
       .search-form .search-button {
         float: left;
         width: 16.66667%; } }
+  .search-form .tab-content {
+    background: #333;
+    background: rgba(0, 0, 0, 0.85); }
 
 .search-info {
   font-size: 16px;
