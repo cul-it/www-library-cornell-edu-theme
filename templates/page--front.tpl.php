@@ -46,7 +46,7 @@
     <div class="jumbotron" id="maincontent">
 
       <div class="row">
-        <div class="search-form">
+        <div class="home-search">
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li class="active" role="presentation"><a aria-controls="all" data-toggle="tab" href="#all" role="tab">Search</a></li>
@@ -61,7 +61,7 @@
               <?php print render($page['home-search-website']); ?>
             </div>
           </div>
-        </div><!-- /search-form -->
+        </div><!-- /home-search -->
       </div><!-- /row -->
 
     </div><!-- /jumbotron -->

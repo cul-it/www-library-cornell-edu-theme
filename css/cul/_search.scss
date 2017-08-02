@@ -6,7 +6,7 @@
 	line-height: 1; //override bootstrap to remove extra padding
 }
 
-.search-form {
+.home-search {
 	@include make-sm-column(9);
 	@include make-md-column(8);
 	@include make-lg-column(6);
@@ -307,7 +307,7 @@
 		margin-top: -161px;
 		margin-bottom: 0;
 	}
-	.search-form {
+	.home-search {
 		padding: 10px 10px 10px 20px;
 		margin-top: 30px;
 		margin-bottom: 0;
@@ -348,7 +348,7 @@
 	.spotlight-caption {
 		margin-top: -162px;
 	}
-	.search-form {
+	.home-search {
 		form { 
 			width: 100%;
 		}
