@@ -847,9 +847,14 @@ footer {
       background: rgba(0, 0, 0, 0.85);
       font-weight: 400;
       color: #b31b1b; }
+  .search-form .nav-tabs > li.active > a {
+    border: 0; }
   .search-form .tab-content {
     border-radius: 4px;
-    border-top-left-radius: 0; }
+    border-top-left-radius: 0;
+    padding: 15px;
+    background: #333;
+    background: rgba(0, 0, 0, 0.85); }
   .search-form form {
     width: 100%;
     margin: 0;
@@ -885,9 +890,6 @@ footer {
       .search-form .search-button {
         float: left;
         width: 16.66667%; } }
-  .search-form .tab-content {
-    background: #333;
-    background: rgba(0, 0, 0, 0.85); }
 
 .search-info {
   font-size: 16px;
@@ -1073,8 +1075,8 @@ footer {
       text-shadow: 2px 2px #222;
       font-size: 24px; }
     .search-form .nav-tabs a {
-      font-size: 14px;
-      padding: 6px 10px; }
+      font-size: 18px;
+      padding: 10px 12px; }
     .search-form form {
       width: 98%; }
       .search-form form .col-sm-2 {

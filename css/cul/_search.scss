@@ -28,11 +28,13 @@
 			padding: 6px;
 			font-size: 11px; 
 			color: $light-gray;
-			border: 0; }
+			border: 0;
+		}
 		a:hover { 
 			background: inherit;
 			border: 0;
-			color: white; }
+			color: white;
+		}
 		.active {
 			a { 
 				background: #333;
@@ -42,10 +44,15 @@
 			}
 		}
 	}
+	.nav-tabs > li.active > a {
+		border: 0;
+	}
 	.tab-content { 
 		border-radius: $border-radius-base;
 		border-top-left-radius: 0;
-		// background: white; }
+		padding: 15px;
+		background: #333; //ie8
+		background: rgba(0, 0, 0, 0.85);
 	}
 	form {
 		width: 100%;
@@ -72,10 +79,6 @@
 		padding-left: 0;
 		padding-right: 0;
 		float: left;
-	}
-	.tab-content {
-		background: #333; //ie8
-		background: rgba(0, 0, 0, 0.85);
 	}
 }
 .search-info {
@@ -311,8 +314,9 @@
 		}
 		.nav-tabs {
 			a { 
-				font-size: 14px;
-				padding: 6px 10px; }
+				font-size: 18px;
+				padding: 10px 12px;
+			}
 		}
 		form {
 			width: 98%;
