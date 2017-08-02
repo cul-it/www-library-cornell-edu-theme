@@ -281,6 +281,20 @@
 	}
 }
 
+// Drupal search page form
+// -------------------------
+.main-content {
+	.search-form {
+		input.form-control {
+			width: 100%;
+		}
+		.btn-primary {
+			background-color: $teal;
+			border-color: $teal;
+		}
+	}
+}
+
 // MEDIA QUERIES
 // -------------------------
 
