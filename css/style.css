@@ -120,6 +120,14 @@ td {
     background-color: #2aa198;
     border-color: #1f7972; }
 
+.btn-primary {
+  background-color: #2aa198;
+  border-color: #2aa198; }
+
+.btn-primary:hover {
+  background-color: #16524d;
+  border-color: #16524d; }
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
