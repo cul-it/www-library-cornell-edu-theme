@@ -251,6 +251,11 @@
 .nav-global {
 	.form-group { width: 80%; }
 }
+.sub-search {
+	a {
+		color: $light-gray;
+	}
+}
 // search box on mobile devices
 .mobile-search {
 	.btn-search-icon { 

@@ -1044,6 +1044,9 @@ footer {
 .nav-global .form-group {
   width: 80%; }
 
+.sub-search a {
+  color: #ccc; }
+
 .mobile-search .btn-search-icon {
   background: #580606;
   vertical-align: top;
