@@ -2095,6 +2095,10 @@ table.delivery-options :first-child > td:first-child {
   width: 150px;
   height: auto; }
 
+.field-name-field-story-image img {
+  float: left;
+  margin: 0 1em 1em 0; }
+
 .node-type-article .field-name-field-image {
   float: right;
   margin: 0 0 15px 0; }
