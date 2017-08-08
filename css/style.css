@@ -1154,6 +1154,9 @@ footer {
       border: 0; }
     .secondary-feature h3 a:hover {
       text-decoration: none; }
+  .secondary-feature h4 {
+    color: white;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
   .secondary-feature a {
     color: white; }
   .secondary-feature i {
@@ -2087,6 +2090,10 @@ table.delivery-options :first-child > td:first-child {
 .node-libescope .field-name-field-libescope-dates {
   margin-bottom: 2em;
   font-size: 12px; }
+
+.view-library-stories img {
+  width: 150px;
+  height: auto; }
 
 .node-type-article .field-name-field-image {
   float: right;
