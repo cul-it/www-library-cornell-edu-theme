@@ -46,9 +46,22 @@
     <div class="jumbotron" id="maincontent">
 
       <div class="row">
-        <div class="search-form">
-          <?php print render($page['jumbotron']); ?>
-        </div><!-- /search-form -->
+        <div class="home-search">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="active" role="presentation"><a aria-controls="all" data-toggle="tab" href="#all" role="tab">Search</a></li>
+            <li role="presentation"><a aria-controls="website" data-toggle="tab" href="#website" role="tab">Library Website</a></li>
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="all" role="tabpanel">
+              <?php print render($page['home-search-all']); ?>
+            </div>
+            <div class="tab-pane" id="website" role="tabpanel">
+              <?php print render($page['home-search-website']); ?>
+            </div>
+          </div>
+        </div><!-- /home-search -->
       </div><!-- /row -->
 
     </div><!-- /jumbotron -->

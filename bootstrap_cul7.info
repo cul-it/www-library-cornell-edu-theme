@@ -23,7 +23,8 @@ regions[footer-feedback] = 'Footer feedback'
 regions[footer-copyright] = 'Footer copyright'
 
 ; Home page regions
-regions[jumbotron] = 'Jumbotron'
+regions[home-search-all] = 'Home search all'
+regions[home-search-website] = 'Home search website'
 regions[home-feature1] = 'Home feature 1'
 regions[home-feature2] = 'Home feature 2'
 regions[home-feature3] = 'Home feature 3'
