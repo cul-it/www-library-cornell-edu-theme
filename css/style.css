@@ -961,7 +961,7 @@ footer {
   padding-top: 10px;
   font-size: 12px;
   margin-top: 30px;
-  border-top: 1px solid #555;
+  border-top: 5px solid #555;
   overflow: hidden; }
   .help-links a {
     line-height: 1.4em;
