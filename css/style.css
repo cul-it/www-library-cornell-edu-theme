@@ -961,7 +961,7 @@ footer {
   padding-top: 10px;
   font-size: 12px;
   margin-top: 30px;
-  border-top: 1px solid #333;
+  border-top: 1px solid #555;
   overflow: hidden; }
   .help-links a {
     line-height: 1.4em;
@@ -978,7 +978,7 @@ footer {
 .search-options h2 {
   margin: 0 0 .5em 0;
   font-size: 11px;
-  color: #999;
+  color: #2aa198;
   text-transform: uppercase;
   font-weight: normal; }
 .search-options ul {
@@ -1094,14 +1094,14 @@ footer {
     .home-search button {
       margin-left: 0; }
     .home-search .tab-content {
-      height: 150px; }
+      height: 180px; }
 
   .help-links {
     margin-top: 20px; }
 
   .search-options li {
     padding: 0 9px;
-    font-size: 13px;
+    font-size: 14px;
     border-left: 1px solid #444; }
 
   .form-image-search input.form-control,
@@ -1119,7 +1119,8 @@ footer {
     width: 100%; }
 
   .search-options li {
-    margin-bottom: 0; } }
+    margin-bottom: 0;
+    font-size: 15px; } }
 .feature {
   margin: 0 10px 15px 10px; }
   .feature h2 {
