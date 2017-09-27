@@ -49,7 +49,7 @@
 		padding: 15px;
 		background: #333; //ie8
 		background: rgba(0, 0, 0, 0.85);
-		height: 185px;
+		height: 200px;
 	}
 	form {
 		width: 100%;
@@ -158,7 +158,7 @@
 	padding-top: 10px;
 	font-size: 12px;
 	margin-top: 30px;
-	border-top: 1px solid #333;
+	border-top: 5px solid #555;
 	overflow: hidden;
 	a { 
 		line-height: 1.4em;
@@ -176,7 +176,7 @@
 	h2 {
 		margin: 0 0 .5em 0;
 		font-size: 11px;
-		color: #999;
+		color: $teal;
 		text-transform: uppercase;
 		font-weight: normal;
 	}
@@ -333,7 +333,7 @@
 		.text-right { text-align: right; }
 		button { margin-left: 0; }
 		.tab-content {
-			height: 150px;
+			height: 180px;
 		}
 	}
 	.help-links {
@@ -342,7 +342,7 @@
 	.search-options {
 		li {
 			padding: 0 9px;
-			font-size: 13px;
+			font-size: 14px;
 			border-left: 1px solid #444;
 		}
 	}
@@ -368,6 +368,9 @@
 		}
 	}
 	.search-options {
-		li { margin-bottom: 0; }
+		li { 
+			margin-bottom: 0;
+			font-size: 15px;
+		}
 	}
 }
