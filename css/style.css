@@ -1111,6 +1111,9 @@ footer {
     font-size: 14px;
     border-left: 1px solid #444; }
 
+  .search-collapse {
+    background: #b31b1b; }
+
   .form-image-search input.form-control,
   .form-image-search select.form-control {
     width: auto; } }
