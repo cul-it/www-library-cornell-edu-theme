@@ -363,7 +363,6 @@ td {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-right: 0;
   text-align: right; }
   @media (min-width: 768px) {
     .nav-global {
@@ -1033,9 +1032,9 @@ footer {
   display: none; }
   .search-collapse form {
     background: #222; }
-
-.search-collapse.in {
-  display: block; }
+  .search-collapse .form-group {
+    float: left;
+    width: 90%; }
 
 #block-block-9 {
   margin-top: 40px; }
@@ -1118,6 +1117,11 @@ footer {
   .search-collapse {
     background: #b31b1b;
     display: block; }
+    .search-collapse .form {
+      background: #b31b1b; }
+    .search-collapse .form-group {
+      float: none;
+      width: 80%; }
 
   .form-image-search input.form-control,
   .form-image-search select.form-control {

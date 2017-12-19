@@ -229,9 +229,10 @@
 	form {
 		background: $dark-gray;
 	}
-}
-.search-collapse.in {
-	display: block;
+	.form-group {
+		float: left;
+		width: 90%;
+	}
 }
 
 // Search box on sub-pages
@@ -353,6 +354,13 @@
 	.search-collapse {
 		background: $cornell-primary;
 		display: block;
+		.form {
+			background: $cornell-primary;
+		}
+		.form-group {
+			float: none;
+			width: 80%;
+		}
 	}
 	// Visual resources image search
 	// -----------------------------------
