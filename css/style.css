@@ -1117,7 +1117,7 @@ footer {
   .search-collapse {
     background: #b31b1b;
     display: block; }
-    .search-collapse .form {
+    .search-collapse form {
       background: #b31b1b; }
     .search-collapse .form-group {
       float: none;
