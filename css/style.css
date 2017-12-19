@@ -674,7 +674,8 @@ footer {
       margin-bottom: .75em;
       font-size: 12px; }
     footer .nav a {
-      padding: 0; }
+      padding: 0;
+      text-decoration: underline; }
     footer .nav .active {
       color: white;
       text-decoration: none; }
@@ -712,6 +713,8 @@ footer {
         width: 16.66667%; } }
   footer .copyright p {
     font-size: 13px; }
+  footer .copyright a {
+    text-decoration: underline; }
 
 .footer-links {
   position: relative;
@@ -738,6 +741,10 @@ footer {
     .footer-feedback {
       float: left;
       width: 33.33333%; } }
+  .footer-feedback a {
+    text-decoration: underline; }
+  .footer-feedback .btn {
+    text-decoration: none; }
 
 .footer-copyright {
   padding-top: 1.5em;
