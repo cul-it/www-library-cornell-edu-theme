@@ -1029,9 +1029,13 @@ footer {
   z-index: 1000;
   background: #222;
   position: relative;
-  padding: 3px 0; }
+  padding: 3px 0;
+  display: none; }
   .search-collapse form {
     background: #222; }
+
+.search-collapse.in {
+  display: block; }
 
 #block-block-9 {
   margin-top: 40px; }
@@ -1112,7 +1116,8 @@ footer {
     border-left: 1px solid #444; }
 
   .search-collapse {
-    background: #b31b1b; }
+    background: #b31b1b;
+    display: block; }
 
   .form-image-search input.form-control,
   .form-image-search select.form-control {
