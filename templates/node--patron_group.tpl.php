@@ -107,7 +107,7 @@
 
     <h4>Loan Periods</h4>
     <div class="table-responsive">
-      <table class="table table-striped">
+      <table class="table table-striped" summary="Loan periods of different items for this patron group">
         <tbody>
           <tr>
             <th>Books</th>
@@ -143,7 +143,7 @@
 
     <h4>Permissions</h4>
     <div class="table-responsive">
-      <table class="table table-striped">
+      <table class="table table-striped" summary="Policies and guidelines for use of materials for this patron group">
         <tbody>
           <tr>
             <th>Number of checkouts allowed</th>
