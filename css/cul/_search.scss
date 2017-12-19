@@ -237,7 +237,7 @@
 // Search box on sub-pages
 // -------------------------
 #block-block-9 {
-	margin-top: 40px;
+	margin-top: 10px;
 	.btn-search-icon { 
 		background: #580606;
 		vertical-align: top; }
@@ -253,7 +253,7 @@
 	}
 }
 .nav-global {
-	.form-group { width: 80%; }
+	.form-group { width: 89%; }
 }
 .sub-search {
 	a {
@@ -356,6 +356,9 @@
 			float: none;
 			width: 80%;
 		}
+	}
+	#block-block-9 {
+		margin-top: 40px;
 	}
 	// Visual resources image search
 	// -----------------------------------

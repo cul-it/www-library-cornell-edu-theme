@@ -364,7 +364,8 @@ td {
   padding-left: 15px;
   padding-right: 15px;
   text-align: right;
-  background: #222; }
+  background: #222;
+  border-bottom: 1px solid #666; }
   @media (min-width: 768px) {
     .nav-global {
       float: left;
@@ -516,7 +517,8 @@ td {
 
 @media (min-width: 768px) {
   .nav-global {
-    background: #b31b1b; } }
+    background: #b31b1b;
+    border-bottom: 0; } }
 .hero {
   background: white; }
 
@@ -1038,7 +1040,7 @@ footer {
     width: 90%; }
 
 #block-block-9 {
-  margin-top: 40px; }
+  margin-top: 10px; }
   #block-block-9 .btn-search-icon {
     background: #580606;
     vertical-align: top; }
@@ -1053,7 +1055,7 @@ footer {
   font-size: 12px; }
 
 .nav-global .form-group {
-  width: 80%; }
+  width: 89%; }
 
 .sub-search a {
   color: #ccc; }
@@ -1120,6 +1122,9 @@ footer {
     .search-collapse .form-group {
       float: none;
       width: 80%; }
+
+  #block-block-9 {
+    margin-top: 40px; }
 
   .form-image-search input.form-control,
   .form-image-search select.form-control {

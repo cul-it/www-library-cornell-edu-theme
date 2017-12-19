@@ -2,6 +2,7 @@
 	@include make-sm-column(4);
 	text-align: right;
 	background: $dark-gray;
+	border-bottom: 1px solid $medium-gray;
 	.nav { 
 		list-style: none;
 		float: right;
@@ -231,6 +232,7 @@
 @media (min-width: $screen-sm) {
 	.nav-global {
 		background: $cornell-primary;
+		border-bottom: 0;
 	}
 }
 
