@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="nav-global">
-        <div class="search-collapse collapse in">
+        <div class="search-collapse">
           <?php print render($page['header']); ?>
         </div>
       </div>
