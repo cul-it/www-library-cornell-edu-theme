@@ -1472,6 +1472,8 @@ footer {
     .libraries-group {
       float: left;
       width: 33.33333%; } }
+  .libraries-group li a {
+    text-decoration: underline; }
 
 h2.patroninfo-title {
   margin-top: 0; }
