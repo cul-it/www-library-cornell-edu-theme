@@ -90,7 +90,7 @@
     </div>
 
     <?php else: ?>
-      <div class="row primary-wrapper">
+      <div class="row primary-wrapper" id="maincontent">
         <?php print render($page['highlighted']); ?>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
