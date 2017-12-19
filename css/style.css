@@ -363,7 +363,8 @@ td {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: right; }
+  text-align: right;
+  background: #222; }
   @media (min-width: 768px) {
     .nav-global {
       float: left;
@@ -513,6 +514,9 @@ td {
 .navbar-collapse .nav > li > a:focus {
   background-color: black; }
 
+@media (min-width: 768px) {
+  .nav-global {
+    background: #b31b1b; } }
 .hero {
   background: white; }
 
@@ -1026,12 +1030,9 @@ footer {
 
 .search-collapse {
   z-index: 1000;
-  background: #222;
   position: relative;
   padding: 3px 0;
   display: none; }
-  .search-collapse form {
-    background: #222; }
   .search-collapse .form-group {
     float: left;
     width: 90%; }
@@ -1115,10 +1116,7 @@ footer {
     border-left: 1px solid #444; }
 
   .search-collapse {
-    background: #b31b1b;
     display: block; }
-    .search-collapse form {
-      background: #b31b1b; }
     .search-collapse .form-group {
       float: none;
       width: 80%; }

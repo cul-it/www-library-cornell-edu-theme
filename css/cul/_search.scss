@@ -222,13 +222,12 @@
 }
 .search-collapse {
 	z-index: 1000;
-	background: $dark-gray;
 	position: relative;
 	padding: 3px 0;
 	display: none;
-	form {
-		background: $dark-gray;
-	}
+	// form {
+	// 	background: $dark-gray;
+	// }
 	.form-group {
 		float: left;
 		width: 90%;
@@ -352,11 +351,7 @@
 		}
 	}
 	.search-collapse {
-		background: $cornell-primary;
 		display: block;
-		form {
-			background: $cornell-primary;
-		}
 		.form-group {
 			float: none;
 			width: 80%;

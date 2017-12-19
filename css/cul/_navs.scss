@@ -1,6 +1,7 @@
 .nav-global {
 	@include make-sm-column(4);
 	text-align: right;
+	background: $dark-gray;
 	.nav { 
 		list-style: none;
 		float: right;
@@ -227,8 +228,11 @@
 // MEDIA QUERIES
 // -------------------------
 // Small devices (tablets, 768px and up) */
-// @media (min-width: $screen-sm) {
-// }
+@media (min-width: $screen-sm) {
+	.nav-global {
+		background: $cornell-primary;
+	}
+}
 
 // Medium devices (desktops, 992px and up)
 // @media (min-width: $screen-md) {
