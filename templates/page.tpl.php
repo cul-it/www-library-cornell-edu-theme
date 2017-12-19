@@ -28,11 +28,6 @@
 
 <div class="navbar">
   <div class="container">
-    <!-- <div class="visible-xs mobile-search">
-      
-        <?php print render($page['mobile-search']); ?>
-      </div>
-    </div> -->
     <div class="nav navbar-nav">
       <?php print render($page['navigation']); ?>
     </div>

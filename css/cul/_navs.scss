@@ -2,7 +2,7 @@
 	@include make-sm-column(4);
 	text-align: right;
 	background: $dark-gray;
-	border-bottom: 1px solid $medium-gray;
+	border-bottom: 1px solid #444;
 	.nav { 
 		list-style: none;
 		float: right;
