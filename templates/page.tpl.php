@@ -17,8 +17,10 @@
           <a href="/">Cornell University Library</a>
         </div>
       </div>
-      <div class="nav-global hidden-xs">
-        <?php print render($page['header']); ?>
+      <div class="nav-global">
+        <div class="search-collapse collapse">
+          <?php print render($page['header']); ?>
+        </div>
       </div>
     </div>
   </div>
@@ -26,11 +28,11 @@
 
 <div class="navbar">
   <div class="container">
-    <div class="visible-xs mobile-search">
-      <div class="search-collapse collapse">
+    <!-- <div class="visible-xs mobile-search">
+      
         <?php print render($page['mobile-search']); ?>
       </div>
-    </div>
+    </div> -->
     <div class="nav navbar-nav">
       <?php print render($page['navigation']); ?>
     </div>
