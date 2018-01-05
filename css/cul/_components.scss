@@ -14,7 +14,10 @@
 		i { 
 			color: $cornell-primary;
 			font-size: 20px; }
-		a { color: $cornell-primary; }
+		a { 
+			color: $cornell-primary;
+			text-decoration: none;
+		}
 		a:hover { text-decoration: none; }
 	}
 }

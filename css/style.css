@@ -8,7 +8,7 @@ body {
 
 a {
   color: #0068ac;
-  text-decoration: underline; }
+  text-decoration: none; }
 
 a:hover,
 a:focus,
@@ -20,6 +20,10 @@ a:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
+
+.main-content a,
+.hero a {
+  text-decoration: underline; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -853,7 +857,8 @@ footer {
     color: #ccc;
     border: 0;
     background: rgba(22, 82, 77, 0.95);
-    padding: 8px 15px; }
+    padding: 8px 15px;
+    text-decoration: none; }
   .home-search .nav-tabs > li.active > a,
   .home-search .nav-tabs > li.active > a:hover {
     border: 0;
@@ -1158,7 +1163,8 @@ footer {
       color: #b31b1b;
       font-size: 20px; }
     .feature h2 a {
-      color: #b31b1b; }
+      color: #b31b1b;
+      text-decoration: none; }
     .feature h2 a:hover {
       text-decoration: none; }
 
