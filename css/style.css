@@ -22,7 +22,9 @@ a:focus {
   outline-offset: -2px; }
 
 .main-content a,
-.hero a {
+.hero a,
+.secondary-feature a,
+.nav-global a {
   text-decoration: underline; }
 
 h1, h2, h3, h4, h5, h6,
@@ -1180,7 +1182,8 @@ footer {
     color: white; }
     .secondary-feature h3 a {
       color: white;
-      border: 0; }
+      border: 0;
+      text-decoration: none; }
     .secondary-feature h3 a:hover {
       text-decoration: none; }
   .secondary-feature h4 {
