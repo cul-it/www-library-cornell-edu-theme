@@ -1,18 +1,16 @@
-<div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
-
-<img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif" alt="Cornell University Library" class="print-logo">
-
-<div class="cornell-brand">
+<div class="cornell-brand" role="banner">
+  <div id="skip"><a href="#maincontent">Skip to main content</a></div>
+  <img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif" alt="Cornell University Library" class="print-logo">
   <div class="container">
     <div class="row">
       <div class="navbar-header visible-xs">
-        <a class="navbar-brand visible-xs" href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/cornell-red.gif" alt="Cornell University"></a>
+        <a class="navbar-brand mobile-cornell-logo" href="http://www.cornell.edu">Cornell University</a>
         <button type="button" class="search-toggle" data-toggle="collapse" data-target=".search-collapse">
           <i class="fa fa-search"></i><span class="sr-only">Search</span>
         </button>
       </div>
       <div class="cornell-logo">
-        <a href="http://www.cornell.edu"><img src="/sites/all/themes/bootstrap_cul7/img/layout/CU-Insignia-White-120.png" alt="Cornell University" class="insignia hidden-xs"></a>
+        <a href="http://www.cornell.edu" class="insignia hidden-xs">Cornell University</a>
         <div class="library-brand">
           <a href="/">Cornell University Library</a>
         </div>
@@ -26,27 +24,41 @@
   </div>
 </div>
 
-<div class="navbar">
-  <div class="container">
-    <div class="nav navbar-nav">
-      <?php print render($page['navigation']); ?>
+<nav>
+  <div class="navbar">
+    <div class="container">
+      <div class="nav navbar-nav">
+        <?php print render($page['navigation']); ?>
+      </div>
     </div>
   </div>
-</div>
+</nav>
+
+<?php
+  $announcement_alert  = render($page['announcement_alert']);
+?>
+
+<?php if ($announcement_alert): ?>
+  <div class="announcement-alert" role="complementary" aria-label="Alert">
+    <div class="container">
+      <?php print render($announcement_alert); ?>
+    </div>
+  </div>
+<?php endif; ?>
 
 <?php
   $announcement  = render($page['announcement']);
 ?>
 
 <?php if ($announcement): ?>
-  <div class="announcement">
+  <div class="announcement" role="complementary" aria-label="Announcement">
     <div class="container">
       <?php print render($announcement); ?>
     </div>
   </div>
 <?php endif; ?>
 
-<div class="main-content">
+<div class="main-content" role="main">
   <div class="container">
     <div class="row">
       <div class="breadcrumb-wrapper"><!--TO DO: SEMANTIC-->
@@ -143,8 +155,9 @@
         <?php print render($page['footer-copyright']); ?>
       </div>
       <div class="social-links">
-        <a class="facebook-button" href="http://www.facebook.com/cornelluniversitylibrary" title="Find us on Facebook"><i class="fa fa-facebook-square" alt="Find us on Facebook"></i><span class="sr-only">Facebook>/span></a> 
-        <a class="twitter-button" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.library.cornell.edu%2Findex&amp;region=follow_link&amp;screen_name=Cornell_Library&amp;tw_p=followbutton&amp;variant=2.0" title="Follow us on Twitter"><i class="fa fa-twitter-square" alt="Follow us on Twitter"></i><span class="sr-only">Twitter</span></a>
+        <a class="facebook-button" href="http://www.facebook.com/cornelluniversitylibrary" title="Find us on Facebook"><i class="fab fa-facebook"></i><span class="sr-only">Facebook</span></a> 
+        <a class="twitter-button" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.library.cornell.edu%2Findex&amp;region=follow_link&amp;screen_name=Cornell_Library&amp;tw_p=followbutton&amp;variant=2.0" title="Follow us on Twitter"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a>
+        <a href="https://www.instagram.com/cornell_library/" title="Visit us on Instagram"><i class="fab fa-instagram"><span class="sr-only">Instagram</span></i></a> 
       </div>
     </div>
   </div>

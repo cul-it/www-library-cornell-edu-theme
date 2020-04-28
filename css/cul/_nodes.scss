@@ -150,48 +150,6 @@
 	}
 }
 
-// Library spaces custom template display
-//-----------------------------------------//
-// .auxiliary-title {
-// 	font-size: 90%; // on list view
-// 	margin-top: .25em;
-// 	color: $medium-gray;
-// 	font-weight: normal;
-// }
-// .space { font-weight: 700; }
-// .space-unit-library {
-// 	font-size: 16px;
-// 	 margin-bottom: 1em;
-// }
-// .space-auxiliary-title { // on space node itself
-// 	font-size: 18px;
-// 	margin: 0 0 .5em;
-// }
-// .space-contact-point {
-// 	font-size: 16px;
-// 	line-height: 1.5em;
-// }
-// .space-website {
-// 	font-size: 16px;
-// }
-// remove default bold state of node label just for library space
-// .node-library-space {
-// 	.field {
-// 		.field-label {
-// 			font-weight: normal;
-// 			margin-right: .25em;
-// 		}
-// 	}
-// }
-// display multiple values inline
-// .space-access,
-// .space-type {
-// 	.field-item {
-// 		display: inline;
-// 		margin-right: .5em;
-// 	}
-// }
-
 // Library spaces node template display
 //---------------------------------------
 .node-type-library-space {
@@ -241,7 +199,41 @@
 	}
 }
 
+// Events feed overrides
+// ---------------------------//
+#lw {
+	font-family: "source sans pro", helvetica, arial, sans-serif !important;
+	ul {
+		padding-left: 0 !important;
+	}
+	li.lwe {
+		padding: 20px 0 !important;
+	}
+}
+.lwn {
+	font-weight: normal !important;
+	font-size: 18px !important;
+	margin-bottom: .5em !important;
+}
+.lwd {
+	font-size: 16px !important; 
+	line-height: 1.5em !important;
+}
+.lwl {
+	font-weight: normal !important;
+}
+.lwn0 {
+	margin-left: 10px !important;
+}
 
+// Workshops carousel
+// -------------------//
+.carousel-caption {
+	background: rgba(0, 0, 0, 0.75);
+	a {
+		color:#2aa198
+	}
+}
 
 
 // Search tips table
@@ -398,6 +390,9 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 .reserve-items {
 	margin-top: 3em;
 }
+#emergency-message {
+	margin-top: 1em;
+}
 
 // Borrowing policies
 // ---------------------- //
@@ -409,7 +404,6 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 .view-borrowing-policy {
 	th { width: 50%; }
 	h3 {
-		color: $cornell-primary;
 		font-size: 20px;
 		margin-bottom: 20px;
 	}
@@ -431,6 +425,19 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 		margin-right: 5px;
 		margin-bottom: 2em;
 		width: 80%;
+	}
+	label {
+		float: left;
+		margin: .5em .5em 0 0;
+	}
+}
+
+// Set width of borrowing jump menu for responsive
+.main-content {
+	.view-borrowing-policy {
+		.ctools-jump-menu-select {
+			width: 50%;
+		}
 	}
 }
 
@@ -458,11 +465,7 @@ table.delivery-options {
 		margin-top: 12px;
 	}
 	tr > td:first-child {
-		color:$cornell-primary;
 		text-align: center;
-	}
-	:first-child > td:first-child {
-		color: $teal;
 	}
 }
 
@@ -490,7 +493,8 @@ table.delivery-options {
 
 // Library Stories
 //--------------------------//
-.view-library-stories {
+.view-library-stories,
+.view-libescope {
 	img {
 		width: 150px;
 		height: auto;

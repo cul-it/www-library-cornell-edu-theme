@@ -10,7 +10,18 @@
 	.insignia {
 		float: left;
 		margin-right: 1em;
+		background: url("/sites/all/themes/bootstrap_cul7/img/layout/CU-Insignia-White-120.png") no-repeat;
+		width: 120px;
+		height: 120px;
+		text-indent: -99999em;
 	}
+}
+.mobile-cornell-logo {
+	background: url("/sites/all/themes/bootstrap_cul7/img/layout/cornell-red.gif");
+	width: 169px;
+	height: 45px;
+	display: block;
+	text-indent: -99999em;
 }
 .library-brand {
 	font-family: $font-family-cul;

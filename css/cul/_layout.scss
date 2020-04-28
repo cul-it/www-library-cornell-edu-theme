@@ -68,8 +68,8 @@
 	@include make-lg-column(4);
 	background: url("../img/layout/secondary-divider.png") no-repeat left top;
 	.well {
-		background: $teal;
-		border-color: $teal;
+		background: #1a665f;
+		border-color: #1a665f;
 		margin-top: 1em;
 		p {
 			font-size: 22px;
@@ -112,6 +112,9 @@ footer {
 		 	color: white;
 		 	text-decoration: none;
 		 }
+		 .active:focus {
+		 	color: $dark-gray;
+		 }
 		 a:hover { 
 			color: white;
 			background: inherit;
@@ -130,6 +133,9 @@ footer {
 		text-decoration: underline; }
 	.copyright {
 		@include make-sm-column(10);
+		a:focus {
+			color: white;
+		}
 	}
 	.social-links {
 		@include make-sm-column(2);
