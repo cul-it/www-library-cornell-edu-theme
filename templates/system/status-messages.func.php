@@ -24,7 +24,7 @@
  *
  * @ingroup theme_functions
  */
-function bootstrap_status_messages(array $variables) {
+function bootstrap_cul7_status_messages(array $variables) {
   $display = $variables['display'];
   $output = '';
 
