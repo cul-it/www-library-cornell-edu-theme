@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head profile="<?php print $grddl_profile; ?>">
+<html<?php print $html_attributes;?><?php print $rdf_namespaces;?>>
+<head>
+  <link rel="profile" href="<?php print $grddl_profile; ?>" />
   <?php print $head; ?>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-
-  <meta name="description" content="">
-  <meta name="author" content="">
   <title><?php print $head_title; ?></title>
 
   <link rel="apple-touch-icon" href="/sites/all/themes/bootstrap_cul7/img/layout/apple-touch-icon.png">
@@ -21,7 +18,9 @@
     <script src="/sites/all/themes/bootstrap_cul7/js/respond.min.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
-  
+
+  <!-- Emergency Banner -->
+  <script src="//embanner.univcomm.cornell.edu/OWC-emergency-banner.js" type="text/javascript" async></script>
 </head>
 <body class="<?php print $classes; ?>" id="top" <?php print $attributes;?>>
   <?php print $page_top; ?>

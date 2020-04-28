@@ -105,9 +105,10 @@
 
     <p>The loan periods listed below are generally applicable, but may vary by library.</p>
 
-    <h4>Loan Periods</h4>
+    <h2>Loan Periods</h2>
     <div class="table-responsive">
-      <table class="table table-striped" summary="Loan periods of different items for this patron group">
+      <table class="table table-striped">
+        <caption class="sr-only">Loan periods of different items for this patron group</caption>
         <tbody>
           <tr>
             <th>Books</th>
@@ -141,9 +142,10 @@
       </table>
     </div>
 
-    <h4>Permissions</h4>
+    <h2>Permissions</h2>
     <div class="table-responsive">
-      <table class="table table-striped" summary="Policies and guidelines for use of materials for this patron group">
+      <table class="table table-striped">
+        <caption class="sr-only">Policies and guidelines for use of materials for this patron group</caption>
         <tbody>
           <tr>
             <th>Number of checkouts allowed</th>
@@ -183,7 +185,7 @@
     ?>
 
     <?php if ($body): ?>
-      <h4>Special Considerations</h4>
+      <h3>Special Considerations</h3>
       <?php print render($content['body']); ?>
     <?php endif; ?>
   </div>

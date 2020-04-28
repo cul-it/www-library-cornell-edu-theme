@@ -6,6 +6,7 @@ base theme = bootstrap
 ; Global regions
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Header'
+regions[announcement_alert] = 'High priority announcement'
 regions[announcement]   = 'Announcement'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
@@ -43,3 +44,4 @@ scripts[] = js/bootstrap.min.js
 scripts[] = js/cul_menu_fix.js
 scripts[] = js/bb_autocomplete.js
 scripts[] = js/hours.js
+scripts[] = js/accessibility.js
