@@ -66,7 +66,7 @@
 		text-transform: uppercase; }
 	.teaser,
 	p { 
-		color: #b8d6d4;
+		color: white;
 		line-height: 1.5em;}
 	.more-link {
 		display: block;
@@ -77,10 +77,6 @@
 	}
 	img { margin: 0 0 5px 10px; }
 }
-// .secondary-feature.news {
-// 	// border-left: 0;
-// 	background-image: none;
-// }
 
 // Communications boxes in the sidebar on sub-pages
 .sidebar {
@@ -93,17 +89,8 @@
 		}
 
 		h3 { 
-			// color: $dark-gray;
 			border-bottom: 2px solid $tan;
 			i { display: none; }
-		}
-		// .btn-rss { 
-		// 	// background: $light-gray;
-		// 	margin-top: 0; }
-		.secondary-feature-item {
-			 // margin-bottom: 1em;
-			 // padding-bottom: 1em;
-			 // border-bottom: 2px solid white;
 		}
 		.secondary-feature-events {
 			margin-bottom: 0;
@@ -167,9 +154,6 @@
 		float: left;
 	}
 	h2 {
-		// border-bottom: 5px solid $light-tan;
-		// padding-bottom: 5px;
-		color: $cornell-primary;
 		margin: 0 0 .25em;
 		font-weight: normal;
 		font-size: 20px;
@@ -245,7 +229,7 @@
 // -- contains things like related links and contact info
 // --------------------------------------------------------
 .highlight-box {
-	h3 {
+	h2, h3 {
 		// color: $medium-gray;
 		color: $cornell-primary;
 		font-weight: 700;
@@ -255,7 +239,7 @@
 		border-top: 1px solid $light-gray; 
 		padding-top: 15px;
 	}
-	h3:first-child { 
+	h2:first-child, h3:first-child { 
 		margin-top: 0;
 		padding-top: 0;
 		border-top: none;
@@ -275,9 +259,9 @@
 }
 
 
-// News page
+// News 
 //--------------------------
-
+// Page
 .feature-story {
 	h3 {
 		font-size: 26px;
@@ -288,6 +272,13 @@
 		margin: 0 0 .5em;
 	}
 }
+// Story archive
+.story-item {
+	margin-bottom: 1em;
+	h2 {
+		font-size: 18px;
+	}
+}
 
 // Announcement
 // -------------------------
@@ -295,11 +286,10 @@
 .announcement {
 	background: white;
 	padding: 15px 0;
-	font-weight: bold;
 	text-align: center;
-	color: $cornell-primary;
+	font-size: 16px;
 	i {
-		color: $dark-tan;
+		color: $cornell-primary;
 		margin-right: 5px;
 		font-size: 24px;
 	}
@@ -309,7 +299,28 @@
 		background: $pale-gray;
 	}
 }
+.view-announcement {
+	p {
+		display: inline;
+	}
+}
 
+// High priority announcement/alert
+// ---------------------------------
+
+.announcement-alert {
+	padding: 2em;
+	background: #fcf8e3;
+	p {
+		font-size: 16px;
+	}
+	.fas {
+		color: $cornell-primary;
+	}
+	.lead {
+		font-weight: bold;
+	}
+}
 
 // LibeScope
 // -------------------------
@@ -545,6 +556,19 @@ h2.patroninfo-title { margin-top: 0; }
   }
 }
 
+.guest-id {
+	margin-top: 2em;
+}
+
+// Form login link block
+// -----------------------
+.form-login-link {
+	margin-top: 1em;
+	.block-title {
+		font-size: 18px;
+	}
+}
+
 // MEDIA QUERIES
 // -------------------------
 
@@ -590,6 +614,20 @@ h2.patroninfo-title { margin-top: 0; }
 		h2 {
 			font-size: 13px;
 		}
+	}
+	.guest-id {
+		border-left: 1px solid #ddd;
+		padding-left: 2em;
+		margin-top: 0;
+		p > small {
+			line-height: 1.2em;
+		}
+		h3 {
+			margin-top: 0;
+		}
+	}
+	.guest-id-info {
+		margin-top: 1em;
 	}
 }
 

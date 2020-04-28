@@ -102,6 +102,19 @@ blockquote {
   p.lead { font-size: 21px; }
 }
 
+// Bootstrap overrides
+// -------------------------
+.label-success {
+  background: $brand-success;
+}
+.label-danger {
+  background: $brand-danger;
+}
+caption,
+blockquote small {
+  color: $dark-gray;
+}
+
 // Tables
 // -------------------------
 

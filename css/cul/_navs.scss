@@ -50,7 +50,6 @@
 			display: inline-block;
 			i { 
 				color: $light-gray;
-				margin-top: 6px;
 				margin-left: 22px; }
 		}
 		a:hover {
@@ -93,7 +92,7 @@
 				display: inline-block;
 				i { 
 					color: $light-gray;
-					margin-top: 7px;
+					margin-top: 1px;
 					margin-left: 24px; }
 			}
 			a:hover {
@@ -171,6 +170,10 @@
 			}
 		}
 	}
+}
+// override outline for active mennu links in sidebar, because you need for focus for assistive technologies
+.dropdown-menu>.active>a:focus {
+	outline: 5px auto -webkit-focus-ring-color;
 }
 // force active menu for patron group nodes
 .node-type-patron-group {

@@ -6,16 +6,19 @@
 	margin-bottom: 0;
 	clear: both;
 	li { font-size: .75em; }
-	a { color: $medium-gray; }
+	a { color: #555555; }
+}
+.breadcrumb > .active {
+	color: #555555;
 }
 
 // Buttons
 // -------------------------
 .btn-rss {
-	background: #f06925;
+	background: #1a665f;
 	padding: 0 4px;
 }
-.btn-rss:hover { background: #d85f22; }
+.btn-rss:hover { background: black; }
 .btn-cul {
 	border: 1px solid $btn-cul-border;
 }
@@ -28,7 +31,8 @@
 		margin-left: 3px;
 	}
 }
-.btn-libraries:hover {
+.btn-libraries:hover,
+.btn-libraries:focus {
 	background: $dark-teal;
 	color: white;
 }
@@ -54,7 +58,8 @@
 	background: $cornell-primary-hover;
 	text-transform: uppercase;
 }
-.btn-give:hover {
+.btn-give:hover,
+.btn-give:focus {
 	background: $cornell-primary;
 	color: white;
 	border: 0;
@@ -130,36 +135,9 @@
 	i { 
 		font-size: 40px;
 	}
-	a { color: $medium-gray; }
+	a { color: white; }
 	.facebook-button { margin-right: 5px; }
 }
-
-// .social-links {
-// 	margin-bottom: 2em;
-// 	a {
-// 		padding: 4px 8px 2px 5px;
-// 		display: inline-block;
-// 		background: white;
-// 		border-radius: 3px;
-// 		margin-left: 5px;
-// 		margin-bottom: 5px;
-// 		color: $link-color;
-// 		font-size: 12px;
-// 		font-weight: 700;
-// 		i { font-size: 2.5em; }
-// 	}
-// 	a:hover { 
-// 		color: $link-color;
-// 		background: white; }
-// 	.twitter-button {
-// 		i { 
-// 			color: #00c3f8; }
-// 	}
-// 	.facebook-button {
-// 		i { 
-// 			color: $link-color; }
-// 	}
-// }
 
 // PDF icon
 // -------------------------
@@ -180,24 +158,33 @@
 	display: none;
 }
 
+// Accessibility overrides 
+// -------------------------
+// Increase color contrast:
+.control-group .help-inline, .help-block { color: #555555; }
+
 
 // Skip to content link
-// http://webaim.org/techniques/skipnav/
+// https://webaim.org/techniques/css/invisiblecontent/#skipnavlinks
 // ---------------------------------------
-#skiptocontent a {
-	padding:6px;
-	position: absolute;
-	top:-40px;
-	left:0px;
-	color:white;
-	border-right:1px solid white;
-	border-bottom:1px solid white;
-	border-bottom-right-radius:8px;
-	background:transparent;
-	-webkit-transition: top 1s ease-out, background 1s linear;
-    transition: top 1s ease-out, background 1s linear;
-    z-index: 100;
-}
+
+#skip a
+{ 
+position:absolute; 
+left:-10000px; 
+top:auto; 
+width:1px; 
+height:1px; 
+overflow:hidden;
+color:white;
+} 
+ 
+#skip a:focus 
+{ 
+position:static; 
+width:auto; 
+height:auto; 
+} 
 
 // Selectors table - set table header widths
 // -----------------------------------------------------------------

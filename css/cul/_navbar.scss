@@ -114,7 +114,8 @@
 	}
 	// Add font awesome chevron down
 	a.sf-depth-1.menuparent:after {
-		font-family: FontAwesome;
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
 		content: "\f078";
 		font-size: 75%;
 		padding-left: .5em;
@@ -151,7 +152,8 @@
 		text-decoration: none;
 	}
 	a:after {
-		font-family: FontAwesome;
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
 		content: "\f0c9";
 		font-size: 75%;
 		padding-left: .5em;
