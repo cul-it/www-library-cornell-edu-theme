@@ -10,7 +10,8 @@
 	position: inherit;
 	min-height: 0;
 	margin-bottom: 0;
-	@include gradient-vertical($start-color: $cornell-primary, $end-color: $cornell-primary-hover);
+	background: white;
+	// @include gradient-vertical($start-color: $cornell-primary, $end-color: $cornell-primary-hover);
 	padding-left: 0;
 	padding-right: 0;
 	border: 0;

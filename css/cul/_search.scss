@@ -240,7 +240,7 @@
 #block-block-9 {
 	margin-top: 10px;
 	.btn-search-icon { 
-		background: #580606;
+		background: $medium-teal;
 		vertical-align: top; }
 }
 // make sure dropdown menu displays on top of navbar
@@ -256,11 +256,7 @@
 .nav-global {
 	.form-group { width: 89%; }
 }
-.sub-search {
-	a {
-		color: white;
-	}
-}
+
 // search box on mobile devices
 .mobile-search {
 	.btn-search-icon { 

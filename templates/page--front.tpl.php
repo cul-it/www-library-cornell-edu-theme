@@ -1,5 +1,16 @@
+<div id="skip"><a href="#maincontent">Skip to main content</a></div>
+<?php
+  $announcement_alert  = render($page['announcement_alert']);
+?>
+
+<?php if ($announcement_alert): ?>
+  <div class="announcement-alert" role="complementary" aria-label="Alert">
+    <div class="container navbar-fixed-top">
+      <?php print render($announcement_alert); ?>
+    </div>
+  </div>
+<?php endif; ?>
 <div class="cornell-brand" role="banner">
-  <div id="skip"><a href="#maincontent">Skip to main content</a></div>
   <img src="/sites/all/themes/bootstrap_cul7/img/layout/cul-logo-white.gif" alt="Cornell University Library" class="print-logo">
   <div class="container">
     <div class="row">
@@ -30,21 +41,8 @@
 </nav>
 
 <?php
-  $announcement_alert  = render($page['announcement_alert']);
-?>
-
-<?php if ($announcement_alert): ?>
-  <div class="announcement-alert" role="complementary" aria-label="Alert">
-    <div class="container">
-      <?php print render($announcement_alert); ?>
-    </div>
-  </div>
-<?php endif; ?>
-
-<?php
   $announcement  = render($page['announcement']);
 ?>
-
 <?php if ($announcement): ?>
   <div class="announcement" role="complementary" aria-label="Announcement">
     <div class="container">

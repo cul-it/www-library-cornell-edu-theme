@@ -284,19 +284,15 @@
 // -------------------------
 
 .announcement {
-	background: white;
-	padding: 15px 0;
-	text-align: center;
+	padding: 10px 0;
 	font-size: 16px;
 	i {
 		color: $cornell-primary;
 		margin-right: 5px;
 		font-size: 24px;
 	}
-}
-.not-front {
-	.announcement {
-		background: $pale-gray;
+	.alert {
+		margin-bottom: 0;
 	}
 }
 .view-announcement {
@@ -305,20 +301,37 @@
 	}
 }
 
-// High priority announcement/alert
-// ---------------------------------
+// High priority announcement/alert - COVID banner
+// -------------------------------------------------
 
 .announcement-alert {
-	padding: 2em;
-	background: #fcf8e3;
+	background: white;
+	.container {
+		// background: $medium-teal;
+		background: #1a665f; //slightly darker to account for scrolling over teal comm bar on home page
+		padding: 1em 2em;
+	}
 	p {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.fas {
 		color: $cornell-primary;
 	}
 	.lead {
 		font-weight: bold;
+	}
+	a, a:hover {
+		color: white;
+		text-decoration: underline;
+	}
+	.label-cul {
+		background: $cornell-primary;
+		font-size: 11px;
+		font-weight: normal;
+	}
+	.date-label {
+		float: left;
+		margin-right: .75em;
 	}
 }
 
@@ -629,6 +642,11 @@ h2.patroninfo-title { margin-top: 0; }
 	.guest-id-info {
 		margin-top: 1em;
 	}
+	.announcement-alert {
+		.container {
+			border-radius: 0 0 8px 8px;
+		}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -639,6 +657,11 @@ h2.patroninfo-title { margin-top: 0; }
 	.feature {
 		h2 {
 			font-size: 18px;
+		}
+	}
+	.announcement-alert {
+		.label-cul {
+			font-size: 14px;
 		}
 	}
 }

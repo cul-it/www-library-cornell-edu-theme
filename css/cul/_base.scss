@@ -1,6 +1,6 @@
 body {
 	font-family: $font-family-sans-serif;
-	background-color: $dark-gray;
+	background-color: white;
   color: $dark-gray;
 }
 
@@ -36,7 +36,6 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: $font-family-cul;
   font-weight: 400;
 }
 h1 { 
@@ -49,15 +48,17 @@ h1 {
 
 h2, h3, h4 { 
   margin-bottom: .5em;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  margin-top: 1.5em;
+}
 
 h2 { 
-  font-size: 22px;
+  font-size: 24px;
 }
 h2:first-child { margin-top: 0; }
 
 h3 { 
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4em;
 }
 
@@ -75,6 +76,10 @@ h3 {
   ul, ol { 
     margin-bottom: 1em;
     ul, ol { margin-bottom: 0; }
+  }
+  .caption {
+    font-size: 14px;
+    font-style: italic;
   }
 }
 blockquote {
@@ -113,6 +118,11 @@ blockquote {
 caption,
 blockquote small {
   color: $dark-gray;
+}
+
+// Fix spacing above sticky banner when logged in
+body.toolbar .navbar-fixed-top {
+  top: 30px;
 }
 
 // Tables

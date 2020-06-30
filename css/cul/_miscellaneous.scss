@@ -176,7 +176,6 @@ top:auto;
 width:1px; 
 height:1px; 
 overflow:hidden;
-color:white;
 } 
  
 #skip a:focus 
@@ -242,6 +241,20 @@ height:auto;
 		padding-top: 60px;
 		min-height: 500px;
 	}
+}
+
+// Covid last updated
+// ------------------------------------------------
+.covid-last-updated {
+	margin-top: .5em;
+	.label {
+		font-weight: normal;
+		font-size: 12px;
+	}
+}
+.covid-last-updated-banner {
+	color: white;
+	margin-top: .15em;
 }
 
 // MEDIA QUERIES

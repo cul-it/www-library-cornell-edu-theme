@@ -3,7 +3,7 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 body {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  background-color: #222;
+  background-color: white;
   color: #222; }
 
 a {
@@ -29,7 +29,6 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Montserrat";
   font-weight: 400; }
 
 h1 {
@@ -41,16 +40,17 @@ h1 {
 
 h2, h3, h4 {
   margin-bottom: .5em;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  margin-top: 1.5em; }
 
 h2 {
-  font-size: 22px; }
+  font-size: 24px; }
 
 h2:first-child {
   margin-top: 0; }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4em; }
 
 .main-content p, .main-content li {
@@ -64,6 +64,9 @@ h3 {
   margin-bottom: 1em; }
   .main-content ul ul, .main-content ul ol, .main-content ol ul, .main-content ol ol {
     margin-bottom: 0; }
+.main-content .caption {
+  font-size: 14px;
+  font-style: italic; }
 
 blockquote p {
   font-weight: 400; }
@@ -90,6 +93,9 @@ blockquote p {
 caption,
 blockquote small {
   color: #222; }
+
+body.toolbar .navbar-fixed-top {
+  top: 30px; }
 
 table {
   background: white; }
@@ -148,7 +154,8 @@ td {
   .main-content .courses-form select.form-control {
     width: 100%; } }
 .cornell-brand {
-  background: #b31b1b; }
+  background: white;
+  margin-top: 80px; }
   .cornell-brand h1 {
     display: inline;
     margin: 0; }
@@ -166,14 +173,17 @@ td {
   .cornell-logo .insignia {
     float: left;
     margin-right: 1em;
-    background: url("/sites/all/themes/bootstrap_cul7/img/layout/CU-Insignia-White-120.png") no-repeat;
+    background: url("/sites/all/themes/bootstrap_cul7/img/layout/cornell_seal_simple_b31b1b.svg") no-repeat;
     width: 120px;
     height: 120px;
     text-indent: -99999em; }
 
+.navbar-header.visible-xs {
+  padding: 5px 10px; }
+
 .mobile-cornell-logo {
-  background: url("/sites/all/themes/bootstrap_cul7/img/layout/cornell-red.gif");
-  width: 169px;
+  background: url("/sites/all/themes/bootstrap_cul7/img/layout/cornell-reduced-black.svg");
+  width: 200px;
   height: 45px;
   display: block;
   text-indent: -99999em; }
@@ -185,14 +195,16 @@ td {
   padding: 0 10px;
   margin: 0 0 .5em 0; }
   .library-brand a {
-    color: white; }
+    color: #222; }
   .library-brand a:hover, .library-brand a:focus, .library-brand a:active {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #222; }
 
 @media (min-width: 768px) {
   .cornell-brand {
     height: 140px;
-    padding: 10px 0; }
+    padding: 10px 0;
+    margin-top: 60px; }
 
   .library-brand {
     font-size: 21px;
@@ -212,12 +224,7 @@ td {
   position: inherit;
   min-height: 0;
   margin-bottom: 0;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#b31b1b), to(#990f26));
-  background-image: -webkit-linear-gradient(top, #b31b1b 0%, #990f26 100%);
-  background-image: -moz-linear-gradient(top, #b31b1b 0%, #990f26 100%);
-  background-image: linear-gradient(to bottom, #b31b1b 0%, #990f26 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB31B1B', endColorstr='#FF990F26', GradientType=0);
+  background: white;
   padding-left: 0;
   padding-right: 0;
   border: 0; }
@@ -548,7 +555,7 @@ td {
 
 @media (min-width: 768px) {
   .nav-global {
-    background: #b31b1b;
+    background: white;
     border-bottom: 0; } }
 .hero {
   background: white; }
@@ -1078,7 +1085,7 @@ footer {
 #block-block-9 {
   margin-top: 10px; }
   #block-block-9 .btn-search-icon {
-    background: #580606;
+    background: #1f7972;
     vertical-align: top; }
 
 .ui-menu {
@@ -1092,9 +1099,6 @@ footer {
 
 .nav-global .form-group {
   width: 89%; }
-
-.sub-search a {
-  color: white; }
 
 .mobile-search .btn-search-icon {
   background: #580606;
@@ -1425,30 +1429,39 @@ footer {
     font-size: 18px; }
 
 .announcement {
-  background: white;
-  padding: 15px 0;
-  text-align: center;
+  padding: 10px 0;
   font-size: 16px; }
   .announcement i {
     color: #b31b1b;
     margin-right: 5px;
     font-size: 24px; }
-
-.not-front .announcement {
-  background: #f3f3f3; }
+  .announcement .alert {
+    margin-bottom: 0; }
 
 .view-announcement p {
   display: inline; }
 
 .announcement-alert {
-  padding: 2em;
-  background: #fcf8e3; }
+  background: white; }
+  .announcement-alert .container {
+    background: #1a665f;
+    padding: 1em 2em; }
   .announcement-alert p {
-    font-size: 16px; }
+    font-size: 18px; }
   .announcement-alert .fas {
     color: #b31b1b; }
   .announcement-alert .lead {
     font-weight: bold; }
+  .announcement-alert a, .announcement-alert a:hover {
+    color: white;
+    text-decoration: underline; }
+  .announcement-alert .label-cul {
+    background: #b31b1b;
+    font-size: 11px;
+    font-weight: normal; }
+  .announcement-alert .date-label {
+    float: left;
+    margin-right: .75em; }
 
 .libescope-four td {
   width: 50%; }
@@ -1688,14 +1701,20 @@ h2.patroninfo-title {
       margin-top: 0; }
 
   .guest-id-info {
-    margin-top: 1em; } }
+    margin-top: 1em; }
+
+  .announcement-alert .container {
+    border-radius: 0 0 8px 8px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .secondary-feature {
     padding: 0 20px; }
 
   .feature h2 {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .announcement-alert .label-cul {
+    font-size: 14px; } }
 .breadcrumb {
   background: inherit;
   padding: 15px;
@@ -1828,8 +1847,7 @@ h2.patroninfo-title {
   top: auto;
   width: 1px;
   height: 1px;
-  overflow: hidden;
-  color: white; }
+  overflow: hidden; }
 
 #skip a:focus {
   position: static;
@@ -1879,6 +1897,16 @@ h2.patroninfo-title {
     padding-top: 60px;
     min-height: 500px; }
 
+.covid-last-updated {
+  margin-top: .5em; }
+  .covid-last-updated .label {
+    font-weight: normal;
+    font-size: 12px; }
+
+.covid-last-updated-banner {
+  color: white;
+  margin-top: .15em; }
+
 @media (min-width: 768px) {
   .multicolumn {
     -moz-column-count: 2;
@@ -1907,6 +1935,8 @@ body.toolbar-drawer {
 
 .node-type-unit-library .highlight-box p {
   font-size: 14px; }
+.node-type-unit-library .library-closed {
+  margin-right: .5em; }
 
 .hours-note {
   font-weight: 700;
@@ -1914,6 +1944,9 @@ body.toolbar-drawer {
   padding: 10px 15px;
   background: #f3f3f3;
   font-style: italic; }
+
+.s-lc-whw-cont {
+  margin-top: 2em; }
 
 .view-libraries-and-hours h2 {
   font-size: 22px;
@@ -1933,7 +1966,7 @@ body.toolbar-drawer {
 .list-hours {
   margin-bottom: .5em; }
   .list-hours .label {
-    margin-left: .5em; }
+    margin-right: .5em; }
 
 .list-phone {
   margin-bottom: .25em; }
