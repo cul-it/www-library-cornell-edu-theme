@@ -20,6 +20,9 @@
 	.highlight-box {
 		p { font-size: 14px; }
 	}
+	.library-closed {
+		margin-right: .5em;
+	}
 }
 .hours-note {
 	font-weight: 700;
@@ -27,6 +30,9 @@
 	padding: 10px 15px;
 	background: $pale-gray;
 	font-style: italic;
+}
+.s-lc-whw-cont {
+	margin-top: 2em;
 }
 
 // Libraries and Hours
@@ -54,7 +60,7 @@
 .list-hours {
 	margin-bottom: .5em;
 	.label {
-		margin-left: .5em;
+		margin-right: .5em;
 	}
 }
 .list-phone {

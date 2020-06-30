@@ -81,7 +81,7 @@
  */
 ?>
 
-<script src="//api3.libcal.com/js/hours_grid.js?002"></script> 
+<script src="//api3.libcal.com/js/hours_grid.js?002"></script>
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
@@ -109,9 +109,9 @@
     <div class="row">
       <div class="col-sm-8">
         <?php print render($content['body']); ?>
-        
+
         <h2>Hours</h2>
-        <?php 
+        <?php
           // Figure out the LibCal library code for whichever library this is
           $libcal_codes = array(
             'Africana' => 3319,
@@ -132,25 +132,63 @@
             'Uris' => 2830,
             'Vet' => 3331
           );
-          
+
           $location_hours = $node->field_hours_id['und'][0]['value'];
+          $closed_button = '<span class="label label-danger library-closed">Closed</span>';
+          $pickup = '<span>'.l('Request/pickup service available', '/library-return-campus-faq').'</span>';
+          switch ($location_hours) {
+            case 'ANNEX':
+              // Request/Pickup Service Available
+              print implode(' ', [$closed_button, $pickup]);
+              $library_id = $libcal_codes[$location_hours];
+              print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
+              break;
+
+            case 'MANNLIB':
+              print implode(' ', [$closed_button, $pickup]);
+              $library_id = $libcal_codes[$location_hours];
+              print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
+              break;
+
+            case 'Uris':
+              print implode(' ', [$closed_button, $pickup]);
+              $library_id = $libcal_codes[$location_hours];
+              print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
+              break;
+
+            case 'weill':
+              // We don't track hours for Weill
+              print '<div><a href="http://library.med.cornell.edu/About/hours.html">Library hours available on the Weill Library website</a></div>';
+              break;
+
+            case 'weill-archives';
+              print '<div><a href="https://library.weill.cornell.edu/archives">Library hours available on the Weill Archives website</a></div>';
+              break;
+
+            default:
+              print $closed_button;
+              // $library_id = $libcal_codes[$location_hours];
+              // print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
+              break;
+          }
+
           // We don't track hours for Weill
-          if ($location_hours == 'weill') {
-            print '<div><a href="http://library.med.cornell.edu/About/hours.html">Library hours available on the Weill Library website</a></div>';
-          }
-          elseif ($location_hours == 'weill-archives') {
-            print '<div><a href="https://library.weill.cornell.edu/archives">Library hours available on the Weill Archives website</a></div>';
-          }
-          elseif ($location_hours == 'PhysSci') {
-            print '<div><p>24/7 quiet study space only</p></div>';
-          }
-          elseif ($location_hours == 'Engineering') {
-            print '<div><p>24/7 study space and computing only</p></div>';
-          }
-          else {
-            $library_id = $libcal_codes[$location_hours];
-            print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>'; 
-          }
+          // if ($location_hours == 'weill') {
+          //   print '<div><a href="http://library.med.cornell.edu/About/hours.html">Library hours available on the Weill Library website</a></div>';
+          // }
+          // elseif ($location_hours == 'weill-archives') {
+          //   print '<div><a href="https://library.weill.cornell.edu/archives">Library hours available on the Weill Archives website</a></div>';
+          // }
+          // elseif ($location_hours == 'PhysSci') {
+          //   print '<div><p>24/7 quiet study space only</p></div>';
+          // }
+          // elseif ($location_hours == 'Engineering') {
+          //   print '<div><p>24/7 study space and computing only</p></div>';
+          // }
+          // else {
+          //   $library_id = $libcal_codes[$location_hours];
+          //   print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
+          // }
 
         ?>
       </div>
@@ -176,10 +214,10 @@
             <?php print $location['additional'] ?><br>
           <?php endif; ?>
           <?php if ($location['city']) : ?>
-            <?php print $location['city'] ?>, 
+            <?php print $location['city'] ?>,
           <?php endif; ?>
           <?php if ($location['province']) : ?>
-            <?php print $location['province'] ?> 
+            <?php print $location['province'] ?>
           <?php endif; ?>
           <?php if ($location['postal_code']) : ?>
             <?php print $location['postal_code'] ?>
