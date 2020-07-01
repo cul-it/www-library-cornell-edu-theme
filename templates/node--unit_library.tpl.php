@@ -130,7 +130,9 @@
             'OLIN' => 2818,
             'Ornithology' => 3329,
             'Uris' => 2830,
-            'Vet' => 3331
+            'Vet' => 3331,
+            'Engineering' => 7862,
+            'PhysSci' => 10937,
           );
 
           $location_hours = $node->field_hours_id['und'][0]['value'];
