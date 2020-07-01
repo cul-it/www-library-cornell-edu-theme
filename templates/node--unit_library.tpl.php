@@ -130,32 +130,31 @@
             'OLIN' => 2818,
             'Ornithology' => 3329,
             'Uris' => 2830,
-            'Vet' => 3331
+            'Vet' => 3331,
+            'Engineering' => 7862,
+            'PhysSci' => 10937,
           );
 
           $location_hours = $node->field_hours_id['und'][0]['value'];
+          $pickup = '';
+          $libcal_widget = '';
+          if (isset($libcal_codes["$location_hours"])) {
+            $lid = $libcal_codes["$location_hours"];
+            $url = "https://api3.libcal.com/api_hours_today.php?iid=973&lid=$lid&format=json&nocache=1";
+            $libcal_data = json_decode(file_get_contents($url));
+            foreach ($libcal_data->locations as $loc) {
+              if ($loc->lid == $lid) {
+                if ('text' == $loc->times->status) {
+                    $message = $loc->times->text;
+                    $pickup = '<span>'.l($message, '/library-return-campus-faq').'</span>';
+                    $libcal_widget = '<div id="s-lc-whw2818" data-hours="' . $lid . '"></div>';
+                    }
+                break;
+              }
+            }
+          }
           $closed_button = '<span class="label label-danger library-closed">Closed</span>';
-          $pickup = '<span>'.l('Request/pickup service available', '/library-return-campus-faq').'</span>';
           switch ($location_hours) {
-            case 'ANNEX':
-              // Request/Pickup Service Available
-              print implode(' ', [$closed_button, $pickup]);
-              $library_id = $libcal_codes[$location_hours];
-              print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
-              break;
-
-            case 'MANNLIB':
-              print implode(' ', [$closed_button, $pickup]);
-              $library_id = $libcal_codes[$location_hours];
-              print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
-              break;
-
-            case 'Uris':
-              print implode(' ', [$closed_button, $pickup]);
-              $library_id = $libcal_codes[$location_hours];
-              print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
-              break;
-
             case 'weill':
               // We don't track hours for Weill
               print '<div><a href="http://library.med.cornell.edu/About/hours.html">Library hours available on the Weill Library website</a></div>';
@@ -166,31 +165,10 @@
               break;
 
             default:
-              print $closed_button;
-              // $library_id = $libcal_codes[$location_hours];
-              // print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
+              print implode(' ', [$closed_button, $pickup, $libcal_widget]);
               break;
           }
-
-          // We don't track hours for Weill
-          // if ($location_hours == 'weill') {
-          //   print '<div><a href="http://library.med.cornell.edu/About/hours.html">Library hours available on the Weill Library website</a></div>';
-          // }
-          // elseif ($location_hours == 'weill-archives') {
-          //   print '<div><a href="https://library.weill.cornell.edu/archives">Library hours available on the Weill Archives website</a></div>';
-          // }
-          // elseif ($location_hours == 'PhysSci') {
-          //   print '<div><p>24/7 quiet study space only</p></div>';
-          // }
-          // elseif ($location_hours == 'Engineering') {
-          //   print '<div><p>24/7 study space and computing only</p></div>';
-          // }
-          // else {
-          //   $library_id = $libcal_codes[$location_hours];
-          //   print '<div id="s-lc-whw2818" data-hours="' . $library_id . '"></div>';
-          // }
-
-        ?>
+      ?>
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">
