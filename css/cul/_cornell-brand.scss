@@ -6,14 +6,16 @@
 		margin: 0; }
 }
 .cornell-logo {
-	@include make-sm-column(8);
+	@include make-sm-column(6);
+	@include make-md-column(7);
+	@include make-lg-column(8);
 	padding-left: 0;
 	.insignia {
 		float: left;
-		margin-right: 1em;
 		background: url("/sites/all/themes/bootstrap_cul7/img/layout/cornell_seal_simple_b31b1b.svg") no-repeat;
-		width: 120px;
-		height: 120px;
+		margin-right: .5em;
+		width: 60px;
+		height: 60px;
 		text-indent: -99999em;
 	}
 }
@@ -48,13 +50,12 @@
 // Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.cornell-brand {
-		height: 140px;
 		padding: 10px 0;
 		margin-top: 60px;
 	}
 	.library-brand {
-		font-size: 21px;
-		margin: 2em 0;
+		font-size: 18px;
+		margin: 1em 0;
 		padding: 0;
 	}
 }
@@ -62,7 +63,14 @@
 @media (min-width: $screen-md) {
 	.library-brand {
 		font-size: 26px;
-		margin-top: 1.5em;
+		margin: 1.5em 0;
+	}
+	.cornell-logo {
+		.insignia {
+			margin-right: 1em;
+			width: 120px;
+			height: 120px;
+		}
 	}
 }
 

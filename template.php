@@ -39,7 +39,6 @@ function bootstrap_cul7_menu_link(array $variables)
                 // Generate as standard dropdown.
                 $element['#attributes']['class'][] = 'dropdown';
                 $element['#localized_options']['html'] = true;
-                $element['#title'] .= ' <span class="caret"></span>';
             }
 
             // Set dropdown trigger element to # to prevent inadvertant page loading

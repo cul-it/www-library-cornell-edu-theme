@@ -9,5 +9,10 @@ jQuery(document).ready(function () {
   DropdownToggle();
 });
 function DropdownToggle() {
-jQuery('.dropdown-toggle').removeAttr("data-toggle");
+	jQuery('.dropdown-toggle').removeAttr("data-toggle");
+}
+
+// rename bootstrap dropdown links in header to dropdown-link
+function DropdownToggle() {
+	jQuery('.dropdown-link').dropdown();
 }

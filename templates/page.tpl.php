@@ -1,4 +1,4 @@
-<div id="skip"><a href="#maincontent">Skip to main content</a></div>
+<div id="skip" role="complementary" aria-label="Skip to content"><a href="#maincontent">Skip to main content</a></div>
 
 <?php
   $announcement_alert  = render($page['announcement_alert']);

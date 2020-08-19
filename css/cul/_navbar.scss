@@ -26,7 +26,7 @@
 	li {
 		margin: 0;
 		a { 
-			color: $light-gray;
+			color: white;
 			// border-bottom: 5px solid inherit;
 			padding: 8px 10px;
 			text-align: left; 
@@ -175,7 +175,7 @@
 			a { 
 				border-bottom: none;
 				padding: 15px 10px;
-				font-size: 12px;
+				font-size: 14px;
 			}
 		}
 		.navbar-collapse { 
@@ -185,6 +185,7 @@
 			li.active:first-child { border-top-left-radius: 3px; }
 		}
 		.sf-menu {
+			padding: inherit;
 			li ul {
 				padding-top: .5em;
 				padding-bottom: .5em;
@@ -193,6 +194,9 @@
 					padding: 8px 10px;
 				}
 			}
+		}
+		.navbar-nav {
+			padding-left: 30px;
 		}
 	}
 	// force home link to have a rounded corner when active
@@ -213,7 +217,6 @@
 		li {
 			a { 
 				padding: 15px 14px;
-				font-size: 14px;
 			}
 		}
 		.sf-menu {
@@ -225,6 +228,9 @@
 					font-size: 14px;
 				}
 			}
+		}
+		.navbar-nav {
+			padding-left: 120px;
 		}
 	}
 	.sf-menu {
@@ -251,6 +257,8 @@
 				}
 			}
 		}
+		.navbar-nav {
+			padding-left: 111px;
+		}
 	}
-	
 }
