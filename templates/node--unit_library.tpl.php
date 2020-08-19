@@ -144,16 +144,23 @@
             $libcal_data = json_decode(file_get_contents($url));
             foreach ($libcal_data->locations as $loc) {
               if ($loc->lid == $lid) {
+                if ('Closed' == $loc->rendered) {
+                  $closed_button = '<span class="label label-danger library-closed">Closed</span>';
+                } else {
+                  $closed_button = '';
+                }
                 if ('text' == $loc->times->status) {
                     $message = $loc->times->text;
                     $pickup = '<span>'.l($message, '/library-return-campus-faq').'</span>';
-                    $libcal_widget = '<div id="s-lc-whw2818" data-hours="' . $lid . '"></div>';
                     }
+                else {
+                  $pickup = '';
+                }
+                $libcal_widget = '<div id="s-lc-whw2818" data-hours="' . $lid . '"></div>';
                 break;
               }
             }
           }
-          $closed_button = '<span class="label label-danger library-closed">Closed</span>';
           switch ($location_hours) {
             case 'weill':
               // We don't track hours for Weill
@@ -169,6 +176,16 @@
               break;
           }
       ?>
+        <?php
+          // Render the body to see if there's anything in them.
+          $notes  = render($content['field_unit_notes']);
+        ?>
+
+        <?php if ($notes): ?>
+          <h3>Notes</h3>
+          <?php print render($content['field_unit_notes']); ?>
+        <?php endif; ?>
+
       </div>
       <div class="col-sm-4">
         <div class="well highlight-box">

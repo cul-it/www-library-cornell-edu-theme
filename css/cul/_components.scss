@@ -21,6 +21,26 @@
 		a:hover { text-decoration: none; }
 	}
 }
+.feature {
+	.remote-learning {
+		padding: .5em 0;
+		h2 {
+			font-size: 21px;
+			font-family: $font-family-sans-serif;
+			font-weight: 700;
+			border-bottom: 0;
+			color: $dark-gray;
+			text-transform: none;
+		}
+		a, a:hover {
+			text-decoration: underline;
+			color: $dark-gray;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+}
 .secondary-feature {
 	margin-bottom: 30px;
 	h3 {
@@ -224,6 +244,12 @@
 	}
 }
 
+
+// Chat slide-out overrides
+// --------------------------
+.lcs_slide_out {
+	top: 150px !important;
+}
 
 // Highlight box
 // -- contains things like related links and contact info

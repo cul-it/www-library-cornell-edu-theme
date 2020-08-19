@@ -1,4 +1,4 @@
-<div id="skip"><a href="#maincontent">Skip to main content</a></div>
+<div id="skip" role="complementary" aria-label="Skip to content"><a href="#maincontent">Skip to main content</a></div>
 <?php
   $announcement_alert  = render($page['announcement_alert']);
 ?>
@@ -23,9 +23,11 @@
           <a href="/">Cornell University Library</a>
         </div>
       </div>
-      <div class="nav-global hidden-xs">
-        <?php print render($page['header']); ?>
-      </div>
+      <?php if ($page['header']): ?>
+        <div class="nav-global">
+          <?php print render($page['header']); ?>
+        </div>
+      <?php endif; ?>
     </div>
   </div>
 </div>
@@ -112,11 +114,6 @@
       <div class="feature-wrapper">
         <div class="feature">
           <?php print render($page['home-feature3']); ?>
-        </div>
-      </div>
-      <div class="feature-wrapper">
-        <div class="feature">
-          <?php print render($page['home-feature4']); ?>
         </div>
       </div>
 

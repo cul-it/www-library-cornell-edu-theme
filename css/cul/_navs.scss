@@ -1,38 +1,51 @@
 .nav-global {
-	@include make-sm-column(4);
+	@include make-sm-column(6);
+	@include make-md-column(5);
+	@include make-lg-column(4);
 	text-align: right;
-	background: $dark-gray;
-	border-bottom: 1px solid #444;
 	.nav { 
 		list-style: none;
 		float: right;
 		li { 
 			float: left;
-			font-size: 12px;
-			border-left: 1px solid $cornell-primary-hover; }
+			font-size: 16px;
+			border-left: 1px solid $light-gray;
+		}
 		li:first-child { border-left: 0; }
 		a { 
 			margin: 0 8px;
 			padding: 0;
 			display: inline-block;
-			color: white; }
+			color: $dark-gray;
+		}
 		a:hover { 
 			text-decoration: underline;
-			background: inherit; }
+			background: inherit;
+		}
+		.dropdown-menu {
+			li {
+				border-left: none;
+				float: none;
+				a {
+					padding: 5px 10px;
+					display: block;
+					white-space: nowrap;
+				}
+			}
+		}
 	}
 	.form-control {
 		width: 100%;
 	}
+
 }
 
 .search-nav {
 	.nav-pills { 
 		float: right;
 		a { 
-			// color: $dark-gray;
-			// background: $tan;
-			padding: 6px 10px; }
-		// a:hover { background: $dark-tan; }
+			padding: 6px 10px;
+		}
 	}
 }
 
@@ -241,5 +254,4 @@
 
 // Medium devices (desktops, 992px and up)
 // @media (min-width: $screen-md) {
-
 // }

@@ -206,8 +206,8 @@
 	float: right;
 }
 .search-toggle {
-	background-color: rgba(0, 0, 0, 0);
-	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: black;
+	border: 1px solid black;
 	float: right;
 	border-radius: 0;
 	margin-top: 0;
@@ -219,7 +219,7 @@
 	font-size: 16px;
 }
 .search-toggle:hover {
-	background: $cornell-primary-hover;
+	background: black;
 }
 .search-collapse {
 	z-index: 1000;
