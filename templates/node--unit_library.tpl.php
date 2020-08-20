@@ -144,10 +144,17 @@
             $libcal_data = json_decode(file_get_contents($url));
             foreach ($libcal_data->locations as $loc) {
               if ($loc->lid == $lid) {
-                if ('Closed' == $loc->rendered) {
+                if (!isset($loc->times->currently_open) || ($loc->times->currently_open === false)) {
                   $closed_button = '<span class="label label-danger library-closed">Closed</span>';
                 } else {
-                  $closed_button = '';
+                  if ('text' == $loc->times->status) {
+                    $closed_button = '<span class="label label-success library-open">Open</span>';
+                  } else {
+                    $closed_button = '<div class="today-hours">';
+                    $closed_button .= $loc->rendered . '    ';
+                    $closed_button .= '<span class="label label-success library-open">Open</span>';
+                    $closed_button .= '</div>';
+                  }
                 }
                 if ('text' == $loc->times->status) {
                     $message = $loc->times->text;
